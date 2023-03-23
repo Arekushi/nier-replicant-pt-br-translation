@@ -62,12 +62,12 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
 ## Como eu instalar a tradução
 1. Baixe o executável da aplicação aqui: [Release][release]
    
-2. Crie uma pasta e jogue o arquivo com extensão `.exe` dentro daquela pasta.
+2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
    
-3. Abra um terminal e vá até aquela pasta
+3. Abra um terminal e vá até a pasta descompactada.
     > **Exemplo:**
     ```cmd
-    cd C:\nier-replicant-pt-br-translation
+    cd C:\nier-translator
     ```
 
 4. Execute o seguinte comando:
@@ -184,7 +184,7 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.1/nier-translator.exe
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.1/nier-translator.zip
 [python]: https://www.python.org/downloads/
 
 <!-- [Some links] -->
