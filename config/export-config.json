@@ -83,11 +83,11 @@
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config;config/"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/tmp;tmp/"
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/tmp;tmp/"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/settings.toml;config/settings.toml"
   }
  ],
  "nonPyinstallerOptions": {
