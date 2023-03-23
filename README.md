@@ -106,7 +106,7 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
 
 <br>
 
-# Pra desenvolvedores...
+# Para desenvolvedores...
 
 ## Construído com
 - [Python 3.10.9][python]
