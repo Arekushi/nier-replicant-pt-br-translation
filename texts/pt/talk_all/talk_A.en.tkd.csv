@@ -3030,7 +3030,7 @@
 "","","0","1","0","SEID_1450_S0080_0020_X","","","","","-1","0","0","0","2","Por quê? Você quer que eu entre em uma seita?"
 "","","0","1","0","SEID_1450_S0080_0030_X","","","","","-1","0","0","0","8","(Oh, não! Eu só gosto de flores. Mas há tão poucas aqui no deserto.)"
 "","","0","1","0","SEID_1450_S0080_0040_X","","","","","-1","0","0","0","8","(Meu sonho é encontrar algumas sementes de flores e transformar este deserto em um belo jardim.)"
-"","","0","1","0","SEID_1450_S0080_0050_X","","","","<CB=LIB_SET_START_SUBQUEST,1863,QUEST_SEID1450_S0080,8,1087,2370>","-1","0","0","0","8","(Estou tentando coletar sementes de moonflower rosa. Seria ótimo se eu pudesse conseguir dez.)"
+"","","0","1","0","SEID_1450_S0080_0050_X","","","","<CB=LIB_SET_START_SUBQUEST,1863,QUEST_SEID1450_S0080,8,1087,2370>","-1","0","0","0","8","(Estou tentando coletar sementes de flor da lua rosa. Seria ótimo se eu pudesse conseguir dez.)"
 "2370","","0","1","0","SEID_1450_S0080_0060_X","","","","","-1","0","0","0","2","Se eu conseguir encontrá-las, elas são todas suas."
 "","","0","1","0","SEID_1450_S0080_0070_X","","","","<CB=LIB_SET_END_SUBQUEST>","-1","0","0","0","8","(Sério!? Oh, obrigado!)"
 "2371","","0","1","0","SEID_1450_S0080_0080_X","","","","","-1","0","0","0","2","Eu tenho suas sementes."
