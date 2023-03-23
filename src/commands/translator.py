@@ -1,22 +1,39 @@
-import asyncio
 import typer
-import nest_asyncio
+import asyncio
+from rich import print
+from rich.console import Console
+from rich.prompt import Prompt
+
 from config import settings, ROOT_DIR
 from src.utils import get_all_files_path, has_file, has_folder
 from src.chat_gpt import OpenAIBot
 from src.translator_engine import ChatGPTTranslator, ConventionalTranslator
 
 
-app = typer.Typer()
+console = Console()
+app = typer.Typer(
+    callback=lambda: console.rule(settings.CLI.translating_rule),
+    help=settings.TYPER.translator_help)
 paths_to_translate = settings.ARGS.paths_to_translate
 
 
-@app.command('chatgpt-translate')
+@app.command('translate', help=settings.TYPER.translate_ask_help)
+def translate_ask():
+    p = Prompt()
+    choice = p.ask(settings.CLI.translator_engine_choice, choices=['ChatGPT', 'Conventional'], default='ChatGPT')
+
+    if choice == 'ChatGPT':
+        chat_gpt_translate()
+    else:
+        conventional_translate()
+
+
+@app.command('chatgpt', help=settings.TYPER.chat_gpt_translate_help)
 def chat_gpt_translate():
     asyncio.run(translate(ChatGPTTranslator(OpenAIBot())))
 
 
-@app.command('conventional-translate')
+@app.command('conventional', help=settings.TYPER.conventional_translate_help)
 def conventional_translate():
     asyncio.run(translate(ConventionalTranslator()))
 
@@ -40,8 +57,3 @@ def get_files_to_translate():
             print(f'Não foi possível adicionar na lista para traduzir: {full_path}')
 
     return files
-
-
-if __name__ == '__main__':
-    nest_asyncio.apply()
-    app()

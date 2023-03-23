@@ -1,0 +1,97 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/main.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": true
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/assets/emil.ico"
+  },
+  {
+   "optionDest": "name",
+   "value": "nier-translator"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/texts;texts/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/tools;tools/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config;config/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/tmp;tmp/"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}

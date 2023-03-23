@@ -1,7 +1,8 @@
 import os
 import errno
-from contextlib import suppress
 import shutil
+from re import search
+from contextlib import suppress
 
 
 def has_folder(folder_path):
@@ -19,6 +20,10 @@ def rename(path, new_path):
 
 def get_folders_name(path):
     return [item for item in os.listdir(path) if os.path.isdir(os.path.join(path, item))]
+
+
+def get_folders_with_same_name(path, name):
+    return list(filter(lambda file_path: search(name, file_path), get_folders_name(path)))
 
 
 def copy_folder(folder_path, dest_path, override=True):
@@ -58,14 +63,16 @@ def get_file_name(file_path):
 
 def remove_files(files):
     for file in files:
-        remove_file(file)
+        remove(file)
 
 
-def remove_file(file_path):
-    if has_file(file_path):
-        os.remove(file_path)
+def remove(path):
+    if os.path.isfile(path) or os.path.islink(path):
+        os.remove(path)
+    elif os.path.isdir(path):
+        shutil.rmtree(path)
     else:
-        print(f"Error: {file_path} file not found")
+        raise ValueError("file {} is not a file or dir.".format(path))
 
 
 def make_dir(path):

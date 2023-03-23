@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "nier_replicant_pt_br_translation"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.12"
 translators = "^5.6.3"
 pandas = "^1.5.3"
 tqdm = "^4.65.0"
@@ -19,6 +19,8 @@ pychatgpt = "^0.4.3.3"
 python-dotenv = "^1.0.0"
 asyncio = "^3.4.3"
 typer = {extras = ["all"], version = "^0.7.0"}
+pyinstaller = "^5.9.0"
+auto-py-to-exe = "^2.33.0"
 
 
 [build-system]

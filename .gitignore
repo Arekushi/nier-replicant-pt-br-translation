@@ -9,6 +9,7 @@ chatgpt.log
 emil-kaine
 text-tool
 result
+output
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

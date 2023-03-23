@@ -1,7 +1,10 @@
 [ARGS]
+master_url = 'https://github.com/Arekushi/nier-replicant-pt-br-translation/archive/master.zip'
+master_texts_path = 'updates\\nier-replicant-pt-br-translation-master\\texts'
 raw_texts_folder_name = 'raw'
 target_language = 'pt'
 source_language = 'en'
+originals_folder_name = 'original'
 paths_to_translate = [
     'pt'
 ]
@@ -100,3 +103,82 @@ rules = [
         Frases em branco como por exemplo ("") é para manter da mesma forma, não apague por favor
     '''
 ]
+
+[NIER_PATH]
+files_folders_required = [
+    'data',
+    'steam_api64.dll',
+    'NieR Replicant ver.1.22474487139.exe'
+]
+
+[TYPER]
+translator_help = 'Módulo que traduz de forma automática os arquivos de textos de NieR: Replicant.'
+translate_ask_help = 'Pergunta de qual maneira deseja traduzir os arquivos.'
+chat_gpt_translate_help = 'Realiza a tradução dos arquivos usando o ChatGPT.'
+conventional_translate_help = 'Realiza a tradução dos arquivos usando serviços de tradução mais convencionais (Google, Bing etc).'
+reimport_help = 'Módulo fundamental para instalação da tradução, recoloca os textos na pasta do jogo.'
+reimport_texts_help = 'Uni os textos traduzidos e os originais e os copia para a pasta do jogo.'
+manager_help = 'Neste módulo você é capaz de gerenciar a tradução, podendo instalar, desinstalar e atualizar.'
+install_help = 'Esse comando executa o processo de instalação da tradução.'
+install_delete_data_help = 'Flag para indicar se o usuário deseja ou não apagar a pasta [data] dos arquivos do jogo. É necessário remover a pasta [data] para dar andamento com a tradução, porém podemos apenas mudar o nome da pasta para qualquer outra coisa.'
+install_delete_data_prompt = 'Você deseja deletar a pasta [data] do NieR: Replicant? 📂 Se decidir apagar NÃO há como reverter a tradução, você irá precisar baixar o jogo novamente...'
+uninstall_help = 'Esse comando executa o processo de desinstalação da tradução.'
+update_help = 'Realizará a atualização da tradução, baixando os arquivos do repositório remoto.'
+update_redownload_help = 'Caso não queria, também é possível fazer a atualização com os arquivos locais.'
+set_nier_path_help = 'Atribui o caminho até os arquivos de NieR: Replicant.'
+extractor_help = 'Módulo responsável pela extração de conteúdo do jogo original.'
+extract_assets_help = 'Extrai todos os assets (modelos, texturas, textos etc).'
+extract_texts_help = 'Lê os arquivos binário que já foram descompactados e transforma em um formato legível - CSV.'
+
+[CLI]
+thanks = '''
+
+Obrigado por utilizar! :purple_heart:
+Desenvolvido por: https://github.com/Arekushi
+Repositório original: https://github.com/Arekushi/nier-replicant-pt-br-translation'''
+translator_engine_choice = '🤔 Qual mecanismo de [white on blue] tradução [/] você deseja?'
+texts_folder_choice = '💬 Há [b]mais[/] de uma pasta com uma tradução, qual delas você quer?'
+translating_rule = ':mechanical_arm: [b]Traduzindo[/]'
+extracting_rule = ':pick: [b]Extraindo...[/]'
+reimporting_texts_rule = ':rocket: [b]Reimportando os arquivos de texto[/]'
+installing_rule = ':new_moon: [b]Instalando a tradução[/]'
+installing_status = 'Instalando...'
+install_finish = ':white_check_mark: Instalação feita com [white on green] sucesso! [/]'
+install_failed = ':x: Instalação [white on red] falhou... [/]'
+error_when_copy_content = '''❌ NÃO foi possível copiar os arquivos das pastas [white on blue] movie [/] e [white on blue] sound [/], faça isso manualmente para:
+
+build_path
+
+Também peço que mude o nome da pasta [white on blue] data [/] para qualquer outra coisa, mas não mantenha como está. 😉
+'''
+extract_assets_except = '''❌ NÃO foi possível extrair os arquivos da sua pasta de NieR.
+Peço que verifique ou edite o caminho do seu NieR: Replicant usando o comando:
+▶️   manager set-nier-path
+
+E então tente novamente... 😉'''
+uninstalling_rule = ':full_moon: [b]Desinstalando a tradução[/]'
+uninstalling_status = 'Desinstalando...'
+uninstall_finish = ':white_check_mark: Desinstalação feita com [white on green] sucesso! [/]'
+uninstall_failed = ':x: Desinstalação [white on red] falhou... [/]'
+uninstall_error_delete = ''':warning:  [white on yellow] NÃO [/] foi possível deletar a pasta do caminho:
+
+build_path_var
+
+Peço que se ainda existir uma pasta build_path em seu computador, que a remova manualmente...
+'''
+updating_rule = ':arrow_up: [b]Fazendo a atualização da tradução...[/]'
+updating_status = 'Atualizando...'
+update_finish = ':white_check_mark: Atualização feita com [white on green] sucesso! [/]'
+update_failed = ':x: Atualização [white on red] falhou... [/]'
+update_failed_file_not_found = ''':x: NÃO foi possível atualizar!
+:file_folder: Se [b]certifique[/b] que tenha instalado a tradução...
+
+Você pode instalar a tradução usando o comando:
+[white on blue] manager install [/]
+'''
+write_path = ':file_folder: Escreva um [b green]caminho[/] para o [i]NieR: Replicant[/], por favor: '
+nier_path_error = ''':x: [b red]Não é um caminho válido![/]
+:scroll: É [b yellow]necessário[/] que a [white on blue b] pasta [/] tenha os seguintes itens:'''
+download_status = '💻 Fazendo o [white on blue] download [/] do repositório atualizado...'
+download_finished = '👍 Download realizado com [white on green] sucesso! [/]'
+set_nier_path_finish = ':white_check_mark: Caminho para o [i]NieR: Replicant[/] atribuído com [white on green] sucesso! [/]'
