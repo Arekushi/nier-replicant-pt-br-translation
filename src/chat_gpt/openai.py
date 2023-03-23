@@ -1,18 +1,16 @@
-import os
 import re
 import openai
-from dotenv import load_dotenv
 from aiohttp import ClientSession
 
+from config import settings
 from src.chat_gpt import Bot
 
 
 class OpenAIBot(Bot):
     def __init__(self):
-        load_dotenv()
         super().__init__(None)
-        openai.organization = os.getenv("ORG_ID")
-        openai.api_key = os.getenv("OPENAI_API_KEY")
+        openai.organization = settings.KEYS.ORG_ID
+        openai.api_key = settings.KEYS.OPENAI_API_KEY
         openai.Model.list()
 
     async def init(self, reset=False):

@@ -1,15 +1,14 @@
-import os
 import re
 import asyncio
-from dotenv import load_dotenv
 from pyChatGPT import ChatGPT
+
+from config import settings
 from src.chat_gpt import Bot
 
 
 class PyChatGPTBot(Bot):
     def __init__(self):
-        load_dotenv()
-        super().__init__(ChatGPT(os.getenv('SESSION_TOKEN')))
+        super().__init__(ChatGPT(settings.KEYS.SESSION_TOKEN))
 
     def reset(self):
         self.bot.refresh_chat_page()
