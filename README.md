@@ -79,7 +79,8 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
     ```
     C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139
     ```
-6. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
+6. Irá ser questionado se você deseja apagar ou não a pasta `data` dos arquivos do jogo (não é necessário, mas fica a seu critério)
+7. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
 
 <br>
 
@@ -133,7 +134,7 @@ Se quiser o projeto para desenvolver, alguns pré-requisitos são necessários.
 
 <br>
 
-### Variáveis do .settings.toml
+### Variáveis do .secrets.toml
 Eu guardo algumas variáveis sensíveis nesse arquivo dentro da pasta `config`, crie esse arquivo lá **se** for usar o ChatGPT para traduzir, caso contrário apenas ignore.
 ```toml
 [KEYS]
