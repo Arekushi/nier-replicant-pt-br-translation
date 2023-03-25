@@ -185,7 +185,7 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.1/nier-translator.zip
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.3/nier-translator.zip
 [python]: https://www.python.org/downloads/
 
 <!-- [Some links] -->
