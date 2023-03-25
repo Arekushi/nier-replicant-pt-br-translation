@@ -81,12 +81,6 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
     ```
 6. Irá ser questionado se você deseja apagar ou não a pasta `data` dos arquivos do jogo (não é necessário, mas fica a seu critério)
 7. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
-8. Um passo extra, **recomendo** executar o comando para atualizar a tradução:
-   ```sh
-   nier-translator.exe manager update
-   ```
-
-   > Assim você atualiza os textos da tradução para os mais atuais, pois eventualmente eu corrijo a tradução para se adequar melhor ao nosso português.
 
 <br>
 
