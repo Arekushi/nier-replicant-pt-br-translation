@@ -35,7 +35,7 @@ def update_nier_path():
             console.print()
             continue
 
-        settings.update_command(write_nier_path(new_path))
+        settings.update(write_nier_path(new_path))
         break
 
 
