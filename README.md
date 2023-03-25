@@ -20,7 +20,7 @@ Projeto individual de tradução para PT-BR do fabuloso Nier Replicant Remaster/
 
 A tradução foi feita em cima dos textos em inglês, com o apoio de alguns textos em espanhol para montar um texto em português. Novamente, utilizei de uma abordagem que utilizava o ChatGPT para traduzir a maioria dos textos para mim, o que fiz foi **`revisar`** para ter certeza que o que o ChatGPT me retornou estava de acordo (e adivinha, a maioria dos textos estava sim de acordo).
 
-É um grande inovação o ChatGPT, ele me ajudou e muito a traduzir o jogo inteiro em tão pouco tempo, algo que utilizando os serviços como Google Tradutor ou Bing não é possível em tempo tão hábil, visto que as traduções **ATÉ HOJE** ainda não de cunho duvidoso e incorreto.
+É um grande inovação o ChatGPT, ele me ajudou e muito a traduzir o jogo inteiro em tão pouco tempo, algo que utilizando os serviços como Google Tradutor ou Bing não é possível em tempo tão hábil, visto que as traduções **ATÉ HOJE** ainda são de cunho duvidoso e incorreto.
 
 ChatGPT não é perfeito, mas no nível atual já me permitiu construir essa aplicação e compartilhar com todos vocês.
 
