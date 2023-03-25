@@ -6,6 +6,9 @@ from dynaconf import Dynaconf
 settings = Dynaconf(
     envvar_prefix="DYNACONF",
     settings_files=[
+        'cli.toml',
+        'typer.toml',
+        'chat-gpt.toml',
         'settings.toml',
         '.secrets.toml'
     ],

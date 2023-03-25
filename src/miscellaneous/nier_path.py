@@ -7,20 +7,23 @@ from src.utils import get_all_files_path
 
 
 console = Console()
-files_folders_required = settings.NIER_PATH.files_folders_required
+files_folders_required = settings.ARGS.files_folders_required
 write_path = settings.CLI.write_path
 nier_path_error = settings.CLI.nier_path_error
+nier_path_not_found = settings.CLI.nier_path_not_found
 
 
 def check_nier_path():
     try:
-        if not settings.PATHS.nier_replicant_path:
+        if not is_a_nier_path(settings.PATHS.nier_replicant_path):
             raise Exception('Caminho para NieR: Replicant inválido!')
     except (Exception, BoxKeyError):
         update_nier_path()
 
 
 def update_nier_path():
+    console.print(nier_path_not_found)
+
     while True:
         new_path = console.input(write_path)
         if not is_a_nier_path(new_path):
@@ -32,7 +35,7 @@ def update_nier_path():
             console.print()
             continue
 
-        settings.update(write_nier_path(new_path))
+        settings.update_command(write_nier_path(new_path))
         break
 
 

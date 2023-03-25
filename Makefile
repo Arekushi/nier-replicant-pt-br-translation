@@ -18,3 +18,6 @@ install:
 
 uninstall:
 	python main.py manager uninstall
+
+pack-gui:
+	auto-py-to-exe

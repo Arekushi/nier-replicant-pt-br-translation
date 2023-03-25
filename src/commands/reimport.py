@@ -1,18 +1,14 @@
 import typer
 import subprocess
-from rich import print
 from rich.console import Console
 from rich.prompt import Prompt
 
 from config import settings, ROOT_DIR
-from src.utils import get_folders_name, make_dir, check_if_has_unziped, copy_folder, rename, has_folder, \
-    get_folders_with_same_name, remove
+from src.utils import get_folders_name, make_dir, check_if_has_unziped, copy_folder, get_folders_with_same_name
 
 
 console = Console()
-app = typer.Typer(
-    callback=lambda: console.rule(settings.CLI.reimporting_texts_rule),
-    help=settings.TYPER.reimport_help)
+app = typer.Typer(help=settings.TYPER.reimport_help)
 target_language = settings.ARGS.target_language
 source_language = settings.ARGS.source_language
 raw_texts_folder_name = settings.ARGS.raw_texts_folder_name
@@ -22,6 +18,7 @@ originals_folder_name = settings.ARGS.originals_folder_name
 
 @app.command('reimport-texts', help=settings.TYPER.reimport_texts_help)
 def reimport_texts_command():
+    console.rule(settings.CLI.reimporting_texts_rule)
     texts_path = f'{ROOT_DIR}\\texts'
     folders_name = get_folders_with_same_name(texts_path, target_language)
 
@@ -33,6 +30,7 @@ def reimport_texts_command():
         reimport_texts(target_language, texts_path)
 
 
+# TODO: Undo if fails
 def reimport_texts(
     translated_folder: str,
     texts_folder: str
@@ -68,16 +66,3 @@ def merge_csv_files(translated_folder_name, texts_folder):
         copy_folder(folder, result_folder)
 
     return result_folder
-
-
-def copy_data_folder(delete=False):
-    nier_data = f'{nier_replicant_path}\\data'
-    build_path = f'{nier_replicant_path}\\..\\build_assets\\rom\\pc'
-
-    copy_folder(f'{nier_replicant_path}\\data\\movie', f'{build_path}\\movie', False)
-    copy_folder(f'{nier_replicant_path}\\data\\sound', f'{build_path}\\sound', False)
-
-    if delete:
-        remove(nier_data)
-    else:
-        rename(nier_data, f'{nier_data}.{originals_folder_name}')

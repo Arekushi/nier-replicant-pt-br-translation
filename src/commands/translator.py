@@ -7,7 +7,6 @@ from rich.prompt import Prompt
 from config import settings, ROOT_DIR
 from src.utils import get_all_files_path, has_file, has_folder
 from src.chat_gpt import OpenAIBot
-from src.translator_engine import ChatGPTTranslator, ConventionalTranslator
 
 
 console = Console()
@@ -30,11 +29,13 @@ def translate_ask():
 
 @app.command('chatgpt', help=settings.TYPER.chat_gpt_translate_help)
 def chat_gpt_translate():
+    from src.translator_engine import ChatGPTTranslator
     asyncio.run(translate(ChatGPTTranslator(OpenAIBot())))
 
 
 @app.command('conventional', help=settings.TYPER.conventional_translate_help)
 def conventional_translate():
+    from src.translator_engine import ConventionalTranslator
     asyncio.run(translate(ConventionalTranslator()))
 
 

@@ -1,4 +1,4 @@
-from src.utils import check_nier_path
+from src.miscellaneous import check_nier_path, check_relase_version
 
 
 def main():
@@ -19,6 +19,11 @@ def main():
     app()
 
 
-if __name__ == '__main__':
+def check():
+    check_relase_version()
     check_nier_path()
+
+
+if __name__ == '__main__':
+    check()
     main()

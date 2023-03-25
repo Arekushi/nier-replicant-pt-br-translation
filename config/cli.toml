@@ -1,0 +1,66 @@
+[CLI]
+thanks = '''
+
+Obrigado por utilizar! :purple_heart:
+Desenvolvido por: https://github.com/Arekushi
+Repositório original: https://github.com/Arekushi/nier-replicant-pt-br-translation'''
+translator_engine_choice = '🤔 Qual mecanismo de [white on blue] tradução [/] você deseja?'
+texts_folder_choice = '💬 Há [b]mais[/] de uma pasta com uma tradução, qual delas você quer?'
+translating_rule = ':mechanical_arm: [b]Traduzindo[/]'
+extracting_rule = ':pick: [b]Extraindo...[/]'
+reimporting_texts_rule = ':rocket: [b]Reimportando os arquivos de texto[/]'
+installing_rule = ':new_moon: [b]Instalando a tradução[/]'
+installing_status = 'Instalando...'
+install_finish = ':white_check_mark: Instalação feita com [white on green] sucesso! [/]'
+install_failed = ':x: Instalação [white on red] falhou... [/]'
+install_update_version = ':rocket: Identificamos [white on green] atualizações [/] nos textos da tradução, iremos [b]fazer[/] a atualização automaticamente... '
+error_when_copy_content = '''❌ NÃO foi possível copiar os arquivos das pastas [white on blue] movie [/] e [white on blue] sound [/], faça isso manualmente para:
+
+build_path
+
+Também peço que mude o nome da pasta [white on blue] data [/] para qualquer outra coisa, mas não mantenha como está. 😉
+'''
+extract_assets_except = '''❌ NÃO foi possível extrair os arquivos da sua pasta de NieR.
+Peço que verifique ou edite o caminho do seu NieR: Replicant usando o comando:
+▶️   manager set-nier-path
+
+E então tente novamente... 😉'''
+uninstalling_rule = ':full_moon: [b]Desinstalando a tradução[/]'
+uninstalling_status = 'Desinstalando...'
+uninstall_finish = ':white_check_mark: Desinstalação feita com [white on green] sucesso! [/]'
+uninstall_failed = ':x: Desinstalação [white on red] falhou... [/]'
+uninstall_error_delete = ''':warning:  [white on yellow] NÃO [/] foi possível deletar a pasta do caminho:
+
+build_path_var
+
+Peço que se ainda existir uma pasta build_path em seu computador, que a remova manualmente...
+'''
+uninstall_error_rename = ''':warning: [white on yellow] NÃO [/] foi possível renomear a pasta [#79a4f4]<name>[/] para seu nome padrão: [#79a4f4]data[/].
+:video_game: Recomendo fazer isso manualmente para que o jogo volte a funcionar corretamente.
+'''
+updating_rule = ':arrow_up: [b]Fazendo a atualização da tradução...[/]'
+updating_status = 'Atualizando...'
+update_finish = ':white_check_mark: Atualização feita com [white on green] sucesso! [/]'
+update_failed = ':x: Atualização [white on red] falhou... [/]'
+update_failed_file_not_found = ''':x: NÃO foi possível atualizar!
+:file_folder: Se [b]certifique[/b] que tenha instalado a tradução...
+
+Você pode instalar a tradução usando o comando:
+[white on blue] manager install [/]
+'''
+nier_path_not_found = ''':stop_sign: A pasta onde o [i]NieR Replicant[/] está instalado [white on red] não [/] foi definida!
+:mag_right: [b]EXEMPLO[/] de caminho: [#d1d8e6 on #79a4f4] C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139 [/]
+'''
+write_path = ':file_folder: Escreva o [b green]caminho[/] para o [i]NieR: Replicant[/], por favor: '
+nier_path_error = ''':x: [b red]Não é um caminho válido![/]
+:scroll: É [b yellow]necessário[/] que a [white on blue b] pasta [/] tenha os seguintes itens:'''
+download_status = '💻 Fazendo o [white on blue] download [/] do repositório atualizado...'
+download_finished = '👍 Download realizado com [white on green] sucesso! [/]'
+set_nier_path_finish = ':white_check_mark: Caminho para o [i]NieR: Replicant[/] atribuído com [white on green] sucesso! [/]'
+outdated_version_warning = ''':construction: Há uma [green]nova[/] versão dessa aplicação públicada, essa versão está desatualizada!
+:wave: Qualquer problema com essa [i]versão[/] peço que [#79a4f4]baixe[/] novamente no link:
+
+https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/<version>/nier-translator.zip
+'''
+error_delete_data = ':x: [red]Não[/] foi possível deletar a pasta [#79a4f4]data[/] onde está instalado o NieR Replicant, recomendo fazer isso manualmente.'
+error_rename_data = ':x: [red]Não[/] foi possível renomear a pasta [#79a4f4]data[/] onde está instalado o NieR Replicant, recomendo fazer isso manualmente.'

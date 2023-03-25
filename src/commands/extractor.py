@@ -5,11 +5,14 @@ from rich.console import Console
 
 from config.config import settings, ROOT_DIR
 from src.utils import get_all_files_path, make_dir, filter_files_from_lang, \
-    check_if_has_unziped, has_folder, get_folders_name, get_folders_with_same_name
+    check_if_has_unziped, has_folder, get_folders_with_same_name
 
 
 console = Console()
-app = typer.Typer(callback=lambda: console.rule(settings.CLI.extracting_rule), help=settings.TYPER.extractor_help)
+app = typer.Typer(
+    callback=lambda: console.rule(settings.CLI.extracting_rule),
+    help=settings.TYPER.extractor_help
+)
 target_language = settings.ARGS.target_language
 source_language = settings.ARGS.source_language
 raw_texts_folder_name = settings.ARGS.raw_texts_folder_name

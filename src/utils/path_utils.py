@@ -17,6 +17,8 @@ def rename(path, new_path):
     if has_folder(path) or has_file(path):
         os.rename(path, new_path)
 
+    raise ValueError(f"file {path} is not a file or dir.")
+
 
 def get_folders_name(path):
     return [item for item in os.listdir(path) if os.path.isdir(os.path.join(path, item))]
@@ -72,7 +74,7 @@ def remove(path):
     elif os.path.isdir(path):
         shutil.rmtree(path)
     else:
-        raise ValueError("file {} is not a file or dir.".format(path))
+        raise ValueError(f"file {path} is not a file or dir.")
 
 
 def make_dir(path):
