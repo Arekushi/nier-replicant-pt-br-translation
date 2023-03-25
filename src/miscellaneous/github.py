@@ -33,13 +33,17 @@ def update_commit_sha():
 
 
 def get_latest_commit_sha():
-    response = requests.get(commits_url).json()
+    response: list[dict] = requests.get(commits_url).json()
 
     if response:
-        last_commit = response[0]
+        last_commit = get_books_commits(response)[0]
         return last_commit['sha']
 
     return None
+
+
+def get_books_commits(all_commits):
+    return list(filter(lambda commit: '📚' in commit['commit']['message'], all_commits))
 
 
 def get_latest_release_version():
