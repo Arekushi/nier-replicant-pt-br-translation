@@ -37,7 +37,7 @@ Se quiser me comprar um ☕, chave PIX pra fortalecer: `0dd32e9d-8b78-4978-ad8a-
 
 ## Como ajudar na tradução?
 Olhe a pasta `texts` e olhe os arquivos da pasta `pt` (onde está a minha tradução) e a pasta `raw` onde tem os textos brutos originais sem modificações.
-Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e eu irei avaliar ou não.
+Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e eu irei aprovar ou não.
 
 **Todos os textos** foram revisados por mim com bastante cuidado, mas posso ter deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, me informar.
 
