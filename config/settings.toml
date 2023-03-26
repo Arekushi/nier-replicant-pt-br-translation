@@ -1,5 +1,5 @@
 [GITHUB]
-current_release_version = "1.0.2"
+current_release_version = "1.0.3"
 current_commit_sha = "56cce91b9ac3a599972c455ca578ce6b644ff8df"
 master_texts_path = "updates\\\\nier-replicant-pt-br-translation-master\\\\texts"
 master_url = "https://github.com/Arekushi/nier-replicant-pt-br-translation/archive/master.zip"
