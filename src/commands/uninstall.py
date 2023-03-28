@@ -2,8 +2,7 @@ import typer
 from rich.console import Console
 
 from config import settings
-from src.utils import remove, rename
-
+from src.utils import remove, rename, has_folder
 
 console = Console()
 app = typer.Typer(help=settings.TYPER.uninstall_help)
@@ -31,12 +30,14 @@ def uninstall():
                 settings.CLI.uninstall_error_delete.replace('build_path_var', build_path)
             )
 
-        try:
-            rename(f'{nier_replicant_path}\\data.{originals_folder_name}', f'{nier_replicant_path}\\data')
-        except ValueError:
-            console.print(
-                settings.CLI.uninstall_error_rename.replace('<name>', f'data.{originals_folder_name}')
-            )
+        for path in ['data', 'dlc']:
+            try:
+                if has_folder(f'{nier_replicant_path}\\{path}.{originals_folder_name}'):
+                    rename(f'{nier_replicant_path}\\{path}.{originals_folder_name}', f'{nier_replicant_path}\\{path}')
+            except ValueError:
+                console.print(
+                    settings.CLI.uninstall_error_rename.replace('<name>', f'{path}.{originals_folder_name}')
+                )
 
         console.print(settings.CLI.uninstall_finish)
         console.print(settings.CLI.thanks, justify='center')

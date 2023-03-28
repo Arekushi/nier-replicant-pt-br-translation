@@ -5,7 +5,7 @@ from config import settings, ROOT_DIR
 from src.commands.extractor import extract_assets
 from src.commands.reimport import reimport_texts
 from src.commands.update import update
-from src.utils import remove, rename, copy_folder
+from src.utils import remove, rename, copy_folder, has_folder
 from src.miscellaneous import local_has_latest_commit
 
 
@@ -29,6 +29,20 @@ def install_command(
         install(delete_original_folder)
 
 
+def apply_dlc_command(
+    delete_dlc_original_folder: bool = typer.Option(
+        False,
+        '--delete',
+        prompt=settings.TYPER.apply_delete_dlc_prompt,
+        help=settings.TYPER.apply_delete_dlc_help
+    )
+):
+    console.rule(settings.CLI.applying_dlc_rule)
+
+    with console.status(settings.CLI.applying_dlc_status, spinner='moon'):
+        apply_dlc(delete_dlc_original_folder)
+
+
 def install(delete_original_folder):
     try:
         if not extract_assets():
@@ -36,7 +50,7 @@ def install(delete_original_folder):
 
         import_or_update()
         copy_from_data_folder()
-        delete_or_rename_data_folder(delete_original_folder)
+        delete_or_rename_folder(delete_original_folder)
 
         console.print(settings.CLI.install_finish)
         console.print(settings.CLI.thanks, justify='center')
@@ -49,6 +63,20 @@ def install(delete_original_folder):
         console.print_exception(show_locals=True)
 
 
+def apply_dlc(delete_dlc_original_folder):
+    try:
+        if not extract_assets():
+            raise Exception(settings.CLI.extract_assets_except)
+
+        delete_or_rename_folder(delete_dlc_original_folder)
+
+        console.print(settings.CLI.apply_dlc_finish)
+        console.print(settings.CLI.thanks, justify='center')
+    except Exception:
+        console.print(settings.CLI.apply_dlc_failed)
+        console.print_exception(show_locals=True)
+
+
 def import_or_update():
     if not local_has_latest_commit():
         console.print(settings.CLI.install_update_version)
@@ -57,19 +85,24 @@ def import_or_update():
         reimport_texts(target_language, f'{ROOT_DIR}\\texts')
 
 
-def delete_or_rename_data_folder(delete):
-    nier_data = f'{nier_replicant_path}\\data'
+def delete_or_rename_folder(delete):
+    to_delete_rename = []
 
-    if delete:
-        try:
-            remove(nier_data)
-        except ValueError:
-            console.print(settings.CLI.error_delete_data)
-    else:
-        try:
-            rename(nier_data, f'{nier_data}.{originals_folder_name}')
-        except ValueError:
-            console.print(settings.CLI.error_rename_data)
+    for folder_name in ['data', 'dlc']:
+        if has_folder(f'{nier_replicant_path}\\{folder_name}'):
+            to_delete_rename.append(f'{nier_replicant_path}\\{folder_name}')
+
+    for path in to_delete_rename:
+        if delete:
+            try:
+                remove(path)
+            except ValueError:
+                console.print(settings.CLI.error_delete_data.replace('<path>', path))
+        else:
+            try:
+                rename(path, f'{path}.{originals_folder_name}')
+            except ValueError:
+                console.print(settings.CLI.error_rename_data.replace('<path>', path))
 
 
 def copy_from_data_folder():

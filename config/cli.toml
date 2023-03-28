@@ -10,9 +10,13 @@ translating_rule = ':mechanical_arm: [b]Traduzindo[/]'
 extracting_rule = ':pick: [b]Extraindo...[/]'
 reimporting_texts_rule = ':rocket: [b]Reimportando os arquivos de texto[/]'
 installing_rule = ':new_moon: [b]Instalando a tradução[/]'
+applying_dlc_rule = ':new_moon: [b]Aplicando a DLC na tradução[/]'
 installing_status = 'Instalando...'
+applying_dlc_status = 'Aplicando...'
 install_finish = ':white_check_mark: Instalação feita com [white on green] sucesso! [/]'
+apply_dlc_finish = ':white_check_mark: A aplicação da DLC na tradução foi feita com [white on green] sucesso! [/]'
 install_failed = ':x: Instalação [white on red] falhou... [/]'
+apply_dlc_failed = ':x: A aplicação da DLC na tradução [white on red] falhou... [/]'
 install_update_version = ':rocket: Identificamos [white on green] atualizações [/] nos textos da tradução, iremos [b]fazer[/] a atualização automaticamente... '
 error_when_copy_content = '''❌ NÃO foi possível copiar os arquivos das pastas [white on blue] movie [/] e [white on blue] sound [/], faça isso manualmente para:
 
@@ -62,5 +66,5 @@ outdated_version_warning = ''':construction: Há uma [green]nova[/] versão dess
 
 https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/<version>/nier-translator.zip
 '''
-error_delete_data = ':x: [red]Não[/] foi possível deletar a pasta [#79a4f4]data[/] onde está instalado o NieR Replicant, recomendo fazer isso manualmente.'
-error_rename_data = ':x: [red]Não[/] foi possível renomear a pasta [#79a4f4]data[/] onde está instalado o NieR Replicant, recomendo fazer isso manualmente.'
+error_delete_data = ':x: [red]Não[/] foi possível deletar a pasta [#79a4f4]<path>[/] onde está instalado o NieR Replicant, recomendo fazer isso manualmente.'
+error_rename_data = ':x: [red]Não[/] foi possível renomear a pasta [#79a4f4]<path>[/] onde está instalado o NieR Replicant, recomendo fazer isso manualmente.'
