@@ -93,10 +93,15 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
     ```cmd
     nier-translator.exe manager uninstall
     ```
-    
+
 4. Atualizar a tradução
     ```cmd
     nier-translator.exe manager update
+    ```
+
+5. Aplicar a DLC à tradução
+    ```cmd
+    nier-translator.exe manager apply-dlc
     ```
 
 <br>
@@ -179,7 +184,7 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.3/nier-translator.zip
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.4/nier-translator.zip
 [python]: https://www.python.org/downloads/
 
 <!-- [Some links] -->
