@@ -64,16 +64,10 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
    
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
    
-3. Abra um terminal e vá até a pasta descompactada.
-    > **Exemplo:**
-    ```cmd
-    cd C:\nier-translator
-    ```
+3. Abra a pasta `.installer` localizada dentro da pasta descompactada.
 
-4. Execute o seguinte comando:
-    ```cmd
-    nier-translator.exe manager install
-    ```
+4. Execute o arquivo `install.bat` (de preferência, como **administrador**)
+
 5. O programa irá executar e solicitar o caminho até o diretório do NieR Replicant ver.1.22474487139
     > **Exemplo** de caminho
     ```

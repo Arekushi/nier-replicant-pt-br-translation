@@ -1,4 +1,4 @@
-from src.miscellaneous import check_nier_path, check_relase_version, get_latest_commit_sha
+from src.miscellaneous import check_nier_path, check_relase_version
 
 
 def main():
