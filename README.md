@@ -59,7 +59,7 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
 
 <br>
 
-## Como eu instalar a tradução
+## Como instalar a tradução?
 1. Baixe o executável da aplicação aqui: [Release][release]
    
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
