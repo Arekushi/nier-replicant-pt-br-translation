@@ -60,6 +60,13 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
 <br>
 
 ## Como instalar a tradução?
+###  Tutorial por vídeo
+> NieR Replicant™ ver. 1.22 - Tradução para PT-BR
+[![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://img.youtube.com/vi/3BiVi_KfGbA/0.jpg)](https://www.youtube.com/watch?v=3BiVi_KfGbA)
+
+<br>
+
+### Tutorial por texto
 1. Baixe o executável da aplicação aqui: [Release][release]
    
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
@@ -166,16 +173,6 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
     ```
 
 4. Prontinho, você já pode desenvolver 🎉
-
-<br>
-
-## Roadmap
-> Será feito em breve...
-
-<br>
-
-## Video
-> Será feito em breve...
 
 <br>
 
