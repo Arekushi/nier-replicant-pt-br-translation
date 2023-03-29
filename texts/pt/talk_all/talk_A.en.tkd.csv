@@ -1286,7 +1286,7 @@
 "","","0","1","0","RID_VILWIFB_00100","","","","<CB=LIB_SET_START_SUBQUEST,1577,8,2,1067,1446>","0","-1","1067","0","108","Olha, se você conseguir dez pedaços de carneiro, eu vou pagar mais do que o valor de mercado. Como isso soa?"
 "1446","","0","1","0","SEID_300_S0010_0050_X","","","","<CB=SEID_0300_S0010_a0020g_Start><LF><CB=LIB_SET_END_SUBQUEST>","0","1067","-1","0","2","Soa ótimo. Volto já!"
 "1447","","0","2","0","RID_NIER_00190","","","","","0","1067","-1","0","2","Aqui está seu carneiro, senhora."
-"","","0","1","0","RID_VILWIFB_00120","","","","<CB=SEID_0300_S0010_a0050_End01>","0","-1","1067","0","108","Ah, obrigada! Eu juro, essas crianças minhas adoram carneiro. Se você encontrar mais, ficarei feliz em comprar!"
+"","","0","1","0","RID_VILWIFB_00120","","","","<CB=SEID_0300_S0010_a0050_End01>","0","-1","1067","0","108","Ah, obrigada! Eu juro, essas minhas crianças adoram carneiro. Se você encontrar mais, ficarei feliz em comprar!"
 "1448","","0","1","0","RID_VILWIFB_00110","","","","<CB=SEID_0300_S0010_a0050_End02>","0","-1","1067","0","108","Por favor, pegue aquele carneiro. Minhas crianças estão me deixando louca!"
 "1449","","0","2","0","RID_VILFLOW_00060","","","","<CB=LIB_SET_START_SUBQUEST,1581,9,2,1041,1450>","0","-1","1041","0","112","Ah, olá! Que momento mais oportuno! Posso pedir que você compre algo para mim?"
 "1450","","0","1","0","SEID_300_S0020_0020_X","","","","","0","1041","-1","0","2","Claro. O que você precisa?"
