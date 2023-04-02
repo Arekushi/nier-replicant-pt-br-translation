@@ -158,7 +158,7 @@
 "","","1","1","0","NV_ID_1195","","","","","-1","0","0","0","","A espada do homem diminuiu a velocidade."
 "","","1","1","0","NV_ID_1196","","","","","-1","0","0","0","","O tempo começou a se dilatar ao redor deles, esticando e desacelerando. Tempo é essencial. A próxima palavra deve ser ouvida."
 "1040","1041","1","1","0","NV_ID_1197","","","","","-1","0","0","0","","As palavras explodiram. Tornou-se difí<WAIT=0.1>cil discernir o seu sig<WAIT=0.1>nificado. O re<WAIT=0.15>servatório de <WAIT=0.05>memórias<WAIT=0.2>começou<WAIT=0.05>a ra<WAIT=0.1>char à medida que a escuridão infinita<WAIT=0.15> cavava o<WAIT=0.05>seu caminho na parede.<WAIT=0.5>Wei<WAIT=0.1>ss: ""Este<WAIT=0.2>mundo está<WAIT=0.2>demoronando!""<WAIT=0.5><NIER>: ""Como pode<WAIT=0.2>um mun<WAIT=0.1>do de le<WAIT=0.35>tras..."
-"1041","","1","1","0","NV_ID_1199","","","","","-1","0","0","0","","""Imploro...a coisa mais importante...no mundo"""
+"1041","","1","1","0","NV_ID_1199","","","","","-1","0","0","0","","""Imploro... <STOP>a coisa mais importante<WAIT=0.2>... <STOP>no mun <WAIT=0.2>do"""
 "","","1","1","0","NV_ID_1201<LF>NV_ID_1202<LF>NV_ID_1203","","","","","-1","0","0","0","","<LIST=1042> Yo nah</LIST><LF><LIST=1042>Yo nah</LIST><LF><LIST=1042> Yo nah</LIST>"
 "1042","1043","1","1","0","NV_ID_1207","","","<CB=BGM_EID_4500_a0100_07>","","-1","0","0","0","","... ... "
 "","","1","1","0","NV_ID_1208","","","","","-1","0","0","0","","... ... ... ... "

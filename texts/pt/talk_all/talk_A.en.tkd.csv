@@ -1245,7 +1245,7 @@
 "","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","Sonho? O que? O que diabos isso significa?"
 "1426","1427","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","Os lábios se movem novamente, mais rápido agora. <LF> Não consigo acompanhá-los. Maldição! Não consigo entender!"
 "","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","Eu quero gritar. Quero arrancar as paredes ao meu redor. Mas, em vez disso, me forço a ficar calmo. <LF> Eu posso fazer isso. Posso fazer por Yonah. Lentamente, muito lentamente, identifico as letras que compõem suas últimas palavras..."
-"1427","","1","1","0","EID_9999_NoSound","","","","<CB=BGM_EID_1500_a0005_FO><LF><CB=EID_1500_a0005_010_01_End>","-1","0","0","0","","F-O-R-E-S-T-A D-O M-I-T-O"
+"1427","","1","1","0","EID_9999_NoSound","","","","<CB=BGM_EID_1500_a0005_FO><LF><CB=EID_1500_a0005_010_01_End>","-1","0","0","0","","F-O-R-E-S-T-A <WAIT=0.5>D-O-S <WAIT=0.5>M-I-T-O-S"
 "1428","","0","2","0","RID_POPOL_00180","","","","","0","-1","1004","0","24","Ah, bom! O homem que eu precisava!"
 "","","0","2","0","SEID_100_S0020_0015_X","","","","<CB=LIB_SET_START_SUBQUEST,1564,5,1,1004,1429>","0","-1","1004","0","24","Você poderia colher duas ervas medicinais das planícies do norte para mim? Tenho me sentido exausta ultimamente e preciso de um impulso."
 "1429","","0","1","0","SEID_100_S0020_0020_X","","","","","0","-1","1004","0","24","Elas geralmente crescem em tufos de grama ou perto da base das árvores. Acho que não será muito difícil encontrá-las."
