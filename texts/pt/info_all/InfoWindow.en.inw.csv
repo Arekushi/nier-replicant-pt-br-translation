@@ -484,7 +484,7 @@
 "2484","","1","0","INFO_WINDOW_QUEST_108","","","","","","","0","","Selecione o jogador que você deseja excluir."
 "2485","","1","0","INFO_WINDOW_QUEST_109","","","","","","","0","","Tem certeza?<LF><LF><ALT=-1>Sim</ALT><LF><ALT=-1>Não</ALT>"
 "2486","","1","0","INFO_WINDOW_QUEST_110","","","","","","","0","","Você não inseriu o nome correto.<LF>Você gostaria de tentar de novo?<LF><LF><ALT=-1,<CB=Input_Name_Sequence>>Sim</ALT><LF><ALT=-1,<CB=Input_Name_Sequence_Failed>>Não</ALT>"
-"2487","","1","0","INFO_WINDOW_QUEST_111","","","","","","","0","","Todos os dados salvos Nier no mesmo perfil de jogadores serão apagados,<LF>Portanto, você só pode escolher esta opção uma vez.<LF>Você tem certeza sobre isso?<LF><LF>Sim</ALT><LF>Não</ALT>"
+"2487","","1","0","INFO_WINDOW_QUEST_111","","","","","","","0","","Todos os dados salvos Nier no mesmo perfil de jogadores serão apagados,<LF>Portanto, você só pode escolher esta opção uma vez.<LF>Você tem certeza sobre isso?<LF><LF><ALT>Sim</ALT><LF><ALT>Não</ALT>"
 "2488","","1","0","INFO_WINDOW_QUEST_112","","","","","","","0","","É um sonho de uma besta.<LF>Um registro de tragédia.<LF>Um pecado indelével.<LF>Digite a memória de Emil?<LF><LF><ALT=-1,<CB=EID_4430_a0090_NovelStert>>Sim</ALT><LF><ALT=-1,<CB=EID_4430_a0090_NovelSkip>>Não</ALT>"
 "2489","","1","0","INFO_WINDOW_QUEST_113","","","","","","","0","","É um sonho de solidão.<LF>Um milagre desanimador.<LF>Uma promessa inesquecível.<LF>Digite a memória de Emil?<LF><LF><ALT=-1,<CB=EID_6000_a0135_NovelStert>>Sim</ALT><LF><ALT=-1,<CB=EID_6000_a0135_NovelSkip>>Não</ALT>"
 "2490","","1","0","INFO_WINDOW_QUEST_114","","","","","","","0","",""
