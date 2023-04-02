@@ -395,7 +395,7 @@
 "","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","""Quando você considera todas as declarações, apenas uma delas pode ser a coisa real"", disse Weiss."
 "","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","<NIER> franziu as sobrancelhas e considerou sua resposta."
 "1095","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","""Apenas uma forma é real. As outras são falsas.""<LF>""A forma real sempre falará a verdade.""<LF>""As falsas só falarão mentiras.""<LF>"
-"","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","""O verdadeiro é Alpha.""', '""O verdadeiro é Beta.""', '""O verdadeiro é Gamma.""', '""Não faço ideia..."""
+"","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","<LIST=1096>""O verdadeiro é o Alpha.""</LIST><LF><LIST=1099>""O verdadeiro é o Beta.""</LIST><LF><LIST=1097>""O verdadeiro é o Gamma.""</LIST><LF><LIST=1098>""Eu não faço ideia...""</LIST>"
 "1096","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","""O verdadeiro é Alpha."""
 "","","1","1","0","EID_9999_NoSound","","","","","-1","0","0","0","","Os olhos das estátuas brilhavam com uma luz estranha."
 "","","1","1","0","EID_9999_NoSound","","","","<CB=BG_AND_ENV_FADE_IN><LF><CB=BGM_C_FOREST_FIELD_01><LF><CB=LIB_SET_OPEN_2D_GAUGE_FAST><LF><CB=CHANGE_WINDOW_SIZE,0,1364,1013>","-1","0","0","0","","A luz ficou mais forte e mais forte, até que <NIER> e Weiss foram obrigados a se virar."

@@ -2073,7 +2073,7 @@
 "","","0","1","0","RID_VILWIFC_00190","","","","","0","-1","1198","0","108","Isso é porque é. Mas se isso mantiver aquele marido idiota em casa seguro, então vale a pena."
 "1704","","0","1","1","SEID_4100_S0010_0450_X","","","","","0","1198","1025","0","26","Bem? Devemos obedecer ao pedido da esposa e vender seu ornamento de cabelo de jade?"
 "","","0","1","0","SEID_4100_S0010_0460_X","","","","<CB=SEID_4100_S0010_a0140_01>","0","1198","-1","0","2","Hmm..."
-"1705","","0","1","1","SEID_4100_S0010_0691_X","","","","","-1","0","0","0","","Venda o ornamento de cabelo."
+"1705","","0","1","1","SEID_4100_S0010_0691_X","","","","","-1","0","0","0","","<LIST=1706>Vender o enfeite de cabelo.</LIST><LF><LIST=1707>Manter o enfeite de cabelo.</LIST>"
 "1706","","2","1","0","","","","","<CB=SEID_4100_S0010_a0140_01_01>","-1","0","0","0","",""
 "1707","","2","1","0","","","","","<CB=SEID_4100_S0010_a0140_01_02>","-1","0","0","0","",""
 "1708","","0","2","0","RID_MSKSTR_00390","","","","<CB=SEID_4100_S0010_a0140_02_End>","0","-1","1236","0","48","(Você quer trocar este ornamento de cabelo por algo brilhante? Claro. Que tal eu te dar esta velha moeda de ouro por ele?)"
