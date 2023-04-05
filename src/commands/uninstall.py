@@ -9,6 +9,7 @@ app = typer.Typer(help=settings.TYPER.uninstall_help)
 nier_replicant_path = settings.PATHS.nier_replicant_path
 target_language = settings.ARGS.target_language
 originals_folder_name = settings.FOLDERS.originals_folder_name
+extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
 
 
 @app.command('uninstall', help=settings.TYPER.uninstall_help)
@@ -21,19 +22,20 @@ def uninstall_command():
 
 def uninstall():
     try:
-        build_path = f'{nier_replicant_path}\\..\\build_assets'
-
         try:
-            remove(build_path)
+            remove(extracted_files_path)
         except ValueError:
             console.print(
-                settings.CLI.uninstall_error_delete.replace('build_path_var', build_path)
+                settings.CLI.uninstall_error_delete.replace('build_path_var', extracted_files_path)
             )
 
         for path in ['data', 'dlc']:
             try:
                 if has_folder(f'{nier_replicant_path}\\{path}.{originals_folder_name}'):
-                    rename(f'{nier_replicant_path}\\{path}.{originals_folder_name}', f'{nier_replicant_path}\\{path}')
+                    rename(
+                        f'{nier_replicant_path}\\{path}.{originals_folder_name}',
+                        f'{nier_replicant_path}\\{path}'
+                    )
             except ValueError:
                 console.print(
                     settings.CLI.uninstall_error_rename.replace('<name>', f'{path}.{originals_folder_name}')

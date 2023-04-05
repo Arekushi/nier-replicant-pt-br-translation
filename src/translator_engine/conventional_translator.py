@@ -10,11 +10,11 @@ class ConventionalTranslator(TranslatorEngine):
     def __init__(self):
         super().__init__()
 
-    def init(self):
-        ts.preaccelerate()
+    async def init(self):
+        # ts.preaccelerate()
         tqdm.pandas()
 
-    def _translate_single_file(self, file_path, df, columns_to_translate):
+    async def _translate_single_file(self, file_path, df, columns_to_translate):
         for column in columns_to_translate:
             df[df.columns[column]] = df[df.columns[column]].progress_apply(self.translate_text)
 
