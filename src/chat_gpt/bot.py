@@ -1,5 +1,4 @@
 import re
-import ast
 from abc import ABC
 from config.config import settings
 
@@ -37,16 +36,6 @@ class Bot(ABC):
         print(f'\n{err}')
         await self.init(True)
         return await self.send_message(message, repeated + 1)
-
-    @staticmethod
-    def get_list_from_response(response):
-        try:
-            response = re.sub(r'\s+', ' ', response).strip()
-            pattern = r'\[([\s\S]*)\]'
-            match = re.search(pattern, response)
-            return ast.literal_eval(match.group(0))
-        except (AttributeError, SyntaxError, ValueError, TypeError, StopIteration, RuntimeError, KeyError):
-            return []
 
     @staticmethod
     def get_initial_message():

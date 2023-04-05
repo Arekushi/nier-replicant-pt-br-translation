@@ -3,6 +3,7 @@ from tqdm import tqdm
 
 from config import settings
 from src.translator_engine import TranslatorEngine
+from src.utils import save_df, write_last_line
 
 
 class ConventionalTranslator(TranslatorEngine):
@@ -17,8 +18,8 @@ class ConventionalTranslator(TranslatorEngine):
         for column in columns_to_translate:
             df[df.columns[column]] = df[df.columns[column]].progress_apply(self.translate_text)
 
-        self.save_df(df, file_path)
-        self.write_last_line(file_path)
+        save_df(df, file_path)
+        write_last_line(file_path)
 
     @staticmethod
     def translate_text(text) -> str:
