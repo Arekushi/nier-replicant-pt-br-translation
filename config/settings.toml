@@ -6,18 +6,20 @@ master_url = "https://github.com/Arekushi/nier-replicant-pt-br-translation/archi
 last_release_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/releases/latest"
 commits_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/commits"
 
+
 [ARGS]
-source_language = 'en'
 target_language = 'pt'
+source_language = 'en'
 secondary_language = 'es'
 paths_to_translate = [
-    'pt',
+    'translation-1\\caption_all\\EID_0050_a0010.pt.cap.csv',
 ]
 
 [FOLDERS]
 raw_texts_folder_name = 'raw'
 originals_folder_name = 'original'
 translation_folder_name = 'translation'
+result_folder_name = 'result'
 files_folders_required = [
     'steam_api64.dll',
     'NieR Replicant ver.1.22474487139.exe',

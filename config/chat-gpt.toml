@@ -42,8 +42,10 @@ simple_review_request_text = '''
 '''
 
 spanish_review_request_text = '''
-    Ok, eu vou enviar uma lista de frases, cada item da lista é uma sub-lista que possui dois valores, uma frase em português e outra em espanhol.
-    Quero que você analisasse as duas frases e me respondesse se a frase em português está coerente usando como base a frase em espanhol.
+    Ok, eu vou enviar uma lista de frases, cada item da lista é uma sub-lista que possui dois valores,
+    uma frase em português e outra em espanhol.
+    Quero que você analisasse as duas frases e me respondesse se a frase em português está coerente
+    usando como base a frase em espanhol.
 
     Regras para retornar True:
     * Se a frase em português estiver corretamente escrita de forma sintática e semântica.

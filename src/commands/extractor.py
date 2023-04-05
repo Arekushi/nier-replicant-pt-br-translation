@@ -5,7 +5,7 @@ from rich.console import Console
 
 from config.config import settings, ROOT_DIR
 from src.utils import get_all_files_from_path, make_dir, filter_files_by_lang, \
-    check_if_has_unziped, has_folder, get_folders_with_same_name, get_text_columns, get_df_from_csv, save_df, \
+    check_if_has_unziped, has_folder, get_folders_with_same_name, get_text_columns_from_raw, get_df_from_csv, save_df, \
     get_file_name, keep_columns_by_index, get_without_pattern_files, has_file, duplicate_column_by_index
 
 console = Console()
@@ -81,8 +81,8 @@ def create_translation_folder():
     make_dir(translation_folder)
 
     for source_file, secondary_file in zip(source_lang_files, secondary_lang_files):
-        source_df = keep_columns_by_index(get_df_from_csv(source_file), get_text_columns(source_file))
-        secondary_df = keep_columns_by_index(get_df_from_csv(secondary_file), get_text_columns(secondary_file))
+        source_df = keep_columns_by_index(get_df_from_csv(source_file), get_text_columns_from_raw(source_file))
+        secondary_df = keep_columns_by_index(get_df_from_csv(secondary_file), get_text_columns_from_raw(secondary_file))
         final_df = pd.concat([source_df, source_df, secondary_df], axis=1)
 
         folder_name = get_file_name(source_file, -2)

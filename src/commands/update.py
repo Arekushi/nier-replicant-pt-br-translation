@@ -11,11 +11,16 @@ from src.miscellaneous import update_commit_sha
 
 console = Console()
 app = typer.Typer(help=settings.TYPER.update_help)
+translation_folder_name = settings.FOLDERS.translation_folder_name
 nier_replicant_path = settings.PATHS.nier_replicant_path
 target_language = settings.ARGS.target_language
 originals_folder_name = settings.FOLDERS.originals_folder_name
 master_url = settings.GITHUB.master_url
 master_texts_path = settings.GITHUB.master_texts_path
+
+texts_path = f'{ROOT_DIR}\\texts'
+extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
+extracted_texts_path = f'{extracted_files_path}\\{settings.DEFAULT_PATHS.extracted_texts_path}'
 
 
 @app.command('update', help=settings.TYPER.update_help)
@@ -34,15 +39,15 @@ def update_command(
 
 def update(download_repository):
     try:
-        if not has_folder(f'{nier_replicant_path}\\..\\build_assets\\rom\\pc\\snow\\text'):
+        if not has_folder(extracted_texts_path):
             raise FileNotFoundError
 
         if download_repository:
             download_updated_master()
             update_commit_sha()
-            reimport_texts(target_language, master_texts_path)
+            reimport_texts(translation_folder_name, master_texts_path)
         else:
-            reimport_texts(target_language, f'{ROOT_DIR}\\texts')
+            reimport_texts(translation_folder_name, texts_path)
 
         console.print(settings.CLI.update_finish)
         console.print(settings.CLI.thanks, justify='center')

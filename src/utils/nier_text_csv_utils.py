@@ -4,7 +4,10 @@ from contextlib import suppress
 import pandas as pd
 
 from config import settings
-from src.utils import get_file_name, make_dir
+from src.utils import get_file_name, make_dir, get_all_files_from_path
+
+target_language = settings.ARGS.target_language
+source_language = settings.ARGS.source_language
 
 
 def get_df_from_csv(file_path, line_index=0):
@@ -42,7 +45,7 @@ def save_df(df, file_path):
     )
 
 
-def get_text_columns(file):
+def get_text_columns_from_raw(file):
     file_name = get_file_name(file)
 
     if file_name in ['nier_text.txd.csv', 'talker_name.tnd.csv']:
@@ -51,6 +54,15 @@ def get_text_columns(file):
         return [-1, -2]
 
     return [-1]
+
+
+def get_columns_to_translate(file):
+    file_name = get_file_name(file)
+
+    if 'InfoWindow' in file_name:
+        return [0, 1]
+
+    return [0]
 
 
 def write_last_line(file_path):
@@ -66,19 +78,19 @@ def get_file_args(file):
         file_path = file
         line_index = 0
 
+    columns_to_translate = get_columns_to_translate(file_path)
     df = get_df_from_csv(file_path, line_index)
-    columns_to_translate = get_text_columns(file_path)
 
     return file_path, df, columns_to_translate
 
 
 def update_df_with_translation(df, column, column_translated_phases):
     df = df.reset_index()
-    df_temp = pd.DataFrame(column_translated_phases, columns=['index', 'text'])
+    df_temp = pd.DataFrame(column_translated_phases, columns=['index', 'translated_text'])
     df = pd.merge(df, df_temp, on='index', how='left')
-    df['text'] = df['text'].fillna('')
-    df[df.columns[column - 1]] = df['text']
-    df = df.drop(['index', 'text'], axis=1)
+    df['translated_text'] = df['translated_text'].fillna('')
+    df[df.columns[column + 1]] = df['translated_text']
+    df = df.drop(['index', 'translated_text'], axis=1)
 
     return df
 
@@ -109,3 +121,19 @@ def get_without_pattern_files(raw_path):
         )
 
     return result
+
+
+def merge_translated_files(result_path, translated_folder):
+    result_all_files = filter_files_by_lang(get_all_files_from_path(result_path), source_language)
+    translated_all_files = filter_files_by_lang(get_all_files_from_path(translated_folder), target_language)
+
+    for result_file, translated_file in zip(result_all_files, translated_all_files):
+        result_df = get_df_from_csv(result_file)
+        translated_df = get_df_from_csv(translated_file)
+
+        for result_column, translated_column in zip(
+                get_text_columns_from_raw(result_file),
+                get_columns_to_translate(translated_file)):
+            result_df[result_df.columns[result_column]] = translated_df[translated_df.columns[translated_column]]
+
+        save_df(result_df, result_file)
