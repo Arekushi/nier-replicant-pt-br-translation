@@ -7,7 +7,7 @@ from src.utils import get_all_files_from_path
 
 
 console = Console()
-files_folders_required = settings.ARGS.files_folders_required
+files_folders_required = settings.FOLDERS.files_folders_required
 write_path = settings.CLI.write_path
 nier_path_error = settings.CLI.nier_path_error
 nier_path_not_found = settings.CLI.nier_path_not_found

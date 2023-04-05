@@ -12,7 +12,9 @@ from src.miscellaneous import local_has_latest_commit
 console = Console()
 nier_replicant_path = settings.PATHS.nier_replicant_path
 target_language = settings.ARGS.target_language
-originals_folder_name = settings.ARGS.originals_folder_name
+texts_path = f'{ROOT_DIR}\\texts'
+originals_folder_name = settings.FOLDERS.originals_folder_name
+extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
 
 
 def install_command(
@@ -55,9 +57,8 @@ def install(delete_original_folder):
         console.print(settings.CLI.install_finish)
         console.print(settings.CLI.thanks, justify='center')
     except (FileNotFoundError, FileExistsError):
-        build_path = f'{nier_replicant_path}\\..\\build_assets\\rom\\pc'
         console.print(settings.CLI.install_failed)
-        console.print(settings.CLI.error_when_copy_content.replace('build_path', build_path))
+        console.print(settings.CLI.error_when_copy_content.replace('build_path', extracted_files_path))
     except Exception:
         console.print(settings.CLI.install_failed)
         console.print_exception(show_locals=True)
@@ -82,7 +83,7 @@ def import_or_update():
         console.print(settings.CLI.install_update_version)
         update(True)
     else:
-        reimport_texts(target_language, f'{ROOT_DIR}\\texts')
+        reimport_texts(target_language, texts_path)
 
 
 def delete_or_rename_folder(delete):
@@ -106,7 +107,5 @@ def delete_or_rename_folder(delete):
 
 
 def copy_from_data_folder():
-    build_path = f'{nier_replicant_path}\\..\\build_assets\\rom\\pc'
-
-    copy_folder(f'{nier_replicant_path}\\data\\movie', f'{build_path}\\movie')
-    copy_folder(f'{nier_replicant_path}\\data\\sound', f'{build_path}\\sound')
+    copy_folder(f'{nier_replicant_path}\\data\\movie', f'{extracted_files_path}\\movie')
+    copy_folder(f'{nier_replicant_path}\\data\\sound', f'{extracted_files_path}\\sound')

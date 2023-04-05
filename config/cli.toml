@@ -61,7 +61,7 @@ nier_path_error = ''':x: [b red]Não é um caminho válido![/]
 download_status = '💻 Fazendo o [white on blue] download [/] do repositório atualizado...'
 download_finished = '👍 Download realizado com [white on green] sucesso! [/]'
 set_nier_path_finish = ':white_check_mark: Caminho para o [i]NieR: Replicant[/] atribuído com [white on green] sucesso! [/]'
-outdated_version_warning = ''':construction: Há uma [green]nova[/] versão dessa aplicação públicada, essa versão está desatualizada!
+outdated_version_warning = ''':construction: Há uma [green]nova[/] versão dessa aplicação publicada, essa versão está desatualizada!
 :wave: Qualquer problema com essa [i]versão[/] peço que [#79a4f4]baixe[/] novamente no link:
 
 https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/<version>/nier-translator.zip

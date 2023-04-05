@@ -21,9 +21,14 @@ def get_df_from_csv(file_path, line_index=0):
     return df
 
 
-def get_only_texts_column(file_path, df, indexes=()):
-    columns_to_keep = [df.columns[i] for i in indexes or get_text_columns(file_path)]
+def keep_columns_by_index(df, indexes):
+    columns_to_keep = [df.columns[i] for i in indexes]
     return df.drop(df.columns.difference(columns_to_keep), axis=1)
+
+
+def duplicate_column_by_index(df, indexes):
+    columns = [df.columns[i] for i in indexes]
+    return df.loc[:, columns * 2 + df.columns.difference(columns).tolist()]
 
 
 def save_df(df, file_path):
@@ -42,7 +47,7 @@ def get_text_columns(file):
 
     if file_name in ['nier_text.txd.csv', 'talker_name.tnd.csv']:
         return [-8]
-    elif file_name == 'InfoWindow.en.inw.csv':
+    elif 'InfoWindow' in file_name:
         return [-1, -2]
 
     return [-1]
@@ -90,9 +95,17 @@ def filter_files_by_lang(
     result = list(filter(filter_file, files))
 
     if include_files_without_pattern:
-        for file_without_pattern in settings.ARGS.files_without_pattern:
-            result.extend([
-                f'{files[0]}\\..\\{file_without_pattern.file}'
-            ])
+        result.extend(get_without_pattern_files(f'{files}\\..\\'))
+
+    return result
+
+
+def get_without_pattern_files(raw_path):
+    result = []
+
+    for file_without_pattern in settings.DEFAULT_PATHS.files_without_pattern:
+        result.append(
+            f'{raw_path}\\{file_without_pattern}'
+        )
 
     return result

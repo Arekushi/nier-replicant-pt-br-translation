@@ -11,9 +11,10 @@ console = Console()
 app = typer.Typer(help=settings.TYPER.reimport_help)
 target_language = settings.ARGS.target_language
 source_language = settings.ARGS.source_language
-raw_texts_folder_name = settings.ARGS.raw_texts_folder_name
+
+raw_texts_folder_name = settings.FOLDERS.raw_texts_folder_name
+originals_folder_name = settings.FOLDERS.originals_folder_name
 nier_replicant_path = settings.PATHS.nier_replicant_path
-originals_folder_name = settings.ARGS.originals_folder_name
 
 
 @app.command('reimport-texts', help=settings.TYPER.reimport_texts_help)

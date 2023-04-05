@@ -45,8 +45,8 @@ def get_all_files_from_path(path) -> list[str]:
     return files
 
 
-def get_file_name(file_path) -> str:
-    return file_path.split('\\')[-1]
+def get_file_name(file_path, index=-1) -> str:
+    return file_path.split('\\')[index]
 
 
 def remove_files(files):

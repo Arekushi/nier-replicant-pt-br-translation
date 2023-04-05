@@ -14,17 +14,7 @@ app = typer.Typer(
     callback=lambda: console.rule(settings.CLI.translating_rule),
     help=settings.TYPER.translator_help)
 paths_to_translate = settings.ARGS.paths_to_translate
-
-
-@app.command('translate', help=settings.TYPER.translate_ask_help)
-def translate_ask():
-    p = Prompt()
-    choice = p.ask(settings.CLI.translator_engine_choice, choices=['ChatGPT', 'Conventional'], default='ChatGPT')
-
-    if choice == 'ChatGPT':
-        chat_gpt_translate()
-    else:
-        conventional_translate()
+texts_path = f'{ROOT_DIR}\\texts'
 
 
 @app.command('chatgpt', help=settings.TYPER.chat_gpt_translate_help)
@@ -48,7 +38,7 @@ def get_files_to_translate():
     files = []
 
     for path in paths_to_translate:
-        full_path = f'{ROOT_DIR}\\texts\\{path}'
+        full_path = f'{texts_path}\\{path}'
 
         if has_file(full_path):
             files.append(full_path)

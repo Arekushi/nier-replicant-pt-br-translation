@@ -13,7 +13,7 @@ console = Console()
 app = typer.Typer(help=settings.TYPER.update_help)
 nier_replicant_path = settings.PATHS.nier_replicant_path
 target_language = settings.ARGS.target_language
-originals_folder_name = settings.ARGS.originals_folder_name
+originals_folder_name = settings.FOLDERS.originals_folder_name
 master_url = settings.GITHUB.master_url
 master_texts_path = settings.GITHUB.master_texts_path
 

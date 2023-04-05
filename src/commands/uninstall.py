@@ -8,7 +8,7 @@ console = Console()
 app = typer.Typer(help=settings.TYPER.uninstall_help)
 nier_replicant_path = settings.PATHS.nier_replicant_path
 target_language = settings.ARGS.target_language
-originals_folder_name = settings.ARGS.originals_folder_name
+originals_folder_name = settings.FOLDERS.originals_folder_name
 
 
 @app.command('uninstall', help=settings.TYPER.uninstall_help)
