@@ -5,7 +5,7 @@ from rich.console import Console
 from rich.prompt import Prompt
 
 from config import settings, ROOT_DIR
-from src.utils import get_all_files_path, has_file, has_folder
+from src.utils import get_all_files_from_path, has_file, has_folder
 from src.chat_gpt import OpenAIBot
 
 
@@ -53,7 +53,7 @@ def get_files_to_translate():
         if has_file(full_path):
             files.append(full_path)
         elif has_folder(full_path):
-            files.extend(get_all_files_path(full_path))
+            files.extend(get_all_files_from_path(full_path))
         else:
             print(f'Não foi possível adicionar na lista para traduzir: {full_path}')
 

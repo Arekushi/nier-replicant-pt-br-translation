@@ -1,23 +1,29 @@
 [GITHUB]
-current_commit_sha = "6402e23835c78c4f0aa580f12da76f6652456afc"
-current_release_version = "1.0.4"
-master_texts_path = "updates\\\\nier-replicant-pt-br-translation-master\\\\texts"
+current_commit_sha = '6402e23835c78c4f0aa580f12da76f6652456afc'
+current_release_version = '1.0.4'
+master_texts_path = "updates\\nier-replicant-pt-br-translation-master\\texts"
 master_url = "https://github.com/Arekushi/nier-replicant-pt-br-translation/archive/master.zip"
 last_release_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/releases/latest"
 commits_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/commits"
 
 [ARGS]
-raw_texts_folder_name = "raw"
-source_language = "en"
-target_language = "pt"
-originals_folder_name = "original"
+raw_texts_folder_name = 'raw'
+source_language = 'en'
+target_language = 'pt'
+secondary_language = 'es'
+originals_folder_name = 'original'
+translation_folder_name = 'translation'
+files_without_pattern = [
+    { file = 'text_common\\nier_text.txd.csv', 'en' = -8, 'es' = -4 },
+    { file = 'talk_all\\talker_name.tnd.csv', 'en' = -8, 'es' = -4 }
+]
 paths_to_translate = [
-    "pt",
+    'pt',
 ]
 files_folders_required = [
-    "steam_api64.dll",
-    "NieR Replicant ver.1.22474487139.exe",
+    'steam_api64.dll',
+    'NieR Replicant ver.1.22474487139.exe',
 ]
 
 [TRANSLATOR]
-source = "google"
+source = 'google'

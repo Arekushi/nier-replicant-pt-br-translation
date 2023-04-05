@@ -3,7 +3,7 @@ from dynaconf.loaders.toml_loader import write
 from dynaconf.vendor.box.exceptions import BoxKeyError
 
 from config import settings, ROOT_DIR
-from src.utils import get_all_files_path
+from src.utils import get_all_files_from_path
 
 
 console = Console()
@@ -46,6 +46,6 @@ def write_nier_path(path):
 
 
 def is_a_nier_path(path):
-    files = get_all_files_path(path)
+    files = get_all_files_from_path(path)
     files = [file.split('\\')[-1] for file in files]
     return set(files_folders_required).issubset(set(files))
