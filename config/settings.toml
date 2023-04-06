@@ -12,7 +12,7 @@ target_language = 'pt'
 source_language = 'en'
 secondary_language = 'es'
 paths_to_translate = [
-    'translation-1\\caption_all\\EID_0050_a0010.pt.cap.csv',
+    'translation',
 ]
 
 [FOLDERS]
