@@ -16,15 +16,13 @@
 <br>
 
 # Sobre o projeto...
-Projeto individual de tradução para PT-BR do fabuloso Nier Replicant Remaster/Remake (como queira chamar), desenvolvido em pouco menos de uma semana, utilizei o ChatGPT como suporte para a tradução. O projeto tem como objetivo incluir novas pessoas a essa obra prima dos videojogos, que por conta de ser um RPG onde há várias falas, não ter o português-brasileiro como uma opção de idioma acaba afastando muita gente, inclusive a minha pessoa, que não é fluente ***ainda*** no idioma inglês ou espanhol.
+Projeto de tradução para PT-BR do fabuloso Nier Replicant Remaster/Remake (como queira chamar), desenvolvido em pouco menos de uma semana, foi utilizado do ChatGPT como suporte para a tradução. O projeto tem como objetivo incluir novas pessoas a essa obra prima dos videojogos, que por conta de ser um RPG onde há várias falas, não ter o português-brasileiro como uma opção de idioma acaba afastando muita gente.
 
-A tradução foi feita em cima dos textos em inglês, com o apoio de alguns textos em espanhol para montar um texto em português. Novamente, utilizei de uma abordagem que utilizava o ChatGPT para traduzir a maioria dos textos para mim, o que fiz foi **`revisar`** para ter certeza que o que o ChatGPT me retornou estava de acordo (e adivinha, a maioria dos textos estava sim de acordo).
+A tradução foi feita em cima dos textos em inglês, com o apoio de alguns textos em espanhol para montar um texto em português. Novamente, foi utilizado uma abordagem que utilizava o ChatGPT para traduzir a maioria dos textos, o que foi feito foi a **`revisão`** para se ter certeza que o que o ChatGPT retornou estava de acordo (e adivinha, a maioria dos textos estava sim de acordo).
 
-É um grande inovação o ChatGPT, ele me ajudou e muito a traduzir o jogo inteiro em tão pouco tempo, algo que utilizando os serviços como Google Tradutor ou Bing não é possível em tempo tão hábil, visto que as traduções **ATÉ HOJE** ainda são de cunho duvidoso e incorreto.
+É um grande inovação o ChatGPT, ajudou e muito a traduzir o jogo inteiro em tão pouco tempo, algo que utilizando os serviços como Google Tradutor ou Bing não é possível em tempo tão hábil, visto que as traduções **ATÉ HOJE** ainda são de cunho duvidoso e incorreto.
 
-ChatGPT não é perfeito, mas no nível atual já me permitiu construir essa aplicação e compartilhar com todos vocês.
-
-Essa aplicação é de código livre e também peço ajuda de vocês para manter a tradução ainda melhor, sou apenas **uma unidade humana** então preciso de ajuda de mais pessoas para melhorar os textos.
+ChatGPT não é perfeito, mas no nível atual permitiu construir essa aplicação e compartilhar com todos vocês.
 
 É possível utilizar esse projeto para traduzir para outras línguas, é só mudar os parâmetros que o ChatGPT irá fazer o trabalho por ti, só lembre de revisar os textos. 🎉
 
@@ -36,12 +34,12 @@ Se quiser me comprar um ☕, chave PIX pra fortalecer: `0dd32e9d-8b78-4978-ad8a-
 <br><br>
 
 ## Como ajudar na tradução?
-Olhe a pasta `texts` e olhe os arquivos da pasta `pt` (onde está a minha tradução) e a pasta `raw` onde tem os textos brutos originais sem modificações.
-Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e eu irei aprovar ou não.
+Olhe a pasta `texts` e olhe os arquivos da pasta `translation` (onde está a tradução)
+Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e com base isso será aprovado ou não.
 
-**Todos os textos** foram revisados por mim com bastante cuidado, mas posso ter deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, me informar.
+**Todos os textos** foram revisados por mim e pela [Caroline Urbano][caroline] com bastante **cuidado**, mas possa existir algo que foi deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, informar.
 
-Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes sociais abaixo:
+Se quiser conversar mais sobre, podem me chamar em algumas das minhas redes sociais abaixo:
 <p align="center">
     <a
         style="all: unset;"
@@ -58,6 +56,18 @@ Se quiser conversar mais sobre, pode me chamar em algumas das minhas redes socia
 </p>
 
 <br>
+
+## Agradecimentos
+Quero agradecer a ajuda da tradutora [Caroline Urbano][caroline] pela ajuda oferecida, evolui bastante com o projeto e imagino que ela também. Suas redes sociais estão aqui abaixo.
+
+<p align="center">
+    <a
+        style="all: unset;"
+        target="_blank"
+        href="https://www.linkedin.com/in/caroline-urbano-a4110963/">
+        <img style="padding: 10px" title="LinkedIn" alt="LinkedIn" width="40px" src="https://i.imgur.com/4qOCXGz.png">
+    </a>
+</p>
 
 ## Como instalar a tradução?
 ###  Tutorial por vídeo
@@ -177,8 +187,8 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 <br>
 
 ## Contribuidores
-| [<div><img width=115 src="https://avatars.githubusercontent.com/u/54884313?v=4"><br><sub>Alexandre Ferreira de Lima</sub></div>][arekushi] <div title="Código e Tradução">💻</div> |
-| :---: |
+| [<div><img width=115 src="https://avatars.githubusercontent.com/u/54884313?v=4"><br><sub>Alexandre Ferreira de Lima</sub></div>][arekushi] <div title="Código e Tradução">💻</div> | [<div><img width=115 src="https://avatars.githubusercontent.com/u/129787311?v=4"><br><sub>Caroline Urbano</sub></div>][caroline] <div title="Tradução e Revisão">💻</div> |
+| :---: | :---: |
 
 <!-- [Build With] -->
 [release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.4/nier-translator.zip
@@ -194,3 +204,4 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi
+[caroline]: https://github.com/CarolineUrbano
