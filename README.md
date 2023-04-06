@@ -187,7 +187,7 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 <br>
 
 ## Contribuidores
-| [<div><img width=115 src="https://avatars.githubusercontent.com/u/54884313?v=4"><br><sub>Alexandre Ferreira de Lima</sub></div>][arekushi] <div title="Código e Tradução">💻</div> | [<div><img width=115 src="https://avatars.githubusercontent.com/u/129787311?v=4"><br><sub>Caroline Urbano</sub></div>][caroline] <div title="Tradução e Revisão">💻</div> |
+| [<div><img width=115 src="https://avatars.githubusercontent.com/u/54884313?v=4"><br><sub>Alexandre Ferreira de Lima</sub></div>][arekushi] <div title="Código e Tradução">💻</div> | [<div><img width=115 src="https://avatars.githubusercontent.com/u/129787311?v=4"><br><sub>Caroline Urbano</sub></div>][caroline] <div title="Tradução e Revisão">📚</div> |
 | :---: | :---: |
 
 <!-- [Build With] -->
