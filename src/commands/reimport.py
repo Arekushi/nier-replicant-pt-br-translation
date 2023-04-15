@@ -24,6 +24,10 @@ ntt_path = f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.ntt_path}'
 extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
 extracted_texts_path = f'{extracted_files_path}\\{settings.DEFAULT_PATHS.extracted_texts_path}'
 
+@app.command('update-pt-folder')
+def update_pt_folder():
+    merge_translated_files(f'{texts_path}\\{target_language}', f'{texts_path}\\{translation_folder_name}')
+
 
 @app.command('texts', help=settings.TYPER.reimport_texts_help)
 def reimport_texts_command():
