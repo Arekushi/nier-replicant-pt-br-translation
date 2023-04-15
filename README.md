@@ -37,7 +37,7 @@ Se quiser me comprar um ☕, chave PIX pra fortalecer: `0dd32e9d-8b78-4978-ad8a-
 Olhe a pasta `texts` e olhe os arquivos da pasta `translation` (onde está a tradução)
 Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e com base isso será aprovado ou não.
 
-**Todos os textos** foram revisados por mim e pela [Caroline Urbano][caroline] com bastante **cuidado**, mas possa existir algo que foi deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, informar.
+**Todos os textos** foram revisados por mim e pela [Caroline Urbano][caroline] com bastante **cuidado**, mas pode existir algo que foi deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, informar.
 
 Se quiser conversar mais sobre, podem me chamar em algumas das minhas redes sociais abaixo:
 <p align="center">
