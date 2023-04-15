@@ -1,12 +1,14 @@
-import pandas as pd
 import typer
 import subprocess
+import pandas as pd
 from rich.console import Console
 
 from config.config import settings, ROOT_DIR
 from src.utils import get_all_files_from_path, make_dir, filter_files_by_lang, \
-    check_if_has_unziped, has_folder, get_folders_with_same_name, get_text_columns_from_raw, get_df_from_csv, save_df, \
-    get_file_name, keep_columns_by_index, get_without_pattern_files, has_file, duplicate_column_by_index
+    check_and_extract_zip, has_folder, get_folders_with_same_name, \
+    get_text_columns_from_raw, get_df_from_csv, save_df, get_file_name, \
+    keep_columns_by_index, get_without_pattern_files, duplicate_column_by_index
+
 
 console = Console()
 app = typer.Typer(
@@ -29,9 +31,9 @@ ntt_path = f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.ntt_path}'
 extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
 
 
-@app.command('extract-assets', help=settings.TYPER.extract_assets_help)
+@app.command('assets', help=settings.TYPER.extract_assets_help)
 def extract_assets():
-    check_if_has_unziped(emil_path, 'emil-kaine', tools_path)
+    check_and_extract_zip(emil_path, tools_path)
 
     subprocess.run(
         [emil_path, '-i', nier_replicant_path, '-o', extracted_files_path],
@@ -43,11 +45,13 @@ def extract_assets():
     return has_folder(extracted_files_path)
 
 
-@app.command('extract-texts', help=settings.TYPER.extract_texts_help)
-def extract_texts():
+@app.command('texts', help=settings.TYPER.extract_texts_help)
+def extract_texts(
+
+):
     extracted_texts_path = f'{extracted_files_path}\\{settings.PATHS.extracted_texts_path}'
 
-    check_if_has_unziped(ntt_path, 'text-tool', tools_path)
+    check_and_extract_zip(ntt_path, tools_path)
 
     if has_folder(f'{extracted_texts_path}.{originals_folder_name}'):
         extracted_texts_path += f'.{originals_folder_name}'
@@ -66,6 +70,7 @@ def extract_texts():
     create_translation_folder()
 
 
+@app.command('create-translation-folder')
 def create_translation_folder():
     translation_folder = f'{texts_path}\\{translation_folder_name}'
     raw_texts_files_path = f'{texts_path}\\{raw_texts_folder_name}'

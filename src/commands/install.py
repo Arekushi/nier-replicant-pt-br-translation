@@ -12,8 +12,9 @@ from src.miscellaneous import local_has_latest_commit
 console = Console()
 nier_replicant_path = settings.PATHS.nier_replicant_path
 target_language = settings.ARGS.target_language
-texts_path = f'{ROOT_DIR}\\texts'
 originals_folder_name = settings.FOLDERS.originals_folder_name
+folders_to_copy = settings.FOLDERS.folders_to_copy
+texts_path = f'{ROOT_DIR}\\texts'
 extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
 
 
@@ -107,5 +108,5 @@ def delete_or_rename_folder(delete):
 
 
 def copy_from_data_folder():
-    copy_folder(f'{nier_replicant_path}\\data\\movie', f'{extracted_files_path}\\movie')
-    copy_folder(f'{nier_replicant_path}\\data\\sound', f'{extracted_files_path}\\sound')
+    for folder_name in folders_to_copy:
+        copy_folder(f'{nier_replicant_path}\\data\\{folder_name}', f'{extracted_files_path}\\{folder_name}')

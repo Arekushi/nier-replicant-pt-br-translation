@@ -24,10 +24,14 @@ files_folders_required = [
     'steam_api64.dll',
     'NieR Replicant ver.1.22474487139.exe',
 ]
+folders_to_copy = [
+    'movie',
+    'sound'
+]
 
 [DEFAULT_PATHS]
-emil_path = 'tools\\emil-kaine\\emil.exe'
-ntt_path = 'tools\\text-tool\\ntt.exe'
+emil_path = 'tools\emil-kaine\emil.exe'
+ntt_path = 'tools\text-tool\ntt.exe'
 extracted_files_path = 'build_assets\\rom\\pc'
 extracted_texts_path = 'snow\\text'
 files_without_pattern = [

@@ -60,7 +60,7 @@ def get_columns_to_translate(file):
     file_name = get_file_name(file)
 
     if 'InfoWindow' in file_name:
-        return [0, 1]
+        return [1, 0]
 
     return [0]
 
@@ -107,7 +107,7 @@ def filter_files_by_lang(
     result = list(filter(filter_file, files))
 
     if include_files_without_pattern:
-        result.extend(get_without_pattern_files(f'{files}\\..\\'))
+        result.extend(get_without_pattern_files(f'{files[0]}\\..\\'))
 
     return result
 
@@ -124,16 +124,18 @@ def get_without_pattern_files(raw_path):
 
 
 def merge_translated_files(result_path, translated_folder):
-    result_all_files = filter_files_by_lang(get_all_files_from_path(result_path), source_language)
-    translated_all_files = filter_files_by_lang(get_all_files_from_path(translated_folder), target_language)
+    result_all_files = filter_files_by_lang(get_all_files_from_path(result_path), source_language, True)
+    translated_all_files = filter_files_by_lang(get_all_files_from_path(translated_folder), target_language, True)
 
-    for result_file, translated_file in zip(result_all_files, translated_all_files):
+    for result_file, translated_file in zip(result_all_files, translated_all_files):        
         result_df = get_df_from_csv(result_file)
         translated_df = get_df_from_csv(translated_file)
+        
+        result_file_columns = get_text_columns_from_raw(result_file)
+        translated_file_columns = get_columns_to_translate(translated_file)
 
-        for result_column, translated_column in zip(
-                get_text_columns_from_raw(result_file),
-                get_columns_to_translate(translated_file)):
+        for result_column, translated_column in zip(result_file_columns, translated_file_columns):
             result_df[result_df.columns[result_column]] = translated_df[translated_df.columns[translated_column]]
 
         save_df(result_df, result_file)
+        write_last_line(result_file)

@@ -1,11 +1,11 @@
 extract-assets:
-	python main.py extractor extract-assets
+	python main.py extractor assets
 
 extract-texts:
-	python main.py extractor extract-texts
+	python main.py extractor texts
 
 reimport-texts:
-	python main.py reimport reimport-texts
+	python main.py reimport texts
 
 gpt-translate:
 	python main.py translator chatgpt-translate

@@ -4,8 +4,8 @@ from rich.console import Console
 from rich.prompt import Prompt
 
 from config import settings, ROOT_DIR
-from src.utils import get_folders_name, make_dir, check_if_has_unziped, copy_folder, get_folders_with_same_name, \
-    merge_translated_files
+from src.utils import make_dir, check_and_extract_zip, copy_folder, \
+    get_folders_with_same_name, merge_translated_files, get_folders_name
 
 console = Console()
 app = typer.Typer(help=settings.TYPER.reimport_help)
@@ -25,7 +25,7 @@ extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extr
 extracted_texts_path = f'{extracted_files_path}\\{settings.DEFAULT_PATHS.extracted_texts_path}'
 
 
-@app.command('reimport-texts', help=settings.TYPER.reimport_texts_help)
+@app.command('texts', help=settings.TYPER.reimport_texts_help)
 def reimport_texts_command():
     console.rule(settings.CLI.reimporting_texts_rule)
     folders_name = get_folders_with_same_name(texts_path, translation_folder_name)
@@ -45,22 +45,22 @@ def reimport_texts(
 ):
     result_path = create_result_folder(texts_folder)
     merge_translated_files(result_path, f'{texts_folder}\\{translated_folder}')
-
-    check_if_has_unziped(ntt_path, 'text-tool', tools_path)
-    # copy_folder(extracted_texts_path, f'{extracted_texts_path}.{originals_folder_name}', False)
-    #
-    # for folder_name in get_folders_name(result_path):
-    #     subprocess.run(
-    #         [
-    #             ntt_path, '-i',
-    #             f'{extracted_texts_path}\\{folder_name}',
-    #             f'{result_path}\\{folder_name}',
-    #             f'{extracted_texts_path}\\{folder_name}'
-    #         ],
-    #         stdout=subprocess.DEVNULL,
-    #         stderr=subprocess.STDOUT,
-    #         encoding='utf-8'
-    #     )
+    
+    check_and_extract_zip(ntt_path, tools_path)
+    copy_folder(extracted_texts_path, f'{extracted_texts_path}.{originals_folder_name}', False)
+    
+    for folder_name in get_folders_name(result_path):
+        subprocess.run(
+            [
+                ntt_path, '-i',
+                f'{extracted_texts_path}\\{folder_name}',
+                f'{result_path}\\{folder_name}',
+                f'{extracted_texts_path}\\{folder_name}'
+            ],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.STDOUT,
+            encoding='utf-8'
+        )
 
 
 def create_result_folder(texts_folder):
