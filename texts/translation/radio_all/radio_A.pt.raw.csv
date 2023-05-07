@@ -507,7 +507,7 @@
 "Entendi!","Got it!","¡Entendido!"
 "O de dois chifres parece intocável!","The two-horned one seems untouchable!","¡La estatua de dos cuernos parece intocable!"
 "Ignore aquele! Você não pode quebrar sua guarda!","Ignore that one! You can't break its guard!","¡Ignora a esa! ¡No puedes romper su guardia!"
-"Você parece contente. Um transeunte aleatório até pensaria que você está se divertindo.","You look pleased. A random passerby might even think you're enjoying yourself.","Pareces contento. Hasta podría decirse que te lo estás pasando bien."
+"Você parece contente. Qualquer um até pensaria que você está se divertindo.","You look pleased. A random passerby might even think you're enjoying yourself.","Pareces contento. Hasta podría decirse que te lo estás pasando bien."
 "Bem, mas eu não tô!","Well, I'm not!","¡Pues no es así!"
 "Vamos lá!","Come on!","¡Vamos!"
 "Tire vantagem do atraso nos ataques dele!","Take advantage of the delay in its attacks!","¡Aprovecha la demora en sus ataques!"
@@ -548,7 +548,7 @@
 "Ah-ha! Eu SABIA que era uma armadilha! Maldita seja minha brilhante intuição.","Ah-ha! I KNEW this was a trap! Curse my brilliant intuition.",
 "Aaaaaah!","Aaaaaah!","¡Aaah!"
 "Yaaaaaahhh!","Yaaaaaahhh!","¡Yaaah!"
-"Mas hey, pelo menos posso petrificar seus inimigos. Isso deve ajudar, certo?","But hey, at least I can petrify your enemies.<LF>That's gotta be some help right?","Lo siento. Mi mayordomo se preocupa mucho por mí, pero pedir algo así..."
+"Mas hey, pelo menos posso petrificar seus inimigos.<LF>Isso deve ajudar, certo?","But hey, at least I can petrify your enemies.<LF>That's gotta be some help right?","Lo siento. Mi mayordomo se preocupa mucho por mí, pero pedir algo así..."
 "Não posso deixar você fazer isso sozinho, então estarei aqui se precisar de mim.","I can't let you do this on your own,<LF>so I'll be right here if you need me.","Bueno, que voy contigo. No puedo dejar que te encargues tú solo."
 "Quem sabe meus olhos possam ser úteis pela primeira vez...","Maybe my eyes can be useful for once...","A lo mejor mis ojos pueden ser útiles por una vez."
 "Eu petrificarei as páginas! Você dá o golpe final!","I'll petrify the pages! You strike the final blow!",
@@ -637,7 +637,7 @@
 "Quer dizer alguma coisa?","You got something to say?",
 "Oh, não! Não, não! Nadica de nada! La da dum da de...","Oh, no! No, no! Nothing at all! La da dum da de...",
 "Olha, eu sei que a Yonah não é uma chef de quatro estrelas ou algo assim, mas ela coloca o coração nisso, e eu amo ela por isso.","Look, I know Yonah's not a four-star chef or anything, but she puts her heart into it, and I love her for it.",
-"Só um verdadeiro idiota não apreciaria o esforço! Que tipo de irmão você acha que eu sou!?","Only a real jerk wouldn't appreciate the effort!  What kind of father do you think I am!?",
+"Só um verdadeiro idiota não apreciaria o esforço! Que tipo de pai você acha que eu sou!?","Only a real jerk wouldn't appreciate the effort!  What kind of father do you think I am!?",
 "...Você me ouviu apontar algo assim?","...Did you hear me imply anything of the sort?",
 "Acho que não.","I guess not.",
 "Apenas... Bem... Boa sorte","Just... Well... Good luck",
@@ -807,7 +807,7 @@
 "Ha! Talvez isso seja uma daquelas coisas que um grimório mágico simplesmente não entende.","Ha! Maybe this is one of those things that a magical grimoire just can't understand.",
 "Ridículo! Não há nada além do meu conhecimento!","Ridiculous! There is nothing beyond my knowledge!",
 "Heh. Deve ser bom.","Heh. Must be nice.",
-"Você acha possível que este homem esteja sendo enganado pelo amante?","Do you think it possible that this man is being deceived by his lover?",
+"Você acha possível que este homem esteja sendo enganado pela amante?","Do you think it possible that this man is being deceived by his lover?",
 "Sim, acho possível.","Yeah, I think it possible.",
 "Então vamos informá-lo imediatamente!","Then we shall inform him at once!",
 "...Acho melhor não.","...We'd better not.",
@@ -827,10 +827,10 @@
 "Mas tenho que salvar Yonah, não importa como.","But I have to save Yonah, no matter what.","Pero tengo que salvar a Yonah como sea."
 "Entendi. Então não vou tentar impedi-lo.","I see. Then I won't try to stop you.","Ya veo. Entonces, no intentaré detenerte."
 "Você é um bom ouvinte para um idoso, Weiss.","You're a pretty good listener for such an old-timer, Weiss.","Para ser un viejales se te da muy bien escuchar, Weiss."
-"Bah! Deveria me senitir ofendido!","Bah! I should be offended!","¡Bah! ¡Debería sentirme ofendido!"
+"Bah! Deveria me sentir ofendido!","Bah! I should be offended!","¡Bah! ¡Debería sentirme ofendido!"
 "Eu não sabia que Sombras podiam ficar tão grandes!","I didn't know Shades could get that big!","¡No sabía que las Sombras podían hacerse tan grandes!"
 "Comparando tamanhos, nunca vimos nada parecido com essa coisa! Fique em guarda!","The scale of this one is like nothing you've encountered before! Ready your guard!","¡No te las has visto nunca contra algo tan grande! ¡Ponte en guardia!"
-"Morre! Morre, morre, morre!","Die! Die, die, die!","¡Muere! ¡Muere, muere, muere!"
+"Morra! Morra, morra, morra!","Die! Die, die, die!","¡Muere! ¡Muere, muere, muere!"
 "Eu vou arrancar seus dentes e enfiá-los no seu rabo!","I'm gonna pull out your teeth and cram 'em up your ass!","¡Te voy a sacar los dientes para metértelos por el culo!"
 "A boca dessa mulher é tão feroz quanto sua habilidade com a espada!","That woman's mouth is as fierce as her swordwork!","¡Esa mujer es tan dura con la boca como con la espada!"
 "Vamos nos concentrar em derrotar essa coisa!","Let's just focus on defeating this thing!","¡Centrémonos en cargarnos a esta cosa!"
@@ -840,7 +840,7 @@
 "Pth! Blech! No momento em que abro a boca, a areia corre para dentro!","Pth! Blech! The moment I open my mouth, the sand rushes inside!","¡Puf! ¡Buaj! ¡En cuanto abro la boca, se me mete arena dentro!"
 "Você TEM ATÉ boca!? Spth! Plllth!","Do you even HAVE a mouth!? Spth! Plllth!","¡¿Pero tú tienes boca?! ¡Sput! ¡Puf!"
 "Como a Fyra lida com isso?","How does Fyra deal with this?","¿Cómo se las apaña Fyra?"
-"Deve have algum tipo de filtro dentro daquela máscara dela.","Perhaps there is some manner of filter inside that mask of hers.","Quizá tenga algún tipo de filtro dentro de la máscara."
+"Deve haver algum tipo de filtro dentro daquela máscara dela.","Perhaps there is some manner of filter inside that mask of hers.","Quizá tenga algún tipo de filtro dentro de la máscara."
 "Essa quantidade absurda de regras não parece diminuir!","This madcap barrage of rules shows no signs of slowing!","¡Este bombardeo de reglas absurdas no tiene fin!"
 "Calma, Weiss. Precisamos de silêncio ou vamos estragar tudo de novo!","Easy, Weiss. We need quiet or we're gonna mess this up again!","Tranquilo, Weiss. ¡Será mejor guardar silencio o volveremos a meter la pata!"
 "Pah. Esse povo mascarado certamente gosta de seus costumes bizarros...","Pah. These Masked folk certainly enjoy their bizarre customs...","Bah. Esta gente enmascarada sí que aprecia sus extraños hábitos..."
@@ -1011,7 +1011,7 @@
 "Ei! Você é velho demais para correr por aí desse jeito!","Hey! You're too old to run around like that!",
 "O que será que vai ter no jantar...","I wonder what's for dinner...","Me pregunto qué habrá de cenar..."
 "Vamos brincar nas planícies do norte!","Let's go play in the northern plains!","¡Vamos a jugar a las llanuras del norte!"
-"O Rabisco Negro está chegou na nossa aldeia?","The Black Scrawl's in our village now?","¿La necrosis rúnica ha llegado a nuestra aldea?"
+"O Rabisco Negro chegou na nossa aldeia?","The Black Scrawl's in our village now?","¿La necrosis rúnica ha llegado a nuestra aldea?"
 "Me avise se eu puder ajudar, tudo bem?","Just let me know if I can help, all right?","Si puedo echarte una mano, dímelo, ¿vale?"
 "Isso não é justo. Ela é tão jovem. Tem toda uma vida pela frente...","It's not fair. She's so young. Her whole life is ahead of her...","No es justo. Es tan joven, con toda la vida por delante..."
 "Yonah está bem?","Is Yonah okay?","¿Está bien Yonah?"
@@ -1136,7 +1136,7 @@
 "Olha, relacionamentos são complicados, e às vezes você não consegue entender o que está acontecendo entre um casal—","Look, relationships are messy, and sometimes you can't always understand what's going on between a couple—","Las relaciones de pareja son complicadas y a veces es difícil entender..."
 "Não há nada neste mundo que Grimório Weiss não entenda!","There is nothing in this world that Grimoire Weiss cannot understand!","¡No hay nada en este mundo que Grimoire Weiss no pueda entender!"
 "Sim, sim.","Yeah, yeah.","Claro, claro..."
-"Que triste o que aconteceu àquele pobre cachorro...","It's too bad about that poor dog...","Qué pena lo del pobre perrito..."
+"Que triste o que aconteceu aquele pobre cachorro...","It's too bad about that poor dog...","Qué pena lo del pobre perrito..."
 "Vai ser difícil para o velho lidar com isso.","This is gonna be hard for that old timer to deal with.","Esto va a ser difícil de digerir para el anciano..."
 "Seja cachorro ou homem, nenhuma criatura viva pode escapar de seu destino final.","Be they dog or man, no living thing can escape their ultimate fate.","Ya sea animal o humano, ningún ser vivo puede escapar al destino final."
 "Isso te inclui, Weiss?","That include you, Weiss?","¿Eso te incluye a ti, Weiss?"
@@ -1323,7 +1323,7 @@
 "Creio que você não tenha esquecido da mensagem?","I trust you have not forgotten the message?","Espero que no hayas olvidado el mensaje."
 "Vamos ver...","We'll see...","Ya veremos..."
 "Essas regras são completamente absurdas!","These rules are absolutely preposterous!","¡Estas reglas son totalmente absurdas!"
-"A pessoa sequer consegue nos dizer o que devemos comprar!? Nunca tanta tolice na minha vida!","That person cannot even tell us what they wish us to purchase!? Never in my life have I seen such foolishness!","¿No puede ni decirnos lo que quiere que compremos? ¡Es ridículo!"
+"A pessoa sequer consegue nos dizer o que devemos comprar!? Nunca vi tanta tolice na minha vida!","That person cannot even tell us what they wish us to purchase!? Never in my life have I seen such foolishness!","¿No puede ni decirnos lo que quiere que compremos? ¡Es ridículo!"
 "Ah, isso não é nada demais.","Ah, it's no big deal.","Venga, no es para tanto."
 "Por favor. Isso não está te incomodando!?","Come now. This must bother you!?","No me digas que no te molesta..."
 "Claro, um pouquinho. Mas confio que eles tenham uma razão para isso, mesmo que não entendamos.","Sure, a little—but I trust they have a reason for it, even if we don't understand.","Sí, un poco... Pero tendrán sus motivos para hacerlo."
