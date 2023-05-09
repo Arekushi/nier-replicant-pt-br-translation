@@ -1729,7 +1729,7 @@
 "Você é o segundo destinatário?","Are you the second recipient?","¿Eres el segundo receptor?"
 "(Eu sou. Deixe-me ouvir a sua mensagem.)","(I am. Let me hear your message.)","(Así es. Entrega el mensaje)."
 "<LIST=1661>Os Homens da Máscara trabalham para o povo.</LIST><LF><LIST=1662>Os Homens da Máscara trabalham para a cidade.</LIST><LF><LIST=1663>Os Homens da Máscara trabalham para o rei.</LIST>","<LIST=1661>The Men of the Mask work for the people.</LIST><LF><LIST=1662>The Men of the Mask work for the city.</LIST><LF><LIST=1663>The Men of the Mask work for the king.</LIST>","<LIST=1661>Los hombres enmascarados trabajan para el pueblo.</LIST><LF><LIST=1662>Los hombres enmascarados trabajan para la ciudad.</LIST><LF><LIST=1663>Los hombres enmascarados trabajan para el rey.</LIST>"
-"","",""
+,,
 """Os Homens da Máscara trabalham para o povo,"" certo?","""The Men of the Mask work for the people,"" right?","""Los hombres enmascarados trabajan para el pueblo"", ¿verdad?"
 "(Incorreto. Você terá que tentar novamente.)","(Incorrect. You will have to try again.)","(Incorrecto. Vuelve a empezar)."
 """Os Homens Mascarados trabalham para a cidade"", certo?","""The Men of the Mask work for the city,"" right?","""Los hombres enmascarados trabajan para la ciudad"", ¿verdad?"
@@ -3124,22 +3124,22 @@
 ,,
 "Clima adorável, né? Se essa ""mudança climática"" que ouvi falar significa que teremos menos dias chuvosos, pra mim tá ótimo.","Lovely weather, isn't it? If that ""climate change"" I heard about means we have fewer rainy days, then I'm all for it.",
 "Oh, você não está caçando hoje?","Oh, you aren't out hunting today?","Ah, ¿no has salido a cazar hoy?"
-"Tente não correr no distrito comercial. Está lotado e não queremos que as pessoas sejam derrubadas ou machucadas.","Try not to run around in the shopping district. It's crowded, and we don't want people getting knocked down or hurt.",""
-"Ei. Trabalhando muito, hein?","Hey. Workin' hard, huh?",""
-"Tenho alguns itens maravilhosos à venda hoje. Por que não experimenta alguns antes do jantar?","I've got some wonderful items in stock today. Why not sample a few before dinner?",""
-"Esses jovens são cheios de energia.","Those young people sure are full of energy.",""
-"Olá. Como Yonah está?","Hello. How's Yonah doing?",""
-"Você tem vindo aqui bastante ultimamente, não é?","You've been coming here a lot lately, haven't you?",""
-"Tenha cuidado se sair da aldeia. Ouvi dizer que os animais ficaram loucos.","Be careful if you leave the village. I hear the animals have all gone loco.",""
-"Se você sair da vila, tome cuidado com os animais, bem como com as Sombras. Nós perdemos duas pessoas para ataques de animais apenas neste mês!","If you leave the village, watch out for animals as well as Shades. We've lost two people to animal attacks just this month!",""
-"Você não acha que é uma oportunidade desperdiçada deixar praça da vila assim?","Don't you think it's a wasted opportunity to leave this village square like this?",""
-"(Desculpe, não permitido entrar.)","(Sorry, no entry.)",""
-"(Não permitida a entrada!)","(No entry allowed!)",""
+"Tente não correr no distrito comercial. Está lotado e não queremos que as pessoas sejam derrubadas ou machucadas.","Try not to run around in the shopping district. It's crowded, and we don't want people getting knocked down or hurt.",
+"Ei. Trabalhando muito, hein?","Hey. Workin' hard, huh?",
+"Tenho alguns itens maravilhosos à venda hoje. Por que não experimenta alguns antes do jantar?","I've got some wonderful items in stock today. Why not sample a few before dinner?",
+"Esses jovens são cheios de energia.","Those young people sure are full of energy.",
+"Olá. Como Yonah está?","Hello. How's Yonah doing?",
+"Você tem vindo aqui bastante ultimamente, não é?","You've been coming here a lot lately, haven't you?",
+"Tenha cuidado se sair da aldeia. Ouvi dizer que os animais ficaram loucos.","Be careful if you leave the village. I hear the animals have all gone loco.",
+"Se você sair da vila, tome cuidado com os animais, bem como com as Sombras. Nós perdemos duas pessoas para ataques de animais apenas neste mês!","If you leave the village, watch out for animals as well as Shades. We've lost two people to animal attacks just this month!",
+"Você não acha que é uma oportunidade desperdiçada deixar praça da vila assim?","Don't you think it's a wasted opportunity to leave this village square like this?",
+"(Desculpe, não permitido entrar.)","(Sorry, no entry.)",
+"(Não permitida a entrada!)","(No entry allowed!)",
 "A galera fala que a ponte de metal no mar costumava transportar grandes caixas de ferro cheias de pessoas e carga. Pessoalmente, acho que é um monte de besteira.","Folks say the metal bridge offshore used to carry large iron boxes filled with people and cargo. Personally, I think that's a bunch of bullplop.","Algunos dicen que el puente de metal en medio del agua solía llevar enormes cajas metálicas cargadas de gente y mercancías. Paparruchas, en mi opinión."
-"Oi! Um rosto novo na cidade! Aqui para comprar alguma coisa, bonitão?","Oi! A new face in town! Here to buy something, handsome?",""
-"Shhhh! Fique longe daqui, senhor!","Shhhh! Stay away from here, mister!",""
-"Oh! Ei, é você! Que tal uma bebida na taverna?","Oh! Hey, it's you! How 'bout a drink at the tavern?",""
-"Desculpe, o barco está fora de serviço até terminarmos nossa inspeção diária.","Sorry, the boat's outta service until we finish our daily inspection.",""
+"Oi! Um rosto novo na cidade! Aqui para comprar alguma coisa, bonitão?","Oi! A new face in town! Here to buy something, handsome?",
+"Shhhh! Fique longe daqui, senhor!","Shhhh! Stay away from here, mister!",
+"Oh! Ei, é você! Que tal uma bebida na taverna?","Oh! Hey, it's you! How 'bout a drink at the tavern?",
+"Desculpe, o barco está fora de serviço até terminarmos nossa inspeção diária.","Sorry, the boat's outta service until we finish our daily inspection.",
 "Muitas pessoas rudes e de pavio curto moram aqui. Acho que as pessoas podem se dar ao luxo de se preocupar com coisas pequenas quando seus estômagos estão cheios e o clima está bom.","A lot of rude, short-tempered people live here. I guess folks can afford to worry about little things when their bellies are full and the weather is good.","Aquí vive mucha gente maleducada y con temperamento. Supongo que, cuando se tiene la barriga llena y hace bueno, siempre hay tiempo para enfadarse por tonterías."
 "P-Pai?","D-Dad?",
 "Você está bem, Yonah?","You all right, Yonah?",
@@ -3735,8 +3735,8 @@
 "Quero te abraçar<LF>Nunca te soltar...","＆〆＊☆＆＠％※＠☆〆＊＠※％※※〆＠＆＊〆※☆＆〆<LF>＊〆＊","〆☆＠＆％＊※"
 "Você ilumina meu mundo<LF>Não consigo imaginar a vida sem você","＊※％＊＠〆☆＆〆％※＊☆＠＆※＊％〆＠","〆☆＠＆％＊※"
 "Você faz meu coração pular uma batida<LF>Como eu fui tão sortudo?","＊※☆〆＆％☆＊％＠〆＆？<LF>〆＠※％☆＆＠＠＆＊＠〆※＊※＊","〆☆＠＆％＊※"
-"Eu aprecio cada momento com você<LF>Você é a melhor coisa que já me aconteceu","＊〆※☆＊＠☆％〆＠＆％。<LF>＊☆〆％＊※＠＠＆＊☆※＊＠※％","〆☆＠＆％＊※"
-"Te amo até a lua e voltar","※〆※〆、☆＠＊％","〆☆＠＆％＊※"
+"Aprecio cada momento com você<LF>Você é a melhor coisa que já me aconteceu","＊〆※☆＊＠☆％〆＠＆％。<LF>＊☆〆％＊※＠＠＆＊☆※＊＠※％","〆☆＠＆％＊※"
+"Te amo mais do que minha vida","※〆※〆、☆＠＊％","〆☆＠＆％＊※"
 "Pensando no futuro com você<LF>Mal posso esperar para passarmos a eternidade juntos...","......※＆☆％〆＆〆※＆＆＠☆＊※☆〆※※％＠＊＆......","〆☆＠＆％＊※"
 "Você é minha alma gêmea<LF>Juntos para sempre, nunca separados...","＆※＠☆※☆％〆〆＆＠〆＊＠％〆＠％※％。<LF>＊※☆※％＠＊％＊〆＠＊＆※＠","〆☆＠＆％＊※"
 "Você me completa<LF>Não consigo imaginar a vida sem você...","＆☆＊〆☆＆☆〆＊※〆＠※＠＊％＆<LF>〆＊％＆％％〆％☆＠※","〆☆＠＆％＊※"
@@ -3748,7 +3748,7 @@
 "Você é o sol da minha vida<LF>Obrigado por ser meu.","※☆＠＊〆※※＠☆％......＠☆％〆＠＆％％","〆☆＠＆％＊※"
 "Fala aí, não te vejo aqui com frequência! Criou coragem pra virar homem? He he!","Say, I don't see you here often! Come to put some hair on your chest? Haw haw!","Oye, ¡tú no sueles aparecer por aquí! ¿Has venido a dártelas de machote? ¡Ja, ja!"
 "Ela alguma vez descobriu a verdade sobre seu amor?","Did she ever learn the truth about her love?","¿Llegó a descubrir la verdad sobre su amado?"
-"Ao menos ela está em um lugar melhor agora.","At least she's in a better place now.","Al menos, ahora está en un sitio mejor."
+"Ao menos agora ela está em um lugar melhor.","At least she's in a better place now.","Al menos, ahora está en un sitio mejor."
 "Se me permite...","If I may...","Si se me permite..."
 "Sim? O que é?","Yeah? What is it?","¿Sí? ¿Qué pasa?"
 "O que estamos fazendo aqui?","What are we doing here?","¿Qué estamos haciendo aquí?"
@@ -3756,7 +3756,7 @@
 "Deixa eu me expressar de outra forma. Esse homem está querendo abrir o próprio negócio, certo?","Let me rephrase myself. This man is looking to open his own business, yes?","Deja que lo reformule: este tipo quiere abrir su propio negocio, ¿no?"
 "Exatamente.","Exactly.","Eso es."
 "Então não seria mais apropriado ele mesmo cuidar dos próprios pertences?","Then would it not be more appropriate for him to take care of his own belongings?","¿Y no sería más adecuado que él mismo se ocupara de sus cosas?"
-"O cara está numa sinuca de bico, Weiss. Estamos apenas ajudando ele!","The guy's in a pinch, Weiss. We're just helping him out!","Necesita una ayudita, Weiss. Solo estamos echándole una mano."
+"O cara tá numa sinuca de bico, Weiss. Estamos apenas ajudando ele!","The guy's in a pinch, Weiss. We're just helping him out!","Necesita una ayudita, Weiss. Solo estamos echándole una mano."
 "Anseio pelo dia em que alguém mostre tamanha bondade para nós...","I yearn for the day when someone shows such kindness to us...","Ojalá llegue el día en el que alguien nos trate con tanta amabilidad..."
 "Um animal tão fiel!","Such a faithful animal! ","¡Qué mascota tan fiel! "
 "Você acha que Max e Vovô estão juntos no céu?","You think Max and Granddad are together in heaven?","¿Crees que Max y el abuelo estarán juntos en el cielo?"
@@ -3766,11 +3766,11 @@
 "Isso vai levar um tempo.","This is going to take a while.","Esto va para largo."
 "Sim! Finalmente peguei ele!","Yes! I finally caught it!","¡Sí! ¡Por fin lo tengo!"
 "Lamentável que tenha levado 278 tentativas...","Unfortunate that it took you 278 tries...","Es una pena que solo lo hayas tenido que intentar 278 veces..."
-"(O destinatário é aquele que protege o lado esquerdo do rei. A mensagem é: ""Os Homens Mascarados trabalham para o rei."")","(The recipient is he who protects the king's left. The message is: ""The Men of the Mask work for the king."")","(El receptor es quien protege la izquierda del rey. El mensaje dice: ""Los hombres enmascarados trabajan para el rey"")."
+"(O destinatário é aquele que protege a esquerda do rei. A mensagem é: ""Os Homens Mascarados trabalham para o rei."")","(The recipient is he who protects the king's left. The message is: ""The Men of the Mask work for the king."")","(El receptor es quien protege la izquierda del rey. El mensaje dice: ""Los hombres enmascarados trabajan para el rey"")."
 "(O destinatário é a pessoa responsável pelas crianças. A mensagem é: ""Cuidar de crianças pode ser difícil."")","(The recipient is the person taking care of the children. The message is: ""Child care can be difficult."")","(El receptor es la persona que cuida de los niños. El mensaje dice: ""Cuidar de los niños puede resultar difícil"")."
 "(O destinatário é o guardião do sudeste. A mensagem é: ""Somente a nobreza pode entrar no tesouro."")","(The recipient is the southeastern guardian. The message is: ""Only nobility may enter the treasury."")","(El receptor es el guardián de la puerta sureste. El mensaje dice: ""Solo la nobleza puede acceder a la cámara del tesoro"")."
 "(O destinatário é a pessoa prolixa. A mensagem é: ""Areia movediça."")","(The recipient is the long-winded person. The message is: ""Quicksand."")","(El receptor es una persona a la que le gusta hablar. El mensaje dice: ""Arenas movedizas"")."
-"(Sinto muito por não poder ajudar mais.)","(I'm sorry we couldn't be of more help.)","(Lamento que no hayamos podido ser de más ayuda)."
+"(Sinto muito não poder ajudar tanto.)","(I'm sorry we couldn't be of more help.)","(Lamento que no hayamos podido ser de más ayuda)."
 "Ah, nós não fizemos muito. Mesmo assim, tenho certeza de que seu filho será um ótimo Homem da Máscara!","Aw, we didn't do much. Still, I'm sure your son will make a fine Man of the Mask!","No hemos hecho gran cosa. Aun así, ¡seguro que tu hijo será un gran hombre enmascarado!"
 "(Sim. Ele é meu orgulho e alegria.)","(Yes. He is my pride and joy.)","(Sí. Es mi orgullo y mi alegría)."
 "O que está acontecendo!?","What's going on!?","¡¿Qué ocurre?!"
@@ -3780,26 +3780,26 @@
 "Não, não contei.","No, I didn't.","No, no lo he hecho."
 "Como posso ajudar?","How can I help you?","¿En qué te puedo ayudar?"
 "Ah, também...","Oh, also...","Ah, y..."
-"Volte sempre que tiver um minuto livre!","Come back whenever you have a free minute!","¡Vuelve cuando tengas un rato libre!"
-"(Eu agradeceria se você pudesse voltar outro dia.)","(I would appreciate it if you could come back another day.)","(Os agradecería que volvierais otro día)."
+"Volte sempre que tiver um tempinho livre!","Come back whenever you have a free minute!","¡Vuelve cuando tengas un rato libre!"
+"(Agradeceria se você pudesse voltar outro dia.)","(I would appreciate it if you could come back another day.)","(Os agradecería que volvierais otro día)."
 ,,
 ,,
-"Eu farei o que for preciso para manter nós dois juntos.","I'll do whatever it takes to keep the two of us together.","Haré cuanto esté en mi mano para que sigamos juntos."
+"Farei o que for preciso para que fiquemos juntos.","I'll do whatever it takes to keep the two of us together.","Haré cuanto esté en mi mano para que sigamos juntos."
 "Vamos para Facade.","Let's head for Facade.","Vámonos a Fachada."
 "(Ei, você voltou! Ah, aqui! Veja isso...)","(Hey, you came back! Oh, here! Watch this...)","(Vaya, ¡habéis vuelto! ¡Atención! Fijaos en esto...)."
-"(Meu senhor, a máscara não era para ser girada dessa forma!)","(My liege, the mask was not meant to be spun in such a manner!)","(Mi señor, ¡creo que la máscara no está hecha para girarla de esa manera!)."
+"(Meu senhor, a máscara não era para ser usada ao lado do rosto!)","(My liege, the mask was not meant to be spun in such a manner!)","(Mi señor, ¡creo que la máscara no está hecha para girarla de esa manera!)."
 "(Não, tá tudo bem. Certo?)","(No, it's fine. Right?)","(No, está bien. ¿Verdad?)."
-"Eu não vou te expulsar, mas eu realmente não me importaria se você fosse embora.","I'm not going to turn you away, but I certainly wouldn't mind if you left.","No voy a echarte, pero no me disgustaría que te marcharas..."
+"Não vou te expulsar, mas eu realmente não me importaria se você fosse embora.","I'm not going to turn you away, but I certainly wouldn't mind if you left.","No voy a echarte, pero no me disgustaría que te marcharas..."
 "(Meu senhor...)","(My liege...)","(Mi señor...)."
 "As coisas estão ficando muito ruins aqui ultimamente.","Things are getting really bad here lately.","Las cosas se están poniendo muy feas por aquí."
 "〆☆＠＆％＊※","〆☆＠＆％＊※","〆☆＠＆％＊※"
 "Volte logo para Yonah, ok?","Hurry back to Yonah, okay?","Vuelve rápido con Yonah, ¿vale?"
 "Obrigado!","Thanks!","¡Gracias!"
-"Eu ouvi sobre Yonah. Eu...eu não sei o que dizer. Sinto muito.","I heard about Yonah. I...I don't know what to say. I'm so sorry.","Me he enterado de lo de Yonah. N-no sé qué decir. Lo lamento."
-"(Talvez seja melhor conferir a taverna.)","(Might as well check out the tavern.)","(Más vale echar un vistazo en la taberna)."
-"Eu realmente queria dar a ela uma Flor da Lua, mas como você sabe, o motivo pelo qual eles as chamam de ""legendárias"" é que são tão difíceis de cultivar...","I really wanted to give her a Lunar Tear, but as I'm sure you know, the whole reason they call 'em ""legendary"" is that they're so hard to cultivate...","Tenía muchas ganas de darle una Lágrima lunar, pero, como ya sabrás, su fama de ""legendaria"" viene por lo mucho que cuesta cultivarlas..."
-"Mas eu <FONT=ITALIC>consegui</FONT> cultivar uma freesia.","But I <FONT=ITALIC>did</FONT> manage to cultivate a freesia.","Sin embargo, <FONT=ITALIC>he podido</FONT> cultivar una fresia."
-"Ela sempre gostou de freesias, então acho que foi melhor assim.","She's always liked freesias, so I guess things turned out for the best.","A ella siempre le han gustado, así que todo parece ir viento en popa."
+"Fiquei sabendo sobre Yonah. Eu...eu não sei o que dizer. Sinto muito.","I heard about Yonah. I...I don't know what to say. I'm so sorry.","Me he enterado de lo de Yonah. N-no sé qué decir. Lo lamento."
+"(Talvez seja melhor conferir a taberna.)","(Might as well check out the tavern.)","(Más vale echar un vistazo en la taberna)."
+"Queria muito dar a ela uma Lágrima Lunar, mas sabe como é, o motivo delas serem chamadas de ""lendárias"" é por serem tão difíceis de cultivar...","I really wanted to give her a Lunar Tear, but as I'm sure you know, the whole reason they call 'em ""legendary"" is that they're so hard to cultivate...","Tenía muchas ganas de darle una Lágrima lunar, pero, como ya sabrás, su fama de ""legendaria"" viene por lo mucho que cuesta cultivarlas..."
+"Mas eu <FONT=ITALIC>consegui</FONT> cultivar uma Freesia.","But I <FONT=ITALIC>did</FONT> manage to cultivate a freesia.","Sin embargo, <FONT=ITALIC>he podido</FONT> cultivar una fresia."
+"Ela sempre gostou de Frésias, então acho que foi melhor assim.","She's always liked freesias, so I guess things turned out for the best.","A ella siempre le han gustado, así que todo parece ir viento en popa."
 "Eu sei que Yonah significa tudo para você, mas não se esforce demais, viu?","I know Yonah means everything to you, but don't overwork yourself, all right?","Sé que Yonah lo es todo para ti, pero no te mates a currar, ¿vale?"
 "Assim que vocês chegarem, certifiquem-se de falar com o chefe da aldeia.","Once you arrive, be sure to speak to the village chief.","En cuanto llegues, ve a hablar con el jefe de la aldea."
 "Ele mora em uma casa no ponto mais alto em Aerie.","He lives in the house up on the highest point in The Aerie.","Vive en la casa situada en el punto más alto de Nido del Águila."
