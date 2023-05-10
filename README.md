@@ -58,7 +58,11 @@ Se quiser conversar mais sobre, podem me chamar em algumas das minhas redes soci
 <br>
 
 ## Agradecimentos
-Quero agradecer a ajuda da tradutora [Caroline Urbano][caroline] pela ajuda oferecida, evolui bastante com o projeto e imagino que ela também. Suas redes sociais estão aqui abaixo.
+Quero agradecer pelas pessoas que se empenharam em fazer do projeto o melhor possível para quem é fã de verdade.
+
+<br>
+
+[Caroline Urbano][caroline] que trabalha como tradutora e fez o pontapé inicial na revisão, evolui bastante com o projeto e imagino que ela também. Suas redes sociais estão aqui abaixo.
 
 <p align="center">
     <a
@@ -68,6 +72,24 @@ Quero agradecer a ajuda da tradutora [Caroline Urbano][caroline] pela ajuda ofer
         <img style="padding: 10px" title="LinkedIn" alt="LinkedIn" width="40px" src="https://i.imgur.com/4qOCXGz.png">
     </a>
 </p>
+
+[Cristian Kirsch][omainha] um rapaz super gente boa, super amante da franquia NieR e que demonstrou um empenho na revisão que jamais vi, tudo isso é fruto do seu esforço e eu agradeço muito. Suas redes sociais estão aqui abaixo.
+
+<p align="center">
+    <a
+        style="all: unset;"
+        target="_blank"
+        href="https://twitter.com/omainha">
+        <img style="padding: 10px" title="Twitter" alt="Twitter" width="40px" src="https://i.imgur.com/jlKtG7w.png">
+    </a>
+    <a
+        style="all: unset;"
+        target="_blank"
+        href="https://www.instagram.com/mainhalisa/">
+        <img style="padding: 10px" title="Twitter" alt="Twitter" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png">
+    </a>
+</p>
+
 
 ## Como instalar a tradução?
 ###  Tutorial por vídeo
@@ -187,8 +209,8 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 <br>
 
 ## Contribuidores
-| [<div><img width=115 src="https://avatars.githubusercontent.com/u/54884313?v=4"><br><sub>Alexandre Ferreira de Lima</sub></div>][arekushi] <div title="Código e Tradução">💻</div> | [<div><img width=115 src="https://avatars.githubusercontent.com/u/129787311?v=4"><br><sub>Caroline Urbano</sub></div>][caroline] <div title="Tradução e Revisão">📚</div> |
-| :---: | :---: |
+| [<div><img width=115 src="https://avatars.githubusercontent.com/u/54884313?v=4"><br><sub>Alexandre Ferreira de Lima</sub></div>][arekushi] <div title="Código e Tradução">💻</div> | [<div><img width=115 src="https://avatars.githubusercontent.com/u/129787311?v=4"><br><sub>Caroline Urbano</sub></div>][caroline] <div title="Tradução e Revisão">📚</div> | [<div><img width=115 src="https://avatars.githubusercontent.com/u/131723671?v=4"><br><sub>Cristian Kirsch</sub></div>][omainha] <div title="Tradução e Revisão">📚</div> |
+| :---: | :---: | :---: |
 
 <!-- [Build With] -->
 [release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.4/nier-translator.zip
@@ -205,3 +227,4 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi
 [caroline]: https://github.com/CarolineUrbano
+[omainha]: https://github.com/MainhaLisa
