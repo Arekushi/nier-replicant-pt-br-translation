@@ -82,19 +82,19 @@ def apply_dlc(delete_dlc_original_folder):
 def import_or_update():
     if not local_has_latest_commit():
         console.print(settings.CLI.install_update_version)
-        update(True)
+        update()
     else:
         reimport_texts(target_language, texts_path)
 
 
 def delete_or_rename_folder(delete):
-    to_delete_rename = []
+    paths = []
 
     for folder_name in ['data', 'dlc']:
         if has_folder(f'{nier_replicant_path}\\{folder_name}'):
-            to_delete_rename.append(f'{nier_replicant_path}\\{folder_name}')
+            paths.append(f'{nier_replicant_path}\\{folder_name}')
 
-    for path in to_delete_rename:
+    for path in paths:
         if delete:
             try:
                 remove(path)

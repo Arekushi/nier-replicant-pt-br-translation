@@ -37,7 +37,7 @@ def update_command(
         update(download_repository)
 
 
-def update(download_repository):
+def update(download_repository: bool = True):
     try:
         if not has_folder(extracted_texts_path):
             raise FileNotFoundError
