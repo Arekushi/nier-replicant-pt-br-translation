@@ -26,6 +26,7 @@ def update_nier_path():
 
     while True:
         new_path = console.input(write_path)
+        
         if not is_a_nier_path(new_path):
             console.print(nier_path_error)
 
