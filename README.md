@@ -50,7 +50,7 @@ Se quiser conversar mais sobre, podem me chamar em algumas das minhas redes soci
     <a
         style="all: unset;"
         target="_blank"
-        href="https://steamcommunity.com/id/arekushii_">
+        href="https://steamcommunity.com/id/arekushii">
         <img style="padding: 10px" title="Steam" alt="Steam" width="40px" src="https://i.imgur.com/3qObil8.png">
     </a>
 </p>
@@ -86,7 +86,7 @@ Quero agradecer pelas pessoas que se empenharam em fazer do projeto o melhor pos
         style="all: unset;"
         target="_blank"
         href="https://www.instagram.com/mainhalisa/">
-        <img style="padding: 10px" title="Twitter" alt="Twitter" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png">
+        <img style="padding: 10px" title="Instagram" alt="Instagram" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png">
     </a>
 </p>
 
