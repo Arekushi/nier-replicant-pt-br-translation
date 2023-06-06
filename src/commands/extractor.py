@@ -46,9 +46,7 @@ def extract_assets():
 
 
 @app.command('texts', help=settings.TYPER.extract_texts_help)
-def extract_texts(
-
-):
+def extract_texts():
     extracted_texts_path = f'{extracted_files_path}\\{settings.PATHS.extracted_texts_path}'
 
     check_and_extract_zip(ntt_path, tools_path)

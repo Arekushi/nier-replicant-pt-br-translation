@@ -1,6 +1,3 @@
-from src.miscellaneous import check_nier_path, check_relase_version
-
-
 def main():
     import typer
     import nest_asyncio
@@ -19,11 +16,5 @@ def main():
     app()
 
 
-def check():
-    check_relase_version()
-    check_nier_path()
-
-
 if __name__ == '__main__':
-    # check()
     main()

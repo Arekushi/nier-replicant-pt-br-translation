@@ -1,7 +1,8 @@
 import typer
 
 from config import settings
-from src.commands.install import install_command, apply_dlc_command
+from src.commands.install import install_command
+from src.commands.apply_dlc import apply_dlc_command
 from src.commands.uninstall import uninstall_command
 from src.commands.update import update_command
 
