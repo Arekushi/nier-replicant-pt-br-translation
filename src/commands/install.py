@@ -19,17 +19,34 @@ extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extr
 
 
 def install_command(
-        delete_original_folder: bool = typer.Option(
-            False,
-            '--delete',
-            prompt=settings.TYPER.install_delete_data_prompt,
-            help=settings.TYPER.install_delete_data_help
-        )
+    # delete_original_folder: bool = typer.Option(
+    #     False,
+    #     '--delete',
+    #     prompt=settings.TYPER.install_delete_data_prompt,
+    #     help=settings.TYPER.install_delete_data_help
+    # )
 ):
     console.rule(settings.CLI.installing_rule)
 
     with console.status(settings.CLI.installing_status, spinner='moon'):
-        install(delete_original_folder)
+        # install(delete_original_folder)
+        new_install()
+
+
+def new_install():
+    try:
+        copy_folder(
+            f'{ROOT_DIR}\\data',
+            f'{nier_replicant_path}\\data'
+        )
+        
+        console.print(settings.CLI.install_finish)
+        console.print(settings.CLI.thanks, justify='center')
+    except (FileNotFoundError, FileExistsError):
+        console.print(settings.CLI.install_failed)
+    except Exception:
+        console.print(settings.CLI.install_failed)
+        console.print_exception(show_locals=True)
 
 
 def install(delete_original_folder):
