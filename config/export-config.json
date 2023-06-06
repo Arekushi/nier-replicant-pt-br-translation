@@ -100,6 +100,10 @@
   {
    "optionDest": "datas",
    "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/chat-gpt.toml;config/."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/data;data/"
   }
  ],
  "nonPyinstallerOptions": {
