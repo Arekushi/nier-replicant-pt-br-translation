@@ -88,6 +88,12 @@ Quero agradecer pelas pessoas que se empenharam em fazer do projeto o melhor pos
         href="https://www.instagram.com/mainhalisa/">
         <img style="padding: 10px" title="Instagram" alt="Instagram" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png">
     </a>
+    <a
+        style="all: unset;"
+        target="_blank"
+        href="https://www.twitch.tv/omainha">
+        <img style="padding: 10px" title="Twitch" alt="Twitch" width="40px" src="https://cdn.iconscout.com/icon/free/png-256/free-twitch-11-461838.png?f=webp">
+    </a>
 </p>
 
 
