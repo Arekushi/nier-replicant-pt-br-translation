@@ -92,55 +92,63 @@ Quero agradecer pelas pessoas que se empenharam em fazer do projeto o melhor pos
 
 
 ## Como instalar a tradução?
-###  Tutorial por vídeo
+Aqui irei descrever **duas formas** de instalar a tradução, usando o instalador e outra de maneira manual caso dê algum problema na instalação.
+
+###  Tutorial usando o instalador
 > NieR Replicant™ ver. 1.22 - Tradução para PT-BR
 [![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://img.youtube.com/vi/3BiVi_KfGbA/0.jpg)](https://www.youtube.com/watch?v=3BiVi_KfGbA)
 
-<br>
 
-### Tutorial por texto
 1. Baixe o executável da aplicação aqui: [Release][release]
    
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
    
 3. Abra a pasta `.installer` localizada dentro da pasta descompactada.
 
-4. Execute o arquivo `install.bat` (de preferência, como **administrador**)
+4. Execute o arquivo `install.bat`
 
 5. O programa irá executar e solicitar o caminho até o diretório do NieR Replicant ver.1.22474487139
     > **Exemplo** de caminho
     ```
     C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139
     ```
-6. Irá ser questionado se você deseja apagar ou não a pasta `data` dos arquivos do jogo (não é necessário, mas fica a seu critério)
-7. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
+
+6. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
 
 <br>
 
-## Lista de comandos uteis
-1. Ajuda com os comandos
-    ```cmd
-    nier-translator.exe manager --help
+### Tutorial de forma manual
+1. Baixe os arquivos necessários aqui: [data][data]
+
+2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
+
+3. Abra o diretório onde o seu NieR Replicant está instalado.
+    > **Exemplo** de caminho
+    ```
+    C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139
     ```
 
-2. Instalar
+4. Abra a pasta `data`
+
+5. O arquivo zipado que baixou haverá dois arquivos dentro - `common.arc` e `info.arc`, jogue os dois dentro da pasta `data`.
+    > Obviamente irá substituir os arquivos originais, se possível, faça backup deles
+
+6. Prontinho, agora é só iniciar o jogo. 🎉
+
+## Lista de comandos uteis
+1. Instalar
     ```cmd
     nier-translator.exe manager install
     ```
 
-3. Desinstalar
+2. Desinstalar
     ```cmd
     nier-translator.exe manager uninstall
     ```
 
-4. Atualizar a tradução
+3. Atualizar a tradução
     ```cmd
     nier-translator.exe manager update
-    ```
-
-5. Aplicar a DLC à tradução
-    ```cmd
-    nier-translator.exe manager apply-dlc
     ```
 
 <br>
@@ -213,7 +221,8 @@ Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pas
 | :---: | :---: | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.4/nier-translator.zip
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.5/nier-translator.zip
+[data]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.5/data.zip
 [python]: https://www.python.org/downloads/
 
 <!-- [Some links] -->
