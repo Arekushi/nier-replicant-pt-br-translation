@@ -4,8 +4,10 @@ from progress.bar import ChargingBar
 
 from src.chat_gpt import Bot
 from src.translator_engine import TranslatorEngine
-from src.utils import get_file_name, write_last_line, save_df, group_phrases, update_df_with_translation
+from src.utils import get_file_name, write_last_line, save_df, group_phrases, \
+    update_df_with_translation
 from src.utils.string_utils import get_list_from_response
+
 
 max_characters_phrases = settings.CHATGPT.max_characters_phrases
 translate_text_request = settings.CHATGPT.translate_text_request

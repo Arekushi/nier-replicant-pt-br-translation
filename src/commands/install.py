@@ -19,31 +19,34 @@ extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extr
 
 
 def install_command(
-        delete_original_folder: bool = typer.Option(
-            False,
-            '--delete',
-            prompt=settings.TYPER.install_delete_data_prompt,
-            help=settings.TYPER.install_delete_data_help
-        )
+    # delete_original_folder: bool = typer.Option(
+    #     False,
+    #     '--delete',
+    #     prompt=settings.TYPER.install_delete_data_prompt,
+    #     help=settings.TYPER.install_delete_data_help
+    # )
 ):
     console.rule(settings.CLI.installing_rule)
 
     with console.status(settings.CLI.installing_status, spinner='moon'):
-        install(delete_original_folder)
+        # install(delete_original_folder)
+        new_install()
 
 
-def apply_dlc_command(
-    delete_dlc_original_folder: bool = typer.Option(
-        False,
-        '--delete',
-        prompt=settings.TYPER.apply_delete_dlc_prompt,
-        help=settings.TYPER.apply_delete_dlc_help
-    )
-):
-    console.rule(settings.CLI.applying_dlc_rule)
-
-    with console.status(settings.CLI.applying_dlc_status, spinner='moon'):
-        apply_dlc(delete_dlc_original_folder)
+def new_install():
+    try:
+        copy_folder(
+            f'{ROOT_DIR}\\data',
+            f'{nier_replicant_path}\\data'
+        )
+        
+        console.print(settings.CLI.install_finish)
+        console.print(settings.CLI.thanks, justify='center')
+    except (FileNotFoundError, FileExistsError):
+        console.print(settings.CLI.install_failed)
+    except Exception:
+        console.print(settings.CLI.install_failed)
+        console.print_exception(show_locals=True)
 
 
 def install(delete_original_folder):
@@ -59,23 +62,11 @@ def install(delete_original_folder):
         console.print(settings.CLI.thanks, justify='center')
     except (FileNotFoundError, FileExistsError):
         console.print(settings.CLI.install_failed)
-        console.print(settings.CLI.error_when_copy_content.replace('build_path', extracted_files_path))
+        console.print(
+            settings.CLI.error_when_copy_content.replace('build_path', extracted_files_path)
+        )
     except Exception:
         console.print(settings.CLI.install_failed)
-        console.print_exception(show_locals=True)
-
-
-def apply_dlc(delete_dlc_original_folder):
-    try:
-        if not extract_assets():
-            raise Exception(settings.CLI.extract_assets_except)
-
-        delete_or_rename_folder(delete_dlc_original_folder)
-
-        console.print(settings.CLI.apply_dlc_finish)
-        console.print(settings.CLI.thanks, justify='center')
-    except Exception:
-        console.print(settings.CLI.apply_dlc_failed)
         console.print_exception(show_locals=True)
 
 
@@ -109,4 +100,7 @@ def delete_or_rename_folder(delete):
 
 def copy_from_data_folder():
     for folder_name in folders_to_copy:
-        copy_folder(f'{nier_replicant_path}\\data\\{folder_name}', f'{extracted_files_path}\\{folder_name}')
+        copy_folder(
+            f'{nier_replicant_path}\\data\\{folder_name}',
+            f'{extracted_files_path}\\{folder_name}'
+        )

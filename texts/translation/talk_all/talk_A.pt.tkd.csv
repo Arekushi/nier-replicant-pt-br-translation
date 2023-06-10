@@ -60,7 +60,7 @@
 "Fechado!","Deal!","Prometido."
 "Parece que não tem ninguém aqui.","Doesn't seem like anyone's here.","No parece que haya nadie."
 "Aqui está o carneiro que você queria!","Here's that mutton you wanted!","Traigo la carne de carnero que querías."
-"Ah, obrigada! Você não vai acreditar em como isso se popularizou ultimamente. Ah, e isso não é muito, mas eu gostaria de retribuir.","Oh, thank you! You wouldn't believe how popular this stuff has been lately. Oh, and this isn't much, but I'd like you to have it.","¡Gracias! Es increíble lo popular que se ha vuelto esta carne últimamente. Por cierto, no es gran cosa, pero toma esto."
+"Ah, obrigado! Você nem vai acreditar em como isso se popularizou ultimamente. Ah, e isso não é muito, mas eu gostaria de te dar isso.","Oh, thank you! You wouldn't believe how popular this stuff has been lately. Oh, and this isn't much, but I'd like you to have it.","¡Gracias! Es increíble lo popular que se ha vuelto esta carne últimamente. Por cierto, no es gran cosa, pero toma esto."
 "E diga a Popola que eu agradeci, certo?","And tell Popola I said thanks, okay?","Y dale las gracias a Popola, ¿vale?"
 "Pode deixar.","You got it.","Eso haré."
 "Você deve ser o garoto que Popola mandou. Eu preciso de três pedaços de cordeiro o mais rápido possível, certo?","You must be the kid Popola sent. I need three pieces of mutton as soon as you can, all right?","Supongo que eres el chico que envía Popola. Necesito tres piezas de carnero cuanto antes, ¿entendido?"
@@ -716,7 +716,7 @@
 "Nós realmente só precisamos ver o rei.","We really just need to see the king.","Realmente solo necesitamos ver al rey."
 """Não. Existem... regras a seguir...""","""No. There are...rules to follow...""","""No. Hay que... seguir unas reglas...""."
 """Me sigam."" ...Bom, tá vendo só.","""Follow...me."" ...Well, there you have it.","""Seguidme..."". Bueno, pues no se hable más."
-"(Esta é uma loja de itens.)","(This is an item shop.)","(Esto es una tienda de objetos)."
+"(Esta é uma Loja de Itens.)","(This is an item shop.)","(Esto es una tienda de objetos)."
 "(Todas as lojas e casas nesta cidade devem seguir a seguinte regra:)","(All shops and houses in this city must abide by the following rule:)","(Todas las tiendas y casas de esta ciudad deben acatar la siguiente regla)."
 "(Regra 106: Não viver no nível do chão.)","(Rule 106: Do not live on level ground.)","(Regla 106: No se puede vivir a ras del suelo)."
 "Regra 106?","Rule 106?","¿Regla 106?"
@@ -1261,8 +1261,8 @@
 "Você pediu à esposa do ferreiro para enviar as coisas que eu pedi?","Did you ask the blacksmith's wife to send the things I asked for yet?","¿Le has pedido a la esposa del herrero que me envíe lo que le había pedido?"
 "Ei, você tem um minuto?<PAGE>Devo um favor a um homem, mas estou muito ocupado agora. Você pode ir lá e ajudá-lo?","Hey, do you have a second?<PAGE>I owe a man a favor, but I'm too busy right now. Can you go over there and help him out?",
 "Claro.","Sure.",
-"Ah, obrigado. É o homem que administra a loja de itens no distrito comercial. Ele é um cara muito legal, então vá até lá e diga que eu te mandei.","Oh, thank you. It's the man who runs the item shop in the shopping district. He's a really nice guy, so just walk up and tell him you're there for me.",
-"Lembre-se, é o homem que administra a loja de itens no distrito comercial. Apenas vá até lá e diga que eu o mandei.","Remember, it's the man who runs the item shop in the shopping district. Just walk up and tell him you're there for me.",
+"Ah, obrigado. É o homem que administra a Loja de Itens no distrito comercial. Ele é um cara muito legal, então vá até lá e diga que eu te mandei.","Oh, thank you. It's the man who runs the item shop in the shopping district. He's a really nice guy, so just walk up and tell him you're there for me.",
+"Lembre-se, é o homem que administra a Loja de Itens no distrito comercial. Apenas vá até lá e diga que eu o mandei.","Remember, it's the man who runs the item shop in the shopping district. Just walk up and tell him you're there for me.",
 "Ei! ... Hum, tem algo errado? Você não parece muito feliz.","Hey there! ...Uh, is something wrong? You don't look too happy.","¿Todo bien? No tienes cara de buenos amigos."
 "Sim, estou um pouco apavorado. Escute, você sabe sobre as galinhas que criamos na vila, certo?","Yeah, I'm in a bit of a pickle. Listen, you know about the chickens we keep in the village, right?","Verás, lo cierto es que me he metido en un lío. Tiene que ver con las gallinas de la aldea."
 "Ultimamente os ovos delas estão desaparecendo. No começo pensei que fosse um ladrão, mas agora acho que as galinhas estão escondendo eles.","Lately their eggs have been disappearing. At first I thought it was a thief, but now I think the hens are just hiding them.","Últimamente han desaparecido sus huevos. Al principio creía que era cosa de algún ladrón, pero me da que son las propias gallinas las que los ocultan."
@@ -1921,7 +1921,7 @@
 "Ei! Ouvi dizer que você pode entrar em Facade, certo?","Hey! I heard you can get inside Facade, right?","¡Eh! He oído que podéis entrar en Fachada, ¿no?"
 "Claro, mas...","Sure, but—","Claro, pero..."
 "Ah, perfeito! Escuta, tem algo lá dentro que você <FONT=ITALIC>tem</FONT> que pegar para mim!","Oh, perfect! Listen, there's something there that you <FONT=ITALIC>have</FONT> to get for me!","¡Anda, perfecto! Escuchad, ¡hay algo dentro que tenéis que conseguirme!"
-"Minha garota quer um novo acessório, mas tem que ser feito a partir deste minério raro que eles vendem na loja de Itens-Exóticos de Facade.","My girl wants a new accessory, but it has to be made from this really rare ore that they carry in Facade's strange-thing store.","Mi chica quiere un complemento nuevo, pero tiene que ser de ese mineral tan raro que tienen en la tienda de objetos raros de Fachada."
+"Minha garota quer um novo acessório, mas tem que ser feito a partir deste minério raro que eles vendem na Loja de Itens-Exóticos de Facade.","My girl wants a new accessory, but it has to be made from this really rare ore that they carry in Facade's strange-thing store.","Mi chica quiere un complemento nuevo, pero tiene que ser de ese mineral tan raro que tienen en la tienda de objetos raros de Fachada."
 "Então, da próxima vez que você for lá, pode comprar para mim? Acho que é chamado de fluorita. Por favor!?","So next time you're there, could you buy some for me? I think it's called fluorite. Please!?","La próxima vez que estéis por allí, ¿podríais comprarlo por mí? Creo que se llama fluorita. ¿Lo haríais?"
 "Quer dizer... eu acho que sim?","I mean...I guess?","Supongo que... ¿sí?"
 "Ah, obrigado! Isso é fantástico!","Oh, thank you! This is fantastic!","¡Vaya, gracias! ¡Estupendo!"
@@ -2244,7 +2244,7 @@
 "Queria me tornar um homem rico para minha namorada, mas as coisas não estão como eu queria...","I wanted to become a rich man for my girl, but it's not going as well as I'd hoped...","Quería hacerme rico por mi chica, pero no va a salir tan bien como esperaba..."
 "É melhor eu economizar o pouco que tenho.","Guess I'll just have to save up what little I can.","Supongo que tendré que ahorrar lo poco que pueda."
 "Não preciso de dinheiro. Estar com ele me faz mais feliz do que qualquer coisa.","I don't need money—just being with him makes me happier than anything.","No necesito dinero: estar con él me hace más feliz que cualquier otra cosa."
-"Carne de carneiro está tão caro ultimamente! Acho que as ovelhas estão ficando meio loucas, então as pessoas não querem caçá-las.","Mutton is so expensive lately! I guess the sheep are getting kinda crazy, so people don't want to hunt them.","¡El carnero está carísimo últimamente! Supongo que como las ovejas están como locas, la gente no quiere darles caza."
+"Carne de carneiro está tão cara ultimamente! Acho que as ovelhas estão ficando meio loucas, então as pessoas não querem caçá-las.","Mutton is so expensive lately! I guess the sheep are getting kinda crazy, so people don't want to hunt them.","¡El carnero está carísimo últimamente! Supongo que como las ovejas están como locas, la gente no quiere darles caza."
 "As ovelhas nas planícies do norte geralmente são gentis, mas se você persegui-las, às vezes elas te atacam.","The sheep in the northern plains are usually gentle, but if you chase them, they'll sometimes turn and attack you.","Las ovejas de las llanuras del norte suelen ser dóciles, pero si las persigues, a veces se giran y te atacan."
 "O carneiro é uma fonte importante de alimento para as pessoas desta aldeia, mas muitas vezes nos machucamos durante a caça.","Mutton is an important food source to the people of this village, but we often get injured while hunting.","El carnero es la fuente de alimento más importante para la gente de esta aldea, pero a veces nos herimos cazando."
 "Cá entre nós, trabalhar na segurança do distrito de compras é bem mais tranquilo em comparação aos outros portões.","Between you and me, working security in the shopping district is pretty peaceful compared to the other gates.","Entre tú y yo, trabajar de seguridad en el distrito comercial es una gloria en comparación con las otras puertas."
@@ -2975,7 +2975,7 @@
 "Nossa roda d'água está indo pro saco. Gostaria de consertá-la, mas o interior é tão complicado...","Our waterwheel is on its last legs. I'd like to shore it up, but the insides are so complicated...",
 "É uma ideia sábia da sua parte. Aquela roda é uma máquina de idade muito avançada. Melhor consertá-la agora do que esperar até que ela falhe completamente.","This is a wise thought on your part. That wheel is a machine of not-insignificant age. Better to repair it now than wait until it fails completely.",
 "Tem alguma ideia? Não sou muito boa com esses assuntos mecânicos.","You got any ideas? I'm not much for this mechanical stuff.",
-"Substituir o eixo e as pás deve resolver por enquanto. Acredito que a loja de Itens-Exóticos em Facade deva ter tudo o que precisamos.","Replacing the axle and the paddle boards should suffice for now. I believe the strange-thing store in Facade should have everything we need.",
+"Substituir o eixo e as pás deve resolver por enquanto. Acredito que a Loja de Itens-Exóticos em Facade deva ter tudo o que precisamos.","Replacing the axle and the paddle boards should suffice for now. I believe the strange-thing store in Facade should have everything we need.",
 "Ok. Bem, se você consegue lidar com os reparos, eu posso coletar os materiais.","Okay. Well, if you can handle the repairs, I can pick up the materials.",
 "Ah, obrigada. Tenho certeza de que posso encontrar alguém para cuidar do trabalho de reparo em si.","Oh, thank you. I'm sure I can find someone to take care of the actual repair work.",
 "Obrigado por se voluntariar para ajudar com a roda d'água. É bom saber que alguém ainda tem um senso de orgulho comunitário.","Thanks for volunteering to help with the waterwheel. It's nice that someone still has a sense of community pride.",
