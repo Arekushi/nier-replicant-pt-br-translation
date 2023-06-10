@@ -944,7 +944,7 @@
 "Não é nada. Não precisa se preocupar.","It's nothing. Don't worry about it.","No es nada. No te preocupes."
 "É que eu também tive um sonho!","Cause I had a dream, too!","¡Es que yo también he soñado!"
 "Ah é?","Oh yeah?","¿Ah, sí?"
-"É! Eu e esse menino estávamos jogando um jogo juntos.","Yeah! Me and this boy were playing a game together.","¡Sí! Un niño y yo jugábamos a un juego."
+"É! Eu e um menino estávamos jogando um jogo juntos.","Yeah! Me and this boy were playing a game together.","¡Sí! Un niño y yo jugábamos a un juego."
 "Que tipo de jogo?","What kind of game?","¿Qué clase de juego?"
 "Se chamava Adivinhe as Palavras. ...Acho que ele inventou, porque nunca ouvi falar antes.","It was called Guess The Words. ...I think he made it up, because I never heard of it before.","¡Se llamaba Adivina las palabras! Me parece que se lo había inventado, porque no me suena de nada."
 "Como funcionava?","How did it work?","¿Y cómo se jugaba?"
@@ -968,10 +968,10 @@
 "Do prefeito de uma pequena vila na Floresta dos Mitos. É uma área arborizada no norte.","The mayor of a small village in the Forest of Myth. It's a wooded area up north.","Del alcalde de una aldea del Bosque de las Leyendas. Es una zona arbolada del norte."
 "A Floresta dos Mitos!?","The Forest of Myth!?","¿El Bosque de las Leyendas?"
 "Eles geralmente são um grupo de pessoas alegres e animadas. Algo assim é muito fora do comum para eles.","They're usually a bright and cheerful group of people. Something like this is very out of character for them.","Sus gentes suelen ser muy alegres y animadas. Algo así es muy impropio de ellos."
-"Eu tenho um mau pressentimento sobre isso.","I have a bad feeling about this.","Esto me da mala espina."
-"Eu vou dar uma olhada.","I'll check it out.","Iré a comprobarlo."
+"Tenho um mau pressentimento sobre isso.","I have a bad feeling about this.","Esto me da mala espina."
+"Vou dar uma olhada.","I'll check it out.","Iré a comprobarlo."
 "Er, você vai? Mas...","Er, you will? But...","Esto, ¿lo harás? Pero..."
-"Não se preocupe. Eu tenho assuntos lá de qualquer forma.","Don't worry about it. I've got business there anyway.","No te preocupes. Tengo cosas que hacer allí de todos modos."
+"Não se preocupa. De qualquer forma tenho assuntos lá.","Don't worry about it. I've got business there anyway.","No te preocupes. Tengo cosas que hacer allí de todos modos."
 "Oh. Bem, tudo bem. Obrigado.","Oh. Well, all right. Thank you.","Bueno, está bien. Gracias."
 "A Floresta dos Mitos fica ao norte, depois de atravessar a pequena ponte de madeira ao norte das planícies. ","The Forest of Myth is to the north, after you cross the small wooden bridge in the northern plains. ","El Bosque de las Leyendas está al norte, tras cruzar el pequeño puente de madera de las llanuras del norte. "
 "O Sonho da Morte certamente é uma doença estranha...","The Deathdream certainly is a strange illness...","El sueño mortal es una enfermedad extrañísima. Me alegro de que hayáis salvado a esas personas."
@@ -979,7 +979,7 @@
 "Mesmo eu, com meu amor natural pelas palavras, não tenho desejo de visitar aquele lugar novamente.","Even I, with my natural love for words, have no desire to visit that place ever again.","Incluso yo, que profeso un amor innato por las palabras, no tengo deseo alguno de volver a ese lugar."
 "Vocês se saíram bem.","You guys did well.","Lo hicisteis bien, chicos."
 "Você tem feito muitas viagens longas ultimamente. Tem certeza de que não está se esforçando demais?","You've been making a lot of long trips lately. Are you sure you're not pushing yourself too hard?","Últimamente no paras de viajar. ¿No te vendría bien descansar un poco?"
-"Eu estou bem. Não posso ficar sentado o dia todo enquanto Yonah está doente, entende.","I'm okay. I can't just sit around all day while Yonah's sick, after all.","Estoy bien. No puedo quedarme de brazos cruzados sabiendo que Yonah está enferma."
+"Eu tô bem. Só não posso ficar sentado enquanto Yonah está doente, entende.","I'm okay. I can't just sit around all day while Yonah's sick, after all.","Estoy bien. No puedo quedarme de brazos cruzados sabiendo que Yonah está enferma."
 "Se você diz...","If you say so...","Bueno, si tú lo dices..."
 "Então... tem algo que eu possa fazer por você?","So...anything I can do for you?","¡En fin! ¿Puedo hacer algo por ti?"
 "Bem, eu suponho que <FONT=ITALIC>exista</FONT> algo que eu poderia fazer. Você já ouviu falar sobre nossos planos para reparação do canal?","Well, I suppose there <FONT=ITALIC>is</FONT> one thing I could use a hand with. Have you heard about our plans to repair the canal?","Bueno, <FONT=ITALIC>hay</FONT> algo en lo que me vendría bien tu ayuda. ¿Estás al tanto de que tenemos pensado reparar el canal?"
@@ -1009,11 +1009,11 @@
 "E o que é?","What is it?","¿De qué se trata?"
 "Um...","Um...","Mmm..."
 "Eu não posso ajudar se você não me disser, mana.","I can't help if you don't tell me, Sis.","Hermanita, si no me lo dices, no te puedo ayudar."
-"Ok, eu vou dizer. Pronto?","Okay, I'm gonna say it. Ready?","Vale, voy a decírtelo. ¿Preparado?"
-"Estou pronto, Yonah.","I'm ready, Yonah.","Preparadísimo."
-"Eu preciso que você ajude meu amigo!","I need you to help my friend!","¡Necesito que ayudes a una persona!"
+"Ok, eu vou falar. Tá pronto?","Okay, I'm gonna say it. Ready?","Vale, voy a decírtelo. ¿Preparado?"
+"Tô pronto, Yonah.","I'm ready, Yonah.","Preparadísimo."
+"Preciso que você ajude meu amigo!","I need you to help my friend!","¡Necesito que ayudes a una persona!"
 "Seu... amigo?","Your...friend?","¿A una... persona?"
-"Sim! Eu tenho um amigo, e nós temos trocado cartas um para o outro.","Yep! I have a friend, and we've been writing each other letters.","¡Sip! Es una persona con la que me escribo cartas."
+"Sim! Eu tenho um amigo, e nós temos trocado cartas.","Yep! I have a friend, and we've been writing each other letters.","¡Sip! Es una persona con la que me escribo cartas."
 "Sério?","Seriously?","¿En serio?"
 "Um amigo por correspondência! Que encantador!","A pen pal! How delightful!","¡Amistad por correspondencia! ¡Qué maravilla!"
 "Então quem é esse amigo?","So who is this friend?","¿Y quién es esa persona?"
@@ -1022,11 +1022,11 @@
 "Sim, e ele está doente e em muitos apuros!","Yes, and he's sick and in a whole lot of trouble!","Sí, ¡y está enfermo y metido en un buen lío!"
 "E eu sei que você e Weissey são os únicos que podem ajudá-lo!","And I know that you and Weissey are the only ones who can help him!","¡Y sé que solo podéis ayudarlo Weissito y tú!"
 "Weissey...","Weissey...","Weissito..."
-"Me fale mais sobre esse cara.","Tell me about this guy.","Háblame de ese chico."
+"Me conta mais sobre esse cara.","Tell me about this guy.","Háblame de ese chico."
 "Ele mora em uma casa muito grande lá no sul, ele é super legal, e ele é meu amigo.","He lives in this really big house down south, and he's super nice, and he's my friend.","Vive en una casa enorme al sur, es supermajo y es mi amigo."
 "Então você tem que ajudá-lo. Por favor?","So you have to help him. Please?","Así que tenéis que ayudarlo. ¿Porfa?"
 "Yonah, escute...","Yonah, listen...","Yonah, escucha..."
-"Por favor!?!","Pleeeeeease!?","¡Porfaaaaaaa!"
+"Por favooooor!?!","Pleeeeeease!?","¡Porfaaaaaaa!"
 "Maravilha. E agora, o que eu faço?","Great. Now what do I do?","Genial. ¿Y ahora qué hago?"
 "<LIST=2769>Eu não posso dizer não para ela.</LIST><LF><LIST=2770>Curar o Rabisco Negro dela é mais importante.</LIST>","<LIST=2769>I can't say no to her.</LIST><LF><LIST=2770>Curing her Black Scrawl is more important.</LIST>","<LIST=2769>No puedo negarme.</LIST><LF><LIST=2770>Curar la necrosis rúnica es más importante.</LIST>"
 "Ok. Vou ver o que posso fazer.","Fine. I'll see what I can do.","Vale. Veré lo que puedo hacer."
@@ -1049,7 +1049,7 @@
 "Hmm...","Hmm...","Mmm..."
 "Está trancado.","It's locked.","No se abre."
 "Ei, para onde Kainé foi?","Hey, where'd Kainé go?","Oye, ¿dónde ha ido Kainé?"
-"Eu sabia que isso era uma ideia terrível! Mansões assombradas e tal... Ah, por que ninguém nunca me ouve!?","I knew this was a terrible idea! Haunted manors and the like... Oh, why does no one ever listen to me!?","¡Sabía que era una mala idea! Una mansión encantada... ¡¿Por qué no me hace nadie caso nunca?!"
+"Sabia que isso era uma ideia terrível! Mansões assombradas e tal... Ah, por que ninguém nunca me ouve!?","I knew this was a terrible idea! Haunted manors and the like... Oh, why does no one ever listen to me!?","¡Sabía que era una mala idea! Una mansión encantada... ¡¿Por qué no me hace nadie caso nunca?!"
 "Hmm. Parece que está sofrendo. É meio assustador.","Huh. It looks like it's in pain. It's kind of scary.","Hm. Casi parece que sufre. Da un poco de canguelo."
 "S-s-sim... Sigamos! Coragem! Para o alto e avante, hein?","Y-y-yes... Come now! Brave faces! Onward and upward, eh?","S-sí... ¡Vamos, caras valientes! Arriba esos ánimos, ¿eh?"
 "S-s-sim... Sigamos! Coragem! Para o alto e avante, hein?","Y-y-yes... Come now! Brave faces! Onward and upward, eh?","S-sí... ¡Vamos, caras valientes! Arriba esos ánimos, ¿eh?"
@@ -1085,7 +1085,7 @@
 "......","......","......"
 "Aaaah!","Aaaah!","¡Aaah!"
 "Blaaargh!","Blaaargh!","¡Aaaaarg!"
-"Gah! Ele se move!","Gah! It moves!","¡Buf! ¡Se mueve!"
+"Gah! Ele se mexe!","Gah! It moves!","¡Buf! ¡Se mueve!"
 "O-q-que está acontecendo aqui?","Wh-what's going on here?","¿Qué está pasando?"
 "Senhor?","Sir?","¿Señor?"
 "O-q-q-que é isso!?","Wh-wh-what is this!?","¡¿Q-qué es esto?!"
@@ -1095,18 +1095,18 @@
 "Hmph! Duvido que ele sequer seja humano.","Hmph! I doubt he's even human.","¡Jum! Dudo que sea siquiera humano."
 "Estamos aqui porque minha irmã recebeu algumas cartas desta mansão...","We're here because my sister received some letters from this manor...","Hemos venido porque mi hermana ha recibido unas cartas procedentes de esta mansión."
 "Sim, fui eu quem escreveu aquelas cartas. Por favor, perdoe minha impertinência.","Mmmm, yes. I wrote those letters. Please forgive my impertinence.","Mmm, sí. Yo se las escribí. Lamento mi impertinencia."
-"Como você sabe, Mestre Emil, profundamente atormentado por seus olhos, acabou se isolando do mundo.","As you may know, Master Emil, deeply pained by his eyes, has shut himself away from the world.","Como usted ha de saber, el señorito Emil sufre a causa de sus ojos, de modo que decidió esconderse del mundo."
+"Como já devem saber, Mestre Emil, profundamente atormentado por seus olhos, acabou se isolando do mundo.","As you may know, Master Emil, deeply pained by his eyes, has shut himself away from the world.","Como usted ha de saber, el señorito Emil sufre a causa de sus ojos, de modo que decidió esconderse del mundo."
 "Ele sofre muito por usar aquela venda e sinto que é meu dever ajudar como puder.","He suffers greatly behind that blindfold, and I feel it is my duty to help however I can.","Detrás de esa venda alberga un enorme sufrimiento, y siento que mi deber consiste en ayudarlo como sea posible."
 "Ouvi os contos e façanhas de um herói insurgente, e então enviei uma carta para você em nome do Mestre Emil...","I heard tale of the exploits of an emerging hero, and so I sent a letter to you under Master Emil's name...","Escuché la historia de las hazañas de un héroe incipiente y decidí mandarle a usted una carta en su nombre."
 "Mas recebi uma resposta de uma tal de Yonah.","But I received a response from one Miss Yonah instead.","Sin embargo, la respuesta que recibí procedía de la señorita Yonah."
 "Espera, então a correspondente de Yonah é <FONT=ITALIC>você?</FONT>","Wait, so Yonah's pen pal is <FONT=ITALIC>you?</FONT>","Espera, ¿me dices que Yonah y tú sois amigos por correspondencia?"
-"Sim, senhor.","It is, sir.","Así es, señor."
+"De fato, senhor.","It is, sir.","Así es, señor."
 "Minhas cartas apenas pediam que você viesse até a mansão. Não tive intenções maliciosas.","My letters merely requested that you come to the manor. I meant no ill intent.","Con mis cartas, solo pretendía que usted viniera a la mansión. Mis intenciones siempre han sido buenas."
 "Acredito que Yonah tenha interpretado a situação de forma diferente.","I believe Yonah saw the exchange somewhat differently.","Creo que Yonah vio el intercambio de forma distinta."
 "Sim, parece que ela entendeu a situação de maneira equivocada.","Yeah, sounds like she misunderstood the situation.","Ya, parece que ella malinterpretó la situación."
 "Independentemente disso, estou muito satisfeito em vê-lo aqui. Há muito tempo sonho com o dia em que possamos fazer algo pelos olhos do Mestre Emil.","Regardless, I am quite pleased to see you here. Long have I dreamed of the day we might be able to do something about Master Emil's eyes.","En cualquier caso, me alegra verlo por aquí. Hace años que sueño con el día en que podamos hacer algo con los ojos del señorito Emil."
 "Entendo...","I see...","Ya veo..."
-"Sim, bem, receio que nós - ou pelo menos o jovem ao meu lado - não sejamos nem herói nem médico, então, se nos der licença...","Yes, well, I am afraid we—or at least this lad beside me—is neither hero nor physician, so if you'll excuse us—","Ya, pues lo lamento, pero me temo que este chico que viaja conmigo no es un héroe ni un doctor, sino un simple jovencito. Así que, si nos disculpas..."
+"Sim, bem, receio que nós—ou pelo menos o jovem ao meu lado—não sejamos nem herói nem médico, então, se nos der licença...","Yes, well, I am afraid we—or at least this lad beside me—is neither hero nor physician, so if you'll excuse us—","Ya, pues lo lamento, pero me temo que este chico que viaja conmigo no es un héroe ni un doctor, sino un simple jovencito. Así que, si nos disculpas..."
 "Uau.","Whoa.","Guau."
 "......","......","......"
 "......","......","......"
@@ -1122,12 +1122,12 @@
 "Sim, e peço desculpas por isso, Mestre Emil.","Yes, and I do apologize for that, Master Emil.","Es cierto, le pido disculpas por ello, señorito Emil."
 "Estamos aqui porque minha irmã recebeu algumas cartas desta mansão.","We're here because my sister received some letters from this manor.","Hemos venido porque mi hermana ha recibido unas cartas procedentes de esta mansión."
 "Mmmm, sim. Eu escrevi essas cartas. Por favor, perdoe minha impertinência.","Mmmm, yes. I wrote those letters. Please forgive my impertinence.","Mmm, sí. Yo se las escribí. Lamento mi impertinencia."
-"Como você deve saber, Mestre Emil, profundamente aflito por seus olhos, se fechou para o mundo.","As you may know, Master Emil, deeply pained by his eyes, has shut himself away from the world.","Como usted ha de saber, el señorito Emil sufre a causa de sus ojos, de modo que decidió esconderse del mundo."
+"Como vocês devem saber, Mestre Emil, profundamente aflito por seus olhos, se fechou para o mundo.","As you may know, Master Emil, deeply pained by his eyes, has shut himself away from the world.","Como usted ha de saber, el señorito Emil sufre a causa de sus ojos, de modo que decidió esconderse del mundo."
 "Ele sofre muito por trás daquela venda e sinto que é meu dever ajudar como puder.","He suffers greatly behind that blindfold, and I feel it is my duty to help however I can.","Detrás de esa venda alberga un enorme sufrimiento, y siento que mi deber consiste en ayudarlo como sea posible."
 "Ouvi os contos e façanhas de um herói insurgente, e então enviei uma carta para você em nome do Mestre Emil...","I heard tale of the exploits of an emerging hero, and so I sent a letter to you under Master Emil's name...","Escuché la historia de las hazañas de un héroe incipiente y decidí mandarle a usted una carta en su nombre."
 "Mas eu recebi uma resposta da Srta. Yonah em vez disso.","But I received a response from one Miss Yonah instead.","Sin embargo, la respuesta que recibí procedía de la señorita Yonah."
 "Espera, então a correspondente da Yonah é VOCÊ?","Wait, so Yonah's pen pal is YOU?","Espera, ¿me dices que Yonah y tú sois amigos por correspondencia?"
-"É sim, senhor.","It is, sir.","Así es, señor."
+"De fato, senhor.","It is, sir.","Así es, señor."
 "Minhas cartas apenas solicitavam que você viesse para essa mansão. Eu não tinha más intenções.","My letters merely requested that you come to the manor. I meant no ill intent.","Con mis cartas, solo pretendía que usted viniera a la mansión. Mis intenciones siempre han sido buenas."
 "Acredito que Yonah viu a troca de forma diferente.","I believe Yonah saw the exchange somewhat differently.","Creo que Yonah vio el intercambio de forma distinta."
 "Sim, parece que ela entendeu mal a situação.","Yeah, sounds like she misunderstood the situation.","Ya, parece que ella malinterpretó la situación."
@@ -1139,7 +1139,7 @@
 "Infelizmente, o local onde a cura se encontra transformou-se num covil para aquelas abomináveis Sombras, e eu não tenho habilidade para combatê-las.","Alas, the location of the cure has become a den for those abominable Shades, and I lack the skill to combat them.","Por desgracia, el lugar donde se encuentra la cura está atestado de esas Sombras abominables, y no dispongo de las habilidades de combate apropiadas."
 "Eu imploro a vocês: Derrotem as Sombras e restaurem a visão do Mestre Emil!","I beg of you: Defeat the Shades and restore Master Emil's sight!","Se lo ruego: ¡derroten a las Sombras y restauren la visión del señorito Emil!"
 "Vocês sabem que essa tarefa é impossível! Por que pedir isso aos nossos convidados?","You know this is an impossible task! Why would you ask it of our guests?","¡Sabes que estás pidiendo algo imposible! ¿Por qué les pides algo así a nuestros invitados?"
-"Bem, não temos mais tempo a perder, então...","Well, we've no more time to waste, so—","Lo cierto es que no tenemos tiempo que perder, así que..."
+"Bem, não temos mais tempo a perder, então—","Well, we've no more time to waste, so—","Lo cierto es que no tenemos tiempo que perder, así que..."
 "...Tudo bem. A gente vai fazer isso.","...It's okay. We'll do it.","Nosotros nos ocupamos."
 "Veja bem, rapaz! Este não é o momento de bancar o herói!","See here, lad! This is no time to play the hero!","Escucha, jovencito: no es momento de hacerse el héroe."
 "As pessoas precisam cuidar umas das outras, Weiss. Além disso, ainda temos que encontrar Kainé.","People need to look out for each other, Weiss. Plus, we have to find Kainé anyway.","Tenemos que cuidar los unos de los otros, Weiss. Además, tenemos que encontrar a Kainé de todas formas."
@@ -1154,7 +1154,7 @@
 "Sebastian...","Sebastian...","Sebastian..."
 "Ah! Então o criado tem um nome!","Ah! So the servant has a name after all!","¡Vaya, el sirviente tiene nombre y todo!"
 "Kainé!","Kainé!","¡Kainé!"
-"Eu prometo nunca desistir, Kainé - mas você não pode desistir também!","I promise I'll never give up, Kainé—but you can't give up either!","Le prometo que nunca me rendiré, Kainé, ¡pero usted tampoco!"
+"Eu prometo nunca desistir, Kainé—mas você não pode desistir também!","I promise I'll never give up, Kainé—but you can't give up either!","Le prometo que nunca me rendiré, Kainé, ¡pero usted tampoco!"
 "......","......","......"
 "Bem, vamos embora.","Well, we're off.","Hora de marcharse."
 "Certo.","All right.","Entendido."
@@ -1163,33 +1163,33 @@
 "Tchau, pessoal. Obrigado por tudo!","Goodbye, everyone. Thanks for everything!","Adiós a todos. ¡Gracias!"
 "Cuide-se, Emil. Espero que seus olhos melhorem logo!","Take care, Emil. I hope your eyes get better soon!","Cuídate, Emil. Espero que tus ojos mejoren pronto."
 "Ah, você voltou!","Oh, you're back!","¡Anda, has vuelto!"
-"Como está indo?","How's it going?","¿Cómo va todo?"
+"Como estão as coisas?","How's it going?","¿Cómo va todo?"
 "Estou bem, embora não feito muito progresso com o feitiço de petrificação...","I'm all right, although we're not making much progress on the petrification spell...","Estoy bien, aunque no estamos avanzando mucho en lo del hechizo de petrificación."
 "Mas trabalharei dia e noite até conseguirmos!","But I'm gonna work night and day until we do!","¡Pero pienso trabajar a destajo hasta conseguirlo!"
 "Você nunca alcançará seu objetivo caso se prive de um sono e saúde adequados.","You will never achieve your goal if you eschew proper sleep and health.","Nunca alcanzarás tu objetivo si dejas de comer y descansar como es debido."
 "Mas eu prometi que nunca desistiria!","But I promised I'll never give up!","¡Pero prometí que no me rendiría!"
 "......","......","......"
 "Você tem algo a dizer para ele, Kainé?","You have anything to say to him, Kainé?","¿Algo que decir, Kainé?"
-"Vá dormir, moleque.","Get some sleep, kid.","Duerme un poco, chico."
-"O-okay. Vou dormir e depois vou voltar a trabalhar!","O-okay. I'll get some sleep—and then I'll go right back to work!","V-vale. Voy a dormir... ¡luego volveré a ponerme manos a la obra!"
-"Yonah, você precisa se deitar.","Yonah, you need to lie down.","Yonah, tienes que descansar."
+"Descansa um pouco, moleque.","Get some sleep, kid.","Duerme un poco, chico."
+"O-okay. Vou dormir—e depois vou voltar a trabalhar!","O-okay. I'll get some sleep—and then I'll go right back to work!","V-vale. Voy a dormir... ¡luego volveré a ponerme manos a la obra!"
+"Yonah, você precisa permanecer deitada.","Yonah, you need to lie down.","Yonah, tienes que descansar."
 "Eu sei.","I know.","Lo sé."
-"Popola, a tosse da Yonah está piorando...","Popola, Yonah's cough is getting worse...","Popola, la tos de Yonah va a peor."
+"Popola, a tosse da Yonah tá piorando...","Popola, Yonah's cough is getting worse...","Popola, la tos de Yonah va a peor."
 "Oh, isso não é bom.","Oh, that's not good.","Uf, eso no es bueno."
 "Existe a possibilidade de me dar mais remédio? Por favor?","Any chance you could give me some more medicine? Please?","Necesita más medicamentos, por favor."
 "O problema é que eu fiquei sem remédio.","The thing is, I actually just ran out.","Lo cierto es que me he quedado sin existencias."
-"Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de Musgo Vaporizado?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
+"Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de musgo moss?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
 "Você o encontra crescendo perto do portão sul.","You'll find it growing near the southern gate.","Crece cerca de la puerta sur."
-"Musgo Moss, né?","Vapor moss, huh?","Musgo de vapor, ¿no?"
+"Musgo moss, né?","Vapor moss, huh?","Musgo de vapor, ¿no?"
 "Já volto.","I'll be right back.","No tardo."
 "*ofegante* *ofegante*","*huff* *huff*","*tos*"
 "Emil!?","Emil!?","¡¿Emil?!"
 "O que foi!? O que aconteceu!?","What is it!? What happened!?","¡¿Qué es esto?! ¡¿Qué ha pasado?!"
 "Ra-rápido...","H-hurry...","D-deprisa..."
 "Emil!","Emil!","¡Emil!"
-"Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de Musgo Vaporizado?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
+"Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de musgo vaporizado?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
 "Você encontra o Musgo Moss crescendo perto do portão sul.","You'll find vapor moss growing near the southern gate.","El musgo de vapor crece cerca de la puerta sur."
-"Sinto muito por estar tossindo o tempo todo...","I'm sorry I'm always coughing all the time...","Lo siento por estar todo el día tosiendo..."
+"Me perdoa por ficar tossindo o tempo todo...","I'm sorry I'm always coughing all the time...","Lo siento por estar todo el día tosiendo..."
 "Ele não parece estar doente. Ele parece muito cansado.","He doesn't seem to be sick. I think it's just fatigue.","No parece estar enfermo, creo que es fruto del cansancio."
 "Não consigo imaginar o quão difícil deve ter sido correr tudo isso sem enxergar.","I can't imagine how hard it must've been to run all this way without sight.","No me quiero ni imaginar lo duro que debe de haber sido recorrer todo este camino sin ver nada."
 "Uuuugh...","Uuuugh...","Aaagh..."
@@ -1199,11 +1199,11 @@
 "O ar... está vibrando...","The air... It's vibrating...","El aire... está vibrando..."
 "Eu consigo sentir atrás dos meus olhos...","I can feel it behind my eyes...","Lo noto bajo los ojos..."
 "Tanta pressão... Meu Deus, são tantos deles.","So much pressure... Oh god, there's so many of them.","Cuánta presión... Ah, maldita sea, hay demasiados."
-"Saia daqui. Saia da vila... As Sombras estão vindo.","Get out. Get out of the village... The Shades are coming.","Fuera. Todo el mundo fuera de la aldea... Vienen las Sombras."
+"Saiam daqui. Saiam da vila... As Sombras estão vindo.","Get out. Get out of the village... The Shades are coming.","Fuera. Todo el mundo fuera de la aldea... Vienen las Sombras."
 "Hein?","Huh?","¿Eh?"
-"Parece que eles já estão aqui!","Sounds like they're already here!","¡Parece que ya están aquí!"
+"Parece que elas já estão aqui!","Sounds like they're already here!","¡Parece que ya están aquí!"
 "Vamos lá, vamos embora!","Come on, let's go!","Venga, ¡vamos!"
-"O que diabos está acontecendo!?","The hell's going on!?","¡¿Qué está sucediendo?!"
+"Que porra tá acontecendo!?","The hell's going on!?","¡¿Qué está sucediendo?!"
 "Sem tempo! Leve todos para a biblioteca!","No time! Get everyone into the library!","¡No hay tiempo! ¡Llévalos a la biblioteca!"
 "E por favor, certifique-se de que Yonah esteja segura!","And please, make sure Yonah's safe!","¡Y que alguien cuide de Yonah!"
 "Não se preocupe! Vou pegar ela!","Don't worry! I'll grab her!","¡No te preocupes, yo me encargo!"
@@ -1246,7 +1246,7 @@
 "Os lábios se movem novamente, agora mais rápido. <LF> Não consigo acompanhá-los. Que droga! Não consigo entender!","The lips move again, faster now.<LF>I can't follow them. Dammit! I can't make it out!","Los labios vuelven a moverse.<LF>No consigo seguirles el ritmo, ¡joder! ¡No logro entenderlo!"
 "Eu quero gritar. Quero derrubar as paredes ao meu redor. Mas, em vez disso, me forço a ficar calmo. <LF> Eu posso fazer isso. Posso fazer por Yonah. Lentamente, muito lentamente, identifico as letras que compõem suas últimas palavras...","I want to scream. I want to tear the walls down around me. But instead, I force myself to be calm.<LF>I can do this. I can do it for Yonah. Slowly, ever so slowly, I parse out the letters that make up his final words...","Quiero gritar, quiero destrozar las paredes que me rodean. Sin embargo, me fuerzo a calmarme. Puedo hacerlo, por Yonah. Lentamente, cada vez más, disecciono las letras que componen sus últimas palabras..."
 "F-L-O-R-E-S-T-A <WAIT=0.5>D-O-S <WAIT=0.5>M-I-T-O-S","F-O-R-E-S-T <WAIT=0.5>O-F <WAIT=0.5>M-Y-T-H","B-O-S-Q-U-E <WAIT=0.5>D-E <WAIT=0.5>L-A-S<WAIT=0.5>L-E-Y-E-N-D-A-S"
-"Ah, bom! O homem que eu precisava!","Ah, good! Just the man I needed!","¡Ah, genial! Justo te andaba buscando."
+"Ah, ótimo! O homem que eu precisava!","Ah, good! Just the man I needed!","¡Ah, genial! Justo te andaba buscando."
 "Poderia colher duas ervas medicinais das planícies do norte para mim? Tenho me sentido exausta ultimamente e preciso de energia.","Could you gather two medicinal herbs from the northern plains for me? I've been exhausted lately and I need a boost.","¿Podrías conseguirme dos plantas medicinales de las llanuras del norte? Llevo un tiempo exhausta y necesito un empujoncito."
 "Elas normalmente crescem em tufos de grama ou perto da base das árvores. Acho que não será muito difícil encontrá-las.","They usually grow in patches of grass or by the bases of trees. I don't think they'll be too hard to find.","Suelen crecer en las zonas de hierba que se acumulan a los pies de los árboles. Seguro que no tardas en encontrar algunas."
 "Duas ervas medicinais. É pra já!","Two medicinal herbs. You got it!","Dos plantas medicinales, ¡estupendo!"
@@ -1256,7 +1256,7 @@
 "Encomendei algumas armas de treinamento com a esposa do ferreiro, mas elas ainda não chegaram. Você pode ir ao distrito comercial e pedir para ela me enviar?","I ordered some training weapons from the blacksmith's wife, but they still haven't arrived. Can you go to the shopping district and ask her to send them over?","He pedido unas armas de entrenamiento a la esposa del herrero, pero no han llegado todavía. ¿Puedes acercarte al distrito comercial y pedirle que me las mande?"
 "Muito obrigado. Por favor, dê meus cumprimentos à esposa do ferreiro, certo?","Thank you so much. Please give the blacksmith's wife my regards, will ya?","Muchas gracias. Y dale las gracias a la mujer del herrero, por favor."
 "Oi, olá. O guarda na porta norte disse que encomendou algumas armas com você. Alguma ideia de onde elas estão?","Hi there. The guard at the northern gate says he ordered some weapons from you. Any idea where they are?","Muy buenas. El guarda de la puerta norte dice que te ha encargado unas armas. ¿Sabes de lo que te hablo?"
-"Ah, sabe, eu <FONT=ITALIC>tinha</FONT> um pedido assim, né? Eu esqueci completamente! Obrigada por lembrar, querido.","Oh, you know, I <FONT=ITALIC>did</FONT> have an order for that, huh? I completely forgot! Thanks for the reminder, dear.","Vaya, tienes <FONT=ITALIC>razón</FONT>, ¿sabes? Pero se me había pasado por completo. Gracias por recordármelo."
+"Ah, sabe, eu <FONT=ITALIC>tinha</FONT> um pedido assim, né? Esqueci completamente! Obrigada por lembrar, querido.","Oh, you know, I <FONT=ITALIC>did</FONT> have an order for that, huh? I completely forgot! Thanks for the reminder, dear.","Vaya, tienes <FONT=ITALIC>razón</FONT>, ¿sabes? Pero se me había pasado por completo. Gracias por recordármelo."
 "Aqui está uma pequena recompensa pelo incômodo.","Here's a little something for the trouble.","Toma esto por los inconvenientes."
 "Você pediu à esposa do ferreiro para enviar as coisas que eu pedi?","Did you ask the blacksmith's wife to send the things I asked for yet?","¿Le has pedido a la esposa del herrero que me envíe lo que le había pedido?"
 "Ei, você tem um minuto?<PAGE>Devo um favor a um homem, mas estou muito ocupado agora. Você pode ir lá e ajudá-lo?","Hey, do you have a second?<PAGE>I owe a man a favor, but I'm too busy right now. Can you go over there and help him out?",
@@ -1267,13 +1267,13 @@
 "Sim, estou um pouco apavorado. Escute, você sabe sobre as galinhas que criamos na vila, certo?","Yeah, I'm in a bit of a pickle. Listen, you know about the chickens we keep in the village, right?","Verás, lo cierto es que me he metido en un lío. Tiene que ver con las gallinas de la aldea."
 "Ultimamente os ovos delas estão desaparecendo. No começo pensei que fosse um ladrão, mas agora acho que as galinhas estão escondendo eles.","Lately their eggs have been disappearing. At first I thought it was a thief, but now I think the hens are just hiding them.","Últimamente han desaparecido sus huevos. Al principio creía que era cosa de algún ladrón, pero me da que son las propias gallinas las que los ocultan."
 "Acho que nem posso culpá-las, mas a vila precisa muito desses ovos!","I guess I can't blame 'em, but the village really needs those eggs!","No las culpo, ¡pero el pueblo necesita esos huevos!"
-"Preciso que você encontre os locais que elas escondem e me traga um ovo. Poderia fazer isso?","I need you to find the hiding spots and bring me an egg. That work for you?","Necesito que encuentres el escondrijo y me traigas los huevos. ¿Puedes ocuparte?"
+"Preciso que você encontre os locais onde elas escondem e me traga um ovo. Poderia fazer isso?","I need you to find the hiding spots and bring me an egg. That work for you?","Necesito que encuentres el escondrijo y me traigas los huevos. ¿Puedes ocuparte?"
 "Tá procurando ovos de galinha? Eu vi um escondido nas sombras uma vez!","You're looking for chicken eggs? I saw one hidden in the shadows once!","¿Estás buscando huevos de gallina? Creo que he visto uno oculto en una zona de sombra."
 "Hum, isso realmente não ajuda muito. Há sombras por toda parte.","Uh, that really doesn't narrow it down. There are shadows everywhere.","Mmm. Eso no aclara mucho la situación, hay zonas de sombra por todas partes."
 "As galinhas desta vila, por algum motivo, gostam de colocar seus ovos em lugares altos. Talvez isso ajude a encontrar onde eles estão escondidos.","The chickens in this village like to lay their eggs in high places for some reason. Maybe that'll help you find where they're hidden.","Los pollos de la aldea dejan sus huevos en zonas elevadas por algún motivo. Quizá eso te ayude a encontrar su escondrijo."
 "Hmm. Talvez devêssemos verificar a fonte perto da biblioteca.","Hmm. Maybe we should check out the fountain by the library.","Mmm... Deberíamos echar un vistazo a la fuente que hay cerca de la biblioteca."
 "Olha só isso. Não é de admirar que tenham sido tão difíceis de encontrar.","Look at that. No wonder they've been so hard to find.","Vaya, vaya. Normal que hayan sido tan difíciles de encontrar."
-"Ei, eu encontrei um ovo!","Hey, I found an egg!","He encontrado un huevo."
+"Ei, encontrei um ovo!","Hey, I found an egg!","He encontrado un huevo."
 "Oh, que ótimo!","Oh, that's great!","¡Vaya, qué alegría!"
 "Estava atrás da parede quebrada perto da fonte. Acho que elas gostam de esconder em lugares sombrios e escondidos.","It was behind the broken wall by the fountain. I guess they like hiding them in shadowy, out-of-the-way places.","Estaba detrás de la pared ruinosa que hay junto a la fuente. Supongo que les gusta ocultarlos en zonas oscuras que no estén a la vista."
 "Bem, esse é o primeiro lugar que procurarei da próxima vez. Aqui está seu pagamento. Obrigado novamente!","Well, that's the first place I'll look next time. Here's your payment. Thanks again!","Bueno, pues ahí será donde mire la próxima vez. Aquí tienes tu recompensa. ¡Gracias de nuevo!"
@@ -1285,8 +1285,8 @@
 "Meus filhos querem comer carne de carneiro todas as noites, e eu continuo ficando sem. E eu não tenho tempo para caçar um monte de ovelhas!","My children want to eat mutton every night, and I keep running out. And I certainly don't have time to hunt a bunch of sheep!","A mis hijos les gusta comer carnero para cenar y siempre termina agotándoseme. Encima no tengo tiempo para salir de caza."
 "Olha, se você conseguir dez pedaços de carne de carneiro, eu vou pagar mais do que o valor de mercado. Está bom pra você?","Look, if you can get me ten pieces of mutton, I'll pay you higher than market value. How's that sound?","Mira, si me consigues diez piezas de carnero, te pagaré por encima del precio de mercado. ¿Qué te parece?"
 "Parece ótimo. Volto já!","Sounds great. I'll be right back!","Me parece estupendo. ¡No tardo!"
-"Aqui está a carne, senhora.","Here's your mutton, ma'am.","Aquí tienes tu carnero."
-"Ah, obrigada! Eu juro, essas minhas crianças adoram essa carne. Se você encontrar mais, ficarei feliz em comprar!","Oh, thank you! I swear, these children of mine just love their mutton. If you ever find any more, I'll be happy to buy it!","¡Ah, maravilloso! En serio, estos hijos míos están obsesionados con el carnero. Ya sabes, si consigues más, pásate por aquí."
+"Aqui está a carne, madame.","Here's your mutton, ma'am.","Aquí tienes tu carnero."
+"Ah, obrigada! Sério, essas minhas crianças adoram essa carne. Se você encontrar mais, ficarei feliz em comprar!","Oh, thank you! I swear, these children of mine just love their mutton. If you ever find any more, I'll be happy to buy it!","¡Ah, maravilloso! En serio, estos hijos míos están obsesionados con el carnero. Ya sabes, si consigues más, pásate por aquí."
 "Por favor, pegue aquela carne. Meus filhos estão me enlouquecendo!","Please get that mutton. My kids are driving me crazy!","Te lo ruego, tráeme carnero, ¡mis hijos se están volviendo locos!"
 "Ah, olá! Que momento mais oportuno! Poderia comprar uma coisa para mim?","Oh, hello! What perfect timing! Can I ask you to go buy something for me?","Vaya, hola. Llegas justo a tiempo. ¿Puedo pedirte que me compres una cosita?"
 "Claro. O que você precisa?","Sure. What do you need?","Claro, ¿qué necesitas?"
@@ -1332,13 +1332,13 @@
 "E aqui! Pegue um bulbo e um pacote de fertilizantes. Você ficará surpreso com o quão rápido essas coisas crescem!","And here! Take a bulb and a pack of fertilizer. You'll be amazed at how fast these things grow!","Y toma, guárdate un bulbo y un saco de fertilizante. ¡Ya verás lo rápido que crecen estas cosas!"
 "Não esqueça do fertilizante, tudo bem?","Don't forget about that fertilizer, okay?","Que no se te olvide el fertilizante, ¿vale?"
 "Sementes de flores são os melhores. Não só fazem flores bonitas para você admirar, mas também são ótimos para comer!","Flower bulbs are just the best. Not only do they make beautiful flowers for you to look at, but they're great to eat, too!","Los bulbos de flores son lo mejor. No solo por las preciosas flores que nacen de ellos, ¡además están deliciosos!"
-"Ei! Eu estava pensando em tentar fazer um ensopado para você. Temos alguma carne de veado ou trigo?","Hey! I was thinking about trying to make stew for you. Do we have any venison or wheat?","¡Eh! Pensaba prepararte un estofado. ¿Tenemos carne de venado y algo de trigo?"
+"Ei! Tava pensando em tentar fazer um ensopado para você. Temos alguma carne de veado ou trigo?","Hey! I was thinking about trying to make stew for you. Do we have any venison or wheat?","¡Eh! Pensaba prepararte un estofado. ¿Tenemos carne de venado y algo de trigo?"
 "E-ensopado? U-um...","S-stew? Um...","¿Estofado? Eh..."
 "(Eu não quero que ela se sinta mal, mas a comida dela é... Argh.)","(I don't want her to feel bad, but her cooking is... Yeesh.)","(No quiero que se ponga triste, pero cocina... de pena)."
 "Tudo bem, Yonah. Vou ver se consigo encontrar seus ingredientes.","All right, Yonah. Lemme see if I can track down your ingredients.","De acuerdo, Yonah. A ver si puedo encontrarte los ingredientes."
 "Sério? Obrigada! Tenho certeza de que você vai adorar!","Really? Thanks! I'm sure you're gonna love it!","¿En serio? ¡Oh, gracias! ¡Seguro que te va a encantar!"
-"Ei, Yonah. Eu consegui seus ingredientes.","Hey, Yonah. I got your ingredients.","Aquí traigo los ingredientes, Yonah."
-"Uhu! Okay, espera. Eu vou começar agora mesmo!","Yay! Okay, hold on. I'm gonna get started right now!","¡Bien! Dame un segundito. ¡Me pongo enseguida!"
+"Ei, Yonah. Consegui seus ingredientes.","Hey, Yonah. I got your ingredients.","Aquí traigo los ingredientes, Yonah."
+"Uhu! Okay, espera. Vou começar agora mesmo!","Yay! Okay, hold on. I'm gonna get started right now!","¡Bien! Dame un segundito. ¡Me pongo enseguida!"
 "Yonah, espera—","Yonah, wait—","Espera, Yonah..."
 "<LIST=1479>Lembre-a de não ferver por muito tempo.</LIST><LF><LIST=1480>Lembre-a de cortar a carne em pedaços pequenos.</LIST>","<LIST=1479>Remind her not to boil it too long.</LIST><LF><LIST=1480>Remind her to cut the meat into small pieces.</LIST>","<LIST=1479>Recuérdale que no se pase del tiempo de cocción.</LIST><LF><LIST=1480>Recuérdale que desmenuce la carne en taquitos.</LIST>"
 ,,
@@ -1352,13 +1352,13 @@
 "Certifique-se de cortar a carne em pedaços pequenos.","Be sure to cut the meat into small pieces.","Recuerda desmenuzar la carne en trozos pequeños."
 "Vamos lá! Eu nunca esqueceria DISSO!","Come on! I'd never forget THAT!","¡Por favor! ¿Cómo se me va a olvidar?"
 "(O cheiro tá horrível! Ela cozinhou tanto que parece uma grande gororoba...)","(This smells hideous! She boiled it so long it's like one big pot of slurry...)","(Huele a rayos. La carne está tan pasada que más bien parece un estofado de lodo...)."
-"Coma tudo, certo!?","Eat up, okay!?","Empieza, ¡¿no?!"
+"Come tudo, viu!?","Eat up, okay!?","Empieza, ¡¿no?!"
 "C-certo, Yonah! Parece... hm... ótimo...","S-sure, Yonah! It looks...um...great...","¡S-sí, Yonah! Qué... mmm... buena pinta..."
 "(Amanhã, Yonah não será a única doente aqui...)","(Come tomorrow, Yonah's not gonna be the only one here who's sick...)","(Me da que mañana Yonah no va a ser la única enferma aquí...)."
 "Estou pronta para fazer aquele ensopado a qualquer momento.","I'm ready to make that stew any time.","Cuando quieras, te vuelvo a preparar otro igual."
 "Ei, você tem tempo para um pequeno trabalho extra?","Hey, do you have time for a little side job?","Oye, ¿tendrías tiempo para ayudarme con un recado?"
-"Eu vou arrumar tempo. O que está acontecendo?","I'll make the time. What's going on?","Lo buscaré. Cuéntame."
-"Eu estava esperando que você pudesse ir para o Aerie e pegar um ovo de águia para mim.","I was hoping you could go to The Aerie and get an eagle egg for me.","Verás, me gustaría que te pasaras por Nido del Águila y me trajeras un huevo de águila."
+"Se eu não tiver, eu arrumo. O que está acontecendo?","I'll make the time. What's going on?","Lo buscaré. Cuéntame."
+"Gostaria que você pudesse ir em Aerie e pegar um ovo de águia para mim.","I was hoping you could go to The Aerie and get an eagle egg for me.","Verás, me gustaría que te pasaras por Nido del Águila y me trajeras un huevo de águila."
 "Oh ho! Parece que alguém está preparando outra dose de remédio para um parente doente.","Oh ho! It sounds as if someone is brewing up another batch of medicine for an ailing relation.","¡Vaya, vaya! Parece que alguien está preparando una remesa nueva de medicinas para tratar una enfermedad."
 "Eu tô mesmo! Você é muito inteligente, Weissey!","I sure am! You're pretty smart, Weissey!","¡Así es! ¡No se te escapa ni una, Weissito!"
 "Weiss...ey?","Weiss...ey?","¿Weiss-ito?"
@@ -1367,10 +1367,10 @@
 "Vamos lá, Weissey. Vamos indo.","Come on, Weissey. Let's get moving.","Venga, Weissito, en marcha."
 "Eu peguei o ovo de águia!","I got your eagle egg!","Aquí traigo el huevo de águila."
 "Obrigada! Espera só um momento.","Thank you! Give me a moment here.","¡Vaya! ¡Muchas gracias! Permíteme un momento."
-"E aqui está! Você poderia levar isso para minha avó? Ela provavelmente estará perto da fonte em frente à biblioteca.","And here we go! Could you bring this to my grandmother for me? She'll probably be near the fountain in front of the library.","¡Y aquí está! ¿Podrías llevarle esto a mi abuela de mi parte? La encontrarás junto a la fuente que hay delante de la biblioteca."
-"Claro. Vou entregá-lo a ela assim que puder!","Sure thing. I'll get it to her as soon as I can!","Pues claro. Se lo llevaré en cuanto pueda."
+"E aqui está! Você poderia levar isso pra minha avó? Ela provavelmente estará perto da fonte em frente à biblioteca.","And here we go! Could you bring this to my grandmother for me? She'll probably be near the fountain in front of the library.","¡Y aquí está! ¿Podrías llevarle esto a mi abuela de mi parte? La encontrarás junto a la fuente que hay delante de la biblioteca."
+"Claro. Entregarei a ela assim que puder!","Sure thing. I'll get it to her as soon as I can!","Pues claro. Se lo llevaré en cuanto pueda."
 "Aparentemente você pode encontrar ovos de águia em locais onde tem minério. Ah, também sei que você pode vendê-los por muito dinheiro, mas por favor não faça isso!","Apparently you can sometimes find eagle eggs in places where you find ore. Oh, I know you can sell them for lots of money, but please don't!","Al parecer, suele haber huevos de águila allá donde es posible encontrar minerales. Ah, y me consta que se venden a un precio extraordinario, ¡pero no lo hagas!"
-"Senhora? Trouxe mais remédio para você.","Ma'am? I've got more medicine for you.","¿Señora? He podido traerle más medicinas."
+"Madame? Trouxe mais remédio para você.","Ma'am? I've got more medicine for you.","¿Señora? He podido traerle más medicinas."
 "Oh, que jovem simpático você é! Eu tenho estado muito mal ultimamente. Olha, ainda esta manhã acordei e encontrei um gigante...","Oh, what a nice young man you are! I've been just sick as a dog lately. Why, just this morning I woke up and found a giant—","¡Oh, qué jovenzuelo tan encantador! Últimamente ando un poco pachucha, sí. Esta misma mañana, me desperté y vi a un gigante..."
 "Uau, ok! Eu já vou indo. Cuide-se, tudo bem?","Whoa, okay! I'd better get going. You take care of yourself, all right?","¡Guau! En fin, me marcho ya. Cuídate mucho, ¿vale?"
 "Você tem ajudado muito ultimamente. Pegue essa lembrancinha para você.","You've been such a great help lately. Here's a little something for you.","Últimamente me has ayudado muchísimo. Toma este detallito."
@@ -1380,7 +1380,7 @@
 "Ah, e isso é <FONT=ITALIC>realmente</FONT> frágil, então você precisa ser cuidadoso, ok? Não saia rolando, sendo derrubado ou algo assim.","Oh, and this is <FONT=ITALIC>really</FONT> fragile, so you need to be careful, okay? Don't go rolling around or getting knocked over<LF>or anything like that.","Es bastante frágil, ¿eh? Solo te pido que tengas cuidado. No vayas dando volteretas por ahí ni dejes que te golpeen, por favor."
 "Você precisará levá-lo para a casa do chefe da aldeia em Aerie. Ela fica no ponto mais alto da vila.","You'll need to take it to the chief's house in The Aerie. It's the house at the highest point in the village.","Debes llevarlo a la casa del jefe de Nido del Águila. Es la casa del punto más alto de la aldea."
 "Olá, senhor? Tenho um pacote para você.","Hello, sir? I have a package for you.","¡Buenas, señor! Traigo un paquete para usted."
-"Para mim? Sim, tudo bem. Apenas deixe e vá embora!","...For me? Yes, fine. Just leave it and go!","¿Para mí? Ah, sí, bien. ¡Déjalo ahí y márchate!"
+"Para mim? Sim, tudo bem. Apenas deixe aí e vá embora!","...For me? Yes, fine. Just leave it and go!","¿Para mí? Ah, sí, bien. ¡Déjalo ahí y márchate!"
 "Uh...ok, então? Eu vou deixá-lo bem aqui.","Uh...okay, then? I'll just leave it right here.","Eh... Vale. Lo dejo aquí pues."
 "Acho que conta como ele aceitando. Vou dizer ao cliente que terminamos.","Guess that counts as him accepting it. I'll go tell the client we're done.","Supongo que esto cuenta como entregado. Voy a decirle al cliente que hemos terminado."
 "Olá, senhor! Eu tenho uma encomenda para você.","Hello, sir! I have a package for you.","¡Buenas, señor! Traigo un paquete para usted."
@@ -1395,12 +1395,12 @@
 "De qualquer forma, tenho uma coisinha para você.","Anyway, I've got a little something for ya.","Bueno, te voy a dar una cosita."
 "Com licença, você poderia levar uma bandeja grande na cidade de Beira-Mar?","Excuse me, but can you help me deliver a large serving tray to the town of Seafront?","Perdona, ¿podrías ayudarme a entregar una gran bandeja en Ciudad Costera?"
 "Eu ficaria feliz em ajudar!","I'd be happy to!","¡Sería un placer!"
-"Maravilhoso! Apenas leve-a para a taberna, tudo bem? Ah, e certifique-se de não pular ou cair ou algo assim - é uma bandeja muito frágil.","Wonderful! Just take it to the tavern, okay? Oh, and make sure not to jump around or fall over or anything—it's a very fragile tray.","¡Estupendo! Pues llévala a la taberna, ¿vale? Ah, y no te pongas a hacer cabriolas ni te vayas a caer... Es bastante frágil."
+"Maravilhoso! Apenas leve-a para a taberna, tudo bem? Ah, e certifique-se de não pular ou cair ou algo assim—é uma bandeja muito frágil.","Wonderful! Just take it to the tavern, okay? Oh, and make sure not to jump around or fall over or anything—it's a very fragile tray.","¡Estupendo! Pues llévala a la taberna, ¿vale? Ah, y no te pongas a hacer cabriolas ni te vayas a caer... Es bastante frágil."
 "Ei! Tem uma entrega especial aqui com o seu nome.","Hey there! Got a special delivery here with your name on it.","¡Hola, hola! Traigo mercancía especial a tu nombre."
 "Oh, obrigado! Isso vai facilitar muito minha vida.","Oh, thank you! This'll make my life a lot easier.","¡Muchas gracias! Esto me vendrá de perlas."
 "Devíamos informar ao cliente que a encomenda foi entregue.","We should tell the client we delivered the package.","Vamos a avisar al cliente de que hemos entregado el paquete."
 "Ei! Tem uma entrega especial aqui com o seu nome.","Hey there! Got a special delivery here with your name on it.","¡Hola, hola! Traigo mercancía especial a tu nombre."
-"Oh, que maravilha - Ei! Isso está quebrado! O que você está tramando!?","Oh, how wonder— Hey! This is broken! What are you trying to pull here!?","¡Estupen...! ¡Oye! ¡Que está rota! ¡¿Qué pretendes?!"
+"Oh, que maravilha—Ei! Isso está quebrado! O que você está tramando!?","Oh, how wonder— Hey! This is broken! What are you trying to pull here!?","¡Estupen...! ¡Oye! ¡Que está rota! ¡¿Qué pretendes?!"
 "Oh não, sério!? Que desperdício ... Acho melhor informarmos o cliente.","Oh no, really!? What a waste... Guess we'd better inform the client.","¡No me digas! Vaya pérdida de tiempo... Vamos a contárselo al cliente."
 "Sinto muito, mas eu quebrei seu item no caminho para Beira-Mar.","I'm really sorry, but I broke your item on the way to Seafront.","Lo lamento, pero la bandeja se ha roto de camino a Ciudad Costera."
 "Oh, é uma pena. Bem, eu tenho outro, poderia tentar entregar novamente?","Oh, that's too bad. Well, I have another one, so maybe you can try again? ","Vaya, qué mala suerte. En fin, tengo otra por aquí. ¿Podrías intentarlo de nuevo? "
@@ -1433,7 +1433,7 @@
 "A propósito, velhote, o que você está fazendo com todos esses peixes?","By the way, Pops, what are you doing with all these fish?","Por cierto, abuelo, ¿qué hace con todo el pescado?"
 "Hein? Tô comendo eles! O que mais você faria com essas deliciosas iguarias?","Eh? I'm eatin' 'em! What else would ya do with such tasty morsels?","¿Eh? ¡Pues me lo como! ¿Qué quieres que haga con estos manjares?"
 "...Ah.","...Oh.","Vaya..."
-"Você pegou os sete Baiacus para mim?","Did you catch seven blowfish for me?","¿Me has traído siete peces globo?"
+"Você pegou os sete Baiacus pra mim?","Did you catch seven blowfish for me?","¿Me has traído siete peces globo?"
 "...Eh? Ah, certo. Próxima tarefa. Vai lá e pegue sete Trutas Arco-Íris pra mim, por favor?","...Eh? Oh, right. The next assignment. Go and catch me seven rainbow trout, would ya?","¿Eh? Ah, sí. Sigamos pues. Consigue ahora siete truchas arcoíris, ¿de acuerdo?"
 "Como um homem pode consumir tantos peixes sem se cansar de sua dieta?","How on earth can one man possibly consume this much fish without growing weary of his diet?","¿Cómo es capaz un hombre de comerse tanto pescado sin aburrirse de su dieta?"
 "O que eu não como, eu vendo. Só que eu posso comer muito! Heh heh heh!<LF>Então anda logo, aprendiz! Os peixes não vão se pegar sozinhos!","What I don't eat, I sell. But I can eat a lot! Heh heh heh!<LF>Now get movin', apprentice! Them fish won't catch 'emselves!","Vendo lo que no consumo. ¡Pero tengo buen comer! ¡Je, je, je!<LF>¡Y ahora, andando, aprendiz! ¡Que los peces no van a venir solos!"
@@ -1460,13 +1460,13 @@
 ,".........","........."
 ,".........","........."
 ,".........","........."
-" ofegante* *suspirando* Ei, Velhote ... O que... correr 20 quilômetros... tem a ver... com pesca ...?","*huff* *puff* Hey, Pops... What does...sprinting 20 kilometers...have to do...with fishing...?","*jadeo* *tos* Oiga, abuelo... ¿Qué tiene que ver... correr veinte kilómetros... con la pesca?"
+" *ofegante* *suspirando* Ei, Velhote ... O que... correr 20 quilômetros... tem a ver... com pesca ...?","*huff* *puff* Hey, Pops... What does...sprinting 20 kilometers...have to do...with fishing...?","*jadeo* *tos* Oiga, abuelo... ¿Qué tiene que ver... correr veinte kilómetros... con la pesca?"
 "Você não vai pegar nada sendo tão fracote assim! Temos que te deixar musculoso!","Ya won't be catchin' anything with them scrawny little stick limbs! We gotta get ya buffed up!","¡Jamás lograrás atrapar nada bueno siendo un alfeñique! ¡Tenemos que ponerte en forma!"
 "Vai andando! Agora quero cinco Sargos! E não comece a fazer bico, ou uma gaivota vai fisgar seus lábios!","Off you go! I want to see five bream! And don't start poutin', or a seagull's gonna walk on yer lip!","¡Muévete ya! ¡Quiero aquí los cinco besugos! ¡Y menos morritos, a ver si se te posa una gaviota en el labio!"
 "A próxima tarefa são cinco Achigãs! Vá e dê tudo de si, aprendiz!","The next assignment is five black bass! Go and give it everything ya got, apprentice!","¡Ahora te voy a encargar cinco lubinas! ¡Demuéstrame lo que eres capaz de hacer, aprendiz!"
 "Só espero que você não esteja abusando dos nossos esforços para obter lucro fácil, velho?","I trust that you are not abusing our labors for the purpose of easy profit, old man?","Espero que no nos esté exprimiendo para ganarse unos cuartos, yayo."
 "Ah, e uma comissãozinha seria algo ruim? Tô ensinando técnicas inestimáveis aqui, sua revista flutuante!","Oh, and would a little compensation be a bad thing? I'm teachin' invaluable techniques here, ya floatin' magazine!","No creo que unas cuantas monedas le hagan daño a nadie. ¡Mis lecciones tienen un valor incalculable, revista volante!"
-"Mentiras! Está claro que o dinheiro é o seu objetivo final - e Grimório Weiss NÃO deve ser comparado a um mero jornalzinho!","Lies! It is clear that money is your ultimate goal—and Grimoire Weiss is NOT to be referred to as a mere periodical!","¡Paparruchas! ¡Es obvio que quiere llenarse los bolsillos! ¡Y Grimoire Weiss no tiene nada de revista, que lo sepa!"
+"Mentiras! Está claro que o dinheiro é o seu objetivo final—e Grimório Weiss NÃO deve ser comparado a um mero jornalzinho!","Lies! It is clear that money is your ultimate goal—and Grimoire Weiss is NOT to be referred to as a mere periodical!","¡Paparruchas! ¡Es obvio que quiere llenarse los bolsillos! ¡Y Grimoire Weiss no tiene nada de revista, que lo sepa!"
 "Tô de volta com seus peixes, Velhote!","I'm back with those fish, Pops!","He conseguido los peces, abuelo."
 "Mas olha só! Rapadura é doce mas não é mole não, hein! Isso é um bom trabalho, jovem. Continue assim e talvez você tenha uma chance de pegar... O Peixe.","Well, raise the mainsail and call me Cletus! That's some nice work, youngster. Keep it up, and ya just might have a chance of catching...The Fish.","¡Por los dioses, por la patria y por el rey! Cada vez me sorprendes más, pillastre. A este ritmo, pronto estarás capacitado para atrapar... al auténtico pez."
 "Que peixe?","Which fish?","¿Qué pez?"
@@ -1514,7 +1514,7 @@
 "Ah, tem um gosto tão extremo quanto parece. A Popola é a única pessoa que conheço que consegue lidar com isso.","Oh, it tastes just as extreme as it looks. Popola's the only person I know who can handle it.","Ah, y su sabor está a la altura de su aspecto. Popola es la única persona que conozco capaz de soportarlo."
 "De qualquer forma, diga à Popola que enviarei isso para a vila assim que estiver pronto, ok?","Anyway, tell Popola I'll have this stuff sent over to the village as soon as it's ready, okay?","En fin, dile a Popola que se lo enviaré todo a la aldea en cuanto esté listo, ¿vale?"
 "Entendido.","Got it.","De acuerdo."
-"Ei, Popola. A taberna tem sua bebida.","Hey, Popola. The tavern's got your drink.","Oye, Popola. Ya tienen tu bebida en la taberna."
+"Ei, Popola. A taberna preparou sua bebida.","Hey, Popola. The tavern's got your drink.","Oye, Popola. Ya tienen tu bebida en la taberna."
 "Ah, ótimo! Deixe-me pegar a Devola e então vamos até lá.","Oh, that's great! Let me get Devola and then we'll head on over.","¡Anda, qué bien! Voy a avisar a Devola y vamos para allá."
 "[Tocar música]","[Play song]","[Canción]"
 "Um som tão incomum... Sinto como se pudesse ouvir essa música para sempre.","Such an unusual sound... I feel like I could listen to this song forever.","Un sonido de lo más cautivador... Podría pasarme la vida escuchando esta canción."
@@ -1549,7 +1549,7 @@
 "Não só produtos como também matérias-primas. Com cada nação ficando sem o básico, acho que é uma ótima maneira de ganhar uma fortuna!","Not products so much as raw materials. With every nation running out of the basics, I figure it's a great way to make a killing!","Más bien materias primas. ¡Veo que las naciones se quedan sin productos básicos y creo que ahí radica la clave para despegar!"
 "Mas no momento não tenho uma fonte de materiais e isso está me deixando louco.","But right now I don't have a source for materials, and it's driving me crazy.","Pero ahora no dispongo de ninguna fuente de abastecimiento y me estoy volviendo loco."
 "Se eu pudesse fazer apenas uma venda, faria esse negócio decolar. Mas eu não tenho nada para oferecer. É um verdadeiro... como é que se diz mesmo? Dilema.","If I could make just one transaction, I could get this thing off the ground, but I don't have anything to offer.<LF>It's a real...whatcha call it? Conundrum.","Si pudiera hacer al menos una transacción, esto echaría a rodar, pero la cosa es que ahora no tengo género. Es una auténtica... ¿cómo se dice? Paradoja."
-"Não me importaria em coletar alguns materiais para você vender!","I wouldn't mind getting some materials for you to sell!","Puedo conseguirte algunos materiales para que empieces a vender."
+"Não me importaria em coletar alguns materiais pra você vender!","I wouldn't mind getting some materials for you to sell!","Puedo conseguirte algunos materiales para que empieces a vender."
 "Sério? Bem, isso seria ótimo!","Seriously? Well, that would be great! ","¿Lo dices en serio? ¡Eso me salvaría el pellejo, sin duda! "
 "Do que você precisa?","What do you need?","¿Qué necesitas?"
 "É uma lista bem grande, talvez seja melhor você anotar nesse seu caderno flutuante. Ok, vamos lá...","It's a pretty big list, so you might want to write it down in that floating notebook of yours. Okay, let's see...","Es una lista bastante extensa. Quizá te venga bien anotarlo todo en ese cuaderno flotante que tienes. Veamos..."
@@ -1585,10 +1585,10 @@
 "Bem, acho que é hora de começar a pensar em um novo sonho para seguir...","Welp, I guess it's time to start thinking about a new dream to pursue...","Creo que es hora de empezar a perseguir un nuevo sueño..."
 "Olha só, da próxima vez que você sair, pode pegar uma coisa pra mim?","Say, next time you go out, could you pick something up for me?","Oye, la próxima vez que salgas, ¿por qué no me haces un favor?"
 "Claro, Yonah. O que você precisa?","Sure, Yonah. What do you need?","Claro, Yonah. ¿De qué se trata?"
-"Um... uma melancia.","Um...a melon.","¿Puedes traerme... un melón?"
-"Uma melancia? Deixa comigo.","A melon? You got it.","¿Melón? Eso está hecho."
-"Não esqueça da melancia!","Don't forget the melon!","¡Que no se te olvide el melón!"
-"Peguei sua melancia, Yonah.","I got your melon, Yonah.","Aquí traigo tu melón, Yonah."
+"Um... um melão.","Um...a melon.","¿Puedes traerme... un melón?"
+"Um melão? Deixa comigo.","A melon? You got it.","¿Melón? Eso está hecho."
+"Não esqueça do melão!","Don't forget the melon!","¡Que no se te olvide el melón!"
+"Peguei seu meão, Yonah.","I got your melon, Yonah.","Aquí traigo tu melón, Yonah."
 "Valeu!","Thanks!","¡Gracias!"
 "Se houver mais alguma coisa que você queira, é só me avisar.","If there's anything else you want, just let me know.","Si necesitas cualquier otra cosa, pídemela."
 "Bem, já que você ofereceu... se importaria de me conseguir uma melancia?","Well, since you offered...would you mind getting me a watermelon?","Pues ahora que lo dices... ¿Serías tan amable de traerme una sandía?"
@@ -1605,24 +1605,24 @@
 "Você tem comido muito ultimamente.","You've sure been eating a lot lately.","Vaya apetito tienes últimamente."
 "Oh, eu não estou comendo elas.","Oh, I'm not eating them.","Las cosas que te pido no son para comer."
 "Não está?","You're not?","¿Cómo que no?"
-"Taa-daaah! Aqui está! Eu fiz tudo sozinha!","Ta-daaah! Here you go! I made it all by myself!","¡Tacháaaan! Toma, lo he preparado yo solita."
+"Taa-daaah! Aqui está! Fiz tudo sozinha!","Ta-daaah! Here you go! I made it all by myself!","¡Tacháaaan! Toma, lo he preparado yo solita."
 "... Isso é um bolo?","...Is this a cake?","Es... ¿un pastel?"
 "Sim! A Popola me ensinou a fazer!","Yep! Popola taught me how to bake one!","¡Sí! Popola me enseñó a cocinarlo."
-"Eu fiz isso em segredo pra você.","I made it for you in secret.","Lo he estado haciendo en secreto."
+"Eu fiz pra você em segredo.","I made it for you in secret.","Lo he estado haciendo en secreto."
 "Uau, Yonah. Isso é... Bem, é uma surpresa, com certeza!","Wow, Yonah. This is, um... Well, it's a surprise, for sure!","Vaya, Yonah. ¡Esta es... toda una sorpresa, sin duda!"
 "Vamos lá! Experimente, experimente!","Come on! Try it, try it!","¡Venga! ¡Pruébalo, vamos!"
 "*gulp* Nnngh... S-sim, isso é... muito bom...","*gulp* Nnngh... Y-yeah, this is...so good...","*trago* Va-vaya... Está... Está buenísimo."
 "Yay! Você está sempre muito ocupado, então eu queria fazer algo para ajudar a manter a sua força.","Yay! You're always super busy, so I wanted to make you something to help keep up your strength.","¡Toma ya! Siempre andas superocupado, así que pensé en prepararte algo que te diera fuerzas."
 "Isso... foi muito fofo da sua parte, Yonah. Obrigado.","That's...really sweet of you, Yonah. Thank you.","Ah... Es todo un detalle, Yonah. Muchas gracias."
-"Claro! Na verdade eu fiz uns sete bolos, então tem muitos sobrando.","Sure! Actually, I made, like, seven cakes, so there's tons of leftovers.","¡No es nada! Por cierto, en total he preparado siete pasteles, así que todavía quedan."
+"Claro! Na verdade eu fiz, tipo, uns sete bolos, então sobrou bastante.","Sure! Actually, I made, like, seven cakes, so there's tons of leftovers.","¡No es nada! Por cierto, en total he preparado siete pasteles, así que todavía quedan."
 "......","......","......"
 "A vida de um irmão mais velho continua sendo uma experiência difícil...","The life of an elder sibling continues to be a trying experience...","La vida del hermano mayor puede ser dura a veces."
 "Nem me fala...","You're tellin' me...","¿Qué me vas a contar?"
 "Você parece estar de bom humor.","You seem to be in good spirits.","Pareces de buen humor."
-"Oh, eu estou! Minha nova floricultura já é muito mais bem-sucedida do que jamais sonhei!","Oh, I am! My new flower shop is already far more successful than I ever dreamed!","¡Ya te digo! La nueva floristería está yendo mucho mejor de lo que esperaba."
+"Oh, e eu tô! Minha nova floricultura tá fazendo um sucesso que jamais sonhei!","Oh, I am! My new flower shop is already far more successful than I ever dreamed!","¡Ya te digo! La nueva floristería está yendo mucho mejor de lo que esperaba."
 "Sério? Que coisa boa!","Really? Well, great!","¿En serio? Eso es estupendo."
 "Tive alguns problemas no passado, mas acho que tenho uma boa base aqui.","I was in trouble before, but I think I've got a good foundation here.","Pasé una mala racha hace algún tiempo, pero creo que con esto podré olvidarme."
-"Na verdade, eu quero pedir para minha namorada em Aerie vir morar comigo aqui. É o mínimo que posso fazer depois de tudo que fiz ela passar.","In fact, I want to ask my girlfriend in The Aerie to come live with me here. It's the least I can do after all I put her through.","De hecho, quiero pedirle a mi novia de Nido del Águila que venga a vivir aquí conmigo. Es lo menos que puedo hacer por ella."
+"Na verdade, eu quero pedir para minha namorada em Aerie vir morar aqui comigo. É o mínimo que posso fazer depois de tudo que fiz ela passar.","In fact, I want to ask my girlfriend in The Aerie to come live with me here. It's the least I can do after all I put her through.","De hecho, quiero pedirle a mi novia de Nido del Águila que venga a vivir aquí conmigo. Es lo menos que puedo hacer por ella."
 "O único problema é que eu realmente não tenho tempo para ir até lá, então estava pensando em enviar uma carta em vez disso.","The only problem is I don't really have time to go all the way over there, so I was thinking of sending a letter instead.","El problema es que no tengo tiempo para ir hasta allí, así que había pensado en mandarle una carta."
 "Parece ser urgente. Quer que eu entregue para você?","Sounds like it's time-sensitive. Want me to deliver it for you?","Parece que andas justo de tiempo, ¿quieres que la lleve yo en tu lugar?"
 "Oh, realmente? Você tem certeza?","Oh, really? Are you sure?","¿De verdad harías eso?"
@@ -1656,23 +1656,23 @@
 "Com licença, posso contar com sua ajuda novamente?","Excuse me, but can I get your help again?","Disculpa, ¿podrías volver a echarme una mano?"
 "O que houve?","What's up?","Sin problema."
 "As pessoas estão finalmente se cansando da massa de sardinha, e eu estou sem ideias para novos pratos.","People are finally tiring of sardine pasta, and I'm fresh out of ideas for new dishes.","La gente se empieza a cansar de la pasta con sardinas y tengo un montón de ideas para elaborar nuevos platos."
-"Você parece bastante viajado para uma criança, então se você encontrar alguma receita interessante durante suas viagens, você poderia me avisar?","You seem pretty well-traveled for a kid, so if you run into any interesting recipes during your journeys, could you let me know?","Pareces bastante viajado para tu edad, así que si encuentras alguna receta interesante en tus travesías, házmelo saber, ¿vale?"
-"Bem, eu não tenho muito talento para cozinhar, mas com certeza vou ver o que posso fazer!","Well, I don't have much of an eye for cooking, but sure, I'll see what I can do!","La verdad es que no tengo buena mano en la cocina, pero descuida. Veré lo que puedo hacer."
+"Você parece bastante viajado para uma criança, então se você encontrar alguma receita interessante durante suas viagens, poderia me avisar?","You seem pretty well-traveled for a kid, so if you run into any interesting recipes during your journeys, could you let me know?","Pareces bastante viajado para tu edad, así que si encuentras alguna receta interesante en tus travesías, házmelo saber, ¿vale?"
+"Bem, não tenho muito talento para cozinhar, mas com certeza vou ver o que posso fazer!","Well, I don't have much of an eye for cooking, but sure, I'll see what I can do!","La verdad es que no tengo buena mano en la cocina, pero descuida. Veré lo que puedo hacer."
 "Muito obrigado!","Thanks so much!","¡Muchas gracias!"
 "Ideias de receitas, hein? Talvez possamos encontrar um livro de receitas em algum lugar.","Recipe ideas, huh? Maybe we can find a cookbook somewhere.","Recetas, ¿eh? A ver si encontramos un libro de cocina en alguna parte."
-"Me avise se encontrar algo!","Let me know if you find anything!","¡Avísame si encuentras algo!"
+"Se encontrar algo me avisa!","Let me know if you find anything!","¡Avísame si encuentras algo!"
 "Espera, isso é um livro de receitas?","Wait, is this a book of recipes?","Espera, ¿esto es un libro de recetas?"
 "A maioria parece requerer espécies de peixes bastante exóticas.","Most seem to require rather exotic species of fish.","La mayoría de las recetas contienen variedades exóticas de pescado."
 "Sim, eu nem mesmo ouvi falar de algumas delas. Vamos contar isso ao dono da taberna.","Yeah, I haven't even heard of some of these. Let's go tell the tavern keeper about it.","Sí, hay algunas que no he oído en la vida. En fin, vamos a hablarlo con el tabernero."
 "Ei! Então, eu encontrei um livro de receitas na biblioteca com algumas receitas que podem te interessar.","Hey! So, I found a cookbook in the library with some recipes that might interest you.","He encontrado un libro de cocina en la biblioteca con recetas que podrían interesarte."
-"Sério!? Deixe-me dar uma olhada...","Really!? Let me take a look...","¡¿En serio?! Deja que le eche un vistazo..."
+"Sério!? Deixa eu dar uma olhada...","Really!? Let me take a look...","¡¿En serio?! Deja que le eche un vistazo..."
 "Tubarão? Sério? Uau, isso é uma culinária de alta classe. Eu nunca tentei cozinhar algo assim antes.","Shark? Really? Wow, this is some high-class cuisine. I've never even tried cooking something like this before.","¿Tiburón? ¿En serio? Vaya, esto es alta cocina. En mi vida he intentado preparar algo así."
 "Ainda assim, arroz frito com barbatanas de tubarão parece <FONT=ITALIC>incrível</FONT>. Poderia me ajudar a encontrar alguns?","Still, shark-fin fried rice sounds <FONT=ITALIC>amazing.</FONT> Think you could help me track some down?","Aunque, la verdad es que aleta de tiburón con arroz suena <FONT=ITALIC>de rechupete</FONT>. ¿Crees que podrías ayudarme a conseguir algunos?"
 "... É possível comer barbatanas de tubarão? Cara.<LF>De qualquer forma, claro! Eu não cheguei tão longe para desistir agora.","...You can eat shark fins? Man.<LF>Anyway, sure! I didn't come this far just to quit now.","¿Las aletas de tiburón se comen?<LF>En fin, no he llegado tan lejos como para rendirme ahora."
 "Maravilhoso! Nesse caso, aqui está a lista de compras.","Wonderful! In that case, here's the shopping list.","¡Fantástico! En ese caso, aquí tienes la lista de la compra."
 "Cinco Tubarões, cinco Sacos de Arroz e cinco Cogumelos. Ah, já agradeço de antemão.","Five sharks, five bags of rice, and five mushrooms. Oh, and thanks in advance.","Cinco tiburones, cinco sacos de arroz y cinco setas. Ah, y gracias de antemano."
 "Encontrei seus ingredientes.","I found your ingredients.","Aquí traigo tus ingredientes."
-"Fantástico! Vamos ver como fica o gosto!","Fantastic! Let's see how this tastes!","¡Genial! Vamos a ver cómo sabe."
+"Fantástico! Vamos ver se fica bom!","Fantastic! Let's see how this tastes!","¡Genial! Vamos a ver cómo sabe."
 "Ok, aqui está. Experimente! Me diga o que acha!","Okay, here you are. Go ahead! Let me know what you think!","Muy bien, aquí tienes. Prueba y dime qué te parece."
 "Lá vai...","Here goes...","Allá va... Mmm..."
 "...E então?","...Well?","¿Y bien?"
@@ -1690,8 +1690,8 @@
 "Oi! Eu tenho um pacote para você.","Hi there! I've got a parcel for you.","Buenas. Tengo un paquete para ti."
 "(Hã? Ah, mas isso está quebrado!)","(Hmm? Oh, but this is broken!)","(¿Eh? Oye, ¡esto está roto!)."
 "Você está brincando. Ah. Acho que devemos ir contar para o cliente.","You're kidding. Ugh. Guess we should go tell the client.","¿Lo dices en serio? Me parece que deberíamos contárselo al cliente."
-"Me desculpe, mas sua encomenda meio que... quebrou.","I'm sorry, but your package sort of...broke.","Lo lamento mucho, pero el paquete se ha... roto."
-"Bem, acontece. Eu tenho outro, se você quiser tentar a entrega novamente.","Well, it happens. I've got another one, if you want to try the delivery again.","Vaya, son cosas que pasan. Tengo otro por si quieres volver a intentarlo."
+"Desculpa, mas sua encomenda meio que... quebrou.","I'm sorry, but your package sort of...broke.","Lo lamento mucho, pero el paquete se ha... roto."
+"Bem, acontece. Eu tenho outra, se você quiser tentar a entrega novamente.","Well, it happens. I've got another one, if you want to try the delivery again.","Vaya, son cosas que pasan. Tengo otro por si quieres volver a intentarlo."
 "Obrigado por levar o pacote. É uma jornada longa, então tente se afastar de animais ou monstros ou o que for.","Thanks for taking the parcel. It's a long journey, so try to keep away from animals or monsters or whatever.","Gracias por aceptar el paquete. El camino es largo, así que mantente alejado de animales y monstruos."
 "Sua entrega foi concluída!","Your delivery is complete!","¡Entrega completada!"
 "Obrigado! Aqui está o que te devo.","Thanks! Here's what I owe you.","¡Gracias! Te debo una."
@@ -1817,10 +1817,10 @@
 "Ok. Caso eu o veja, avisarei que você está preocupado.","Okay. If I see him, I'll let him know his father's worried about him.","Vale. Si lo veo, le haré saber que su padre está preocupado por él."
 "Por favor. Me avise assim que encontrar ele!","Please. Tell me right away if you find him!","¡Por favor, dime algo en cuanto lo encuentres!"
 "Ei. Você é o garoto que fugiu de casa?","Hey. Are you the kid who ran away from home?","Eh, ¿eres el chico que se escapó de casa?"
-"Hã? Ah, cara, como você soube?","Huh? Aw, man, how didja—","¿Eh? ¿Pero cómo has sabido que...?"
-"Seu pai está preocupado doente com você. Por que você saiu, afinal?","Your father's worried sick about you. Why'd you leave, anyway?","Tienes a tu padre de los nervios. ¿Por qué has decidido marcharte?"
+"Hã? Ah, cara, como você so—","Huh? Aw, man, how didja—","¿Eh? ¿Pero cómo has sabido que...?"
+"Seu pai está preocupado demais com você. Por que você fugiu?","Your father's worried sick about you. Why'd you leave, anyway?","Tienes a tu padre de los nervios. ¿Por qué has decidido marcharte?"
 "Porque ele quer que eu, tipo, assuma os negócios da família. E eu não vou fazer isso, cara! Eu sou um rebelde!","Because he wants me to, like, take up the family business. And I ain't doin' it, man! I'm a rebel!","Porque quiere que me ocupe del negocio familiar. ¡Y ya te digo yo que no! ¡Paso, soy un rebelde!"
-"Sim, podemos ver isso. Bem, talvez você deva informar seu pai que está vivo e bem, e também explicar a ele por que você saiu.","Yes, we can see that. Well, perhaps you should let your father know that you are alive and well, and also explain to him why you left.","Sí, se nota. Bueno, quizá deberías de hacer saber a tu padre que estás sano y salvo, y de paso, explicarle el motivo por el que te has ido."
+"Sim, notamos isso. Bem, talvez você deva informar seu pai que está vivo e bem, e também explicar a ele por que você saiu.","Yes, we can see that. Well, perhaps you should let your father know that you are alive and well, and also explain to him why you left.","Sí, se nota. Bueno, quizá deberías de hacer saber a tu padre que estás sano y salvo, y de paso, explicarle el motivo por el que te has ido."
 "Ah, cara, por que as pessoas sempre têm que me incomodar! Sim, tudo bem. Vou fazer isso. Mas primeiro você tem que fazer algo por MIM, cara!","Aw, man, why do people always gotta hassle me! Yeah, all right. I'll do it. But first you gotta do something for ME, man!","Jo. ¿Por qué la gente se empeña en fastidiarme siempre? Vale, está bien. Lo haré. Pero antes tienes que hacer algo por mí."
 "O cara que comanda a taberna tem me ajudado desde que cheguei aqui, e eu quero dar a ele algo legal.","The guy who runs the tavern has been helping me since I got here, and I wanna give 'im something nice.","El tipo que lleva la taberna me ha ayudado mucho desde que me vine aquí y quiero tener un detalle con él."
 "Eu estava pensando que poderia, tipo, cozinhar o jantar ou algo assim? Mas eu não tenho nenhum ingrediente ou algo assim, então... sim.","I was thinking I could, like, cook dinner or something? But I don't have any ingredients or whatever, so...yeah.","Estaba pensando que podría, no sé, prepararle la cena o algo así. Pero no tengo ningún ingrediente ni nada parecido..."
@@ -1838,11 +1838,11 @@
 "E aí. Seu filho já voltou?","Hey there. Your son come back yet?","Hola. ¿Ha vuelto ya tu hijo?"
 "Não, eu não o vi. Oh, onde ele poderia estar!?","No, I haven't seen him. Oh, where could he be!?","No, no lo he visto. Ay, ¿dónde se habrá metido?"
 "Ele está em Beira-Mar. Ou estava, só que fugiu novamente.","He's in Seafront—or he was, until he ran away again.","Está en Ciudad Costera. Bueno, lo estaba hasta que huyó de nuevo."
-"Oh, droga. Deixa eu adivinhar - ele contou uma história elaborada e pediu ajuda?","Oh, crud. Lemme guess—did he tell you an elaborate story and then ask for help?","¡¿Qué me dices?! ¿Te contó una historia enrevesada y te pidió ayuda?"
-"Aquele garoto é... Bem, ele é um mentiroso sujo. Eu deveria ter te dito isso.","That boy is... Well, he's a bit of a dirty liar. I probably should have mentioned that.","Ese chico es... un mentiroso compulsivo. Debería habértelo comentado."
+"Oh, droga. Deixa eu adivinhar—ele contou uma história elaborada e pediu ajuda?","Oh, crud. Lemme guess—did he tell you an elaborate story and then ask for help?","¡¿Qué me dices?! ¿Te contó una historia enrevesada y te pidió ayuda?"
+"Aquele garoto é... Bem, ele é um mentiroso salafrário. Eu deveria ter te dito isso.","That boy is... Well, he's a bit of a dirty liar. I probably should have mentioned that.","Ese chico es... un mentiroso compulsivo. Debería habértelo comentado."
 "Então aquela história toda foi uma armadilha. Ele nos enganou só pra fugir...","So that whole story was a setup. He sent us on a wild goose chase and then gave us the slip...","Así que todo era inventado. Ese listillo nos entretuvo con una misión imposible y nos dio esquinazo..."
 "Já que não consigo imaginar você ignorando esse fato, talvez devêssemos retornar a Beira-Mar? Podem existir algumas pistas que nos levem até ele.","Since I cannot imagine you letting this go, perhaps we should return to Seafront? There may still be a lead or two left to pursue.","Supongo que no querrás dejar esta historia a medias, así que, ¿por qué no volvemos a Ciudad Costera? Seguro que encontramos alguna pista."
-"Boa ideia. Ele não vai se safar dessa.","Good idea. We can't let him get away with this.","Buena idea. ¡No podemos dejar que se salga con la suya!"
+"Boa ideia. Dessa vez ele não escapa.","Good idea. We can't let him get away with this.","Buena idea. ¡No podemos dejar que se salga con la suya!"
 "Estão procurando por um garoto que fugiu de casa?","You're looking for a kid who ran away from home?","¿Buscas a un chico que se escapó de casa?"
 "Havia um garoto estranho fazendo perguntas para as pessoas mais cedo. Acho que ele estava tentando aprender como chegar em Facade.","There was a strange kid asking people questions earlier. I think he was trying to learn how to get into Facade.","He visto a un crío extraño haciendo preguntas a la gente. Creo que quería descubrir cómo se accede a Fachada."
 "Facade, huh? Talvez devêssemos dar uma olhada.","Facade, huh? Maybe we should go take a look.","Fachada, ¿eh? Deberíamos ir a echar un vistazo."
@@ -1890,7 +1890,7 @@
 "(Hrm. Bem, ela JOGOU algo em mim da última vez que me aproximei, então... eu não sei, talvez você possa perguntar a ela por mim?)","(Hrm. Well, she DID throw something at me the last time I approached, so...I dunno, maybe you could ask her for me?)","(Mmm. Bueno, la última vez que me acerqué me tiró algo, así que... No sé, ¿se lo podíais decir de mi parte?)."
 "Ah, pelo amor de Deus, sério!? *suspiro* Olha, se for só para entregar uma mensagem, tudo bem, mas o presente fica por sua conta.","Oh, come on, really!? *sigh* Look, if it's just giving her a message, fine, but the present's on you.","¡Venga ya! ¿En serio? *suspiro* Bueno, si solo es darle un mensaje, está bien. Pero tú te encargas del regalo."
 "(Claro, claro. Sinto muito por todo esse incômodo. De qualquer forma, você pode encontrá-la no próximo andar.)","(Of course, of course. I'm so sorry for all the trouble. Anyway, you can find her on the floor just above us.)","(Claro, claro. Lo lamento mucho por los inconvenientes. En fin, la encontrarás en la planta superior a esta)."
-"(Eu preciso de dez Peles de Lobo. E obrigado.)","(I need ten wolf hides. And thank you.)","(Necesito diez pieles de lobo. Gracias)."
+"(Eu preciso de dez peles de lobo. E obrigado.)","(I need ten wolf hides. And thank you.)","(Necesito diez pieles de lobo. Gracias)."
 "Olá. Eu, ah, tenho uma mensagem para você.","Hi there. I, uh, have a message for you.","Buenas. Esto, eh, tenemos un mensaje para ti."
 "(Do meu marido que me trai e não vale nada, aposto!)","(From my no-good cheater of a husband, I bet!)","(¡Del inútil infiel de mi marido, seguro!)."
 "Er, sim. De qualquer forma, ele diz que sabe que estava errado e quer lhe dar um presente de desculpas.","Er, yeah. Anyway, he says he knows he was wrong and wants to give you an apology present.","Esto... sí. De todos modos, dice que sabe que lo ha hecho mal y quiere darte un regalo como disculpa."
@@ -1908,8 +1908,8 @@
 "Parece um pouco exigente.","That seems rather demanding.","Vaya, qué exigente."
 "Ela realmente aprecia as coisas finas da vida. Lugares de primeira classe para uma dama de primeira classe! Ela é muito legal!","She really appreciates the finer things in life. First-class places for a first-class lady! She's so cool!","Tiene un gusto de lo más exquisito. ¡Sitios de primera para una chica de primera! ¡Es una chica increíble!"
 "Bom, cada um tem seu gosto, eu acho.","Everyone has their own tastes, I guess.","Todos tenemos nuestros gustos, supongo."
-"Ei, adivinha só!? Eu fui fazer compras com minha namorada há algum tempo!","Hey, guess what!? I went shopping with my girl a little while back!","Eh, ¡¿sabéis qué?! ¡He estado de compras con mi chica hace un rato!"
-"Você quer dizer aquela que só vai a lugares super caros?","You mean the one who only goes to super expensive places?","¿Te refieres a la que solo pisa sitios supercaros?"
+"Ei, adivinha!? Fui fazer compras com minha namorada há algum tempo!","Hey, guess what!? I went shopping with my girl a little while back!","Eh, ¡¿sabéis qué?! ¡He estado de compras con mi chica hace un rato!"
+"Aquela que só vai a lugares super caros?","You mean the one who only goes to super expensive places?","¿Te refieres a la que solo pisa sitios supercaros?"
 "Essa mesmo! De qualquer forma, tinha esse acessório bonito que eu achei que ficaria ótimo nela e não custava muito,<LF> então comprei para ela.","That's her, all right! Anyway, there was this nice accessory that I thought would look great on her and didn't cost much,<LF>so I bought it for her.","¡La misma! Resulta que vi este complemento, pensé que le quedaría genial y que no costaba mucho, así que se lo compré."
 "Mas ela não quis aceitar! Ela disse que não usa acessórios baratos!","But she refused to take it! She said she doesn't wear cheap accessories!","¡Pero no ha querido aceptarlo! ¡Dice que ella no lleva baratijas!"
 "Bem, isso não é muito surpreendente...","Well, that's not too surprising...","Increíble."
@@ -1936,13 +1936,13 @@
 "Oh, obrigado! Agora talvez minha namorada me deixe segurar sua mão!","Oh, thank you! Now maybe my girl will let me hold her hand!","¡Hala, gracias! ¡Ahora a lo mejor mi chica me deja cogerle la mano!"
 "Aqui está o dinheiro pelo material, e um pouco a mais pelo seu tempo!","Here's the money for the material, and a little extra for your time!","Aquí tenéis el dinero del material, ¡y un poco más por vuestro tiempo!"
 "Hã!? Espere, isso já é demais!","Huh!? Hold on, this is way too much!","¡¿Eh?! Espera, esto es demasiado."
-"Você está brincando? É isso que fluorita custa no mercado aberto! Eu só adicionei algumas moedas pelo seu problema.","Are you kidding? That's what fluorite costs you on the open market! I only threw in a few coins for your trouble.","¿Estás de broma? ¡Eso es lo que cuesta la fluorita en el mercado! Solo he añadido unas pocas monedas más por las molestias."
+"Tá brincando? É isso que fluorita custa no mercado aberto! Eu só adicionei algumas moedas pelo seu problema.","Are you kidding? That's what fluorite costs you on the open market! I only threw in a few coins for your trouble.","¿Estás de broma? ¡Eso es lo que cuesta la fluorita en el mercado! Solo he añadido unas pocas monedas más por las molestias."
 "É realmente tão caro assim?","It's really that expensive?","¿De verdad es tan caro?"
 "Ei, da última vez aprendi a lição. Daqui para frente, é só o melhor para a minha namorada!","Hey, I learned my lesson last time. From now on, it's nothing but the best for my girl!","Eh, ya aprendí la lección la última vez. A partir de ahora, ¡solo lo mejor para mi chica!"
 "A alma humana é realmente algo incompreensível.","The human soul is an unfathomable thing indeed.","El alma humana es ciertamente incomprensible."
 "Você está certo.","You got that right.","Desde luego."
 "Vou te dizer, não existe mulher tão refinada quanto a minha.","I tell you, there isn't another girl out there as high-class as mine.","En serio, no hay otra chica con tanta clase como la mía."
-"(Ei! Você! Preciso que traga meu filho idiota de volta pra cá, rápido!)","(Hey! You! I need you to get my idiot son back here, pronto!)","(¡Eh! ¡Necesito que traigáis al tonto de mi hijo de vuelta cuanto antes!)."
+"(Ei! Você! Preciso que traga o idiota do meu filho de volta pra cá, rápido!)","(Hey! You! I need you to get my idiot son back here, pronto!)","(¡Eh! ¡Necesito que traigáis al tonto de mi hijo de vuelta cuanto antes!)."
 "Uau. Você sempre começa conversas assim?","Whoa. Do you always start conversations like that?","Vaya, ¿sueles entablar conversación así?"
 "(Sinto muito! Sinto muito. Estou muito zangado e preocupado. Por favor, me perdoe.)","(I'm sorry! I'm sorry. I'm just so angry and worried right now. Please forgive me.)","(¡Lo siento! Lo siento. Es que estoy muy enfadado y preocupado. Por favor, perdonadme)."
 "(Meu filho foi para o deserto sozinho. Ele está tentando aumentar sua reputação e quer se tornar um verdadeiro Homem de Máscara ou o que vocês, estrangeiros, chamam de soldado.)","(My son went into the desert alone. He's trying to build a name for himself and become a true Man of the Mask, or what you outsiders call a soldier.)","(Mi hijo se ido solo al desierto. Está intentando hacerse un nombre y convertirse en un auténtico hombre enmascarado. Un ""soldado"", como decís los extranjeros)."
@@ -1977,7 +1977,7 @@
 "(Ainda assim, você tentou fazer o certo, e por isso eu estou orgulhoso.)","(Still, you attempted to do right, and for this I am proud.)","(Aun así, intentaste hacer lo correcto, y estoy orgulloso de eso)."
 "(P-pai?)","(F-Father?)","(¿P-padre?)."
 "(Eu falarei com o conselheiro do rei. Se ele o aceitar, então eu darei minha bênção para que você se torne um Homem de Máscara.)","(I will speak to the king's advisor. If he will have you, then I will give my blessing for you to become a Man of the Mask.)","(Hablaré con el consejero del rey. Si acepta, te daré mi bendición para que te conviertas en un hombre enmascarado)."
-"(É sério mesmo, pai!?)","(T-truly, Father!?)","(¡¿D-de verdad, padre?!)."
+"(S-sério mesmo, pai!?)","(T-truly, Father!?)","(¡¿D-de verdad, padre?!)."
 "(Mas você nunca deve fazer algo tão tolo novamente! Um verdadeiro soldado sabe quando está em desvantagem. Ele sabe que não é vergonhoso buscar a ajuda de seus companheiros.)","(But you must never do such a foolish thing again! A true soldier knows when he is outmanned. He knows it is not shameful to seek the aid of his fellows.)","(¡Pero no vuelvas jamás a hacer una estupidez así! Un verdadero soldado sabe cuándo la situación le supera y no se avergüenza de pedir ayuda a sus compañeros)."
 "(Pai, eu juro a você: Um dia, eu serei tão orgulhoso e sábio quanto o senhor!)","(Father, I swear to you: Someday, I will be as proud and wise as you!)","(Padre, te lo juro: ¡algún día, seré tan orgulloso y sabio como tú!)."
 "(E obrigado a vocês também, meus amigos. Aqui, isso é para vocês.)","(And thanks to you as well, my friends. Here, this is for you.)","(Gracias también a vosotros, amigos. Tomad, esto es para vosotros)."
@@ -2116,7 +2116,7 @@
 "Vamos começar com o carteiro.","Come on, let's start with the postman.","Empecemos por el cartero."
 "*ofegando* *ofegando*","*huff* *huff*","*tos*"
 "Ouça, sobre a senhora do farol... Poderia reconsiderar? Você realmente deveria deixá-la ir.","Listen, about the lighthouse lady... Could you reconsider? You really should let her go.","Tenéis que dejar que la anciana del faro se marche."
-"Não podemos. Olhe, sinto muito, mas você terá que confiar em mim - isso é para o bem dela.","We can't. Look, I'm sorry, but you'll just have to trust me—this is for her own good.","No podemos. Mirad, lo siento, pero tenéis que confiar en mí: es por su propio bien."
+"Não podemos. Olhe, sinto muito, mas você terá que confiar em mim—isso é para o bem dela.","We can't. Look, I'm sorry, but you'll just have to trust me—this is for her own good.","No podemos. Mirad, lo siento, pero tenéis que confiar en mí: es por su propio bien."
 "A morte persegue essa mulher, carteiro! Você realmente negaria a ela um último desejo?","Death stalks this woman, postman! Would you truly deny her final request?","¡La muerte está acechando a esa mujer, cartero! ¿De verdad vais a negarle su última voluntad?"
 "Ela está... Espera, ela está morrendo?","She's... Wait, she's dying?","Ella... Espera, ¿se está muriendo?"
 "Sim. Então, se você <FONT=ITALIC>realmente</FONT> está fazendo isso por causa dela, então deveria apenas concedê-la um último desejo.","Yeah. So if you <FONT=ITALIC>are</FONT> doing it for her sake, then you should just grant her final request.","Sí, así que, si tanto os preocupa lo mejor para ella, deberíais concederle su última voluntad."
@@ -2213,20 +2213,20 @@
 "Encontramos ela na cama. Ela parecia... feliz.","We found her in bed. She looked...happy.","La encontramos en su cama. Parecía... feliz."
 "Então acho que vocês não contaram a ela, né?","So I guess you didn't tell her, huh?","Así que supongo que no le contasteis nada, ¿no?"
 "Obrigado. Acho que você agiu certo.","Thank you. I think you did right.","Gracias. Hicisteis lo correcto."
-"Difícil acreditar que ela se foi. Sempre imaginei que a velha sobreviveria...","Hard to believe she's gone. I always figured the old girl would outlive me...","No me creo que ya no esté. Siempre pensaba que me moriría antes que esa vieja..."
+"Difícil acreditar que ela se foi. Sempre imaginei que a velha viveria mais que eu...","Hard to believe she's gone. I always figured the old girl would outlive me...","No me creo que ya no esté. Siempre pensaba que me moriría antes que esa vieja..."
 "Espero que nosso plano tenha dado certo. Espero que tenha a deixado feliz no final.","I hope our plan was right. I hope it made her happy in the end.","Espero que nuestro plan funcionase. Espero que eso la hiciera feliz al final."
 "Não posso acreditar que a velha senhora se foi. Ou que eu realmente sinta falta dela.","I can't believe the old lady is gone. Or that I actually miss her.","No puedo creer que ya no esté. O que la eche de menos."
 "Ela ficou sabendo a verdade sobre seu amado?","Did she ever learn the truth about her love?","¿Llegó a descubrir la verdad sobre su amado?"
 "Pelo menos ela está em um lugar melhor agora.","At least she's in a better place now.","Al menos, ahora está en un sitio mejor."
 "Trabalho é importante, mas não se esqueça de cuidar de Yonah.","Work is important, but don't forget to look after Yonah.","El trabajo es importante, pero no te olvides de cuidar de Yonah."
 "Gostaria muito de ter uma garota legal como Yonah na minha família.","Sure wish I had a nice girl like Yonah in my family.","Desde luego, ojalá hubiera una niña tan buena como Yonah en mi familia."
-"Certifique-se de comprar coisas necessárias antes de ir à caça.","Make sure you stock up on necessities before heading out to hunt.","Recuerda llevar todo lo necesario antes de salir de caza."
+"Certifique-se de comprar o necessário antes de ir à caça.","Make sure you stock up on necessities before heading out to hunt.","Recuerda llevar todo lo necesario antes de salir de caza."
 "Volte sempre.","Come back anytime.","Vuelve cuando quieras."
 "Temos alguns bons materiais em estoque caso queira conferir.","We've got some nice materials in stock if you want to take a look.","Tenemos algunos materiales de primera, por si quieres echar un vistazo."
 "Valeu!","Thanks! ","¡Gracias! "
 "Por que não encher seu jardim com flores?","Why not fill your garden with flowers?","¿Por qué no llenar tu jardín de flores?"
 "Espero que você cultive algumas bem bonitas!","I hope you grow some real beauts!","¡Espero que te crezcan unos buenos ejemplares!"
-"Tenha cuidado se for para o norte. Algumas das ovelhas nas planícies estão ficando inquietas.","Be careful if you head north—some of the sheep in the plains are getting restless. ","Ten cuidado si te diriges al norte: algunas ovejas de las llanuras están inquietas. "
+"Tenha cuidado se for para o norte—algumas das ovelhas nas planícies estão ficando inquietas.","Be careful if you head north—some of the sheep in the plains are getting restless. ","Ten cuidado si te diriges al norte: algunas ovejas de las llanuras están inquietas. "
 "Além das planícies do sul fica Beira-Mar, onde você pode encontrar o peixe mais saboroso do mundo. Adoraria ir lá um dia!","Beyond the southern plains lies Seafront, where you can find the tastiest fish in the world. I'd love to go there some day!","Más allá de las llanuras del sur está Ciudad Costera, donde puedes encontrar el pescado más sabroso del mundo. ¡Me encantaría ir algún día!"
 "Você deveria parar de trabalhar tanto e vir tomar uma bebida. A primeira rodada é por minha conta!","You should quit working so hard and come have a drink. First round's on me!","Deberías dejar de trabajar tanto y venir a tomarte algo. ¡A la primera ronda invito yo!"
 "Ei, eu não posso beber! Além disso, preciso voltar pra Yonah.","Hey, I can't drink! Besides, I need to get back to Yonah.","¡Eh, no puedo beber! Además, tengo que volver con Yonah."
@@ -2244,7 +2244,7 @@
 "Queria me tornar um homem rico para minha namorada, mas as coisas não estão como eu queria...","I wanted to become a rich man for my girl, but it's not going as well as I'd hoped...","Quería hacerme rico por mi chica, pero no va a salir tan bien como esperaba..."
 "É melhor eu economizar o pouco que tenho.","Guess I'll just have to save up what little I can.","Supongo que tendré que ahorrar lo poco que pueda."
 "Não preciso de dinheiro. Estar com ele me faz mais feliz do que qualquer coisa.","I don't need money—just being with him makes me happier than anything.","No necesito dinero: estar con él me hace más feliz que cualquier otra cosa."
-"Carne de carneiro está tão cara ultimamente! Acho que as ovelhas estão ficando meio loucas, então as pessoas não querem caçá-las.","Mutton is so expensive lately! I guess the sheep are getting kinda crazy, so people don't want to hunt them.","¡El carnero está carísimo últimamente! Supongo que como las ovejas están como locas, la gente no quiere darles caza."
+"Ultimamente a carne de carneiro está caríssima! Acho que as ovelhas estão ficando meio loucas, então as pessoas não querem caçá-las.","Mutton is so expensive lately! I guess the sheep are getting kinda crazy, so people don't want to hunt them.","¡El carnero está carísimo últimamente! Supongo que como las ovejas están como locas, la gente no quiere darles caza."
 "As ovelhas nas planícies do norte geralmente são gentis, mas se você persegui-las, às vezes elas te atacam.","The sheep in the northern plains are usually gentle, but if you chase them, they'll sometimes turn and attack you.","Las ovejas de las llanuras del norte suelen ser dóciles, pero si las persigues, a veces se giran y te atacan."
 "O carneiro é uma fonte importante de alimento para as pessoas desta aldeia, mas muitas vezes nos machucamos durante a caça.","Mutton is an important food source to the people of this village, but we often get injured while hunting.","El carnero es la fuente de alimento más importante para la gente de esta aldea, pero a veces nos herimos cazando."
 "Cá entre nós, trabalhar na segurança do distrito de compras é bem mais tranquilo em comparação aos outros portões.","Between you and me, working security in the shopping district is pretty peaceful compared to the other gates.","Entre tú y yo, trabajar de seguridad en el distrito comercial es una gloria en comparación con las otras puertas."
@@ -2259,15 +2259,15 @@
 "Desculpe, tenho trabalho a fazer. Quem sabe na próxima.","Sorry, I've got work to do. Maybe next time.","Lo siento, tengo cosas que hacer. Quizá en otra ocasión."
 "Tô sozinho porque mamãe e papai estão trabalhando e tô entediaaaaaaado!","I'm all by myself 'cause Mom and Dad are working, and I'm boooooored!","¡Estoy solo porque mamá y papá están trabajando y me abuuuuuuuurro!"
 "Pare de trabalhar e brinque comigo pelo menos uma vez!","Stop working and play with me for once!","¡Deja de trabajar y juega conmigo por una vez!"
-"Meu marido guarda o portão leste e ele sempre sai depois do horário. Se você o vir à noite, diga a ele pra voltar mais cedo pra casa pelo menos uma vez!","My husband guards the eastern gate, and he keeps staying later and later. If you see him at night, tell him to come home early for once!","Mi marido guarda la puerta este, y se queda siempre hasta muy tarde. Si le ves por la noche, ¡dile que venga temprano a casa por una vez!"
+"Meu marido guarda o portão leste e sempre sai depois do horário. Se você o vir à noite, diga a ele pra voltar mais cedo pra casa pelo menos uma vez!","My husband guards the eastern gate, and he keeps staying later and later. If you see him at night, tell him to come home early for once!","Mi marido guarda la puerta este, y se queda siempre hasta muy tarde. Si le ves por la noche, ¡dile que venga temprano a casa por una vez!"
 "Alguns dos guardas do portão têm o hábito de chegar em casa tarde.","Some of the gate guards make a habit of coming home late.","Algunos de los guardas de las puertas tienen por costumbre volver a casa tarde."
 "Eles dizem estar trabalhando, mas acho que todos eles escapam para a taberna e ficam bêbados. Não está certo, eu te digo!","They claim to be working, but I think they all slip off to the tavern and get hammered. It's not right, I tell ya!","Dicen que es porque están trabajando, pero yo creo que se van todos a la taberna a empinar el codo. ¡Están mintiendo, te lo digo yo!"
 "Visitando Popola novamente hoje?","Visiting Popola again today?","¿Hoy también vienes a ver a Popola?"
-"Não apenas ataque quando enfrentar múltiplos inimigos - certifique-se de defender e evadir também.","Don't just attack when fighting multiple enemies—be sure to defend and evade as well.","Cuando te enfrentes a varios enemigos no te dediques solo a atacar; asegúrate también de defender y esquivar."
+"Não apenas ataque quando enfrentar múltiplos inimigos—certifique-se de defender e evadir também.","Don't just attack when fighting multiple enemies—be sure to defend and evade as well.","Cuando te enfrentes a varios enemigos no te dediques solo a atacar; asegúrate también de defender y esquivar."
 "Quando você for jogado para longe, pode se defender para se recuperar rapidamente.","When you're knocked away, you can defend to recover quickly.","Cuando te den un buen golpe, puedes defender para recuperarte rápidamente."
 "Você conhece o Lixão nas planícies do norte? É um lugar perigoso, mas é famoso pelos minérios valiosos que você pode minerar.","You know the Junk Heap in the northern plains? It's a dangerous place, but it's famous for the valuable ores you can mine.","¿Conoces la chatarrería de llanuras del norte? Es un sitio peligroso, pero es famoso por los valiosos minerales que puedes encontrar."
 "Ouvi dizer que os lobos aparecem muito no deserto além da estrada leste. É melhor ter cuidado se você encontrar com eles.","I hear that wolves show up a lot in the desert beyond the eastern road. Better be careful if you run into 'em.","He oído que están apareciendo muchos lobos por el desierto que está más allá de la carretera del este. Ten cuidado si te tropiezas con ellos."
-"(Vou ir te ver hoje, Popola. Prometo.)","(I'm coming to see you today, Popola. I promise.)","(Iré a verte hoy, Popola. Lo prometo)."
+"(Hoje vou ir te ver, Popola. Prometo.)","(I'm coming to see you today, Popola. I promise.)","(Iré a verte hoy, Popola. Lo prometo)."
 "A biblioteca é o orgulho da nossa vila.","The library is the pride of our village.","La biblioteca es el orgullo de nuestra aldea."
 "Os livros aqui contém toda a história conhecida dessa terra, além das cidades e vilarejos que a compreendem.","Those books contain the known history of this land, plus most of the towns and villages inside it.","Estos libros contienen la historia de esta tierra, además de la de los pueblos y aldeas que alberga."
 "E também não custa nada conversar com Popola e ver se ela tem algum trabalho disponível.","Plus, it never hurts to chat up Popola and see if she has any available jobs.","Además, nunca viene mal charlar un rato con Popola y ver si tiene trabajos disponibles."
@@ -2277,8 +2277,8 @@
 "Depois dessa pequena pausa, é melhor ir fazer minhas compras.","After this little break, I'd better get my shopping done.","Será mejor que siga con mis compras después de este descansito."
 "As malditas comportas continuam quebrando. Eu conserto elas, conserto elas, e simplesmente se recusam a ficar no lugar!","The damn floodgates keep breaking down. I fix 'em and fix 'em, but they just refuse to stay in place!","Esas esclusas del demonio no paran de romperse. ¡Me paso la vida arreglándolas, pero no les da gana quedarse en su sitio!"
 "Está mais tranquilo hoje? Quase nunca te vejo por aqui essas horas do dia.","You taking it easy today? I hardly ever see you around here this time of day.","¿Te lo estás tomando con calma hoy? Casi nunca te veo por aquí a estas horas."
-"Minha irmã vai me botar a boca se eu não fizer as compras logo. Ela é uma verdadeira exploradora. Se eu não fosse medroso, falaria isso na cara dela!","My sister's gonna rake me over the coals if I don't get my shopping done soon. She's a real slave driver—and if I wasn't scared of her, I'd tell her so!","Mi hermana me va a echar a los perros si no acabo de comprar pronto. Es una tirana de cuidado, ¡y si no me diera miedo se lo diría a la cara!"
-"O distrito de compras está o dia todo movimentado. É ótimo!","The shopping district's busy pretty much all day long. It's great!","El distrito comercial suele estar hasta los topes a todas horas del día. ¡Es estupendo!"
+"Minha irmã vai me botar a boca se eu não fizer logo as compras. Ela é uma verdadeira exploradora—se eu não fosse medroso, falaria isso na cara dela!","My sister's gonna rake me over the coals if I don't get my shopping done soon. She's a real slave driver—and if I wasn't scared of her, I'd tell her so!","Mi hermana me va a echar a los perros si no acabo de comprar pronto. Es una tirana de cuidado, ¡y si no me diera miedo se lo diría a la cara!"
+"O distrito de compras está movimentado o dia todo. É ótimo!","The shopping district's busy pretty much all day long. It's great!","El distrito comercial suele estar hasta los topes a todas horas del día. ¡Es estupendo!"
 "Se eu comprasse tudo o que queria, ficaria sem dinheiro em um minuto. Preciso... ter pulso... firme...","If I bought everything I wanted, I'd be broke in a minute. Must...show...restraint...","Si me compro todo lo que quiero, me quedaré tiesa en un pispás. Debo... mostrar... moderación."
 "Esta cidade não era um centro comercial antes do mundo afundar num oceano. Tenho certeza de que outras pessoas não ficaram felizes com isso, mas pra nós é ótimo!","This town didn't become a trade hub until the world sank into the ocean. I'm sure other folks weren't happy about it, but it was great for us!","Esta ciudad no se convirtió en un núcleo comercial hasta que el mundo se hundió en el océano. ¡Fijo que a los demás no les hizo mucha gracia, pero a nosotros nos vino de perlas!"
 "Os homens do mar são temperamentais, e as mulheres são ainda piores! É melhor você ter bons modos.","Men of the sea have a bad temper, and the women are even worse! You'd best mind your manners.","Los hombres del mar tienen mal carácter, ¡y las mujeres más todavía! Será mejor que te comportes."
@@ -2292,32 +2292,32 @@
 "Esse é um lugar secreto onde ninguém pode me encontrar! ...Bem, exceto você, eu acho. Agora vá embora antes que mais pessoas venham!","This is a secret place where no one can find me! ...Well, except you, I guess. Now go away before more people come!","¡Este es un escondite donde nadie puede encontrarme! Bueno, solo tú, supongo. ¡Y ahora vete antes de que venga más gente!"
 "Vamos fazer nosso ritual especial. Não podemos deixar que ninguém veja!","We're gonna do our special ritual. We can't let anyone see us!","Vamos a hacer nuestro ritual especial. ¡No podemos dejar que nadie nos vea!"
 "Desde que você tenha vara e isca, pode pescar onde quiser ao longo da costa.","As long as you have a rod and bait, you can go fishing anywhere you like along the coastline.","Si tienes una caña y cebo, puedes pescar en cualquier parte de la costa que quieras."
-"Você é amigo daquele carteiro sexy, não é? Eu adoro um homem uniformizado! ...Ah, você não é? Bem, você também é muito bonito!","You're friends with that sexy postman, aren't you? I just love a man in uniform! ...Oh, you're not? Well, you're pretty nice-looking yourself!","Eres amigo de ese cartero tan guapo, ¿verdad? ¡Me encantan los hombres con uniforme! Bueno, ¡tú también estás muy bien!"
-"Não vejo o carteiro há alguns dias. Espero que esteja bem.","I haven't seen the postman in a few days. I hope he's all right.","Hace varios días que no veo al cartero. Espero que esté bien."
-"Eu ouvi a senhora do farol resmungando sobre uma ""doença"". Ha! Doença, meu traseiro! Ela está fingindo para que todos sintam pena dela!","I heard the lighthouse lady grumbling about some ""illness."" Ha! Illness my ass! She's just faking it so we all feel bad for her!","He oído a la anciana del faro quejarse de una ""enfermedad"". ¡Ja! ¡Y una mierda! ¡Se lo está inventando para darnos pena!"
+"Você é amigo daquele carteiro sexy, não é? Adoro um homem uniformizado! ...Ah, você não é? Bom, você também é um pitelzinho!","You're friends with that sexy postman, aren't you? I just love a man in uniform! ...Oh, you're not? Well, you're pretty nice-looking yourself!","Eres amigo de ese cartero tan guapo, ¿verdad? ¡Me encantan los hombres con uniforme! Bueno, ¡tú también estás muy bien!"
+"Não vejo o carteiro há alguns dias. Espero que ele esteja bem.","I haven't seen the postman in a few days. I hope he's all right.","Hace varios días que no veo al cartero. Espero que esté bien."
+"Eu ouvi a senhora do farol resmungando sobre uma ""doença"". Ha! Doença é meu rabo! Ela tá fingindo para que todos sintam pena dela!","I heard the lighthouse lady grumbling about some ""illness."" Ha! Illness my ass! She's just faking it so we all feel bad for her!","He oído a la anciana del faro quejarse de una ""enfermedad"". ¡Ja! ¡Y una mierda! ¡Se lo está inventando para darnos pena!"
 "Meu marido não presta começa a beber ao meio-dia, ou antes. Eu gostaria que ele controlasse isso. Ele tem filhos para pensar!","My no-good husband starts drinking at noon—or earlier. I wish he would keep it under control. He's got kids to think about!","El inútil de mi marido empieza a beber al mediodía como muy tarde. Ojalá se controlase. ¡Tiene hijos de los que preocuparse!"
 "Meu marido vai à taberna todos os dias com seus amigos de trabalho. Se ele continuar assim, eu vou cortar a mesada dele!","My husband goes to the tavern every day with his work buddies. If he keeps this up, I'm going to cut off his pocket money!","Mi marido se va a la taberna con sus compañeros todos los días. ¡Como siga así, voy a cortarle el grifo del dinero!"
 "Meu irmão mora em outra cidade, mas enviamos cartas para manter contato. A estação de correios não é ótima?!","My brother lives in another town, but we send letters to stay in touch. Isn't the post office great!?","Mi hermano vive en otra ciudad, pero nos mandamos cartas para estar en contacto. ¡¿No es genial la oficina de correos?!"
 "Estou quase desistindo da senhora do farol. ...A coisa triste é que ela provavelmente vai viver mais que eu!","I've about had it with the lighthouse lady. ...Sad thing is, she'll probably outlive me!","Estoy hasta las narices de la anciana del faro. Lo más triste es que seguro que me muero yo antes que ella."
-"O que é isso? Isto é a estação de correios.","What, this? This is the post office.","¿Qué, esto? Esta es la oficina de correos."
+"O quê, isso? Aqui é o correio.","What, this? This is the post office.","¿Qué, esto? Esta es la oficina de correos."
 "Acho que aquela pobre senhora do farol está... Ah, esquece. Não é realmente da minha conta.","I think that poor lighthouse lady is... Er, never mind. It's not really any of my business.","Creo que esa pobre anciana del faro está... Eh, da igual. No es asunto mío."
 "Eu gostaria de me tornar um chef. E quando eu fizer isso, eu vou servir algo além de peixe!","I'd like to become a chef. And when I do, I'm going to serve something besides fish!","Me gustaría llegar a ser chef. ¡Y cuando lo haga, voy a servir algo más que pescado!"
-"As ancoragens que você vê no alto mar eram parte de uma ponte enorme em tempos antigos. Mas agora que o conhecimento se perdeu, elas são pouco mais do que um bom lugar para pescar.","The moorings you see offshore were part of a massive bridge in the old days. But now that the science is lost, they're little more than a good fishing spot.","Los embarcaderos que ves en el agua eran parte de un puente enorme en los viejos tiempos. Pero, ahora que no hay ciencia, son poco más que un buen sitio para pescar."
+"As amarras que você vê no alto mar eram parte de uma ponte enorme em tempos antigos. Mas agora que o conhecimento se perdeu, elas são pouco mais do que um bom lugar para pescar.","The moorings you see offshore were part of a massive bridge in the old days. But now that the science is lost, they're little more than a good fishing spot.","Los embarcaderos que ves en el agua eran parte de un puente enorme en los viejos tiempos. Pero, ahora que no hay ciencia, son poco más que un buen sitio para pescar."
 "Trabalho como pescador há três meses, mas ainda não fui enviado ao mar. Quantos recados estúpidos eles vão me fazer antes de eu poder ir!?","I've been working as a fisherman for three months, but I've yet to be sent out to sea. How many stupid errands are they going to make me run before I can go!?","He estado trabajando como pescador durante tres meses, pero aún no he salido a mar abierto. ¡¿Cuántos recados estúpidos voy a tener que hacerles antes de poder salir?!"
 "O novo cara tem talento, mas é impaciente. Acho que vamos fazê-lo executar esses recados estúpidos por mais um tempo.","The new guy has talent, but he's impatient. I think we'll make him run those stupid errands for a while longer.","El chico nuevo tiene talento, pero es impaciente. Creo que vamos a tenerle haciendo esos recados estúpidos más tiempo."
-"As crianças de hoje em dia não têm força. Três meses se passaram, e ele já está reclamando? Ele não sobreviverá nem um dia no mar com essa atitude.","Kids these days got no toughness. Three months in, and he's already whining? He won't survive a single day at sea with that attitude.","Los chavales de hoy día no tienen aguante. ¿Tres meses y ya está lloriqueando? Con esa actitud, no durará ni un día en el mar."
+"As crianças de hoje em dia não são duronas. Três meses se passaram, e ele já está reclamando? Ele não sobreviverá nem um dia no mar com essa atitude.","Kids these days got no toughness. Three months in, and he's already whining? He won't survive a single day at sea with that attitude.","Los chavales de hoy día no tienen aguante. ¿Tres meses y ya está lloriqueando? Con esa actitud, no durará ni un día en el mar."
 "Sim? O que você quer? Olha, este é um trabalho sério, não é nenhum tipo de circo. Então dê o fora.","Yeah? Whaddya want? Look, this is serious work, not some kinda circus. So get lost.","¿Sí? ¿Y tú qué carajo quieres? Mira, esto es un trabajo serio, no un circo. Lárgate."
 "O que você está fazendo lá em cima?","Whatcha doin' up there?","¿Qué estás haciendo aquí?"
 "Observando o oceano. Vou sair em uma viagem de pesca em breve.","Observing the ocean. I'm heading out on a fishing run soon.","Observo el océano. Voy a salir pronto de pesca."
-"Se uma tempestade te pegar desprevenido lá fora, é melhor ter beijado a família adeus antes de sair.","If a storm catches you off guard out there, you'd best have kissed the family good-bye before you left. ","Si te pilla una tormenta desprevenido ahí fuera, más te vale haberte despedido de tu familia antes de irte. "
+"Se uma tempestade te pegar desprevenido lá fora, é melhor ter dado um adeus à família antes de ter saído.","If a storm catches you off guard out there, you'd best have kissed the family good-bye before you left. ","Si te pilla una tormenta desprevenido ahí fuera, más te vale haberte despedido de tu familia antes de irte. "
 "Cuidado com aquela velha da casa do farol. Ela é só problema para todos que cruzam o caminho dela!","Watch yourself around that old lady in the lighthouse. She's nothing but trouble to everyone who crosses her path!","Ten cuidado con la anciana esa del faro. ¡No da más que problemas a la gente que se cruza en su camino!"
 "Estou com fome de baiacu, então trouxe o máximo de minhocas que pude carregar; é a única isca que esses caras parecem gostar.","I'm hungry for blowfish, so I brought as many lugworms as I could carry; it's the only bait those guys seem to like.","Tengo hambre de pez globo, así que he traído todas las lombrices de tierra que he podido; parece que es el único cebo que les gusta."
-"Não entendi nada ontem, o que significou que o jantar foi alga marinha embrulhada em alga marinha! Melhor eu fazer uma pesca séria hoje, deixe-me te contar...","I didn't catch a thing yesterday, which meant dinner was seaweed-wrapped seaweed! I better make a serious haul today, lemme tell ya...","No conseguí que picara ni uno, ¡así que tuve que cenar algas envueltas en algas! Más me vale ponerme las pilas hoy o si no..."
+"Ontem não pesquei nada, o que significou que o jantar foi alga marinha embrulhada em alga marinha! Melhor eu fazer uma pesca séria hoje, deixe-me te contar...","I didn't catch a thing yesterday, which meant dinner was seaweed-wrapped seaweed! I better make a serious haul today, lemme tell ya...","No conseguí que picara ni uno, ¡así que tuve que cenar algas envueltas en algas! Más me vale ponerme las pilas hoy o si no..."
 "Sabe aquela ponte no meio da água? Muito tempo atrás, aparentemente eles eram usados para ancorar gigantescos veículos de ferro!","You know that bridge out in the water? Long ago, they were apparently used for docking giant iron vehicles!","¿Recuerdas el puente ese en medio del agua? ¡Al parecer, antiguamente se utilizaba para amarrar vehículos de hierro gigantes!"
-"Bem-vindo! Temos o peixe mais fresco de todos os lugares!","Welcome! We've got the freshest fish anywhere!","¡Bienvenido! Tenemos el pescado más fresco del mundo."
+"Bem-vindo! Temos o peixe mais fresco de todos!","Welcome! We've got the freshest fish anywhere!","¡Bienvenido! Tenemos el pescado más fresco del mundo."
 "Espero que volte logo!","Hope you come back soon!","¡Espero que vuelvas pronto!"
 "Um peixe xamã? Ainda não recebi nenhum peixe hoje. Desculpe, querido.","A shaman fish? I haven't gotten any fish in today yet. Sorry, dear.","¿Un pez chamán? Hoy no he capturado ningún pez aún. Lo siento, cielo."
-"Eu dei todos esses presentes para minha garota e ela ainda me deixou por outro cara. Agora meu coração E minha carteira estão quebrados!","I gave my girl all these presents, and she left me for another guy anyway. Now my heart AND my pocketbook are broken!","Le hice todos esos regalos y va y me deja por otro... ¡Ahora tengo la hucha y el corazón rotos!"
+"Eu dei todos esses presentes para minha garota e ela me deixou pra ficar com outro. Agora meu coração E minha carteira estão quebrados!","I gave my girl all these presents, and she left me for another guy anyway. Now my heart AND my pocketbook are broken!","Le hice todos esos regalos y va y me deja por otro... ¡Ahora tengo la hucha y el corazón rotos!"
 "Ei, amigo, tome uma bebida. O caneco nunca te deixará por outro homem.","Hey buddy, have a drink. The mug'll never leave ya for another man.","¡Eh, colega, toma un trago! La jarra nunca te dejará por otro hombre."
 "Nós, pescadores, visitamos a taberna uma vez por dia. É como uma lei não escrita para homens do mar.","Us fishermen visit the tavern once a day. It's like an unwritten law for men of the sea.","Los pescadores solemos ir a la taberna una vez al día. Es como una ley no escrita entre los lobos de mar."
 "Cara, eu adoraria uma bebida agora, mas a patroa cortaria minha cabeça.","Man, I would love a drink right about now, but the missus would have my head.","Je. Me iría de cabeza a dar un trago, pero mi señora me cortaría las pelotas."
@@ -2325,7 +2325,7 @@
 "O trabalho foi exaustivo, então estou dando uma pequena pausa. Este é um ótimo lugar para vir e relaxar!","Work was exhausting, so I'm taking a little break. This is a great place to come and relax!","Trabajar es agotador, por eso he venido a despejarme un poco. Este sitio es genial para relajarse."
 "Se você está pronto para levar a pesca a sério, vai precisar de mais do que apenas uma isca. Uma boa variedade de iscas é essencial.","If you're ready to get serious about fishing, you'll need more than just a lure. A good variety of bait is essential.","Si quieres empezar a tomarte en serio la pesca, con un señuelo no basta. Lo ideal es contar con diferentes cebos."
 "Volte aqui se ficar sem iscas.","Come back if you run out of bait.","Vuelve si te quedas sin cebos."
-"Shhh! Tô brincando de esconde-esconde! Quero que me encontrem logo...","Shhh! I'm playing hide-and-seek! I wish they'd hurry up and find me already...","¡Sssh! Estoy jugando al escondite. A ver si espabilan y me encuentran de una vez..."
+"Shhh! Tô brincando de esconde-esconde! Queria que me encontrassem logo...","Shhh! I'm playing hide-and-seek! I wish they'd hurry up and find me already...","¡Sssh! Estoy jugando al escondite. A ver si espabilan y me encuentran de una vez..."
 "Já comemos peixe nas últimas nove semanas, talvez eu devesse pegar algo diferente. ...Ah, tô enganando quem?","We've eaten fish for the past nine weeks, so maybe I should get something else. ...Oh, who am I kidding?","Llevo nueve semanas seguidas comiendo pescado. Quizá debería probar algo nuevo. Bah, ¿a quién quiero engañar?"
 "Cozinharei qualquer peixe que meu marido traga para casa. Quem tem fome come até pedra!","I'll cook any fish my husband brings home. Beggars can't be choosers!","Terminaré cocinando cualquier pescado que traiga mi marido a casa. ¡A buen hambre no hay pan duro!"
 "Estou com vontade de um jantar chique hoje à noite! Como cordeiro assado com todos os acompanhamentos.","I'm in the mood for a fancy dinner tonight! Like roast mutton with all the trimmings.",
@@ -2338,11 +2338,11 @@
 "Te vejo depois!","See you later!","¡Ya nos veremos!"
 "Vamos jogar trava-línguas!","Let's play tongue twisters!","Vamos a jugar a recitar trabalenguas."
 "Aposto que posso inventar um trava-língua incrível antes de você!","I bet I can come up with an awesome tongue twister before you can!","¡Qué te apuestas a que me invento un trabalenguas increíble antes que tú!"
-"Ei, não permitimos forasteiros! Vá embora!","Hey, no outsiders allowed! Go away!","¡Eh, no se permiten extraños! ¡Largo de aquí!"
+"Ei, não permitimos forasteiros! Vão embora!","Hey, no outsiders allowed! Go away!","¡Eh, no se permiten extraños! ¡Largo de aquí!"
 "Ei, as coisas poderiam ser piores. Pelo menos não estou desesperado o suficiente para me juntar a uma dessas seitas malucas ...","Hey, things could be worse. At least I'm not desperate enough to sign on with one of those wacky cults...","Oye, podría ser peor. Al menos no estoy tan desesperado como para unirme a una de esas sectas absurdas..."
 "As pessoas nesta cidade nunca ouvem o que outra pessoa diz. Costumava me deixar louco, mas acho que tô me acostumando.","People in this town never listen to what anyone tells them. It used to drive me nuts, but now I guess I'm just used to it.","La gente de esta ciudad nunca escucha lo que se le dice. Antes me ponía de mala leche, pero ahora supongo que ya me he acostumbrado."
 "Você tem que aprender a desapegar de algumas coisas. Mesmo coisas que te deixam muito, muito irritado.","You have to know when to let things go. Even things that make you really, really angry.","Hay que saber ignorar ciertas cosas, incluso las que te ponen de muy mala uva."
-"Espero que os dois pesquem alguma coisa, caso contrário é só sopa de osso para o jantar. ... DE NOVO!","I hope those two catch something, otherwise it's nothing but bone soup for dinner. ...AGAIN!","Espero que estos dos pesquen algo o esta noche va a tocar sopa de raspas... ¡otra vez!"
+"Espero que aqueles dois pesquem alguma coisa, caso contrário é só sopa de osso para o jantar. ... DE NOVO!","I hope those two catch something, otherwise it's nothing but bone soup for dinner. ...AGAIN!","Espero que estos dos pesquen algo o esta noche va a tocar sopa de raspas... ¡otra vez!"
 "Minhas armas podem não ser as mais recentes e avançadas, mas minha seleção não pode ser batida!","My weapons may not be the latest and greatest, but my selection can't be beat!","Puede que mis armas no sean las más punteras ni las mejores, ¡pero tengo una variedad alucinante!"
 "Muito obrigado!","Thank you much!","¡Muchas gracias!"
 "Temos os mais recentes avanços em medicina aqui - você não encontrará essas coisas em nenhum outro lugar.","We got the latest advances in medicine here—you won't find this stuff nowhere else.","Tenemos los últimos avances en medicina. ¡Cosas que no se encuentran en ninguna otra parte!"
@@ -2380,7 +2380,7 @@
 "(Somente a nobreza pode entrar na tesouraria.)","(Only nobility may enter the treasury.)","(Solo la nobleza puede acceder a la cámara del tesoro)."
 "(Todo ano, pelo menos uma criança se afoga na areia movediça.)","(Every year, there's at least one child who drowns in the quicksand.)","(Todos los años hay, al menos, un niño que se hunde en las arenas movedizas)."
 "(Você pode ver toda a cidade deste ponto da cidade. Se surgir algum problema, este é o primeiro lugar para avistá-lo!)","(You can see the entire city from this vantage point. If trouble comes, this is the first place to find it!)","(Desde este punto estratégico se puede ver toda la ciudad. En caso de que haya problemas, desde aquí se ven antes)."
-"(Saí para efetuar uma tarefa, mas quebrei a Regra 7.017 no caminho. Agora, mamãe vai me aplicar a Regra 4.217 quando eu voltar - eu já sei disso.)","(I was out on an errand, but I broke Rule 7,017 on the way. Now Mom's going to Rule 4,217 me when I get back—I just know it.)","(He salido a hacer recados, pero he incumplido la regla 7017 a mitad de camino. Ahora, mi madre va a aplicarme la regla 4217 cuando llegue a casa)."
+"(Saí para efetuar uma tarefa, mas quebrei a Regra 7.017 no caminho. Agora, mamãe vai me aplicar a Regra 4.217 quando eu voltar—eu já sei disso.)","(I was out on an errand, but I broke Rule 7,017 on the way. Now Mom's going to Rule 4,217 me when I get back—I just know it.)","(He salido a hacer recados, pero he incumplido la regla 7017 a mitad de camino. Ahora, mi madre va a aplicarme la regla 4217 cuando llegue a casa)."
 "(Você não dizer coisas ruins sobre o príncipe!)","(You can't say bad things about the prince!)","(¡Está prohibido decir cosas negativas del príncipe!)."
 "(Mas todo mundo está dizendo que ele é inútil! ... Ou ao menos sussurrando isso.)","(But everyone's saying that he's useless! ...Or at least whispering it.)","(Pero todo el mundo dice que es un inútil... O, al menos, lo susurra)."
 "(A adesão às regras ajuda a acalmar a alma. Você entenderia isso se vivesse aqui.)","(Adherence to the rules helps to calm the soul. You would understand this if you lived here.)","(Cumplir las reglas sirve para apaciguar el alma. Lo entenderías si vivieras aquí)."
@@ -2400,7 +2400,7 @@
 "(Eu discuti com minha esposa. E de acordo com as regras, tenho que me reconciliar com ela antes do fim do dia, ou seremos divorciados.)","(I got in an argument with my wife. And according to the rules, I have to make up with her before the day is over, or we'll be divorced.)","(He discutido con mi esposa y, según las reglas, tengo el día de hoy para arreglarlo o nos habremos divorciado)."
 "(Meu marido estava me traindo DE NOVO! Vou bater nele com uma frigideira!)","(My husband was cheating on me AGAIN! I'm gonna brain him with a frying pan!)","(¡Mi esposo ha vuelto a engañarme! ¡Voy a reventarle la cabeza con una sartén!)."
 "(Você é um estrangeiro!)","(You're an outsider!)","(¡Eres forastero!)."
-"(Ah ha ha! Você não está usando uma máscara! Isso deve ser tão constrangedor! Quero dizer, todo mundo pode ver seu... Bem, você sabe!)","(Ah ha ha! You aren't wearing a mask! That must be so embarrassing! I mean, everyone can see your... Well, you know!)","(¡Ja, ja, ja! ¡No llevas máscara! Menuda vergüenza tienes que estar pasando.<LF>En fin, todo el mundo puede ver tu... Bueno, ya me entiendes)."
+"(Ah ha ha! Você não está usando uma máscara! Isso é tão constrangedor! Quero dizer, todo mundo pode ver seu... Bem, você sabe!)","(Ah ha ha! You aren't wearing a mask! That must be so embarrassing! I mean, everyone can see your... Well, you know!)","(¡Ja, ja, ja! ¡No llevas máscara! Menuda vergüenza tienes que estar pasando.<LF>En fin, todo el mundo puede ver tu... Bueno, ya me entiendes)."
 "(Por que você está vestido desse jeito? É tão estranho.)","(Why are you dressed like that? It's so weird.)","(¿Por qué vas vestido así? Vaya tipo más raro)."
 "(Você não pode se mover na areia com esse tipo de roupa.)","(You can't move in the sand with that kind of outfit.)","(Ese atuendo no es apto para moverse en la arena)."
 "(Crianças são nosso maior tesouro. Devemos fazer tudo o que pudermos para protegê-las.)","(Children are our greatest treasure. We must do everything we can to protect them.)","(Los niños son nuestro mayor tesoro. Tenemos que darlo todo para protegerlos)."
@@ -2787,17 +2787,17 @@
 ,,
 ,,
 "Isso é difícil. Será que ela gostaria de saber?","This is tough. Would she want to know or not?",
-"Questões assim seriam melhor respondidas por filósofos. Dificilmente sabemos como a mente de outra pessoa funciona.","Such questions are best left for philosophers. You can hardly be expected to know the<LF>mind of another.",
+"Questões assim seriam melhor respondidas por filósofos. Dificilmente sabemos como a<LF> mente de outra pessoa funciona.","Such questions are best left for philosophers. You can hardly be expected to know the<LF>mind of another.",
 "É difícil acreditar que a cidade inteira mentiu pra ela.","It's hard to believe that the entire town was lying to her.",
 "Acredito que as intenções deles eram boas. Senão, eles não teriam continuado com essa farsa por 50 anos.","I wager their intentions were good. Elsewise, they would not have carried on<LF>with the ruse for 50 years.",
 "Isso também explica por que eles a incumbiram de manter o farol funcionando: para que notícias sobre a morte do seu amor não chegassem até ela.","It also explains why they tasked her with keeping the lighthouse running:<LF>so news of her love's demise would not reach her. ",
 "Essa atitude não soa como boa intenção.","That doesn't sound like good intentions to me.",
 ,,
-"Isso nos faz pensar qual é o sentido de tudo.","It makes you wonder what the point of everything is.",
+"Isso nos faz pensar sobre o sentido de tudo.","It makes you wonder what the point of everything is.",
 "A vida é difícil, e parece que fazer a coisa certa raramente é a escolha boa.","Life is hard, and it seems the right thing<LF>is rarely the happy thing.",
 "Ah! É menos complicado escolher do que fazer!","Pah! It's only as complicated as you choose to make it!",
 "Aquela senhora era feliz? Infeliz? Quem pode dizer!?","Was the old woman happy? Unhappy? Who can say!?",
-"O rapaz nunca saberá de fato. Você simplesmente fez o seu melhor e seguiu em frente.","One can never know for true.<LF>You simply make your best attempt and move on.",
+"De fato nós nunca saberemos.<LF> Você simplesmente fez o seu melhor e seguiu em frente.","One can never know for true.<LF>You simply make your best attempt and move on.",
 "Eu acho...","I guess...",
 ,,
 ,,
@@ -2856,11 +2856,11 @@
 "Sim! Aqui está... Espero que ela consiga entender minha letra.","Yep! Here ya go. ...I hope she can read my handwriting,",
 "Quais as notícas das planícies?","What's the word from the plains?",
 "A atividade das Sombras permanece tranquila. A ponte está fechada, então não estamos vendo tantos comerciantes como costumávamos ver, mas fora isso... Sim. Bem entediante.","Shade activity's been quiet. The bridge is out, so we're not seeing as many traders as we used to, but other than that... Yeah. Pretty boring.",
-"De qualquer forma, obrigado por entregar isso à Popola.","Anyway, thanks for giving that to Popola.",
+"Mesmo assim, obrigado por entregar isso à Popola.","Anyway, thanks for giving that to Popola.",
 "Ei. Você trouxe documentos para a Popola?","Hey. You have some documents for Popola?",
 "Oh, sim, meu relatório. Claro.","Oh, yeah, my report. Sure thing.",
-"Como estão as coisas?","How are things?",
-"Quietas. Não tenho visto Sombras perto da vila há muito tempo. O que é ótimo para mim, obrigado!","Quiet. I haven't seen a Shade near the village in forever. ...Which is just fine with me, thanks!",
+"Como vão as coisas?","How are things?",
+"Tranquilas. Não tenho visto Sombras perto da vila há muito tempo. O que é ótimo para mim, obrigado!","Quiet. I haven't seen a Shade near the village in forever. ...Which is just fine with me, thanks!",
 "Manda um oi pra Popola por mim!","Say hi to Popola for me!",
 "Você tem um relatório para Popola?","You got a report for Popola?",
 "Ah! Eu pensei que ela mesma viria pegar. ...Bem, não é grande coisa. Aqui está.","Oh! I thought she'd come get it herself. ...Well, no big whoop. Here ya go.",
@@ -2869,7 +2869,7 @@
 "Diga a Popola que eu disse oi.<PAGE>...E pergunte se ela vai me deixar levá-la para jantar enquanto você está nisso!","Tell Popola I said hi.<PAGE>...And ask her if she'll let me take her to dinner while you're at it!",
 "Vamos ver... Hm. Estes são todos eles. ...Deuses, a caligrafia deste homem é terrível.<PAGE> De qualquer forma, muito obrigado. Aqui está seu pagamento.","Let's see... Mm-hmm. This is all of them. ...Gods, this man's handwriting is just terrible.<PAGE>Anyway, thank you very much. Here's your payment.",
 "Mmm? A Sombra tinha uma flor?","Mmm? The Shade had a flower?",
-"Esta é uma Frésia.<LF> A mesma flor que entregaríamos para a mulher.","This is a freesia.<LF>The same flower that we were delivering to the woman.",
+"Essa é uma Frésia.<LF> A mesma flor que entregaríamos para a mulher.","This is a freesia.<LF>The same flower that we were delivering to the woman.",
 "Isso não pode ser uma coincidência.<LF> Eu acho que a mulher foi atacada por uma Sombra.","That can't be a coincidence.<LF>I think the woman was attacked by a Shade.",
 ,,
 ,,
@@ -2913,8 +2913,8 @@
 ".........",".........",
 "...Viu aquele movimento que ele acabou de fazer?","...Did you see that move he just did?",
 "Aquilo não foi um movimento de pesca. Foi o movimento de um mestre assassino.<PAGE>Estou começando a temer esse velho mais do que qualquer Sombra.","That was no fishing move. That was the maneuver of a master assassin.<PAGE>I am beginning to fear this old man more than any Shade.",
-"Boa sorte com os três Peixes-Areia!","Best of luck with the three sandfish!",
-"Desta vez, preciso de três Peixes Reais! E o tempo tá acabando, então bora lá!","This time I need three royal fish! And time's a-wastin', so get to it!",
+"Boa sorte com os três peixes-areia!","Best of luck with the three sandfish!",
+"Desta vez, preciso de três peixes reais! E o tempo tá acabando, então bora lá!","This time I need three royal fish! And time's a-wastin', so get to it!",
 "Tome.","Here.",
 "Ôpa, as aparências já enganam, hein! Parece que o calça-branca se tornou um pescador!","Well, dip my oar and call me Cecil! Looks like the fisherboy has become a fisherman!",
 "Mas você acha que pode tomar o meu lugar? Vamos lá!","But do you think you can push me off of my spot? Come on! Let's go!",
@@ -2932,27 +2932,27 @@
 "......","......",
 ".........",".........",
 "Te ensinei tudo que eu sei, mas isso não significa que cê deve parar de aprender! É um mundo grande lá fora, com peixes nunca antes vistos por um homem.","I've taught ya everything I know, but that don't mean ya can stop learnin'! It's a big world out there, with fish the likes of which no man has ever seen.",
-"Boa sorte com os dois Marlins Azuis!","Best of luck with the two blue marlin!",
+"Boa sorte com os dois marlins azuis!","Best of luck with the two blue marlin!",
 "Sabe de uma coisa, acredito que você já tem o que é preciso para pegar... O Peixe.<PAGE>O Hyneria!","You know, I reckon ya just might have what it takes to catch...The Fish.<PAGE>The hyneria!",
 "O Hyneria?","The hyneria?",
 "Nenhum homem quem capturou um Hyneria sobreviveu para contar a história! Se você conseguir, de fato é um pescador além até mesmo de minhas habilidades.","No man has ever hooked a hyneria and lived to tell the tale! If ya can do it, then yer a fisherman beyond even my own skill.",
 "Hmm... Pra onde foi o velho pescador?","Hmm... Where did the old timer go?",
 "Oh, o velho pescador? Não ficou sabendo? Ele faleceu esta manhã.","Oh, the old fisherman? Didn't you hear? He passed away just this morning.",
-"Eu acho que aquela velha lesão de guerra finalmente o pegou.<PAGE>Até onde soube, o cara costumava ser um mercenário bastante habilidoso.","I guess that old war injury finally got the best of him.<PAGE>From what I understand, the guy used to be quite the mercenary.",
+"Eu acho que aquela velha lesão de guerra finalmente o pegou.<PAGE>Até onde soube, o cara costumava ser um mercenário muito habilidoso.","I guess that old war injury finally got the best of him.<PAGE>From what I understand, the guy used to be quite the mercenary.",
 "Isso explica muita coisa.","That explains a lot.",
 "Ele supostamente fez muitas coisas terríveis no passado. Então, para ser sincero, ninguém na cidade se importava muito com ele.","He supposedly did all kinds of terrible things back in his day. So truth be told, no one in town much cared for him.",
 "Mas ele parecia gostar da sua companhia. Acho que você fez seus últimos dias felizes.","But he sure seemed to enjoy your company. I think you made his last days some happy ones. ",
 "O Hyneria seria um pescado lendário! Tenho certeza de que valeria a pena rastreá-lo.","The hyneria would be a legendary catch! I'm sure it would be worth your while to track it down.",
 "Ei, eu te conheço! Cê é aquele cara desesperado que aceita qualquer trabalho que apareça, não importa o quão estúpido ou humilhante seja!","Hey, I know you! You're that desperate guy who'll take any job that comes along, no matter how stupid or demeaning!",
 "...Não é exatamente assim que eu diria. Mas, se você tem dinheiro, eu tenho tempo.","...That's not really how I'd phrase it. But if you've got the money, I've got the time.",
-"Dance! Dance para mim! Ah ha ha!<PAGE>Não, tô brincando. Escuta, eu tenho um barco que precisa de alguns reparos. Você consegue arranjar alguns materiais para mim?","Dance! Dance for me! Ah ha ha!<PAGE>No, I'm just kidding. Listen, I've got a boat that needs some repairs. Think you can round up some materials for me?",
-"Eu preciso de cinco Toras, vinte Placas de Metal Amassadas e dez parafusos estriados. <PAGE> Eu perguntaria se você está disposto a fazer isso, mas eu sei que você está! Ah ha ha!","I need five logs, twenty dented metal boards, and ten stripped bolts.<PAGE>I'd ask if you're up for it, but I know you are! Ah ha ha!",
-"... Você está realmente começando a me irritar.","...You're really startin' to piss me off.",
+"Dance! Dance para mim! Ah ha ha!<PAGE>Não, tô brincando. Escuta, tenho um barco que precisa de alguns reparos. Você consegue arranjar alguns materiais para mim?","Dance! Dance for me! Ah ha ha!<PAGE>No, I'm just kidding. Listen, I've got a boat that needs some repairs. Think you can round up some materials for me?",
+"Eu preciso de cinco toras, vinte placas de metal amassadas e dez parafusos estriados. <PAGE> Eu perguntaria se você está disposto a fazer isso, mas eu sei que você está! Ah ha ha!","I need five logs, twenty dented metal boards, and ten stripped bolts.<PAGE>I'd ask if you're up for it, but I know you are! Ah ha ha!",
+"... Você realmente tá começando a me irritar.","...You're really startin' to piss me off.",
 "Aqui.","Here.",
-"Muito obrigado! Agora eu posso voltar aos negócios!","Much appreciated! Now I can get back to business!",
+"Muito obrigado! Agora eu posso retomar as vendas!","Much appreciated! Now I can get back to business!",
 "Aqui está algum dinheiro. Eu te aviso assim que precisar que meu chão seja varrido ou um banheiro seja limpo. Ah ha ha ha ha!","Here's some cash. I'll letcha know as soon as I need my floor swept or a toilet cleaned. Ah ha ha ha ha!",
-"São cinco toras, vinte placas de metal amassadas e dez Parafusos Desgastados. Muito obrigado!","That's five logs, twenty dented metal boards, and ten stripped bolts. Thanks much!",
-"Oh, cara. Estou completamente enrascado...","Oh, man. I'm in a world of trouble now...",
+"São cinco toras, vinte placas de metal amassadas e dez parafusos desgastados. Muito obrigado!","That's five logs, twenty dented metal boards, and ten stripped bolts. Thanks much!",
+"Oh, cara. Tô muito enrascado...","Oh, man. I'm in a world of trouble now...",
 "Qual é o problema?","What's the problem?",
 "Veja, estava cozinhando e... Bem, eu consegui iniciar um incêndio que destruiu minha cozinha e equipamento.","See, I was cooking and I... Well, I managed to start a fire that ruined my kitchen and equipment.",
 "Não consigo consertar a cozinha sem metal, mas o único lugar onde você pode encontrar tanta sucata é o Lixão...","I can't repair the kitchen without metal, but the only place you can find that much scrap is the Junk Heap...",
@@ -2961,18 +2961,18 @@
 "Espero que você nos ofereça uma recompensa adequada, certo?","I trust that you plan to offer us adequate compensation?",
 "Não seja ganancioso, Weiss.","Don't be greedy, Weiss.",
 "Bem, não tenho certeza do que você quis dizer com ""adequado"", mas farei o meu melhor.","Well, I'm not sure what you mean by ""adequate,"" but I'll do my best.",
-"Preciso de uma Liga de Memória, dez Ligas de Titânio e dez Motores Quebrados. Anotou tudo isso?","I need one memory alloy, ten titanium alloys, and ten broken motors. Got all that?",
-"Ok.Voltarei quando encontrar tudo.","Okay. I'll be back when I find everything.","Vale. Volveré cuando lo haya encontrado todo."
-"Trouxe tudo o que você pediu. Isso é suficiente?","I brought all the stuff you asked for. Is this enough?",
+"Preciso de uma liga de memória, dez ligas de titânio e dez motores quebrados. Anotou tudo?","I need one memory alloy, ten titanium alloys, and ten broken motors. Got all that?",
+"Ok. Voltarei quando encontrar tudo.","Okay. I'll be back when I find everything.","Vale. Volveré cuando lo haya encontrado todo."
+"Trouxe tudo que foi pedido. É o suficiente?","I brought all the stuff you asked for. Is this enough?",
 "Deixa eu ver... Sim! Sim, é tudo que preciso.<PAGE> Aqui. Espero que isso se qualifique como um pagamento à altura.","Lemme see... Yep! Yep, that's all of it.<PAGE>Here. I hope this qualifies as adequate compensation.",
 "Isso é mais do que eu esperava.","This is more than I was expecting.",
 "Sim, bem, eu realmente aprecio o esforço ques vocês tiveram.","Yeah, well, I really appreciate all the effort you went to.",
 "Pegue isso, tolo! É uma recompensa apropriada para nossos esforços.","Take it, fool! It is an appropriate reward for our efforts.",
 "E você poderia aprender maneiras mais ""apropriadas"" de falar.","And you could stand to learn more ""appropriate"" ways of speaking.",
-"Eu preciso de uma Liga de Memória, dez Ligas de Titânio e dez Motores Quebrados. Tudo bem?","I need one memory alloy, ten titanium alloys, and ten broken motors. Sound good?",
+"Eu preciso de uma liga de memória, dez ligas de titânio e dez motores quebrados. De boa?","I need one memory alloy, ten titanium alloys, and ten broken motors. Sound good?",
 "Ah, se não é o homem que eu procurava. Tem um minuto?","Ah, just the man I wanted to see. Do you have a moment?",
 "Talvez.","Maybe.",
-"Nossa roda d'água está indo pro saco. Gostaria de consertá-la, mas o interior é tão complicado...","Our waterwheel is on its last legs. I'd like to shore it up, but the insides are so complicated...",
+"Nossa roda d'água está indo pro saco. Gostaria de consertá-la, mas a parte interna é tão complicada...","Our waterwheel is on its last legs. I'd like to shore it up, but the insides are so complicated...",
 "É uma ideia sábia da sua parte. Aquela roda é uma máquina de idade muito avançada. Melhor consertá-la agora do que esperar até que ela falhe completamente.","This is a wise thought on your part. That wheel is a machine of not-insignificant age. Better to repair it now than wait until it fails completely.",
 "Tem alguma ideia? Não sou muito boa com esses assuntos mecânicos.","You got any ideas? I'm not much for this mechanical stuff.",
 "Substituir o eixo e as pás deve resolver por enquanto. Acredito que a Loja de Itens-Exóticos em Facade deva ter tudo o que precisamos.","Replacing the axle and the paddle boards should suffice for now. I believe the strange-thing store in Facade should have everything we need.",
@@ -2980,7 +2980,7 @@
 "Ah, obrigada. Tenho certeza de que posso encontrar alguém para cuidar do trabalho de reparo em si.","Oh, thank you. I'm sure I can find someone to take care of the actual repair work.",
 "Obrigado por se voluntariar para ajudar com a roda d'água. É bom saber que alguém ainda tem um senso de orgulho comunitário.","Thanks for volunteering to help with the waterwheel. It's nice that someone still has a sense of community pride.",
 "Preciso de um eixo e algumas tábuas de remo. Teria algo do tipo?","I need an axle and some paddle boards. You got anything like that?",
-"(Não, mas se você me trouxer Minério de Ferro e Toras de madeira, eu consigo construir o que você precisa.)","(No, but if you bring me iron ore and logs, I could probably construct what you need.)",
+"(Não, mas se você me trouxer minério de ferro e moras de madeira, eu consigo construir o que você precisa.)","(No, but if you bring me iron ore and logs, I could probably construct what you need.)",
 "Pode ser. Quanto você precisa?","That works. How much do you need?",
 "(Acho que dez de cada devem ser suficientes.)","(I think ten of each should suffice.)",
 "Ok. Volto rapidinho.","Okay. I'll be back in a bit.","Vale. Volveré en un santiamén."
@@ -2988,7 +2988,7 @@
 "(Ah, sim, o minério de ferro e as toras de madeira. Vou começar a construção imediatamente, mas pode levar algum tempo. Está tudo bem?)","(Ah, yes, the iron ore and logs. I will begin construction at once, but it may take some time. Is this all right?)",
 "(Entregarei os produtos diretamente no local solicitado. Por favor, diga ao cliente para ter paciência.)","(I will deliver the finished goods directly to the job site. Please tell the client to be patient.)",
 "Vou avisá-la.","I'll let her know.",
-"(Precisarei de dez peças de Minério de Ferro e dez Toras de Madeira.)","(I will need ten pieces of iron ore and ten logs.)",
+"(Precisarei de dez peças de minério de ferro e dez toras de madeira.)","(I will need ten pieces of iron ore and ten logs.)",
 "(Entregarei os produtos diretamente no local solicitado. Por favor, diga ao cliente para ter paciência.)","(I will deliver the finished goods directly to the job site. Please tell the client to be patient.)",
 "As peças estão a caminho, mas vai demorar um pouco.","The parts are on the way, but it's going to take a little while.",
 "Isso é ótimo! Encontrei alguém para fazer o trabalho de reparo, então logo voltará a funcionar.","That's great! I found someone to do the repair work, so we should be in business.",
@@ -3005,9 +3005,9 @@
 "(Preciso de dez motores quebrados e dez cabos cortados. Você deve ser capaz de resgatar ambos de robôs.)","(I need ten broken motors and ten severed cables. You should be able to salvage both from robots.)",
 "Certo. Estou nisso.","All right. I'm on it.",
 "Eu consegui o que você precisa.","I got what you need.",
-"(Motores Quebrados e Cabos Cortados... Sim, muito bom.)<PAGE>(Novamente, isso vai demorar um pouco, mas entregarei ao cliente assim que terminar.)","(Broken motors and severed cables... Yes, very good.)<PAGE>(Again, this will take a bit, but I will deliver it to the client when I am done.)",
+"(Motores quebrados e cabos cortados... Sim, muito bom.)<PAGE>(Novamente, isso vai demorar um pouco, mas entregarei ao cliente assim que terminar.)","(Broken motors and severed cables... Yes, very good.)<PAGE>(Again, this will take a bit, but I will deliver it to the client when I am done.)",
 "Vou informá-lo.","I'll let him know.",
-"(Precisarei de dez Motores Quebrados e dez Cabos Cortados.)","(I will need ten broken motors and ten severed cables.)",
+"(Precisarei de dez motores quebrados e dez cabos cortados.)","(I will need ten broken motors and ten severed cables.)",
 "(Você está se tornando meu melhor cliente. Gostaria que as vendas sempre fossem tão boas assim.)","(You're becoming my best customer. I wish business was always this good.)",
 "A bomba está a caminho. Eles vão entregá-la quando estiver pronta.","The pump is on its way. They'll deliver it once it's ready.",
 "Muito obrigado! Tome aqui algo só porque me importo.","Thanks much! Here's a little something just because I care.",
@@ -3036,21 +3036,21 @@
 "(Bwa ha ha! Agora estamos um pouco mais perto de trazer A Ordem da Flor Demoníaca à tona!)","(Bwa ha ha! Now we are one step closer to bringing forth The Order of the Demonic Blossom!)",
 "...Desculpe, o quê? Eu não estava ouvindo.","...Sorry, what? I wasn't listening.",
 "(Ah, uh...nada. Obrigado pelas flores!)","(Oh, uh...nothing. Thanks for the flowers!)",
-"(Preciso de dez sementes de Flor-da-Lua. Espero que você encontre.)","(I need ten pink moonflower seeds. I hope you can help.)",
+"(Preciso de dez sementes de flor-da-lua. Espero que você encontre.)","(I need ten pink moonflower seeds. I hope you can help.)",
 "(Com licença! Está procurando trabalho agora?)","(Excuse me! Are you looking for work right now?)",
 "Talvez. Que tipo de trabalho?","Maybe. What kind of work?",
 "(As regras dizem que devemos fazer uma máscara cerimonial para o nosso rei, e eu preciso de ajuda para coletar os materiais.)","(The rules state that we must make a ceremonial mask for our king, and I need help collecting the materials.)",
 "Eu posso fazer isso.","I can do that. ",
 "(Obrigado. Precisarei que você encontre dois itens.)","(Thank you. I will need two things from you.)",
-"(Um é uma Liga de Titânio, que pode ser encontrada no Lixão. O outro é um Cristal, que é um tipo especial de minério.)","(One is titanium alloy, which can be found in the Junk Heap. The other is a crystal, which is a special type of ore.)",
-"(Eu vou precisar de um de cada item.)","(I will need one of each item.)",
+"(Um é uma liga de titânio, que pode ser encontrada no Lixão. O outro é um cristal, que é um tipo especial de minério.)","(One is titanium alloy, which can be found in the Junk Heap. The other is a crystal, which is a special type of ore.)",
+"(Vou precisar de um de cada item.)","(I will need one of each item.)",
 "Consegui os materiais.","I've got your things.",
 "(Agora posso criar a máscara! Ah, muito obrigado!)","(Now I can create the mask! Oh, thank you very much!)",
 "Pra que serve essa máscara?","What manner of ceremony is this mask for?",
 "(O rei deve usar a máscara enquanto estiver ponderando uma nova regra.)","(The king shall wear this mask when he is pondering a new rule.)",
 "... Essa é uma máscara bem específica.","...That's a pretty specialized mask.",
 "(O rei deve usar a máscara enquanto estiver ponderando uma nova regra.)","(The king shall wear this mask when he is pondering a new rule.)",
-"(Eu precisarei de Liga de Titânio e um Cristal.)","(I will need titanium alloy and a crystal.)",
+"(Eu precisarei de liga de titânio e um cristal.)","(I will need titanium alloy and a crystal.)",
 ,,
 ,,
 ,,
@@ -3063,16 +3063,16 @@
 ,,
 ,,
 ,,
-"A-Ajuda! Aaaaaajuda!","H-help! Heeeeeelp!",
+"A-Ajuda! Ajuuuuuuda!","H-help! Heeeeeelp!",
 "Você é um daqueles caras que estão tentando invadir o templo? Por que eu deveria te ajudar?","You one of the guys trying to bust up the temple? Why should I help you?",
-"T-tem uma Sombra gigante lá dentro! Nós estávamos só procurando por tesouros...<PAGE> Digo, ah...<PAGE>De qualquer forma, é ENORME!","Th-there's a huge Shade inside! We were just looking for treas...<PAGE>I mean, um...<PAGE>Anyway, it's HUGE! ",
+"T-tem uma Sombra gigante lá dentro! Nós estávamos só procurando por tesouros...<PAGE> Digo, ah...<PAGE>Que seja, é ENORME!","Th-there's a huge Shade inside! We were just looking for treas...<PAGE>I mean, um...<PAGE>Anyway, it's HUGE! ",
 "Eu consegui sair, mas meus companheiros ladr...<PAGE> Digo, uh...<PAGE>Mas meus amigos ainda estão lá dentro!","I made it out, but my fellow thiev...<PAGE>I mean, uh...<PAGE>But my friends are still in there!",
 "Parece que o pior cenário aconteceu.","It seems the worst-case scenario has come to pass.",
 "Foda-se esses caras. Eles procuraram confusão, eles que desfaçam a própria cagada.","Screw these guys. They made their bed, now let 'em shit in it.",
 "Se essa Sombra é tão grande quanto eles dizem, é muito perigoso deixá-la viva.","If that Shade is as big as they claim, it's too dangerous to let it live.",
 "Vamos entrar e cuidar da Sombra.","Let's go in and take care of the Shade.",
 "Gahh! Que droga!","Gahh! Dammit!",
-"Ei, cuzão. Tem um garoto na cidade que quer jogar bolitas, mas ele só tem uma bolinha. Você pode ajudar?","Hey, asshole. There's a kid back in town who wants to play marbles, but he's two short. Think you can help?",
+"Ei, cuzão. Tem um garoto na cidade que quer jogar bolitas, mas ele só tem uma bolinha. Acha que pode ajudar?","Hey, asshole. There's a kid back in town who wants to play marbles, but he's two short. Think you can help?",
 "Eeeeeek! Deixa ela longe de mim!","Eeeeek! Keep her away from me!",
 "Foi uma fala bem comedida, meretriz. Esperava um discurso obsceno de proporções épicas!","That was some excellent restraint on your part, hussy. I expected a foul-mouthed tirade of epic proportions!",
 "Enfia no seu índice, livro.","Cram it up your index, book.",
@@ -3092,7 +3092,7 @@
 "Siga em direção às planícies do norte e continue seguindo para o norte.","Make for the northern plains, then just keep heading north.",
 "A carta é para o irmão mais velho.","The letter goes to the elder of the two brothers. ",
 "Você é 【NPC名】? Eu tenho uma carta para você de Beira-Mar.","Are you 【NPC名】? I've got a letter for you from Seafront.",
-"Vá embora, forasteiro! Não precisamos de seu... <PAGE>Um...uma carta, você diz? Bem, acho que vou ficar com ela.","Begone outsider! We don't need your...<PAGE>Um...a letter you say? Well, I suppose I'll take it.",
+"Vá embora, forasteiro! Não precisamos de seu... <PAGE>Um...uma carta, é isso? Bem, acho que vou ficar com ela.","Begone outsider! We don't need your...<PAGE>Um...a letter you say? Well, I suppose I'll take it.",
 "Ei, eu tenho uma carta para você. É de Beira-Mar.","Hey, I have a letter for you. It's from Seafront.",
 "Provavelmente é da guilda de comerciantes. Temos trabalhado com eles ultimamente. <PAGE>De qualquer forma, obrigado por entregá-la.","It's probably from the merchants guild. We've been doing some work with them lately.<PAGE>Anyway, thanks for delivering it.",
 "Eu dei a ela a carta.","I gave her the letter.",
@@ -3109,7 +3109,7 @@
 "Tenho mais duas cartas. Uma está indo para Aerie e outra para o Lixão. <PAGE>Meu homem para entregas distantes não está disponível agora e com minha perna e tudo mais...","I've got two more letters. One is heading for The Aerie, and the other is going to the Junk Heap.<PAGE>My long-distance deliveryman is out right now, and with my leg and all...",
 "Não diga mais nada! Já fizemos o suficiente ao ajudar esse preguiçoso!","Say nothing! We have done more than enough to aid this goldbricking layabout!",
 ,,
-"Quando você chegar lá, por favor entregue a carta para 【NPC名】.","When you get there, please give the letter to 【NPC名】.",
+"Quando você chegar lá, por favor, entregue a carta para 【NPC名】.","When you get there, please give the letter to 【NPC名】.",
 "A carta é para o irmão mais velho.","The letter goes to the elder of the two brothers. ",
 "Tenho uma carta para uma mulher chamada Popola. Acho que ela é da sua vila, certo?","I have a letter for a woman named Popola. I think she's from your village, right?",
 "Ela é, e ficaria feliz em entregá-la para você.","She is, and I'd be happy to deliver it for you.",
@@ -3133,8 +3133,8 @@
 "Tenha cuidado se sair da aldeia. Ouvi dizer que os animais ficaram loucos.","Be careful if you leave the village. I hear the animals have all gone loco.",
 "Se você sair da vila, tome cuidado com os animais, bem como com as Sombras. Nós perdemos duas pessoas para ataques de animais apenas neste mês!","If you leave the village, watch out for animals as well as Shades. We've lost two people to animal attacks just this month!",
 "Você não acha que é uma oportunidade desperdiçada deixar praça da vila assim?","Don't you think it's a wasted opportunity to leave this village square like this?",
-"(Desculpe, não permitido entrar.)","(Sorry, no entry.)",
-"(Não permitida a entrada!)","(No entry allowed!)",
+"(Desculpe, entrada proibida.)","(Sorry, no entry.)",
+"(Entrada não permitida!)","(No entry allowed!)",
 "A galera fala que a ponte de metal no mar costumava transportar grandes caixas de ferro cheias de pessoas e carga. Pessoalmente, acho que é um monte de besteira.","Folks say the metal bridge offshore used to carry large iron boxes filled with people and cargo. Personally, I think that's a bunch of bullplop.","Algunos dicen que el puente de metal en medio del agua solía llevar enormes cajas metálicas cargadas de gente y mercancías. Paparruchas, en mi opinión."
 "Oi! Um rosto novo na cidade! Aqui para comprar alguma coisa, bonitão?","Oi! A new face in town! Here to buy something, handsome?",
 "Shhhh! Fique longe daqui, senhor!","Shhhh! Stay away from here, mister!",
@@ -3151,7 +3151,7 @@
 "Yonah! Fale comigo!","Yonah! Talk to me!",
 "Pai... você está bem?","Dad...are you all right?",
 "Não se preocupe comigo. Estou bem.","Don't worry about me. I'm fine.",
-"Isso é bom. Ah, olhe! Eu ...encontrei isso enquanto você estava fora.","That's good. Oh, look! I...I found this while you were gone.",
+"Isso é bom. Ah, olha! Eu ...encontrei isso enquanto você estava fora.","That's good. Oh, look! I...I found this while you were gone.",
 "Um biscoito? Ei, esse é o seu favorito.","A cookie? Hey, that's your favorite.",
 "Aqui, podemos dividir, ok?","Here, we can split it, okay?",
 "Não. Você pega.","No. You take it.",
@@ -3173,18 +3173,18 @@
 "Estou indo, Yonah!","I'm coming, Yonah!",
 "Tenho que ajudar Yonah primeiro.","I have to help Yonah first.",
 "Ugh! Um tipo de poder está me bloqueando.","Ugh! Some kind of power is blocking me.",
-"Você está na presença de uma sabedoria antiga!","You stand in the presence of ancient wisdom!",
+"Você está na presença de sabedoria antiga!","You stand in the presence of ancient wisdom!",
 "Sou um texto do tipo mais obscuro e arcano,<LF>e eu posso ser de grande ajuda para você.","I am a text of the darkest, most arcane type,<LF>and I could be of great assistance to you.",
 "Não confio em livros que falam.","I don't trust talking books.",
 "Seu tempo é curto, cético.","Your time is short, skeptic.",
 "Nesse momento, a garota que você procura está em grande perigo.","Even now, the girl you seek is in grave danger.",
 "Yonah!","Yonah!",
 "Eu lhe concederei uma chance final. Curve sua cabeça<LF>e aceite meu poder, ou vá sozinho e fracasse.","I will grant you one final chance. Bow your head<LF>and accept my power, or go it alone and fail.",
-"Bwah hah hah! Eu sou Grimório Weiss!<LF>Apenas meu nome faz reinos se ajoelharem!","Bwah hah hah! I am Grimoire Weiss!<LF>My very name brings kingdoms to their knees!",
+"Bwah hah hah! Eu sou Grimório Weiss!<LF>Meu nome faz reinos se ajoelharem!","Bwah hah hah! I am Grimoire Weiss!<LF>My very name brings kingdoms to their knees!",
 "...É melhor você ser tudo o que afirma ser.","...You'd better be everything you claim to be.",
 "Prazer em conhecê-lo, Weiss.","Nice to meet you, Weiss.",
 "Gah! Você se referirá a mim pelo meu nome completo e adequado!","Gah! You will refer to me by my full and proper name!",
-"Você está diante de uma sabedoria antiga!","You stand in the presence of ancient wisdom!",
+"Você está diante da sabedoria antiga!","You stand in the presence of ancient wisdom!",
 "☆　＠　＃　＊　（　　＠","☆　＠　＃　＊　（　　＠",
 "O que é isso?","What's that?",
 "Espera... Essa música...","Wait... That song...",
@@ -3206,9 +3206,9 @@
 "Deixe nossa vila imediatamente!","Leave our village at once!",
 "Não ousamos desafiar as Sombras...","We dare not defy the Shades...",
 "Devemos matar Kainé!","We must kill Kainé!",
-"Aquela mulher foi contaminada por uma Sombra, e agora olhe para ela...","That woman was tainted by a Shade, and now look at her...",
-"Com medo... Estou tão com medo... Nunca mais sairei de casa.","Scared... I'm so scared... I'll never leave my home again.",
-"Que bando patético de tumultuosos!","What a pathetic bunch of rabble!",
+"Aquela mulher foi infectada por uma Sombra, e agora olhe para ela...","That woman was tainted by a Shade, and now look at her...",
+"Com medo... Tô com tanto medo... Nunca mais sairei de casa.","Scared... I'm so scared... I'll never leave my home again.",
+"Que bando de ralé patética!","What a pathetic bunch of rabble!",
 "Deixe nossa vila imediatamente!","Leave our village at once!",
 "Não podemos desafiar as Sombras...","We dare not defy the Shades...",
 "Não confiamos em você.","We don't trust you.",
@@ -3222,7 +3222,7 @@
 "Isso é tudo?","Is that all?",
 "O que você está esperando, idiota? Ataque-a!","What are you waiting for, fool? Attack her!",
 "Hã?","Huh?",
-"Por minhas páginas! Essa garota domina magia!","By my very pages! This girl wields magic!",
+"Pelas minhas páginas! Essa garota domina magia!","By my very pages! This girl wields magic!",
 "Nossos ataques estão falhando!","Our attacks are failing!",
 "Maldição...","Goddammit...",
 "Pare, idiota! Ataques mágicos são inúteis contra ela!","Stop, fool! Magical attacks are useless against this one!",
@@ -3230,11 +3230,11 @@
 "Talvez ela tenha trazido um companheiro?","Perhaps she's brought a companion?",
 "Ohhhhhhhhhh!!","Ohhhhhhhhhh!!",
 "Que diabos está acontecendo aqui?","The hell is going on here?",
-"Saia do meu caminho!","Stay outta my way!",
+"Fica fora do meu caminho!","Stay outta my way!",
 "Ele é meu, seus idiotas!","He's mine, you idiots!",
-"Parece que nós não somos o foco da raiva dela.","It would appear that we are not the focus of her anger.",
+"Parece que não somos o foco da raiva dela.","It would appear that we are not the focus of her anger.",
 "Não parece.","Doesn't look like it.",
-"Eu nunca vi nada parecido.","I've never seen the like.",
+"Nunca vi nada parecido.","I've never seen the like.",
 "Essa moça foi possuída por uma Sombra. Ela existe como algo que não é totalmente humano nem outra coisa.","This one has been possessed by a Shade.<LF>She exists as neither fully human nor other.",
 "Acho que meio-humano é melhor do que não humano.","I guess half-human is better than no human at all.",
 "Mas se aquela parte for embora, eu a cortarei como todas as outras.","But if that part goes, I'll cut her down like all the rest.",
@@ -3250,13 +3250,13 @@
 "Você sabe sobre Aerie, certo?","You know about The Aerie, right?",
 "Um pouco.","A little.",
 "Uma cidade pequena cheia de pessoas terrivelmente anti-sociais!","A quaint burg filled with terribly unsociable people!",
-"Bem, aparentemente Sombras estão descendo à vila em grande número.","Well, apparently Shades are descending on the village in huge numbers.",
+"Bem, aparentemente Sombras estão se dirigindo à vila em grande número.","Well, apparently Shades are descending on the village in huge numbers.",
 "Certo. Vamos lá, Weiss.","Right. Let's go, Weiss.",
 "Devo apostar que aquela mulher de calcinha tem algo a ver com essa decisão?","Shall I wager that trollop in her underpants has something to do with this decision?",
 "Hmmm. Parece que recebemos uma mensagem.","Hmmm. We seem to have received a missive.",
 "Tem uma carta para você.","There's a letter for you.",
-"Bah! Isso é claramente uma armadilha!","Bah! This is clearly a trap!",
-"Talvez. Mas vamos verificar mesmo assim.","Maybe. But we're going to check it out anyway.",
+"Bah! Isso claramente é uma armadilha!","Bah! This is clearly a trap!",
+"Talvez. Mas verificaremos mesmo assim.","Maybe. But we're going to check it out anyway.",
 "Bem, chegamos até aqui. Acho que não podemos voltar agora.","Well, we've come this far. I suppose we can't turn back now.",
 "Bem, chegamos até aqui. Acho que não podemos voltar agora.","Well, we've come this far. I suppose we can't turn back now.",
 "É melhor seu namorado valer a pena.","This boyfriend better be worth it.",
@@ -3265,7 +3265,7 @@
 "Pah! Que pensamento absurdo!","Pah! What an absurd suggestion!",
 "Não gosto nem um pouco disso!","I don't like this one bit!",
 "Você parece assustado, Weiss.","You sound scared, Weiss.",
-"O que é isso? A imagem mudou.","What's this? The picture has changed.","¡¿Pero qué...?! El cuadro ha cambiado."
+"O que é isso? A foto mudou.","What's this? The picture has changed.","¡¿Pero qué...?! El cuadro ha cambiado."
 "Quem é você?","Who are you?",
 "Acha que devemos procurar Kainé?","Think we should look for Kainé?",
 "Deixe ela! Essa mulher é capaz de se virar sozinha.","Leave her! That woman is capable enough on her own.",
@@ -3273,14 +3273,14 @@
 "Aaaaaah!","Aaaaaah!","¡Aaah!"
 "Yaaaaaahhh!","Yaaaaaahhh!","¡Yaaah!"
 ,,
-"Eu vou com você. Não é justo deixá-lo ir sozinho.","I'm coming with you. It's unfair to let you go on your own.",
+"Vou com você. Não é justo deixá-lo ir sozinho.","I'm coming with you. It's unfair to let you go on your own.",
 "E além disso, pode ser divertido usar meus olhos para algo útil pela primeira vez!","And besides, it might be fun to put my eyes to good use for once!",
 "Ah, ótimo. Por que todo livro que eu encontro se comporta tão mal?","Oh, great. Why does every book I meet have a bad attitude?",
 "Ho, nós somos espertos! Como se qualquer tomo pudesse comparar com a maravilha que é Grimório Weiss!","Ho, aren't we clever! As if any mere tome could compare to the wonderment that is Grimoire Weiss!",
 "Petrificação é de fato um poder temível!","Petrification is a fearsome power indeed!",
 "Esse desgraçado nunca vai parar!?","Is this bastard ever gonna stop!?",
 "Vou petrificar as páginas! Você dá o golpe final!","I'll petrify the pages! You strike the final blow!",
-"Oh não! Eu não consigo petrificá-lo!","Oh no! I can't petrify it!",
+"Oh não! Não consigo petrificá-lo!","Oh no! I can't petrify it!",
 "Maldição! Eu não consigo ferir essa coisa!","Dammit! I can't hurt this thing!",
 "Ó, fatídico dia! Seria este o fim para Grimório Weiss!?","O, fated day! Is this the end for Grimoire Weiss!?",
 "Será que essa maldita casa tem uma saída?","Does this goddamn house even have an exit?",
@@ -3294,20 +3294,20 @@
 "Fujam, pessoal! Eu vou ganhar tempo enquanto vocês escapam!","You guys run! I'll hold it off while you escape!",
 "Quem é esse cara?","Who's this guy?",
 "Esse é o Emil. Ele é o garoto que toma conta dess—","That's Emil. He's the kid that runs this—",
-"Caralho, esse livro é chato demais!","Fuck, this book is a real asshole!",
+"Caralho, esse livro é chato pra porra!","Fuck, this book is a real asshole!",
 "... Sim, eu deveria ter te avisado sobre isso, Emil.","...Yeah, I should've warned you about that, Emil.",
 "Ah, os doces e melodiosos tons da mulher<LF>ecoam nos meus ouvidos mais uma vez!","Ah, the sweet dulcet tones of the woman<LF>ring in my ears yet again!",
 "Vocês podem ir! Essa luta é minha, não posso pedir para vocês morrerem por mim!","You guys go! This is my fight, I can't ask you to die for me!",
 "Palavras fortes! Ainda assim, vejo seus joelhos tremendo como manteiga aquecida.","Bold words! And yet I see your knees quake like warm butter.",
-"Deixe as heroics para quando você for mais velho, garoto.","Save the heroics for when you're older, kid.",
-"Vocês poderiam por favor calar a boca e lutar?","Would you all please shut the hell up and fight?",
-"Estou te incomodando, Kainé?","Am I buggin' you, Kainé?",
+"Deixe o heroísmo para quando for mais velho, garoto.","Save the heroics for when you're older, kid.",
+"Vocês poderiam por favor calar a porra da boca e lutar?","Would you all please shut the hell up and fight?",
+"Tô te incomodando, Kainé?","Am I buggin' you, Kainé?",
 "Só tô falando que se os chatões quiserem mesmo ter uma maldita discussão civilizada sobre os méritos da coragem e do sacrifício, podemos fazer isso depois!","I'm just saying, if you bastards wanna have a goddamn civilized discussion on the merits of bravery and sacrifice, we can do it later.",
 "Esse é seu jeito de nos encorajar!?","Is this your way of encouraging us!?",
 "Nós realmente afundamos a discursos motivacionais de uma mulher em sua roupa íntima?","Have we truly sunk to motivational speeches from a woman in her undergarments?",
 "Acho que sim!","I guess so!",
 "Agora!","Now!",
-"Volte logo, tá bom?","Come back soon, okay?","¡Volved pronto!"
+"Volta logo, tá bom?","Come back soon, okay?","¡Volved pronto!"
 "Pode levar tempo, mas encontrarei um caminho para curar os olhos do meu mestre. Eu juro!","It may take time, but I shall find a way to cure my master's eyes. I swear it!","Seguro que llevará su tiempo, pero haré lo posible para encontrar la forma de curar la visión del señorito. ¡Lo juro!"
 "Mmmm...<LF>Vi você trocar algumas palavras com aquele Emil antes.","Mmmm...<LF>I saw you exchange some words with that Emil lad earlier.",
 "......","......",
@@ -3315,8 +3315,8 @@
 "......","......",
 "Fale a verdade, meretriz!","Speak the truth, hussy!",
 "Livro? ...Cala a boca.","Book? ...Shut up.",
-"A mansão é um lugar bastante sombrio, mas talvez devêssemos visitá-lo novamente.","The manor is a rather gloomy place, but perhaps we should pay it another visit.",
-"E tenha cuidado, por favor! Ficou realmente assustador lá dentro.","And be careful, please! It's gotten really scary in there.","¡Y mucho ojo, por favor! Es un lugar bastante inhóspito."
+"A mansão é um lugar muito sombrio, mas talvez devêssemos visitá-lo novamente.","The manor is a rather gloomy place, but perhaps we should pay it another visit.",
+"E tenha cuidado, por favor! Ficou muito assustador lá dentro.","And be careful, please! It's gotten really scary in there.","¡Y mucho ojo, por favor! Es un lugar bastante inhóspito."
 "Sabe, Weiss? Às vezes você consegue ser um pé no saco.","You know, Weiss? Sometimes you can be a real ass.",
 "Eu não suporto a sua capacidade de se intrometer nos assuntos dos outros!","I cannot stand the way you insist on meddling in the affairs of others!",
 "Eles têm uma vida difícil. Eu só quero ajudar.","They have a rough life. I just wanna help.",
@@ -3327,14 +3327,14 @@
 "Mmm...","Mmm...",
 "Ou, aliás, que ela esteja coletando sucata há uma semana inteira?","Or, for that matter, that she has been collecting scrap metal for a solid week?",
 "Um...","Um...",
-"Abra seus olhos, tolo! A mulher está claramente - ","Open your eyes, fool! The woman is clearly—",
+"Abra seus olhos, tolo! A mulher claramente está—","Open your eyes, fool! The woman is clearly—",
 "Chega, Weiss!","That's enough, Weiss!",
 "......","......",
 "Aquelas crianças estão em uma situação ruim. Talvez elas só precisem de um... milagre.","Those kids are in a bad way. Maybe they just need a...miracle.",
 "Milagres? Bah!","Miracles? Pah!",
 "Vamos.","Let's go.",
 "...Vamos.","...Let's go.",
-"Eu sou tudo o que Gideon tem agora. Eu não posso chorar na frente dele.","I'm all Gideon has left. I can't cry in front of him.","Soy lo único que le queda a Gideon. No puedo derrumbarme delante de él."
+"Sou tudo o que Gideon tem agora. Eu não posso chorar na frente dele.","I'm all Gideon has left. I can't cry in front of him.","Soy lo único que le queda a Gideon. No puedo derrumbarme delante de él."
 "Estou preocupado com a Yonah. Vamos voltar.","I'm worried about Yonah. Let's go back.",
 "Vamos visitar Aerie. Tem algumas Sombras lá.","Let's visit The Aerie. They've got Shades there.",
 "De fato. E podemos até encontrar um Verso Selado, quem sabe.","Indeed. And we may just find a Sealed Verse, besides.",
@@ -3347,7 +3347,7 @@
 "E eu não posso fazê-lo sem o fígado de um peixe xamã.","And I can't make it without the liver of a shaman fish.",
 "Onde posso encontrar um?","Where can I find one?",
 "Você deve ser capaz de pescar um nas águas perto de Beira-Mar.","You should be able to fish one out of the waters near Seafront.",
-"Desculpe. Eu sei que é incômodo, mas vocês são os únicos em quem confio.","Sorry. I know it's a bother, but you're the only ones I trust.",
+"Desculpe. Sei que é incômodo, mas vocês são os únicos em quem confio.","Sorry. I know it's a bother, but you're the only ones I trust.",
 "Escadas são... difíceis para esses ossos velhos...","Stairs are...rough going on these old bones...",
 "Mas e se ele... se ele voltar hoje?","But what if he...if he returns today?",
 "Não podemos deixar o farol ficar apagado...","Can't let the lighthouse...stay dark...",
@@ -3360,7 +3360,7 @@
 "Isso é loucura! Não temos negócios em um lugar assim!","This is madness! We've no business being in such a place!",
 "Pah! Bah! Tem areia entre minhas páginas!","Pah! Bah! There's sand between my pages!",
 "Tenho areia em lugares que não sabia que tinha.","I've got sand in places I didn't know I had.",
-"Eu te avisei sobre isso!<LF>Deveríamos voltar enquanto ainda há tempo.","I warned you about this!<LF>We should turn back while there's still time.",
+"Te avisei sobre isso!<LF>Deveríamos voltar enquanto ainda há tempo.","I warned you about this!<LF>We should turn back while there's still time.",
 "Então este era um cemitério, hein?","So this was a graveyard, eh?",
 "Estranho... Todas as lápides parecem novas.","Strange... All the headstones look new.",
 "Os lobos devem ter matado todas essas pessoas. Que destino cruel.","The wolves must have brought down all these people. What a cruel fate.",
@@ -3391,9 +3391,9 @@
 "Calma, Weiss. Vamos ver o que ela está planejando.","Easy, Weiss. Let's see what she's planning.",
 "Então, como é Facade?","So what's Facade like?",
 "É estranho. Vamos deixar assim.","It's strange. Let's just leave it at that.",
-"Mais estranho do que uma jovem grosseira que batalha contra monstros em suas roupas de baixo!?","Stranger than a boorish young woman who battles monsters in her undergarments!?",
+"Mais estranho do que uma jovem grosseira que batalha contra monstros usando roupas de baixo!?","Stranger than a boorish young woman who battles monsters in her undergarments!?",
 "...Vamos lá.","...Let's go.",
-" Lobos!","Wolves!",
+"Lobos!","Wolves!",
 "Cuidado!","Look out!",
 "Espere. Eles estão indo embora.","Wait. They're leaving.",
 "Aquele parece ser o líder da matilha.","That one appears to be the pack leader.",
@@ -3415,7 +3415,7 @@
 "(Bem, olá, Fyra! Eles são visitantes?)","(Well, hello there, Fyra! Are these visitors?)",
 "Precisamos de um filtro de água. Você pode nos ajudar?","We need a water filter. Can you help us?",
 "(Eu tenho tal item, mas preciso montá-lo primeiro.)","(I have such an item, but I need to assemble it first.)",
-"(Posso terminá-lo até amanhã. Você voltaria então?)","(I can have it finished by tomorrow. Would you come back then?)",
+"(Posso terminá-lo até amanhã. Pode voltar aqui?)","(I can have it finished by tomorrow. Would you come back then?)",
 "Sim, é um prazo aceitável.","Yes, that would be acceptable.",
 "Obrigado por nos mostrar a cidade, Fyra.","Thanks for showing us around, Fyra.",
 "(De nada.)","(You're welcome.)",
@@ -3424,10 +3424,10 @@
 "Acho que ela quer que voltemos algum dia. O que você acha, Kainé?","I think she wants us to come back someday. What do you say, Kainé?",
 "Eu diria para irmos embora.","I say let's go.",
 "Parece que essas regras só atrapalham.","Looks like all those rules are getting in the way.",
-"Este é o jeito deles e o sistema de leis deles. Como estrangeiros, não temos nenhum poder nessa questão. ... Vamos embora.","This is their way and their system of laws. As outsiders, we have no say in the matter.<LF>...Come. We should be off.",
+"Este é o jeito deles e o sistema de leis deles. Como estrangeiros, não temos nenhum poder nessa questão.<LF> ...Vamos embora.","This is their way and their system of laws. As outsiders, we have no say in the matter.<LF>...Come. We should be off.",
 "Essas pessoas deveriam parar de discutir sobre as regras e seguir o exemplo de Fyra.","These people should stop arguing about rules and follow Fyra's lead.",
 "Ela parece ter reservas de energia quase inesgotáveis.","She seems to possess almost boundless stores of energy.",
-"Fyra... Espere... Eu preciso descansar...","Fyra... Hold on... I need to rest...",
+"Fyra... Espera... Preciso descansar...","Fyra... Hold on... I need to rest...",
 "Essa garota tem um patriotismo extremo. Veja como ela dá o sangue por seu príncipe!","This girl must possess extreme patriotism. Look how she gives all for the sake of her prince!",
 "Me pergunto como é o príncipe desaparecido.","I wonder what this missing prince is like.",
 "O homem tem a tarefa de proteger seu povo, e ainda assim eles se esforçam para salvá-lo? Acho que isso nos diz tudo o que precisamos saber.","The man is tasked to protect his people, and yet they toil to<LF>save him? I think that tells us everything we need to know.",
@@ -3457,7 +3457,7 @@
 "Vá selar o portão! Mexa-se!","Go seal the gate! Move!",
 "Ok!","Okay!",
 "Todos vocês vão morrer!","You're all going to die!",
-"Eu vou matar todos vocês!","I'll kill every last one of you!",
+"Vou matar todos vocês!","I'll kill every last one of you!",
 "Ha! Esses inimigos mal são dignos de nossa espada!","Ha! These foes are hardly worthy of our steel!",
 "Venham! Mandem tudo o que têm!","Come on! Bring everything you got!",
 "Patético! Mesmo na morte eles me enojam!","Pathetic! Even in death they disgust me!",
@@ -3798,7 +3798,7 @@
 "Fiquei sabendo sobre Yonah. Eu...eu não sei o que dizer. Sinto muito.","I heard about Yonah. I...I don't know what to say. I'm so sorry.","Me he enterado de lo de Yonah. N-no sé qué decir. Lo lamento."
 "(Talvez seja melhor conferir a taberna.)","(Might as well check out the tavern.)","(Más vale echar un vistazo en la taberna)."
 "Queria muito dar a ela uma Lágrima da Lua, mas sabe como é, o motivo delas serem chamadas de ""lendárias"" é por serem tão difíceis de cultivar...","I really wanted to give her a Lunar Tear, but as I'm sure you know, the whole reason they call 'em ""legendary"" is that they're so hard to cultivate...","Tenía muchas ganas de darle una Lágrima lunar, pero, como ya sabrás, su fama de ""legendaria"" viene por lo mucho que cuesta cultivarlas..."
-"Mas eu <FONT=ITALIC>consegui</FONT> cultivar uma Freesia.","But I <FONT=ITALIC>did</FONT> manage to cultivate a freesia.","Sin embargo, <FONT=ITALIC>he podido</FONT> cultivar una fresia."
+"Mas eu <FONT=ITALIC>consegui</FONT> cultivar uma Frésia.","But I <FONT=ITALIC>did</FONT> manage to cultivate a freesia.","Sin embargo, <FONT=ITALIC>he podido</FONT> cultivar una fresia."
 "Ela sempre gostou de Frésias, então acho que foi melhor assim.","She's always liked freesias, so I guess things turned out for the best.","A ella siempre le han gustado, así que todo parece ir viento en popa."
 "Eu sei que Yonah significa tudo para você, mas não se esforce demais, viu?","I know Yonah means everything to you, but don't overwork yourself, all right?","Sé que Yonah lo es todo para ti, pero no te mates a currar, ¿vale?"
 "Assim que vocês chegarem, certifiquem-se de falar com o chefe da aldeia.","Once you arrive, be sure to speak to the village chief.","En cuanto llegues, ve a hablar con el jefe de la aldea."
