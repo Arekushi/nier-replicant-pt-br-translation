@@ -2150,17 +2150,17 @@
 "CONTINUAR","CONTINUE","CONTINUAR"
 "SAIR","EXIT","SALIR"
 "COMBO","hits     ","golpes  "
-"C","N"," "
-"A","O"," "
-"R","W","C"
-"R"," ","A"
-"E","L","R"
-"G","O","G"
+"N","N"," "
+"O","O"," "
+"W","W","C"
+" "," ","A"
+"L","L","R"
+"O","O","G"
 "A","A","A"
-"N","D","N"
-"D","I","D"
-"O","N","O"
-,"G"," "
+"D","D","N"
+"I","I","D"
+"N","N","O"
+"G","G"," "
 "C","C","C"
 "O","O","O"
 "M","M","M"
@@ -2168,10 +2168,10 @@
 "L","L","L"
 "E","E","E"
 "T","T","T"
-"O","E","O"
-" "," ",
-" "," ",
-" "," ",
+"E","E","O"
+" "," "," "
+" "," "," "
+" "," "," "
 "5 de Abril<LF><LF> Recebi uma carta do Papai hoje! Ele está em uma cidade distante<LF>onde ele pode ver o oceano. Espero que eu possa ver o<LF>oceano um dia. Aposto que é enorme!","April 5<LF><LF>Got a letter from Dad today! He's in a far-away town<LF>where he can see the ocean. I hope I can see the<LF>ocean someday. I bet it's huge!",
 "11 de Setembro<LF><LF>Hoje é o aniversário do Papai, mas ele não está aqui. Então acabei <LF>comemorando sozinha!","September 11<LF><LF>Today is Dad's birthday, but he's not here. So I just<LF>had a party by myself!",
 "20 de Julho<LF><LF> Devola e Popola vieram ficar comigo.<LF>Elas até cantaram uma música pra mim! Foi demais!<LF>Preciso praticar pra poder cantar pro papai quando ele voltar.","July 20<LF><LF>Devola and Popola came to keep me company today.<LF>They even sang a song for me! It was really great!<LF>I need to practice so I can sing to Dad when he gets back.",
