@@ -1,62 +1,62 @@
-"Poço do deserto 01 desbloqueado.","Desert Well 01 unlocked.",""
-"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"Poço do deserto 02 desbloqueado.","Desert Well 02 unlocked.",""
-"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"Poço do deserto 03 desbloqueado.","Desert Well 03 unlocked.",""
-"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"Poço do deserto 04 desbloqueado.","Desert Well 04 unlocked.",""
-"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
+"Poço do deserto 01 desbloqueado.","Desert Well 01 unlocked.",
+"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+"Poço do deserto 02 desbloqueado.","Desert Well 02 unlocked.",
+"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+"Poço do deserto 03 desbloqueado.","Desert Well 03 unlocked.",
+"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+"Poço do deserto 04 desbloqueado.","Desert Well 04 unlocked.",
+"Você deve desbloquear outro poço antes de poder usá-los para viagem rápida.","You must unlock another well before you can use them to fast-travel.",
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
 "O que é isso? Uma fonte?","What is this? A fountain?","Eh. ¿Qué es esto?"
-"","",""
+,,
 "Parece estar fora de serviço.","It appears to be out of service.","Parece que no funciona."
 "Eu não tenho tempo para passear.","I don't have time for sightseeing.","No tengo tiempo para ver el paisaje."
 "Eu não preciso sair ainda.","I don't need to go out quite yet.","No quiero despedirme tan pronto."
@@ -78,148 +78,148 @@
 "Melhor eu levar essa carneiro de volta para a vila.","I better get this mutton back to the village.","Más vale que lleve este carnero de vuelta a la aldea."
 "A tempestade de areia é muito intensa para ir mais longe.","The sandstorm's too intense to go any further.","Es imposible avanzar más con esta gran tormenta de arena."
 "Popola disse que poderíamos encontrar um fragmento de chave no Lixão.","Popola said we might be able to find a key fragment in the Junk Heap.","Popola dice que tal vez podríamos encontrar un fragmento de llave en la chatarrería."
-"Talvez possamos encontrar uma pista na Armamento dos Dois Irmãos.","Perhaps we can find a clue at Two Brothers Weaponry.","Quizá encontremos alguna pista en la armería de los hermanos."
+"Talvez possamos encontrar uma pista na Loja de Armas Dois Irmãos.","Perhaps we can find a clue at Two Brothers Weaponry.","Quizá encontremos alguna pista en la armería de los hermanos."
 "Popola disse que poderíamos encontrar alguma coisa na Floresta dos Mitos.","Popola said we might be able to find something in the Forest of Myth.","Popola dice que tal vez podríamos encontrar algo en el Bosque de las Leyendas."
 "Você vai me perdoar se eu parecer menos entusiasmado com uma viagem dessas.","You will forgive me if I seem less than enthusiastic about such a trip.","Perdóname si no me ves muy entusiasmado con esta travesía."
 "Vamos ver se O Irmão do Lixão nos enviou uma carta.","Let's see if the Junk Heap kid sent us a letter.","Veamos si el chico de la chatarrería nos mandó una carta."
 "Talvez a Popola tenha encontrado alguma informação sobre o Shadowlord. Vamos passar na vila.","Maybe Popola's found some information about the Shadowlord. Let's drop by the village.","Puede que Popola haya encontrado alguna pista sobre el Señor de las sombras. Vayamos a la aldea."
 "Muito bem.","Very well.","Muy bien."
-"Você está pronto para a batalha?","Are you ready for battle?",""
-"Sim. Temos que vingar Fyra.","Yeah. We have to avenge Fyra.",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
+"Você está pronto para a batalha?","Are you ready for battle?",
+"Sim. Temos que vingar Fyra.","Yeah. We have to avenge Fyra.",
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
 "Precisa que algum trabalho seja feito em sua arma?<LF><LIST=95>Fortalecer armas</LIST><LF><LIST=96>Comprar e vender itens</LIST><LF><LIST=97>Cancelar</LIST>","Need some work done on your weapon?<LF><LIST=95>Strengthen weapons</LIST><LF><LIST=96>Buy and sell items</LIST><LF><LIST=97>Cancel</LIST>","¿Necesitas mejorar tu arma?<LF><LIST=95>Reforzar armas</LIST><LF><LIST=96>Comprar y vender objetos</LIST><LF><LIST=97>Cancelar</LIST>"
-"","",""
-"","",""
-"","",""
+,,
+,,
+,,
 "Volte logo!","Come back soon!","¡Vuelve pronto!"
 "Em que posso ajudar?<LF><LIST=100>Fortalecer armas</LIST><LF><LIST=101>Comprar e vender itens</LIST><LF><LIST=102>Cancelar</LIST>","What can I help you with?<LF><LIST=100>Strengthen weapons</LIST><LF><LIST=101>Buy and sell items</LIST><LF><LIST=102>Cancel</LIST>","¿En qué te puedo ayudar?<LF><LIST=100>Reforzar armas</LIST><LF><LIST=101>Comprar y vender objetos</LIST><LF><LIST=102>Cancelar</LIST>"
-"","",""
-"","",""
-"","",""
+,,
+,,
+,,
 "Volte logo!","Come back soon!","¡Vuelve pronto!"
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"","",""
-"Olá. Posso ajudá-lo com algo?","Hello. Can I help you with something?",""
-"","",""
-"","",""
-"","",""
-"Precisamos ir para o pátio.","We need to go to the courtyard.",""
-"Talvez devêssemos visitar a velha da torre.<LF>Eu desconfio dela...","Perhaps we should pay a visit to the old woman in the lighthouse.<LF>I have a suspicion about her...",""
-"","",""
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+"Olá. Posso ajudá-lo com algo?","Hello. Can I help you with something?",
+,,
+,,
+,,
+"Precisamos ir para o pátio.","We need to go to the courtyard.",
+"Talvez devêssemos visitar a velha da torre.<LF>Eu desconfio dela...","Perhaps we should pay a visit to the old woman in the lighthouse.<LF>I have a suspicion about her...",
+,,
 "Este não é momento para escrever cartas.","This is hardly the time to be writing letters.","Ahora no es momento de escribir cartas."
 "Acho que está trancado.","I guess it's locked.","Creo que no se abre."
 "Acho que está trancado.","I guess it's locked.","Creo que no se abre."
@@ -266,7 +266,7 @@
 "Era um inimigo temível, mas sob este ambiente, parece quase...charmoso.","It was a fearsome foe, but under this environment, it looks almost...charming.","Fue un enemigo temible, pero en un entorno como este, lo encuentro incluso... agradable."
 "Por que a Popola estaria colecionando miniaturas das sombras que derrotamos?","Why would Popola be collecting figurines of the Shades we defeated?","¿Por qué coleccionaría Popola estatuillas de las Sombras que derrotamos?"
 "......","......","......"
-"","",""
+,,
 "Parece que fomos trancados aqui dentro...","It seems we have been shut in...","Parece que nos han encerrado..."
 "Bem-vindo! Receio que não tenhamos nada em estoque no momento, mas por favor, volte novamente!","Welcome! I'm afraid we don't have anything in stock at the moment, but please come again!","¡Bienvenido! Me temo que no tenemos nada de género ahora mismo, pero vuelve cuando quieras."
 "A dor do rei é forte. Duvido que ele desista agora neste ponto.","The king's grief is strong. I doubt he will stand down at this point.","El pesar del rey es grande. Dudo que vaya a apearse del caballo llegados a este punto."
