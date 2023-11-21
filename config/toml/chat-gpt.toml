@@ -1,0 +1,94 @@
+[CHATGPT]
+max_characters_phrases = 750
+
+translate_text_request = '''
+    Então traduza essas frases, OBEDECENDO o contexto que lhe informei e as REGRAS também.
+    (Não se esqueça de sempre manter a sua resposta dentro de um BLOCO DE CÓDIGO em Python)
+    (Lembre-se de manter a MESMA QUANTIDADE de frases que eu mandar, se eu te enviei 30, me responda com 30)
+    (Strings que estiverem em BRANCO, VAZIAS "" é para deixar assim, NÃO MUDE isso!)
+    (Mantenha o índice dentro da sublista, por exemplo [1, 'Uma frase qualquer'], para cada item da lista)
+    (Não precisa colocar as frases originais, só responda com as traduções dentro de uma lista em Python, por favor):
+
+    ```python
+    [phrases]
+    ```
+'''
+
+request_text = '''
+    Ok, eu vou pedir para que você faça a tradução do Inglês para o Português brasileiro de uma lista de frases.
+    As frases vem de um jogo chamado NieR: Replicant, onde temos os protagosnistas: NieR, Kainé e Emil.
+    O jogo se passa em um futuro, porém os costumes são medievais.
+    Boa parte das frases são de diálogos entre os personagens desse mundo, tenha isso em mente.
+    Eu irei te entregar uma lista de sublistas de frases em Python, cada sublista tem tem um índice numérico e
+    logo depois uma string (que é a frase que VOCÊ vai traduzir).
+    Quero que traduza CADA FRASE o mais fielmente possível,
+    mantendo a ESTRUTURA da frase original, se tiver parênteses, reticensias, ponto e vírgula,
+    ponto de exclamação e/ou interrogação, NÃO É PRA REMOVER.
+    Não remova o índice, matenha ele na estrutura quando me responder.
+    Aqui está uma lista de regras a serem seguidas:
+    [rules]
+
+    Irei mandar as frases para serem traduzidas gradualmente, e assim você irá ir me respondendo com a tradução, Ok?
+'''
+
+rules = [
+    '''
+        As traduções devem estar dentro de um bloco de código Python
+    ''',
+    '''
+        (Existem partes que estão usando tags, não quero que traduza a tag, o conteúdo dela pode traduzir,
+        exemplo se aparecer a tag <LF> não traduza e nem mude sua estrutura).
+    ''',
+    '''
+        Se tiver parênteses na frase, quero que os mantenha na frase, NÃO os remova, faz parte da estrutura da frase.
+        Também quero que me retorne no mesmo formato, uma lista de strings no Python.
+    ''',
+    '''
+        Não traduza o nome "Shadowlord", matenha como "Shadowlord"
+    ''',
+    '''
+        Traduza "Shades" para "Sombras"
+    ''',
+    '''
+        Não traduza o nome "Sunshine", matenha como "Sunshine"
+    ''',
+    '''
+        Traduza "Sealed Verse" para "Versos Selados"
+    ''',
+    '''
+        Traduza "Grimoire" para "Grimório"
+    ''',
+    '''
+        Traduza "Facade" para "Facade"
+    ''',
+    '''
+        Traduza "Black Scrawl" para "Rabisco Negro"
+    ''',
+    '''
+        Traduza "Seafront" para "Beira-Mar"
+    ''',
+    '''
+        Traduza "Barren Temple" para "Templo Árido"
+    ''',
+    '''
+        Traduza "Forest of Myth" para "Floresta dos Mitos"
+    ''',
+    '''
+        Termine as frases que tu tentar traduzir, se não conseguir tente novamente
+    ''',
+    '''
+        Não tente traduzir caracteres simulares a estes: "％＠＊※〆＠＊％☆＊"
+    ''',
+    '''
+        Não junte frases, cada frase é individual'
+    ''',
+    '''
+        Se e somente se deixe os pronomes e artigos no masculino se você não sabe o gênero do sujeito
+    ''',
+    '''
+        Se a palavra estiver em caixa alta, mantenha em caixa alta
+    ''',
+    '''
+        Frases em branco como por exemplo ("") é para manter da mesma forma, não apague por favor
+    '''
+]

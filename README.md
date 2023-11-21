@@ -187,7 +187,7 @@ Se quiser o projeto para desenvolver, alguns pré-requisitos são necessários.
 <br>
 
 ### Variáveis do .secrets.toml
-Eu guardo algumas variáveis sensíveis nesse arquivo dentro da pasta `config`, crie esse arquivo lá **se** for usar o ChatGPT para traduzir, caso contrário apenas ignore.
+Eu guardo algumas variáveis sensíveis nesse arquivo dentro da pasta `config/toml`, crie esse arquivo lá **se** for usar o ChatGPT para traduzir, caso contrário apenas ignore.
 ```toml
 [KEYS]
 OPENAI_API_KEY = "..." # Só criar uma conta e ir nesse link: https://platform.openai.com/account/api-keys
@@ -197,8 +197,8 @@ ORG_ID = "..." # Você consegue esse ID aqui: https://platform.openai.com/accoun
 SESSION_TOKEN = "..." # Necessário apenas se você não for usar a API do OpenAI
 ```
 
-### Variávels do settings.toml
-Eu guardo bastante informação dentro do `settings.toml` que fica dentro da pasta `config`, algumas delas são sobre as mensagens que mando para o ChatGPT para a tradução, se quiser customizar a aplicação, recomendo dar uma olhada lá!
+### Variávels em arquivos `.toml`
+Eu guardo bastante informação em arquivos `.toml` dentro da pasta `toml` que fica dentro da pasta `config`, algumas delas são sobre as mensagens que mando para o ChatGPT para a tradução, se quiser customizar a aplicação, recomendo dar uma olhada lá!
 
 <br>
 

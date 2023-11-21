@@ -7,14 +7,28 @@ from config.config import settings, ROOT_DIR
 from src.utils import get_all_files_from_path, make_dir, filter_files_by_lang, \
     check_and_extract_zip, has_folder, get_folders_with_same_name, \
     get_text_columns_from_raw, get_df_from_csv, save_df, get_file_name, \
-    keep_columns_by_index, get_without_pattern_files, duplicate_column_by_index
+    keep_columns_by_index, get_files_without_pattern_files, duplicate_column_by_index
+
+
+def unzip_tools():
+    console.rule(settings.CLI.extracting_rule)
+    
+    check_and_extract_zip(
+        f'{ROOT_DIR}\\{settings.TOOLS.emil_zip}',
+        f'{ROOT_DIR}\\tools'
+    )
+    check_and_extract_zip(
+        f'{ROOT_DIR}\\{settings.TOOLS.ntt_zip}',
+        f'{ROOT_DIR}\\tools'
+    )
 
 
 console = Console()
 app = typer.Typer(
-    callback=lambda: console.rule(settings.CLI.extracting_rule),
+    callback=unzip_tools,
     help=settings.TYPER.extractor_help
 )
+
 target_language = settings.ARGS.target_language
 source_language = settings.ARGS.source_language
 secondary_language = settings.ARGS.secondary_language
@@ -23,20 +37,18 @@ raw_texts_folder_name = settings.FOLDERS.raw_texts_folder_name
 originals_folder_name = settings.FOLDERS.originals_folder_name
 translation_folder_name = settings.FOLDERS.translation_folder_name
 
-nier_replicant_path = settings.PATHS.nier_replicant_path
-tools_path = f'{ROOT_DIR}\\tools'
 texts_path = f'{ROOT_DIR}\\texts'
-emil_path = f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.emil_path}'
-ntt_path = f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.ntt_path}'
-extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
 
 
 @app.command('assets', help=settings.TYPER.extract_assets_help)
 def extract_assets():
-    check_and_extract_zip(emil_path, tools_path)
-
+    nier_replicant_path = settings.PATHS.nier_replicant_path
+    extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
+    
     subprocess.run(
-        [emil_path, '-i', nier_replicant_path, '-o', extracted_files_path],
+        [
+            f'{ROOT_DIR}\\{settings.TOOLS.emil_exe}', '-i', nier_replicant_path, '-o', extracted_files_path
+        ],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.STDOUT,
         encoding='utf-8'
@@ -47,19 +59,19 @@ def extract_assets():
 
 @app.command('texts', help=settings.TYPER.extract_texts_help)
 def extract_texts():
+    nier_replicant_path = settings.PATHS.nier_replicant_path
+    extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
     extracted_texts_path = f'{extracted_files_path}\\{settings.PATHS.extracted_texts_path}'
-
-    check_and_extract_zip(ntt_path, tools_path)
-
-    if has_folder(f'{extracted_texts_path}.{originals_folder_name}'):
-        extracted_texts_path += f'.{originals_folder_name}'
 
     for file in get_all_files_from_path(extracted_texts_path):
         output_path = f"{texts_path}\\{raw_texts_folder_name}\\{get_file_name(file)}"
+        
         make_dir(output_path)
 
         subprocess.run(
-            [ntt_path, '-e', file, output_path],
+            [
+                f'{ROOT_DIR}\\{settings.TOOLS.ntt_exe}', '-e', file, output_path
+            ],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.STDOUT,
             encoding='utf-8'
@@ -76,7 +88,7 @@ def create_translation_folder():
     raw_files = get_all_files_from_path(raw_texts_files_path)
     source_lang_files = filter_files_by_lang(raw_files, source_language, False)
     secondary_lang_files = filter_files_by_lang(raw_files, secondary_language, False)
-    without_pattern_files = get_without_pattern_files(raw_texts_files_path)
+    without_pattern_files = get_files_without_pattern_files(raw_texts_files_path)
 
     if has_folder(translation_folder):
         translation_folder += f"-{len(get_folders_with_same_name(texts_path, translation_folder_name))}"

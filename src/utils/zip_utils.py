@@ -1,11 +1,10 @@
 import zipfile
-from src.utils import has_file
+from src.utils import has_file, has_folder
 
 
-def check_and_extract_zip(file_exe, extract_path):
-    if not has_file(file_exe):
-        base_path = '\\'.join(file_exe.split('\\')[:-1])
-        unzip_file(f'{base_path}.zip', extract_path)
+def check_and_extract_zip(zip_file, extract_path):
+    if not has_folder(zip_file[0:-4]):
+        unzip_file(zip_file, extract_path)
 
 
 def unzip_file(zip_file_path, extract_path):

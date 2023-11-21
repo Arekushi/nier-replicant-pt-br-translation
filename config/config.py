@@ -5,11 +5,11 @@ from dynaconf import Dynaconf
 settings = Dynaconf(
     envvar_prefix="DYNACONF",
     settings_files=[
-        'cli.toml',
-        'typer.toml',
-        'chat-gpt.toml',
-        'settings.toml',
-        '.secrets.toml'
+        './toml/cli.toml',
+        './toml/typer.toml',
+        './toml/chat-gpt.toml',
+        './toml/settings.toml',
+        './toml/.secrets.toml'
     ],
 )
 

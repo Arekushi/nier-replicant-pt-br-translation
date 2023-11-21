@@ -7,7 +7,9 @@ from src.utils import get_all_files_from_path
 
 
 console = Console()
+tomls_path = settings.DEFAULT_PATHS.tomls_path
 files_folders_required = settings.FOLDERS.files_folders_required
+
 write_path = settings.CLI.write_path
 nier_path_error = settings.CLI.nier_path_error
 nier_path_not_found = settings.CLI.nier_path_not_found
@@ -41,8 +43,13 @@ def update_nier_path():
 
 
 def write_nier_path(path):
-    obj = {'PATHS': {'nier_replicant_path': path}}
-    write(F'{ROOT_DIR}\\config\\.secrets.toml', obj, merge=True)
+    obj = {
+        'PATHS': {
+            'nier_replicant_path': path
+        }
+    }
+    
+    write(F'{ROOT_DIR}\\{tomls_path}\\.secrets.toml', obj, merge=True)
     return obj
 
 

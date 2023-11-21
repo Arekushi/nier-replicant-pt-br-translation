@@ -4,59 +4,59 @@ from rich.console import Console
 from rich.prompt import Prompt
 
 from config import settings, ROOT_DIR
-from src.utils import make_dir, check_and_extract_zip, copy_folder, \
-    get_folders_with_same_name, merge_translated_files, get_folders_name
+from src.utils import make_dir, check_and_extract_zip, copy_folder, merge_translated_files, get_folders_name
+
+
+def unzip_tools():
+    check_and_extract_zip(
+        f'{ROOT_DIR}\\{settings.TOOLS.ntt_zip}',
+        f'{ROOT_DIR}\\tools'
+    )
+    check_and_extract_zip(
+        f'{ROOT_DIR}\\{settings.TOOLS.arc_zip}',
+        f'{ROOT_DIR}\\tools'
+    )
+
 
 console = Console()
-app = typer.Typer(help=settings.TYPER.reimport_help)
-translation_folder_name = settings.FOLDERS.translation_folder_name
+app = typer.Typer(
+    help=settings.TYPER.reimport_help,
+    callback=unzip_tools
+)
+
 target_language = settings.ARGS.target_language
 source_language = settings.ARGS.source_language
 
+translation_folder_name = settings.FOLDERS.translation_folder_name
 result_folder_name = settings.FOLDERS.result_folder_name
 raw_texts_folder_name = settings.FOLDERS.raw_texts_folder_name
 originals_folder_name = settings.FOLDERS.originals_folder_name
-nier_replicant_path = settings.PATHS.nier_replicant_path
 
-tools_path = f'{ROOT_DIR}\\tools'
 texts_path = f'{ROOT_DIR}\\texts'
-ntt_path = f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.ntt_path}'
-extracted_files_path = f'{nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
-extracted_texts_path = f'{extracted_files_path}\\{settings.DEFAULT_PATHS.extracted_texts_path}'
+ntt_exe = f'{ROOT_DIR}\\{settings.TOOLS.ntt_exe}'
+reptext_exe = f'{ROOT_DIR}\\{settings.TOOLS.reptext_exe}'
+zstd_exe = f'{ROOT_DIR}\\{settings.TOOLS.zstd_exe}'
 
 
 @app.command('texts', help=settings.TYPER.reimport_texts_help)
 def reimport_texts_command():
     console.rule(settings.CLI.reimporting_texts_rule)
-    folders_name = get_folders_with_same_name(texts_path, translation_folder_name)
-
-    if len(folders_name) > 1:
-        p = Prompt()
-        choice = p.ask(
-            settings.CLI.texts_folder_choice,
-            choices=folders_name,
-            default=translation_folder_name
-        )
-        reimport_texts(choice, texts_path)
-    else:
-        reimport_texts(translation_folder_name, texts_path)
+    reimport_texts()
 
 
 # TODO: Undo if fails
-def reimport_texts(
-    translated_folder: str,
-    texts_folder: str
-):
-    result_path = create_result_folder(texts_folder)
-    merge_translated_files(result_path, f'{texts_folder}\\{translated_folder}')
+def reimport_texts():
+    extracted_files_path = f'{settings.PATHS.nier_replicant_path}\\..\\{settings.DEFAULT_PATHS.extracted_files_path}'
+    extracted_texts_path = f'{extracted_files_path}\\{settings.DEFAULT_PATHS.extracted_texts_path}'
     
-    check_and_extract_zip(ntt_path, tools_path)
-    copy_folder(extracted_texts_path, f'{extracted_texts_path}.{originals_folder_name}', False)
+    result_path = create_result_folder()
+    make_dir(extracted_texts_path)
+    print(extracted_texts_path)
     
     for folder_name in get_folders_name(result_path):
         subprocess.run(
             [
-                ntt_path, '-i',
+                ntt_exe, '-i',
                 f'{extracted_texts_path}\\{folder_name}',
                 f'{result_path}\\{folder_name}',
                 f'{extracted_texts_path}\\{folder_name}'
@@ -67,11 +67,12 @@ def reimport_texts(
         )
 
 
-def create_result_folder(texts_folder):
-    result_folder = f'{texts_folder}\\{result_folder_name}'
-    raw_folder = f'{texts_folder}\\{raw_texts_folder_name}'
+def create_result_folder():
+    result_folder = f'{texts_path}\\{result_folder_name}'
+    raw_folder = f'{texts_path}\\{raw_texts_folder_name}'
 
     make_dir(result_folder)
     copy_folder(raw_folder, result_folder)
+    merge_translated_files(result_folder, f'{texts_path}\\{translation_folder_name}')
 
     return result_folder

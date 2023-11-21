@@ -107,15 +107,15 @@ def filter_files_by_lang(
     result = list(filter(filter_file, files))
 
     if include_files_without_pattern:
-        result.extend(get_without_pattern_files(f'{files[0]}\\..\\'))
+        result.extend(get_files_without_pattern_files(f'{files[0]}\\..\\'))
 
     return result
 
 
-def get_without_pattern_files(raw_path):
+def get_files_without_pattern_files(raw_path):
     result = []
 
-    for file_without_pattern in settings.DEFAULT_PATHS.files_without_pattern:
+    for file_without_pattern in settings.FOLDERS.files_without_pattern:
         result.append(
             f'{raw_path}\\{file_without_pattern}'
         )
