@@ -10,7 +10,8 @@
 
 <p align="center">
   Aplicação para instalar e criar traduções para o <a href="https://store.steampowered.com/app/1113560/NieR_Replicant_ver122474487139/">NieR Replicant™ ver.1.22474487139...
-  </a>
+  </a><br>
+  English version of this README.md <a href="https://github.com/Arekushi/nier-replicant-pt-br-translation/blob/master/README.en.md">here</a>
 </p>
 
 <br>
@@ -37,7 +38,7 @@ Se quiser me comprar um ☕, chave PIX pra fortalecer: `0dd32e9d-8b78-4978-ad8a-
 Olhe a pasta `texts` e olhe os arquivos da pasta `translation` (onde está a tradução)
 Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e com base isso será aprovado ou não.
 
-**Todos os textos** foram revisados por mim e pela [Caroline Urbano][caroline] com bastante **cuidado**, mas pode existir algo que foi deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, informar.
+**Todos os textos** foram revisados por mim, pela [Caroline Urbano][caroline] e [Cristian Kirsch][omainha] com bastante **cuidado**, mas pode existir algo que foi deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, informar.
 
 Se quiser conversar mais sobre, podem me chamar em algumas das minhas redes sociais abaixo:
 <p align="center">
@@ -108,22 +109,20 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 1. Baixe o executável da aplicação aqui: [Release][release]
    
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
-   
-3. Abra a pasta `.installer` localizada dentro da pasta descompactada.
 
-4. Execute o arquivo `install.bat`
+3. Execute o arquivo `install.bat`
 
-5. O programa irá executar e solicitar o caminho até o diretório do NieR Replicant ver.1.22474487139
+4. O programa irá executar e solicitar o caminho até o diretório do NieR Replicant ver.1.22474487139
     > **Exemplo** de caminho
     ```
     C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139
     ```
 
-6. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
+5. Prontinho, só aguardar a finalização e iniciar o jogo já traduzido. 🎉
 
 <br>
 
-### Tutorial de forma manual
+### Tutorial sem o instalador
 1. Baixe os arquivos necessários aqui: [data][data]
 
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
@@ -220,6 +219,105 @@ Eu guardo bastante informação em arquivos `.toml` dentro da pasta `toml` que f
 
 4. Prontinho, você já pode desenvolver 🎉
 
+### Comandos úteis
+Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, irei listar e descrever alguns aqui:
+
+1. Extrair os textos
+    ```cmd
+    python main.py builder extract-texts
+    ```
+    Esse comando inicia o processo de extração dos textos do jogo.
+
+    Antes do início ele primeiro verifica se os `assets` do jogo já foram extraídos, caso contrário, primeiro ele extrai os `assets` para enfim, extrair os textos para o formato .CSV, que é mais amigável do que o formato binário que vem da extração dos assets.
+
+    Os textos estarão dentro da pasta `texts/raw`
+
+2. Criação da pasta de tradução
+    ```cmd
+    python main.py builder make-translation-folder
+    ```
+    Esse comando trabalha os arquivos `raw` de textos e cria novos arquivos .CSV que contém somente o conteúdo textual para a tradução.
+
+    Para facilitar e ajudar na tradução, ele cria um .CSV com três colunas:
+    1. Coluna para tradução
+    2. Coluna da língua fonte para tradução
+    3. Coluna da língua de suporte para tradução
+
+    Caso queria editar as línguas fonte e de suporte, vá até o arquivo `settings.toml` e edite as variáveis:
+    1. `target_language`
+    2. `source_language`
+    3. `secondary_language`
+
+    Dessa forma, fica fácil a consulta dos textos originais e traduzindo logo em seguida.
+
+    Um dica importante, se deseja criar uma nova tradução, recomendo um dois dois casos:
+    1. Deletar a pasta `text/translations`
+    2. Modificar o nome da pasta `translations` no arquivo `settings.toml` nas variáveis:
+        1. `paths_to_translate`
+        2. `translation_folder_name`
+
+3. Tradução com IA
+    ```cmd
+    python main.py builder translate
+    ```
+    Esse comando inicia o processo de tradução da pasta `translation`, então é importante executar o comando anterior antes de começar esse.
+
+    Há dois métodos para a tradução: Com **ChatGPT** ou **Google Tradutor**.
+
+    #### Google
+    A tradução feita com o Google é uma tradução rápida de ser feita, porém, com muita tradução incorreta. Eu ainda mantive esse módulo, mas não estou mais utilizando ele no projeto.
+
+    De qualquer forma, para traduzir usando o Google Tradutor, adicione uma flag indicando isso no método que estará feito.
+
+    ```cmd
+    nier-translator.exe builder translate --google
+    ```
+
+    #### ChatGPT
+    Se tratando do ChatGPT, é importante decidir se vais usar um WebCrawler ou a própria API do OpenAI.
+
+    ##### WebCrawler
+
+    Caso decida usar um WebCrawler, edite/crie o arquivo `.secrets.toml` dentro da pasta `config/toml` e adicione o `SESSION_TOKEN` que pode ser obtido de um login na página do ChatGPT.
+
+    > Caso tenha problemas com o WebCrawler envolvendo a versão do Google Chrome, recomendo baixar a versão do ChromeDriver nesse [link][chrome_drive_url].
+
+    > Após isso, edite o arquivo `driver.py` da lib `UnlimitedGPT`, lá teremos um construtor do Driver, edite para que fique algo parecido com isso:
+    ```python
+        super().__init__(
+            options=options,
+            headless=headless,
+            desired_capabilities=caps,
+            driver_executable_path='F:\path_to_driver\chromedriver.exe'
+        )
+    ```
+
+    ##### API
+
+    Caso decida usar a API, edite/crie o arquivo `.secrets.toml` dentro da pasta `config/toml` e adicione a `OPENAI_API_KEY` e `ORG_ID`. Nesse caso, será necessário usar uma flag para sinalizar ao método para que use a API ao invés do WebCrawler.
+    ```cmd
+    python main.py builder translate --api
+    ```
+
+    Também é importante se atentar ao arquivo `chat-gpt.toml`, lá eu defino como será as mensagens enviadas no chat, como por exemplo, definir que eu quero uma tradução do inglês para o português-brasileiro.
+    
+    **NÃO** recomendo mexer no que está entre diamantes `<>`, caso não saiba o que está fazendo.
+
+4. Geração dos arquivos .arc
+    ```cmd
+    python main.py builder generate
+    ```
+    Por fim, após ter realizado suas alterações nos arquivos da pasta `translation`, seja elas com tradução automática ou manual, chegamos na parte de reverter o processo e gerar os arquivos na qual o jogo lê, que são os arquivos .ARC.
+
+    Executando esse comando, ele irá iniciar o processo e irá gerar um resultado dentro da pasta `patch/data`, lá estarão os arquivos com as suas alterações já realizadas.
+
+    Para aplicar as alterações só utilizar o comando
+    ```cmd
+    python main.py manager update --local
+    ```
+
+    Dessa forma irá ser copiado os arquivos da pasta `patch/data` para o local do seu jogo. Caso contrário é só realizar o processo manualmente.
+
 <br>
 
 ## Contribuidores
@@ -227,8 +325,8 @@ Eu guardo bastante informação em arquivos `.toml` dentro da pasta `toml` que f
 | :---: | :---: | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.5/nier-translator.zip
-[data]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/1.0.5/data.zip
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.0.0/nier-translator.zip
+[data]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.0.0/data.zip
 [python]: https://www.python.org/downloads/
 
 <!-- [Some links] -->
@@ -238,6 +336,7 @@ Eu guardo bastante informação em arquivos `.toml` dentro da pasta `toml` que f
 [poetry_url]: https://python-poetry.org/docs/#installation
 [kaine]: https://github.com/yretenai/kaine
 [ntt]: https://github.com/lehieugch68/NieR-Text-Tool
+[chrome_drive_url]: https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi
