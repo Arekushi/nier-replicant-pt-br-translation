@@ -20,6 +20,7 @@ patch_data_path = settings.DEFAULT_PATHS.patch_data
 
 arc_path = settings.TOOLS.arc_path
 arc_source_path = f'{arc_path}\\source'
+arc_patch_path = f'{arc_path}\\patch'
 arc_data_path = f'{arc_path}\\data'
 
 texts_path = f'{ROOT_DIR}\\texts'
@@ -50,6 +51,7 @@ def generate_command():
 
 def generate_arc_files():
     copy_folder(patch_source_path, arc_source_path)
+    copy_folder(patch_source_path, arc_patch_path)
     
     subprocess.run(
         f'''
