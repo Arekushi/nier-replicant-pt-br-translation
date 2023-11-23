@@ -7,10 +7,7 @@ def main():
     import src.commands.translation_manager.manager as manager
     import src.commands.translation_builder.builder as builder
 
-    app = typer.Typer(
-        callback=check_nier_path
-    )
-    
+    app = typer.Typer()
     app.add_typer(manager.app, name='manager')
     app.add_typer(builder.app, name='builder')
 
@@ -19,4 +16,5 @@ def main():
 
 
 if __name__ == '__main__':
+    check_nier_path()
     main()
