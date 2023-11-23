@@ -3,8 +3,9 @@ from contextlib import suppress
 
 import pandas as pd
 
-from config import settings
+from config import settings, ROOT_DIR
 from src.utils import get_file_name, make_dir, get_all_files_from_path
+
 
 target_language = settings.ARGS.target_language
 source_language = settings.ARGS.source_language
@@ -34,8 +35,9 @@ def duplicate_column_by_index(df, indexes):
     return df.loc[:, columns * 2 + df.columns.difference(columns).tolist()]
 
 
-def save_df(df, file_path):
+def save_df(df, file_path, do_write_last_line=False):
     make_dir('\\'.join(file_path.split('\\')[:-1]))
+    
     df.to_csv(
         file_path,
         index=False,
@@ -43,26 +45,29 @@ def save_df(df, file_path):
         encoding='utf-8',
         quoting=csv.QUOTE_ALL
     )
+    
+    if do_write_last_line:
+        write_last_line(file_path)
 
 
-def get_text_columns_from_raw(file):
+def get_column_indexes_from_raw(file):
     file_name = get_file_name(file)
+    
+    for key, value in settings.COLUMNS.from_raw.items():
+        if str(key) in file_name:
+            return value
 
-    if file_name in ['nier_text.txd.csv', 'talker_name.tnd.csv']:
-        return [-8]
-    elif 'InfoWindow' in file_name:
-        return [-1, -2]
-
-    return [-1]
+    return settings.COLUMNS.from_raw['default']
 
 
-def get_columns_to_translate(file):
-    file_name = get_file_name(file)
+def get_column_indexes_to_translate(file_path):
+    file_name = get_file_name(file_path)
+    
+    for key, value in settings.COLUMNS.to_translate.items():
+        if key in file_name:
+            return value
 
-    if 'InfoWindow' in file_name:
-        return [1, 0]
-
-    return [0]
+    return settings.COLUMNS.to_translate['default']
 
 
 def write_last_line(file_path):
@@ -78,15 +83,15 @@ def get_file_args(file):
         file_path = file
         line_index = 0
 
-    columns_to_translate = get_columns_to_translate(file_path)
+    columns_to_translate = get_column_indexes_to_translate(file_path)
     df = get_df_from_csv(file_path, line_index)
 
     return file_path, df, columns_to_translate
 
 
-def update_df_with_translation(df, column, column_translated_phases):
+def update_df_with_translation(df, column, column_translated_phrases):
     df = df.reset_index()
-    df_temp = pd.DataFrame(column_translated_phases, columns=['index', 'translated_text'])
+    df_temp = pd.DataFrame(column_translated_phrases, columns=['index', 'translated_text'])
     df = pd.merge(df, df_temp, on='index', how='left')
     df['translated_text'] = df['translated_text'].fillna('')
     df[df.columns[column + 1]] = df['translated_text']
@@ -96,31 +101,32 @@ def update_df_with_translation(df, column, column_translated_phases):
 
 
 def filter_files_by_lang(
-        files,
-        lang,
-        include_files_without_pattern=True
+    files,
+    lang,
+    include_text_files_without_pattern=True
 ):
-    def filter_file(file_path):
+    def filter_files(file_path):
         with suppress(IndexError):
             return str(file_path).split('.')[-3] == lang
 
-    result = list(filter(filter_file, files))
+    files_filtered = list(filter(filter_files, files))
 
-    if include_files_without_pattern:
-        result.extend(get_files_without_pattern_files(f'{files[0]}\\..\\'))
+    if include_text_files_without_pattern:
+        text_file_path = '\\'.join(files[0].split('\\')[:-2])
+        files_filtered.extend(get_text_files_without_pattern(text_file_path))
 
-    return result
+    return files_filtered
 
 
-def get_files_without_pattern_files(raw_path):
-    result = []
+def get_text_files_without_pattern(text_path):
+    files = []
 
-    for file_without_pattern in settings.FOLDERS.files_without_pattern:
-        result.append(
-            f'{raw_path}\\{file_without_pattern}'
+    for file_without_pattern in settings.FILES.text_without_pattern:
+        files.append(
+            f'{text_path}\\{file_without_pattern}'
         )
 
-    return result
+    return files
 
 
 def merge_translated_files(result_path, translated_folder):
@@ -131,11 +137,10 @@ def merge_translated_files(result_path, translated_folder):
         result_df = get_df_from_csv(result_file)
         translated_df = get_df_from_csv(translated_file)
         
-        result_file_columns = get_text_columns_from_raw(result_file)
-        translated_file_columns = get_columns_to_translate(translated_file)
+        result_file_columns = get_column_indexes_from_raw(result_file)
+        translated_file_columns = get_column_indexes_to_translate(translated_file)
 
         for result_column, translated_column in zip(result_file_columns, translated_file_columns):
             result_df[result_df.columns[result_column]] = translated_df[translated_df.columns[translated_column]]
 
-        save_df(result_df, result_file)
-        write_last_line(result_file)
+        save_df(result_df, result_file, True)

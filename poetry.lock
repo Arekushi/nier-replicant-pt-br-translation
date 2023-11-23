@@ -1433,6 +1433,17 @@ files = [
 diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
+name = "pyperclip"
+version = "1.8.2"
+description = "A cross-platform clipboard module for Python. (Only handles plain text for now.)"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyperclip-1.8.2.tar.gz", hash = "sha256:105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57"},
+]
+
+[[package]]
 name = "pysocks"
 version = "1.7.1"
 description = "A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information."
@@ -1485,6 +1496,18 @@ python-versions = "*"
 files = [
     {file = "pytz-2022.7.1-py2.py3-none-any.whl", hash = "sha256:78f4f37d8198e0627c5f1143240bb0206b8691d8d7ac6d78fee88b78733f8c4a"},
     {file = "pytz-2022.7.1.tar.gz", hash = "sha256:01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0"},
+]
+
+[[package]]
+name = "pyvirtualdisplay"
+version = "3.0"
+description = "python wrapper for Xvfb, Xephyr and Xvnc"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "PyVirtualDisplay-3.0-py3-none-any.whl", hash = "sha256:40d4b8dfe4b8de8552e28eb367647f311f88a130bf837fe910e7f180d5477f0e"},
+    {file = "PyVirtualDisplay-3.0.tar.gz", hash = "sha256:09755bc3ceb6eb725fb07eca5425f43f2358d3bf08e00d2a9b792a1aedd16159"},
 ]
 
 [[package]]
@@ -1542,21 +1565,21 @@ jupyter = ["ipywidgets (>=7.5.1,<8.0.0)"]
 
 [[package]]
 name = "selenium"
-version = "4.8.2"
+version = "4.9.1"
 description = ""
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "selenium-4.8.2-py3-none-any.whl", hash = "sha256:bd04eb41395605d9b2b65fe587f3fed21431da75512985c52772529e5e210c60"},
-    {file = "selenium-4.8.2.tar.gz", hash = "sha256:c48372905bffcc3b24bd55ab4683a07ee5e1f30fe918c59558ea5ee44cedf6c3"},
+    {file = "selenium-4.9.1-py3-none-any.whl", hash = "sha256:82aedaa85d55bc861f4c89ff9609e82f6c958e2e1e3da3ffcc36703f21d3ee16"},
+    {file = "selenium-4.9.1.tar.gz", hash = "sha256:3444f4376321530c36ce8355b6b357d8cf4a7d588ce5cf772183465930bbed0e"},
 ]
 
 [package.dependencies]
 certifi = ">=2021.10.8"
 trio = ">=0.17,<1.0"
 trio-websocket = ">=0.9,<1.0"
-urllib3 = {version = ">=1.26,<2.0", extras = ["socks"]}
+urllib3 = {version = ">=1.26,<3", extras = ["socks"]}
 
 [[package]]
 name = "setuptools"
@@ -1744,19 +1767,37 @@ test = ["black (>=22.3.0,<23.0.0)", "coverage (>=6.2,<7.0)", "isort (>=5.0.6,<6.
 
 [[package]]
 name = "undetected-chromedriver"
-version = "3.4.6"
+version = "3.4.5"
 description = "('Selenium.webdriver.Chrome replacement with compatiblity for Brave, and other Chromium based browsers.', 'Not triggered by CloudFlare/Imperva/hCaptcha and such.', 'NOTE: results may vary due to many factors. No guarantees are given, except for ongoing efforts in understanding detection algorithms.')"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "undetected-chromedriver-3.4.6.tar.gz", hash = "sha256:871485624f7a2e1c15fde75ab7b8ceb30ebc06dad90cd66173ea8036c046367f"},
+    {file = "undetected-chromedriver-3.4.5.tar.gz", hash = "sha256:fba28ea8db97b3ffa06b678bdea6c8943aa068fef5786e87c7f669963c67e29d"},
 ]
 
 [package.dependencies]
 requests = "*"
 selenium = ">=4.0.0"
 websockets = "*"
+
+[[package]]
+name = "unlimitedgpt"
+version = "0.1.9.3"
+description = "An unofficial Python wrapper for OpenAI's ChatGPT API"
+category = "main"
+optional = false
+python-versions = ">=3.8.0"
+files = [
+    {file = "UnlimitedGPT-0.1.9.3-py3-none-any.whl", hash = "sha256:258174d4d28bde2d8c2edf7370359954bf9084ae2560d99052ff30f90142c615"},
+    {file = "UnlimitedGPT-0.1.9.3.tar.gz", hash = "sha256:a9f14222da169a4f21c7d00f21768b6a4269b116f0faace0710a5648318c51a1"},
+]
+
+[package.dependencies]
+pyperclip = "*"
+PyVirtualDisplay = "3.0"
+selenium = "4.9.1"
+undetected-chromedriver = "3.4.5"
 
 [[package]]
 name = "urllib3"
@@ -2042,4 +2083,4 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "2dc43c3e2d55031579c118d7ce73c811b4c208d5849b294cb3fbe9f37f066487"
+content-hash = "dbf25a8647080dac79626179c7083ab1b7bf6074c5b62dda9f5100fa41bc0db1"

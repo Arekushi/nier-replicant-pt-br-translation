@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "nier-replicant-pt-br-translation"
-version = "0.1.0"
-description = ""
+version = "2.0.0"
+description = "Aplicação para instalar e criar traduções para o NieR Replicant™ ver.1.22474487139..."
 authors = ["arekushi <alexandre.ferreira1445@gmail.com>"]
 readme = "README.md"
 packages = [{include = "nier_replicant_pt_br_translation"}]
@@ -21,6 +21,7 @@ asyncio = "^3.4.3"
 typer = {extras = ["all"], version = "^0.7.0"}
 pyinstaller = "^5.9.0"
 auto-py-to-exe = "^2.33.0"
+unlimitedgpt = "^0.1.9.3"
 
 
 [build-system]

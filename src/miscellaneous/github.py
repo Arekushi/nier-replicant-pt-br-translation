@@ -6,7 +6,7 @@ from config import settings, ROOT_DIR
 
 
 console = Console()
-tomls_path = settings.DEFAULT_PATHS.tomls_path
+tomls = settings.DEFAULT_PATHS.tomls
 last_release_url = settings.GITHUB.last_release_url
 current_release_version = settings.GITHUB.current_release_version
 commits_url = settings.GITHUB.commits_url
@@ -15,9 +15,12 @@ current_commit_sha = settings.GITHUB.current_commit_sha
 
 def check_relase_version():
     if not local_has_latest_release():
-        console.print(
-            settings.CLI.outdated_version_warning.replace('<version>', get_latest_release_version())
-        )
+        lastest_release_version = get_latest_release_version()
+        
+        if lastest_release_version:
+            console.print(
+                settings.CLI.UPDATE.outdated_version_warning.replace('<version>', lastest_release_version)
+            )
 
 
 def local_has_latest_commit():
@@ -35,7 +38,10 @@ def update_commit_sha():
         }
     }
     
-    write(F'{ROOT_DIR}\\{tomls_path}\\settings.toml', obj, merge=True)
+    write(F'{ROOT_DIR}\\{tomls}\\settings.toml', obj, merge=True)
+    settings.update(obj)
+    
+    return obj
 
 
 def get_latest_commit_sha():

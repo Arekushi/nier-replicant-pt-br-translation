@@ -10,7 +10,7 @@ translate_text_request = '''
     (Não precisa colocar as frases originais, só responda com as traduções dentro de uma lista em Python, por favor):
 
     ```python
-    [phrases]
+    <phrases>
     ```
 '''
 
@@ -26,7 +26,8 @@ request_text = '''
     ponto de exclamação e/ou interrogação, NÃO É PRA REMOVER.
     Não remova o índice, matenha ele na estrutura quando me responder.
     Aqui está uma lista de regras a serem seguidas:
-    [rules]
+    
+    <rules>
 
     Irei mandar as frases para serem traduzidas gradualmente, e assim você irá ir me respondendo com a tradução, Ok?
 '''

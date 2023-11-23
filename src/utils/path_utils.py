@@ -1,7 +1,6 @@
 import os
 import errno
 import shutil
-from re import search
 
 
 def has_folder(folder_path) -> bool:
@@ -23,10 +22,6 @@ def get_folders_name(path):
     return [item for item in os.listdir(path) if os.path.isdir(os.path.join(path, item))]
 
 
-def get_folders_with_same_name(path, name) -> list[str]:
-    return list(filter(lambda file_path: search(name, file_path), get_folders_name(path)))
-
-
 def copy_folder(folder_path, dest_path, override=True):
     if not override:
         if has_folder(dest_path):
@@ -39,7 +34,8 @@ def get_all_files_from_path(path) -> list[str]:
     files = [
         os.path.join(parent, name)
         for (parent, subdirs, files) in os.walk(path)
-        for name in files + subdirs
+        for name in files
+        if os.path.isfile(os.path.join(parent, name))
     ]
 
     return files
@@ -74,3 +70,12 @@ def make_dir(path):
                 pass
             else:
                 raise
+
+
+def copy_file(file_path, dest_path):
+    shutil.copy(file_path, dest_path)
+
+
+def copy_files(files_path, dest_path):
+    for file in files_path:
+        copy_file(file, dest_path)
