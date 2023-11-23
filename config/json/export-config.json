@@ -75,39 +75,31 @@
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/texts;texts/"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/settings.toml;config/toml/."
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/tools;tools/"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/typer.toml;config/toml/."
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/tmp;tmp/"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/translator.toml;config/toml/."
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/settings.toml;config/."
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/cli.toml;config/toml/."
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/typer.toml;config/."
-  },
-  {
-    "optionDest": "datas",
-    "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/translator.toml;config/."
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/chat-gpt.toml;config/toml/."
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/cli.toml;config/."
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/data;patch/data"
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/chat-gpt.toml;config/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/data;data/"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/github.toml;config/toml/."
   }
  ],
  "nonPyinstallerOptions": {
