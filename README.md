@@ -17,7 +17,7 @@
 <br>
 
 # Sobre o projeto...
-Projeto de tradução para PT-BR do fabuloso Nier Replicant Remaster/Remake (como queira chamar), desenvolvido em pouco menos de uma semana, foi utilizado do ChatGPT como suporte para a tradução. O projeto tem como objetivo incluir novas pessoas a essa obra prima dos videojogos, que por conta de ser um RPG onde há várias falas, não ter o português-brasileiro como uma opção de idioma acaba afastando muita gente.
+Projeto de tradução para PT-BR do fabuloso Nier Replicant ver.1.22474487139, foi utilizado do ChatGPT como suporte para a tradução. O projeto tem como objetivo incluir novas pessoas a essa obra prima dos videojogos, que por conta de ser um RPG onde há várias falas, não ter o português-brasileiro como uma opção de idioma acaba afastando muita gente.
 
 A tradução foi feita em cima dos textos em inglês, com o apoio de alguns textos em espanhol para montar um texto em português. Novamente, foi utilizado uma abordagem que utilizava o ChatGPT para traduzir a maioria dos textos, o que foi feito foi a **`revisão`** para se ter certeza que o que o ChatGPT retornou estava de acordo (e adivinha, a maioria dos textos estava sim de acordo).
 
@@ -27,7 +27,7 @@ ChatGPT não é perfeito, mas no nível atual permitiu construir essa aplicaçã
 
 É possível utilizar esse projeto para traduzir para outras línguas, é só mudar os parâmetros que o ChatGPT irá fazer o trabalho por ti, só lembre de revisar os textos. 🎉
 
-Isso **não** substitui a tradução que o grupo Tribo Gamer está fazendo, que imagino que é um trabalho bem mais manual, e que envolve bem mais pessoas, logo um cuidado maior, mas como ainda falta um pedaço razoável para traduzir, resolvi fazer da minha maneira.
+Esse projeto **não** tem intenção nenhuma de substituir outros projetos de tradução que estão sendo feitos, acredito que eles fazem um bom trabalho, porém manualmente isso leva muito mais tempo (mas por consequência tende a ter um maior cuidado).
 
 Se quiser me comprar um ☕, chave PIX pra fortalecer: `0dd32e9d-8b78-4978-ad8a-797cbd7380d1`
 

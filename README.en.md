@@ -17,7 +17,7 @@
 <br>
 
 # About the project...
-PT-BR translation project for the fantastic Nier Replicant Remaster/Remake (whichever you prefer), developed in just under a week, with support from ChatGPT for translation. The project aims to include more people in this gaming masterpiece. As an RPG with various dialogues, not having Brazilian Portuguese as an option tends to push many people away.
+Translation project for PT-BR of the fabulous Nier Replicant ver.1.22474487139, using ChatGPT as support for translation. The project aims to include more people in this gaming masterpiece. As an RPG with various dialogues, not having Brazilian Portuguese as an option tends to push many people away.
 
 The translation was based on English texts, with the support of some Spanish texts to assemble Portuguese text. Once again, an approach using ChatGPT was employed to translate most texts. What was done was **`review`** to ensure that what ChatGPT returned was accurate (and guess what, most texts were indeed accurate).
 
@@ -27,7 +27,7 @@ ChatGPT isn't perfect, but at its current level, it allowed the construction of 
 
 It's possible to use this project to translate into other languages; just change the parameters, and ChatGPT will do the work for you—just remember to review the texts. 🎉
 
-This **does not** replace the translation that the Tribo Gamer group is working on, which I imagine is a much more manual task, involving many more people, hence requiring greater care. But as there's still a reasonable amount left to translate, I decided to do it my way.
+This project has **no intention** of replacing other translation projects that are being undertaken. I believe they do a good job; however, doing this manually takes much longer (but as a result, tends to be more careful).
 
 If you'd like to buy me a ☕, here's my PIX key for support: `0dd32e9d-8b78-4978-ad8a-797cbd7380d1`
 
