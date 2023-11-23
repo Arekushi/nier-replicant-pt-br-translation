@@ -4,19 +4,17 @@ from rich.console import Console
 from contextlib import suppress
 
 from config import settings, ROOT_DIR
-from src.utils import remove, unzip_file, copy_folder
+from src.utils import remove, unzip_file, copy_folder, make_dir, download_file
 from src.miscellaneous import update_commit_sha
 
 
 console = Console()
 app = typer.Typer(help=settings.TYPER.UPDATE.help)
 
-master_url = settings.GITHUB.master_url
-master_folder_path = f'{ROOT_DIR}\\{settings.FOLDERS.master_folder_name}'
-
 nier_path = settings.PATHS.nier_replicant_path
 nier_data_path = f'{nier_path}\\data'
-patch_data_path = settings.DEFAULT_PATHS.patch_data
+patch_data_path = f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.patch_data}'
+data_files_urls = settings.GITHUB.data_files_urls
 
 
 @app.command(
@@ -45,21 +43,14 @@ def update_command(
 
 def update(do_download=True):
     if do_download:
-        download_updated_master()
+        download_updated_data()
         update_commit_sha()
             
     copy_folder(patch_data_path, nier_data_path)
 
 
-def download_updated_master():
-    request = requests.get(master_url, allow_redirects=False)
-    
-    open(f'{ROOT_DIR}\\master.zip', 'wb').write(request.content)
-    unzip_file(f'{ROOT_DIR}\\master.zip', master_folder_path)
-    copy_folder(f'{master_folder_path}\\{patch_data_path}', patch_data_path)
-    
-    with suppress(ValueError):
-        remove(f'{ROOT_DIR}\\master.zip')
-        remove(master_folder_path)
+def download_updated_data():
+    for file_url in data_files_urls:
+        download_file(file_url, patch_data_path)
     
     console.print(settings.CLI.UPDATE.download_finished)

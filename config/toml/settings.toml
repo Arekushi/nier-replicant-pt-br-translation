@@ -4,6 +4,10 @@ current_commit_sha = '6402e23835c78c4f0aa580f12da76f6652456afc'
 master_url = "https://github.com/Arekushi/nier-replicant-pt-br-translation/archive/master.zip"
 last_release_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/releases/latest"
 commits_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/commits"
+data_files_urls = [
+    'https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/data/common.arc',
+    'https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/data/info.arc'
+]
 
 
 [ARGS]
@@ -18,7 +22,6 @@ paths_to_translate = [
 [FOLDERS]
 raw_texts_folder_name = 'raw'
 translation_folder_name = 'translation'
-master_folder_name = 'master'
 backup_arc_folder_name = 'backup'
 
 
