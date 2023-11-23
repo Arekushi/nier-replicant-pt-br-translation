@@ -9,6 +9,7 @@ settings = Dynaconf(
         './toml/typer.toml',
         './toml/chat-gpt.toml',
         './toml/translator.toml',
+        './toml/github.toml',
         './toml/settings.toml',
         './toml/.secrets.toml'
     ],

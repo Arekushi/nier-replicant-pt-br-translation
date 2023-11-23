@@ -1,15 +1,3 @@
-[GITHUB]
-current_release_version = '2.0.0'
-current_commit_sha = '6402e23835c78c4f0aa580f12da76f6652456afc'
-master_url = "https://github.com/Arekushi/nier-replicant-pt-br-translation/archive/master.zip"
-last_release_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/releases/latest"
-commits_url = "https://api.github.com/repos/Arekushi/nier-replicant-pt-br-translation/commits"
-data_files_urls = [
-    'https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/data/common.arc',
-    'https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/data/info.arc'
-]
-
-
 [ARGS]
 target_language = 'pt'
 source_language = 'en'

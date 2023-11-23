@@ -38,7 +38,7 @@ def update_commit_sha():
         }
     }
     
-    write(F'{ROOT_DIR}\\{tomls}\\settings.toml', obj, merge=True)
+    write(F'{ROOT_DIR}\\{tomls}\\github.toml', obj, merge=True)
     settings.update(obj)
     
     return obj
