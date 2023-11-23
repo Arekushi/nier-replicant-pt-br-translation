@@ -45,7 +45,7 @@ def chat_gpt_translate(use_api: bool):
     from src.translator_engine import ChatGPTTranslator
     from src.chat_gpt import OpenAIBot, UnlimitedGPT
     
-    translator = ChatGPTTranslator(UnlimitedGPT() if use_api else OpenAIBot())
+    translator = ChatGPTTranslator(UnlimitedGPT() if not use_api else OpenAIBot())
     asyncio.run(translate(translator))
 
 
