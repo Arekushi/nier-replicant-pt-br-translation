@@ -3,6 +3,7 @@ help = 'Comando que traduz de forma automática os arquivos de textos de NieR: R
 use_chatgpt_help = 'Esse marcador define o uso do Google Tradutor para a tradução.'
 chat_gpt_help = 'Realiza a tradução dos arquivos usando o ChatGPT.'
 conventional_help = 'Realiza a tradução dos arquivos usando serviços de tradução mais convencionais (Google, Bing etc).'
+use_api_help = 'Esse marcador define o uso da API do OpenAI ao invés do uso de um WebCrawler.'
 
 
 [TYPER.REIMPORT]

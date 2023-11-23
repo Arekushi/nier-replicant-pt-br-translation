@@ -6,7 +6,6 @@ from rich.console import Console
 
 from config import settings, ROOT_DIR
 from src.utils import get_all_files_from_path, has_file, has_folder
-from src.chat_gpt import OpenAIBot, PyChatGPTBot, UnlimitedGPT
 from src.translator_engine import TranslatorEngine
 
 
@@ -23,24 +22,30 @@ texts_path = f'{ROOT_DIR}\\texts'
     help=settings.TYPER.TRANSLATOR.help
 )
 def translate_command(
-    use_chatgpt: bool = typer.Option(
-        True,
+    use_google: bool = typer.Option(
+        False,
         '--google',
         help=settings.TYPER.TRANSLATOR.use_chatgpt_help
+    ),
+    use_api: bool = typer.Option(
+        False,
+        '--api',
+        help=settings.TYPER.TRANSLATOR.use_api_help
     )
 ):
     console.rule(settings.CLI.TRANSLATOR.rule)
     
-    if (use_chatgpt):
-        chat_gpt_translate()
-    else:
+    if (use_google):
         conventional_translate()
+    else:
+        chat_gpt_translate(use_api)
 
 
-def chat_gpt_translate():
+def chat_gpt_translate(use_api: bool):
     from src.translator_engine import ChatGPTTranslator
+    from src.chat_gpt import OpenAIBot, UnlimitedGPT
     
-    translator = ChatGPTTranslator(UnlimitedGPT())
+    translator = ChatGPTTranslator(UnlimitedGPT() if use_api else OpenAIBot())
     asyncio.run(translate(translator))
 
 
