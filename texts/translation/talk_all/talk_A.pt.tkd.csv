@@ -1178,9 +1178,9 @@
 "Oh, isso não é bom.","Oh, that's not good.","Uf, eso no es bueno."
 "Existe a possibilidade de me dar mais remédio? Por favor?","Any chance you could give me some more medicine? Please?","Necesita más medicamentos, por favor."
 "O problema é que eu fiquei sem remédio.","The thing is, I actually just ran out.","Lo cierto es que me he quedado sin existencias."
-"Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de musgo moss?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
+"Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de Musgo Vaporizado?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
 "Você o encontra crescendo perto do portão sul.","You'll find it growing near the southern gate.","Crece cerca de la puerta sur."
-"Musgo moss, né?","Vapor moss, huh?","Musgo de vapor, ¿no?"
+"Musgo Vaporizado, né?","Vapor moss, huh?","Musgo de vapor, ¿no?"
 "Já volto.","I'll be right back.","No tardo."
 "*ofegante* *ofegante*","*huff* *huff*","*tos*"
 "Emil!?","Emil!?","¡¿Emil?!"
@@ -1188,7 +1188,7 @@
 "Ra-rápido...","H-hurry...","D-deprisa..."
 "Emil!","Emil!","¡Emil!"
 "Eu odeio ter que pedir isso, mas você pode me conseguir um pouco de musgo vaporizado?","I hate to ask this, but can you get me some vapor moss?","Odio pedirte esto, pero... ¿podrías conseguirme musgo de vapor?"
-"Você encontra o Musgo Moss crescendo perto do portão sul.","You'll find vapor moss growing near the southern gate.","El musgo de vapor crece cerca de la puerta sur."
+"Você encontra o Musgo Vaporizado crescendo perto do portão sul.","You'll find vapor moss growing near the southern gate.","El musgo de vapor crece cerca de la puerta sur."
 "Me perdoa por ficar tossindo o tempo todo...","I'm sorry I'm always coughing all the time...","Lo siento por estar todo el día tosiendo..."
 "Ele não parece estar doente. Ele parece muito cansado.","He doesn't seem to be sick. I think it's just fatigue.","No parece estar enfermo, creo que es fruto del cansancio."
 "Não consigo imaginar o quão difícil deve ter sido correr tudo isso sem enxergar.","I can't imagine how hard it must've been to run all this way without sight.","No me quiero ni imaginar lo duro que debe de haber sido recorrer todo este camino sin ver nada."
@@ -2961,7 +2961,7 @@
 "Espero que você nos ofereça uma recompensa adequada, certo?","I trust that you plan to offer us adequate compensation?",
 "Não seja ganancioso, Weiss.","Don't be greedy, Weiss.",
 "Bem, não tenho certeza do que você quis dizer com ""adequado"", mas farei o meu melhor.","Well, I'm not sure what you mean by ""adequate,"" but I'll do my best.",
-"Preciso de uma liga de memória, dez ligas de titânio e dez motores quebrados. Anotou tudo?","I need one memory alloy, ten titanium alloys, and ten broken motors. Got all that?",
+"Preciso de uma Liga de Memória, dez ligas de titânio e dez motores quebrados. Anotou tudo?","I need one memory alloy, ten titanium alloys, and ten broken motors. Got all that?",
 "Ok. Voltarei quando encontrar tudo.","Okay. I'll be back when I find everything.","Vale. Volveré cuando lo haya encontrado todo."
 "Trouxe tudo que foi pedido. É o suficiente?","I brought all the stuff you asked for. Is this enough?",
 "Deixa eu ver... Sim! Sim, é tudo que preciso.<PAGE> Aqui. Espero que isso se qualifique como um pagamento à altura.","Lemme see... Yep! Yep, that's all of it.<PAGE>Here. I hope this qualifies as adequate compensation.",
@@ -2969,7 +2969,7 @@
 "Sim, bem, eu realmente aprecio o esforço ques vocês tiveram.","Yeah, well, I really appreciate all the effort you went to.",
 "Pegue isso, tolo! É uma recompensa apropriada para nossos esforços.","Take it, fool! It is an appropriate reward for our efforts.",
 "E você poderia aprender maneiras mais ""apropriadas"" de falar.","And you could stand to learn more ""appropriate"" ways of speaking.",
-"Eu preciso de uma liga de memória, dez ligas de titânio e dez motores quebrados. De boa?","I need one memory alloy, ten titanium alloys, and ten broken motors. Sound good?",
+"Eu preciso de uma Liga de Memória, dez ligas de titânio e dez motores quebrados. De boa?","I need one memory alloy, ten titanium alloys, and ten broken motors. Sound good?",
 "Ah, se não é o homem que eu procurava. Tem um minuto?","Ah, just the man I wanted to see. Do you have a moment?",
 "Talvez.","Maybe.",
 "Nossa roda d'água está indo pro saco. Gostaria de consertá-la, mas a parte interna é tão complicada...","Our waterwheel is on its last legs. I'd like to shore it up, but the insides are so complicated...",
@@ -3042,7 +3042,7 @@
 "(As regras dizem que devemos fazer uma máscara cerimonial para o nosso rei, e eu preciso de ajuda para coletar os materiais.)","(The rules state that we must make a ceremonial mask for our king, and I need help collecting the materials.)",
 "Eu posso fazer isso.","I can do that. ",
 "(Obrigado. Precisarei que você encontre dois itens.)","(Thank you. I will need two things from you.)",
-"(Um é uma liga de titânio, que pode ser encontrada no Lixão. O outro é um cristal, que é um tipo especial de minério.)","(One is titanium alloy, which can be found in the Junk Heap. The other is a crystal, which is a special type of ore.)",
+"(Um é uma Liga de Titânio, que pode ser encontrada no Lixão. O outro é um Cristal, que é um tipo especial de minério.)","(One is titanium alloy, which can be found in the Junk Heap. The other is a crystal, which is a special type of ore.)",
 "(Vou precisar de um de cada item.)","(I will need one of each item.)",
 "Consegui os materiais.","I've got your things.",
 "(Agora posso criar a máscara! Ah, muito obrigado!)","(Now I can create the mask! Oh, thank you very much!)",
@@ -3050,7 +3050,7 @@
 "(O rei deve usar a máscara enquanto estiver ponderando uma nova regra.)","(The king shall wear this mask when he is pondering a new rule.)",
 "... Essa é uma máscara bem específica.","...That's a pretty specialized mask.",
 "(O rei deve usar a máscara enquanto estiver ponderando uma nova regra.)","(The king shall wear this mask when he is pondering a new rule.)",
-"(Eu precisarei de liga de titânio e um cristal.)","(I will need titanium alloy and a crystal.)",
+"(Eu precisarei de Liga de Titânio e um Cristal.)","(I will need titanium alloy and a crystal.)",
 ,,
 ,,
 ,,
