@@ -103,7 +103,7 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 
 ###  Tutorial usando o instalador
 > NieR Replicant™ ver. 1.22 - Tradução para PT-BR
-[![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://img.youtube.com/vi/3BiVi_KfGbA/0.jpg)](https://www.youtube.com/watch?v=3BiVi_KfGbA)
+[![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://i.imgur.com/SYK4rgx.png)](https://www.youtube.com/watch?v=3BiVi_KfGbA)
 
 
 1. Baixe o executável da aplicação aqui: [Release][release]
