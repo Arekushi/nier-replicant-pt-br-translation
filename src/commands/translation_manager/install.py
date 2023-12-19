@@ -1,59 +1,115 @@
 import typer
+import zipfile
 from rich.console import Console
 
 from config import settings, ROOT_DIR
-from .update import update
 
 from src.miscellaneous import local_has_latest_commit
-from src.utils import make_dir, copy_files, copy_folder
+from src.utils import make_dir, copy_file, download_file, unzip_file, remove
+from src.miscellaneous import has_special_k, has_installed_translation, write_flag_installed
 
 
 console = Console()
 app = typer.Typer(help=settings.TYPER.INSTALL.help)
 
 nier_path = settings.PATHS.nier_replicant_path
-nier_data_path = f'{nier_path}\\data'
-patch_data = settings.DEFAULT_PATHS.patch_data
+tmp_path = f'{ROOT_DIR}\\{settings.FOLDERS.tmp_folder_name}'
+specialk_zip = f'{ROOT_DIR}\\{settings.FILES.special_k_zip}'
 
-backup_arc_folder_name = settings.FOLDERS.backup_arc_folder_name
-backup_arc_files = settings.FILES.backup_arc
-backup_path = f'{nier_data_path}\\{backup_arc_folder_name}'
+files_to_update_urls = settings.GITHUB.files_to_update_urls
+files_to_install = settings.FILES.to_install
+files_to_backup = settings.FILES.to_backup
+
+backup_path = f'{nier_path}\\{settings.FOLDERS.backup_folder_name}'
 
 
 @app.command('install', help=settings.TYPER.INSTALL.help)
 def install_command(
-    do_update: bool = typer.Option(
-        True,
+    use_local_files: bool = typer.Option(
+        False,
         '--local',
-        help=settings.TYPER.INSTALL.do_update_help
+        help=settings.TYPER.INSTALL.use_local_files_help
+    ),
+    install_specialk: bool = typer.Option(
+        False,
+        '--specialk',
+        help=settings.TYPER.INSTALL.specialk_help
     )
 ):
-    console.rule(settings.CLI.INSTALL.rule)
+    typer_state = 'INSTALL' if not has_installed_translation() else 'UPDATE'
+    console.rule(settings.CLI[typer_state].rule)
 
     try:
-        with console.status(settings.CLI.INSTALL.status, spinner='moon'):
-            install(do_update)
+        with console.status(settings.CLI[typer_state].status, spinner='moon'):
+            install(use_local_files, install_specialk)
             
-            console.print(settings.CLI.INSTALL.finish)
+            console.print(settings.CLI[typer_state].finish)
             console.print(settings.CLI.thanks, justify='center')
     except Exception:
-        console.print(settings.CLI.INSTALL.failed)
+        console.print(settings.CLI[typer_state].failed)
         console.print_exception(show_locals=True)
 
 
-def install(do_update: bool):
-    do_backup_files()
+def install(
+    use_local_files: bool,
+    install_specialk: bool
+):
+    if install_specialk:
+        if not has_special_k(nier_path):
+            console.print(settings.CLI.INSTALL.specialk)
+            install_special_k()
     
-    if (do_update):
+    if not has_installed_translation():
+        console.print(settings.CLI.INSTALL.backup)
+        backup_files()
+    
+    if not use_local_files:
         if not local_has_latest_commit():
             console.print(settings.CLI.INSTALL.update_version)
-            update(do_download=True)
-    else:
-        copy_folder(patch_data, nier_data_path)
-
-
-def do_backup_files():
-    files_to_backup = [f'{nier_data_path}\\{arc_file}' for arc_file in backup_arc_files]
+            files = download_updated_files()
+            update_files_to_install(files)
+            
+    for file_path, dest in files_to_install:
+        file_path = f'{ROOT_DIR}\\{file_path}'
+        new_file_path = copy_file(file_path, f'{nier_path}\\{dest}')
+        
+        if zipfile.is_zipfile(file_path):
+            unzip_file(file_path, f'{nier_path}\\{dest}')
+            remove(new_file_path)
     
-    make_dir(backup_path)
-    copy_files(files_to_backup, backup_path)
+    write_flag_installed(True)
+
+
+def backup_files():
+    try:
+        for file in files_to_backup:
+            folder_name = '\\'.join(file.split('\\')[:-1])
+            folder_inside_backup_path = f'{backup_path}\\{folder_name}'
+            make_dir(folder_inside_backup_path)
+            copy_file(f'{nier_path}\\{file}', folder_inside_backup_path)
+    except FileNotFoundError:
+        console.print(
+            settings.CLI.INSTALL.backup_file_failed
+        )
+
+
+def update_files_to_install(files):
+    for i in range(len(files_to_install)):
+        files_to_install[i][0] = files[i]
+
+
+def download_updated_files():
+    files = list()
+    
+    for file_url, tmp_folder in files_to_update_urls:
+        file_path = download_file(file_url, f'{tmp_path}\\{tmp_folder}')
+        files.append(file_path)
+    
+    console.print(settings.CLI.UPDATE.download_finished)
+    return files
+
+
+def install_special_k():
+    specialk_zip_path = copy_file(specialk_zip, nier_path)
+    unzip_file(specialk_zip_path, nier_path)
+    remove(specialk_zip_path)

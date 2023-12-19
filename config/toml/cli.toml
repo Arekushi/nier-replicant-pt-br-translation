@@ -33,7 +33,7 @@ file_failed = 'Não foi possível adicionar na lista para traduzir: <file>'
 
 
 [CLI.NIERPATH]
-not_found = ''':stop_sign: A pasta onde o [i]NieR Replicant[/] está instalado [white on red] não [/] foi definida!
+not_found = ''':stop_sign: A pasta onde o [i]NieR Replicant[/] está instalado [white on red] não [/] foi encontrada ou definida!
 :mag_right: [b]EXEMPLO[/] de caminho: [#d1d8e6 on #79a4f4] C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139 [/]
 '''
 write_path = ':file_folder: Escreva o [b green]caminho[/] para o [i]NieR: Replicant[/], por favor: '
@@ -48,6 +48,9 @@ status = 'Instalando...'
 finish = ':white_check_mark: Instalação feita com [white on green] sucesso! [/]'
 failed = ':x: Instalação [white on red] falhou... [/]'
 update_version = ':rocket: Identificamos [white on green] atualizações [/] nos textos da tradução, iremos [b]fazer[/] a atualização automaticamente... '
+specialk = ':airplane: Será realizada a instalação do [white on green] SpecialK [/] localmente no diretório do NieR: Replicant.'
+backup = ':arrow_backward: Será realizado [white on green] o backup [/] dos arquivos que serão modificados.'
+backup_file_failed = ':x: [white on red] NÃO [/] foi possível realizar o backup de um dos arquivos!'
 
 
 [CLI.UNINSTALL]

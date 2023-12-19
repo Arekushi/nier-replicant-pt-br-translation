@@ -4,7 +4,8 @@ from datetime import date
 from rich.console import Console
 
 from config.config import settings, ROOT_DIR
-from src.utils import make_dir, copy_folder, merge_translated_files, get_folders_name, remove
+from src.utils import make_dir, copy_folder, merge_translated_files, \
+    get_folders_name, remove, zip_folder
 
 
 console = Console()
@@ -15,8 +16,8 @@ app = typer.Typer(
 translation_folder_name = settings.FOLDERS.translation_folder_name
 raw_texts_folder_name = settings.FOLDERS.raw_texts_folder_name
 
+patch_path = f'{ROOT_DIR}\\patch'
 patch_source_path = settings.DEFAULT_PATHS.patch_source
-patch_data_path = settings.DEFAULT_PATHS.patch_data
 
 arc_path = settings.TOOLS.arc_path
 arc_source_path = f'{arc_path}\\source'
@@ -24,7 +25,7 @@ arc_patch_path = f'{arc_path}\\patch'
 arc_data_path = f'{arc_path}\\data'
 
 texts_path = f'{ROOT_DIR}\\texts'
-tmp_path = f'{ROOT_DIR}\\tmp'
+tmp_path = f'{ROOT_DIR}\\{settings.FOLDERS.tmp_folder_name}'
 ntt_exe = f'{ROOT_DIR}\\{settings.TOOLS.ntt_exe}'
 reptext_exe = f'{ROOT_DIR}\\{settings.TOOLS.reptext_exe}'
 zstd_exe = f'{ROOT_DIR}\\{settings.TOOLS.zstd_exe}'
@@ -67,7 +68,7 @@ def generate_arc_files():
         stderr=subprocess.DEVNULL
     )
     
-    copy_folder(arc_data_path, patch_data_path)
+    zip_folder('data.zip', arc_data_path, patch_path)
 
 
 def reimport_texts(result_folder_path):

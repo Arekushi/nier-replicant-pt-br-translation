@@ -38,7 +38,7 @@ class ChatGPTTranslator(TranslatorEngine):
                 bar.next()
 
                 df_temp = update_df_with_translation(df, column, translated_phrases_column)
-                save_df(df_temp, f'{ROOT_DIR}\\{settings.DEFAULT_PATHS.tmp}\\{file_name}')
+                save_df(df_temp, f'{ROOT_DIR}\\{settings.FOLDERS.tmp_folder_name}\\{file_name}')
 
         df = update_df_with_translation(df, column, translated_phrases_column)
         save_df(df, file_path, True)

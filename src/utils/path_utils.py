@@ -73,7 +73,7 @@ def make_dir(path):
 
 
 def copy_file(file_path, dest_path):
-    shutil.copy(file_path, dest_path)
+    return shutil.copy(file_path, dest_path)
 
 
 def copy_files(files_path, dest_path):

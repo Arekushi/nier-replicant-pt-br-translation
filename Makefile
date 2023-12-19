@@ -13,23 +13,17 @@ google-translate:
 generate:
 	python main.py builder generate
 
+translation-folder:
+	python main.py builder make-translation-folder
+
 update:
-	python main.py manager update
-
-update-local:
-	python main.py manager update --local
-
-install:
 	python main.py manager install
 
-install-local:
+update-local:
 	python main.py manager install --local
 
 uninstall:
 	python main.py manager uninstall
-
-reimport-texts:
-	python main.py reimport texts
 
 pack-gui:
 	auto-py-to-exe

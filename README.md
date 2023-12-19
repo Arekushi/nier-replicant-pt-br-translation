@@ -105,14 +105,15 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 > NieR Replicant™ ver. 1.22 - Tradução para PT-BR
 [![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://i.imgur.com/SYK4rgx.png)](https://www.youtube.com/watch?v=3BiVi_KfGbA)
 
+> É válido apontar que essa forma de instalar irá instalar o SpecialK automaticamente ao seu jogo.
 
 1. Baixe o executável da aplicação aqui: [Release][release]
    
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
 
-3. Execute o arquivo `install.bat`
+3. Execute o arquivo `instalar e atualizar.bat`
 
-4. O programa irá executar e solicitar o caminho até o diretório do NieR Replicant ver.1.22474487139
+4. O programa irá procurar pela pasta onde está instalado o NieR: Replicant. Caso não encontre irá ser solicitado o caminho.
     > **Exemplo** de caminho
     ```
     C:\SteamLibrary\steamapps\common\NieR Replicant ver.1.22474487139
@@ -123,7 +124,9 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 <br>
 
 ### Tutorial sem o instalador
-1. Baixe os arquivos necessários aqui: [data][data]
+
+#### Arquivos de Texto
+1. Baixe os arquivos de texto necessários aqui: [data][data]
 
 2. Extraia o arquivo zipado `.zip` para alguma pasta de sua preferência.
 
@@ -140,20 +143,30 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 
 6. Prontinho, agora é só iniciar o jogo. 🎉
 
+#### Arquivos de Texturas
+> **Essa etapa não é obrigatório, faça somente se desejar as texturas também traduzidas.**
+
+1. Baixe as texturas necessárias aqui: [textures][textures]
+
+2. Baixe o SpecialK aqui: [SpecialK][specialk]
+
+3. Coloque o arquivo `dxgi.dll` dentro da pasta raíz do seu NieR: Replicant.
+
+4. Crie dentro da pasta raíz o diretório `SK_Res\inject\textures`
+
+5. Dentro do diretório criado descompacte todos os arquivos `.dds` que baixou na etapa 1. *(a pasta textures precisa ter esses arquivos `.dds`)*
+
+6. Prontinho, agora é só iniciar o jogo. 🎉
+
 ## Lista de comandos uteis
 1. Instalar
     ```cmd
-    nier-translator.exe manager install
+    nier-translator.exe manager install --specialk
     ```
 
 2. Desinstalar
     ```cmd
-    nier-translator.exe manager uninstall
-    ```
-
-3. Atualizar a tradução
-    ```cmd
-    nier-translator.exe manager update
+    nier-translator.exe manager uninstall --specialk
     ```
 
 <br>
@@ -169,6 +182,7 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 Esse projeto só foi possível graças a esses dois repositórios
 * Ferramenta para extração dos assets - [kaine][kaine]
 * Ferramenta para extração dos textos - [NieR-Text-Tool][ntt]
+* Ferramenta para extração e injeção de texturas - [SpecialK][specialk_tool]
 
 <br>
 
@@ -325,8 +339,10 @@ Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, 
 | :---: | :---: | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.0.0/nier-translator.zip
-[data]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.0.0/data.zip
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.1.0/nier-translator.zip
+[data]: https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/data.zip
+[textures]: https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/textures.zip
+[specialk]: https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/dxgi.zip
 [python]: https://www.python.org/downloads/
 
 <!-- [Some links] -->
@@ -337,6 +353,7 @@ Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, 
 [kaine]: https://github.com/yretenai/kaine
 [ntt]: https://github.com/lehieugch68/NieR-Text-Tool
 [chrome_drive_url]: https://googlechromelabs.github.io/chrome-for-testing/#stable
+[specialk_tool]: https://www.special-k.info/
 
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi

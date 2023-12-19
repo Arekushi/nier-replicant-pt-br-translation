@@ -15,3 +15,6 @@ def download_file(url: str, dest_path: str):
             for chunk in response.iter_content(chunk_size=8192):
                 if chunk:
                     file.write(chunk)
+                    
+    
+    return f'{dest_path}\\{file_name}'

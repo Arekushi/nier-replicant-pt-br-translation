@@ -8,23 +8,46 @@ paths_to_translate = [
 
 
 [FOLDERS]
+nier_folder_name = 'NieR Replicant ver.1.22474487139'
 raw_texts_folder_name = 'raw'
 translation_folder_name = 'translation'
-backup_arc_folder_name = 'backup'
+backup_folder_name = 'backup'
+tmp_folder_name = 'tmp'
 
 
 [FILES]
+secrets_file_name = '.secrets.toml'
+translation_toml_file = 'translation.toml'
 required_checkout = [
     'steam_api64.dll',
     'NieR Replicant ver.1.22474487139.exe'
 ]
+special_k_zip = 'patch\\dxgi.zip'
 text_without_pattern = [
     'text_common\nier_text.txd.csv',
     'talk_all\talker_name.tnd.csv'
 ]
-backup_arc = [
-    'common.arc',
-    'info.arc'
+to_backup = [
+    'data\\common.arc',
+    'data\\info.arc'
+]
+textures_to_delete = [
+    '0C812038.dds',
+    '8B34C860.dds',
+    '76E5BE6A.dds',
+    '887C8923.dds',
+    'D19BD2AB.dds',
+    'E166F83B.dds'
+]
+specialk_files = [
+    'dxgi.dll',
+    'dxgi.ini'
+]
+to_install = [
+    # 0: File Path
+    # 1: Destination Path
+    ['patch\\data.zip', 'data'],
+    ['patch\\textures.zip', 'SK_Res\\inject']
 ]
 
 
@@ -45,13 +68,19 @@ tools_array = [
 
 
 [DEFAULT_PATHS]
-tmp = 'tmp'
-tmp_error = 'tmp\\error'
 tomls = 'config\\toml'
 extracted_assets = 'build_assets\\rom\\pc'
 extracted_texts = 'snow\\text'
 patch_data = 'patch\\data'
 patch_source = 'patch\\source'
+patch_textures = 'patch\\textures'
+nier_possible_paths = [
+    'Program Files (x86)\\Steam\\steamapps\\common',
+    'Program Files\\Steam\\steamapps\\common',
+    'SteamLibrary\\steamapps\\common',
+    'Steam\\SteamLibrary\\steamapps\\common',
+    'Steam\\steamapps\\common'
+]
 
 
 [COLUMNS]

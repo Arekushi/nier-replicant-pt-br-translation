@@ -12,21 +12,14 @@ texts_help = 'Uni os textos traduzidos e os originais e os copia para a pasta do
 
 
 [TYPER.INSTALL]
-help = 'Comando que realizará o processo de instalação da tradução.'
-delete_data_help = 'Flag para indicar se o usuário deseja ou não apagar a pasta [data] dos arquivos do jogo. É necessário remover a pasta [data] para dar andamento com a tradução, porém podemos apenas mudar o nome da pasta para qualquer outra coisa.'
-delete_data_prompt = 'Você deseja deletar a pasta [data] do NieR: Replicant? 📂 Se decidir apagar NÃO há como reverter a tradução, você irá precisar baixar o jogo novamente...'
-update_texts_help = 'Indica se você deseja fazer o download das atualizações mais recentes do repositório remoto.'
-do_update_help = 'Esse marcador define se será realizado o update do repositório remoto do Github ou não.'
+help = 'Comando que realizará o processo de instalação/atualização da tradução.'
+use_local_files_help = 'Esse marcador define que serão utilizados os arquivos locais e não os arquivos do repositório remoto do Github.'
+specialk_help = 'Esse marcador define que será instalado o Mod SpecialK localmente na pasta do NieR: Replicant, com o objetivo de utilizar as texturas traduzidas.'
 
 
 [TYPER.UNINSTALL]
 help = 'Comando que realizará o processo de desinstalação da tradução.'
-
-
-[TYPER.UPDATE]
-help = 'Comando que realizará a atualização da tradução, baixando os arquivos do repositório remoto.'
-do_download_help = 'Esse marcador define que não será baixado os textos do repositório remoto do Github, ele utiliza o textos locais.'
-redownload_help = 'Caso não queria, também é possível fazer a atualização com os arquivos locais.'
+specialk_help = 'Esse mercador define que o Mod SpecialK será desinstalado junto com a tradução.'
 
 
 [TYPER.MANAGER]
