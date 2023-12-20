@@ -6,7 +6,8 @@ from config import settings, ROOT_DIR
 
 from src.miscellaneous import local_has_latest_commit
 from src.utils import make_dir, copy_file, download_file, unzip_file, remove
-from src.miscellaneous import has_special_k, has_installed_translation, write_flag_installed
+from src.miscellaneous import has_special_k, has_installed_translation, \
+    write_flag_installed, update_commit_sha
 
 
 console = Console()
@@ -25,15 +26,20 @@ backup_path = f'{nier_path}\\{settings.FOLDERS.backup_folder_name}'
 
 @app.command('install', help=settings.TYPER.INSTALL.help)
 def install_command(
-    use_local_files: bool = typer.Option(
+    do_update: bool = typer.Option(
         False,
-        '--local',
-        help=settings.TYPER.INSTALL.use_local_files_help
+        '--update',
+        help=settings.TYPER.INSTALL.do_update_help
     ),
     install_specialk: bool = typer.Option(
         False,
         '--specialk',
         help=settings.TYPER.INSTALL.specialk_help
+    ),
+    force_update: bool = typer.Option(
+        False,
+        '--force',
+        help=settings.TYPER.INSTALL.force_update_help
     )
 ):
     typer_state = 'INSTALL' if not has_installed_translation() else 'UPDATE'
@@ -41,7 +47,7 @@ def install_command(
 
     try:
         with console.status(settings.CLI[typer_state].status, spinner='moon'):
-            install(use_local_files, install_specialk)
+            install(do_update, install_specialk, force_update)
             
             console.print(settings.CLI[typer_state].finish)
             console.print(settings.CLI.thanks, justify='center')
@@ -51,8 +57,9 @@ def install_command(
 
 
 def install(
-    use_local_files: bool,
-    install_specialk: bool
+    do_update = False,
+    install_specialk = False,
+    force_update = False
 ):
     if install_specialk:
         if not has_special_k(nier_path):
@@ -63,10 +70,11 @@ def install(
         console.print(settings.CLI.INSTALL.backup)
         backup_files()
     
-    if not use_local_files:
-        if not local_has_latest_commit():
+    if do_update:
+        if force_update or (not local_has_latest_commit()):
             console.print(settings.CLI.INSTALL.update_version)
             files = download_updated_files()
+            update_commit_sha()
             update_files_to_install(files)
     
     for file_path, dest in files_to_install:        

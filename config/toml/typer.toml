@@ -13,8 +13,9 @@ texts_help = 'Uni os textos traduzidos e os originais e os copia para a pasta do
 
 [TYPER.INSTALL]
 help = 'Comando que realizará o processo de instalação/atualização da tradução.'
-use_local_files_help = 'Esse marcador define que serão utilizados os arquivos locais e não os arquivos do repositório remoto do Github.'
 specialk_help = 'Esse marcador define que será instalado o Mod SpecialK localmente na pasta do NieR: Replicant, com o objetivo de utilizar as texturas traduzidas.'
+do_update_help = 'Esse marcador define que a instalação irá baixar os arquivos mais atualizados do repositório remoto.'
+force_update_help = 'Esse marcador define que o update será forçado, ignorando quaisquer verificações padrão.'
 
 
 [TYPER.UNINSTALL]

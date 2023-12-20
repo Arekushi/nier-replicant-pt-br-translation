@@ -16,11 +16,14 @@ generate:
 translation-folder:
 	python main.py builder make-translation-folder
 
-update:
+install:
 	python main.py manager install
 
-update-local:
-	python main.py manager install --local
+update:
+	python main.py manager install --update
+
+force-update:
+	python main.py manager install --update --force
 
 uninstall:
 	python main.py manager uninstall
