@@ -161,13 +161,14 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 ## Lista de comandos uteis
 1. Instalar
     ```cmd
-    nier-translator.exe manager install --specialk
+    nier-translator.exe manager install --specialk --update
     ```
     > O argumento `--specialk` faz com que o SpecialK seja instalado localmente
+    > O argumento `--update` faz com que seja verificado se os arquivos locais estão atualizados, caso contrário, um download do repositório remoto será feito
 
 2. Desinstalar
     ```cmd
-    nier-translator.exe manager uninstall --specialk
+    nier-translator.exe manager uninstall --specialk --update
     ```
     > O argumento `--specialk` faz com que o SpecialK seja desinstalado localmente
 

@@ -162,11 +162,14 @@ Here, I'll describe **two ways** to install the translation, using the installer
     ```cmd
     nier-translator.exe manager install --specialk
     ```
+    > The `--specialk` argument causes SpecialK to be installed locally.
+    > The `--update` argument checks if local files are up-to-date; otherwise, a download from the remote repository will be performed.
 
 2. Uninstall
     ```cmd
     nier-translator.exe manager uninstall --specialk
     ```
+    > The `--specialk` argument causes SpecialK to be uninstalled locally.
 
 <br>
 
