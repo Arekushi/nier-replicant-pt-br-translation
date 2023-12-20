@@ -71,6 +71,7 @@ def install(
             
     for file_path, dest in files_to_install:
         file_path = f'{ROOT_DIR}\\{file_path}'
+        make_dir(f'{nier_path}\\{dest}')
         new_file_path = copy_file(file_path, f'{nier_path}\\{dest}')
         
         if zipfile.is_zipfile(file_path):

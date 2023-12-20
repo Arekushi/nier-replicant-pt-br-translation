@@ -95,11 +95,19 @@
   },
   {
    "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/data;patch/data"
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/data.zip;patch/."
   },
   {
    "optionDest": "datas",
    "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/github.toml;config/toml/."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/dxgi.zip;patch/."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/textures.zip;patch/."
   }
  ],
  "nonPyinstallerOptions": {
