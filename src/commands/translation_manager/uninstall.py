@@ -47,7 +47,7 @@ def uninstall(
 ):
     if uninstall_specialk:
         files_to_delete['\\'] = settings.FILES.specialk_files
-        
+    
     if not has_folder(backup_path):
         raise Exception()
     

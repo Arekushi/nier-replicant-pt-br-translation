@@ -77,14 +77,14 @@ def install(
             update_commit_sha()
             update_files_to_install(files)
     
-    for file_path, dest in files_to_install:        
+    for file_path, dest in files_to_install:
         try:
             new_file_path = copy_file(file_path, f'{nier_path}\\{dest}')
         except:
             new_file_path = copy_file(f'{ROOT_DIR}\\{file_path}', f'{nier_path}\\{dest}')
         
-        if zipfile.is_zipfile(file_path):
-            unzip_file(file_path, f'{nier_path}\\{dest}')
+        if zipfile.is_zipfile(new_file_path):
+            unzip_file(new_file_path, f'{nier_path}\\{dest}')
             remove(new_file_path)
     
     write_flag_installed(True)
