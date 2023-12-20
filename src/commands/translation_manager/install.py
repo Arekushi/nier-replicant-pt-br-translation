@@ -68,11 +68,12 @@ def install(
             console.print(settings.CLI.INSTALL.update_version)
             files = download_updated_files()
             update_files_to_install(files)
-            
-    for file_path, dest in files_to_install:
-        file_path = f'{ROOT_DIR}\\{file_path}'
-        make_dir(f'{nier_path}\\{dest}')
-        new_file_path = copy_file(file_path, f'{nier_path}\\{dest}')
+    
+    for file_path, dest in files_to_install:        
+        try:
+            new_file_path = copy_file(file_path, f'{nier_path}\\{dest}')
+        except:
+            new_file_path = copy_file(f'{ROOT_DIR}\\{file_path}', f'{nier_path}\\{dest}')
         
         if zipfile.is_zipfile(file_path):
             unzip_file(file_path, f'{nier_path}\\{dest}')

@@ -47,7 +47,7 @@ to_install = [
     # 0: File Path
     # 1: Destination Path
     ['patch\\data.zip', 'data'],
-    ['patch\\textures.zip', 'SK_Res\\inject']
+    ['patch\\textures.zip', 'SK_Res\\inject\\textures']
 ]
 
 
