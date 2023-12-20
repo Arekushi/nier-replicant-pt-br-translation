@@ -152,9 +152,9 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 
 3. Coloque o arquivo `dxgi.dll` dentro da pasta raíz do seu NieR: Replicant.
 
-4. Crie dentro da pasta raíz o diretório `SK_Res\inject\textures`
+4. Crie esse diretório `SK_Res\inject\textures` dentro da pasta raíz do NieR: Replicant.
 
-5. Dentro do diretório criado descompacte todos os arquivos `.dds` que baixou na etapa 1. *(a pasta textures precisa ter esses arquivos `.dds`)*
+5. Dentro do diretório criado, descompacte todos os arquivos `.dds` que baixou na etapa 1. *(a pasta textures precisa ter esses arquivos `.dds`)*
 
 6. Prontinho, agora é só iniciar o jogo. 🎉
 
@@ -163,11 +163,13 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
     ```cmd
     nier-translator.exe manager install --specialk
     ```
+    > O argumento `--specialk` faz com que o SpecialK seja instalado localmente
 
 2. Desinstalar
     ```cmd
     nier-translator.exe manager uninstall --specialk
     ```
+    > O argumento `--specialk` faz com que o SpecialK seja desinstalado localmente
 
 <br>
 
