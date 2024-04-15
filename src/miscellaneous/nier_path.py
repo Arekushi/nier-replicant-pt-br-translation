@@ -38,7 +38,7 @@ def input_nier_path():
         new_path = console.input(settings.CLI.NIERPATH.write_path)
         
         if not is_a_nier_path(new_path):
-            console.print(settings.CLI.NIERPATH.error)
+            console.print(settings.CLI.NIERPATH.path_error)
 
             for i, file in enumerate(files_required_checkout):
                 console.print(f'{i + 1}. [b]{file}[/b]')
