@@ -103,7 +103,7 @@ Aqui irei descrever **duas formas** de instalar a tradução, usando o instalado
 
 ###  Tutorial usando o instalador
 > NieR Replicant™ ver. 1.22 - Tradução para PT-BR
-[![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://i.imgur.com/SYK4rgx.png)](https://www.youtube.com/watch?v=3BiVi_KfGbA)
+[![NieR Replicant™ ver. 1.22 - Tradução para PT-BR](https://i.imgur.com/uWOmLqY.png)][video]
 
 > É válido apontar que essa forma de instalar irá instalar o SpecialK automaticamente ao seu jogo.
 
@@ -357,6 +357,7 @@ Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, 
 [ntt]: https://github.com/lehieugch68/NieR-Text-Tool
 [chrome_drive_url]: https://googlechromelabs.github.io/chrome-for-testing/#stable
 [specialk_tool]: https://www.special-k.info/
+[video]: https://www.youtube.com/watch?v=sVL7diAqp8c
 
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi
