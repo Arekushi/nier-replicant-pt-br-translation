@@ -61,21 +61,19 @@ def install(
     install_specialk = False,
     force_update = False
 ):
-    if install_specialk:
-        if not has_special_k(nier_path):
-            console.print(settings.CLI.INSTALL.specialk)
-            install_special_k()
+    if install_specialk and not has_special_k(nier_path):
+        console.print(settings.CLI.INSTALL.specialk)
+        install_special_k()
     
     if not has_installed_translation():
         console.print(settings.CLI.INSTALL.backup)
         backup_files()
     
-    if do_update:
-        if force_update or (not local_has_latest_commit()):
-            console.print(settings.CLI.INSTALL.update_version)
-            files = download_updated_files()
-            update_commit_sha()
-            update_files_to_install(files)
+    if do_update and force_update or (not local_has_latest_commit()):
+        console.print(settings.CLI.INSTALL.update_version)
+        files = download_updated_files()
+        update_commit_sha()
+        update_files_to_install(files)
     
     for file_path, dest in files_to_install:
         try:
