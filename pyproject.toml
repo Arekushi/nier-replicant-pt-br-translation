@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nier-replicant-pt-br-translation"
-version = "2.0.0"
+version = "2.1.2"
 description = "Aplicação para instalar e criar traduções para o NieR Replicant™ ver.1.22474487139..."
 authors = ["arekushi <alexandre.ferreira1445@gmail.com>"]
 readme = "README.md"
