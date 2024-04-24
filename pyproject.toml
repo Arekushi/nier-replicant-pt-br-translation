@@ -4,7 +4,7 @@ version = "2.1.2"
 description = "Aplicação para instalar e criar traduções para o NieR Replicant™ ver.1.22474487139..."
 authors = ["arekushi <alexandre.ferreira1445@gmail.com>"]
 readme = "README.md"
-packages = [{include = "nier_replicant_pt_br_translation"}]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
