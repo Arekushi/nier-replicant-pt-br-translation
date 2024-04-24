@@ -1,117 +1,117 @@
 {
- "version": "auto-py-to-exe-configuration_v1",
- "pyinstallerOptions": [
-  {
-   "optionDest": "noconfirm",
-   "value": true
-  },
-  {
-   "optionDest": "filenames",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/main.py"
-  },
-  {
-   "optionDest": "onefile",
-   "value": false
-  },
-  {
-   "optionDest": "console",
-   "value": true
-  },
-  {
-   "optionDest": "icon_file",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/assets/emil.ico"
-  },
-  {
-   "optionDest": "name",
-   "value": "nier-translator"
-  },
-  {
-   "optionDest": "ascii",
-   "value": false
-  },
-  {
-   "optionDest": "clean_build",
-   "value": false
-  },
-  {
-   "optionDest": "strip",
-   "value": false
-  },
-  {
-   "optionDest": "noupx",
-   "value": false
-  },
-  {
-   "optionDest": "disable_windowed_traceback",
-   "value": false
-  },
-  {
-   "optionDest": "embed_manifest",
-   "value": false
-  },
-  {
-   "optionDest": "uac_admin",
-   "value": false
-  },
-  {
-   "optionDest": "uac_uiaccess",
-   "value": false
-  },
-  {
-   "optionDest": "win_private_assemblies",
-   "value": false
-  },
-  {
-   "optionDest": "win_no_prefer_redirects",
-   "value": false
-  },
-  {
-   "optionDest": "bootloader_ignore_signals",
-   "value": false
-  },
-  {
-   "optionDest": "argv_emulation",
-   "value": false
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/settings.toml;config/toml/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/typer.toml;config/toml/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/translator.toml;config/toml/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/cli.toml;config/toml/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/chat-gpt.toml;config/toml/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/data.zip;patch/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/github.toml;config/toml/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/dxgi.zip;patch/."
-  },
-  {
-   "optionDest": "datas",
-   "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/textures.zip;patch/."
-  }
- ],
- "nonPyinstallerOptions": {
-  "increaseRecursionLimit": true,
-  "manualArguments": ""
- }
+    "version": "auto-py-to-exe-configuration_v1",
+    "pyinstallerOptions": [
+        {
+            "optionDest": "noconfirm",
+            "value": true
+        },
+        {
+            "optionDest": "filenames",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/main.py"
+        },
+        {
+            "optionDest": "onefile",
+            "value": false
+        },
+        {
+            "optionDest": "console",
+            "value": true
+        },
+        {
+            "optionDest": "icon_file",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/assets/emil.ico"
+        },
+        {
+            "optionDest": "name",
+            "value": "nier-translator"
+        },
+        {
+            "optionDest": "ascii",
+            "value": false
+        },
+        {
+            "optionDest": "clean_build",
+            "value": false
+        },
+        {
+            "optionDest": "strip",
+            "value": false
+        },
+        {
+            "optionDest": "noupx",
+            "value": false
+        },
+        {
+            "optionDest": "disable_windowed_traceback",
+            "value": false
+        },
+        {
+            "optionDest": "embed_manifest",
+            "value": false
+        },
+        {
+            "optionDest": "uac_admin",
+            "value": false
+        },
+        {
+            "optionDest": "uac_uiaccess",
+            "value": false
+        },
+        {
+            "optionDest": "win_private_assemblies",
+            "value": false
+        },
+        {
+            "optionDest": "win_no_prefer_redirects",
+            "value": false
+        },
+        {
+            "optionDest": "bootloader_ignore_signals",
+            "value": false
+        },
+        {
+            "optionDest": "argv_emulation",
+            "value": false
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/settings.toml;config/toml/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/typer.toml;config/toml/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/translator.toml;config/toml/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/cli.toml;config/toml/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/chat-gpt.toml;config/toml/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/data.zip;patch/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/config/toml/github.toml;config/toml/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/dxgi.zip;patch/."
+        },
+        {
+            "optionDest": "datas",
+            "value": "F:/Workspaces/Python/pycharm-projects/nier-replicant-pt-br-translation/patch/textures.zip;patch/."
+        }
+    ],
+    "nonPyinstallerOptions": {
+        "increaseRecursionLimit": true,
+        "manualArguments": ""
+    }
 }
