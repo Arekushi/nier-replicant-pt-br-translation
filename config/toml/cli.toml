@@ -94,6 +94,6 @@ status = 'Gerando os arquivos...'
 finish = ''':white_check_mark: Geração dos arquivos feita com [white on green] sucesso! [/]
 
 Você pode aplicar a tradução localmente usando o comando:
-[white on blue] manager update --local [/]
+[white on blue] manager install [/]
 '''
 failed = ':x: A geração de arquivos [white on red] falhou... [/]'
