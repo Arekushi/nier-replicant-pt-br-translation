@@ -36,10 +36,10 @@ def install_command(
         '--specialk',
         help=settings.TYPER.INSTALL.specialk_help
     ),
-    force_update: bool = typer.Option(
+    locally: bool = typer.Option(
         False,
-        '--force',
-        help=settings.TYPER.INSTALL.force_update_help
+        '--local',
+        help=settings.TYPER.INSTALL.locally_help
     )
 ):
     typer_state = 'INSTALL' if not has_installed_translation() else 'UPDATE'
@@ -47,7 +47,7 @@ def install_command(
 
     try:
         with console.status(settings.CLI[typer_state].status, spinner='moon'):
-            install(do_update, install_specialk, force_update)
+            install(do_update, install_specialk, locally)
             
             console.print(settings.CLI[typer_state].finish)
             console.print(settings.CLI.thanks, justify='center')
@@ -59,7 +59,7 @@ def install_command(
 def install(
     do_update = False,
     install_specialk = False,
-    force_update = False
+    locally = False
 ):
     if install_specialk and not has_special_k(nier_path):
         console.print(settings.CLI.INSTALL.specialk)
@@ -69,7 +69,7 @@ def install(
         console.print(settings.CLI.INSTALL.backup)
         backup_files()
     
-    if do_update and force_update or (not local_has_latest_commit()):
+    if not locally and (do_update or (not local_has_latest_commit())):
         console.print(settings.CLI.INSTALL.update_version)
         files = download_updated_files()
         update_commit_sha()

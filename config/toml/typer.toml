@@ -16,6 +16,7 @@ help = 'Comando que realizará o processo de instalação/atualização da tradu
 specialk_help = 'Esse marcador define que será instalado o Mod SpecialK localmente na pasta do NieR: Replicant, com o objetivo de utilizar as texturas traduzidas.'
 do_update_help = 'Esse marcador define que a instalação irá baixar os arquivos mais atualizados do repositório remoto.'
 force_update_help = 'Esse marcador define que o update será forçado, ignorando quaisquer verificações padrão.'
+locally_help = 'Esse marcador define que o update será realizado com os arquivos locais.'
 
 
 [TYPER.UNINSTALL]
