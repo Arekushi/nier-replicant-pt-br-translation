@@ -190,7 +190,7 @@
 ,,
 "Depressa! O rapaz não aguentará muito!","Hurry! The lad can't last long!","¡Deprisa! ¡El chaval no va a durar mucho!"
 "Eu sei!","I know!","¡Lo sé!"
-"Vou tentar prender ele!","I'll try to pin it down!","¡Intentaré inmovilizarlo!"
+"Vou tentar segurar ele!","I'll try to pin it down!","¡Intentaré inmovilizarlo!"
 "Emil!","Emil!","¡Emil!"
 "Não posso mais fazer isso! Aaaaah!","I can't do this anymore! Aaaaah!","¡Ya no puedo más! ¡Aaah!"
 "O ponto fraco dele está localizado na parte de trás! Tente atacá-lo por cima!","Its weak point is located around the back!<LF>Try attacking it from above!","¡Su punto débil está en la espalda!<LF>¡Ataca desde arriba!"
@@ -458,7 +458,7 @@
 "Cuidado uma ova! Eu vou fatiar esse cara!","Careful, my ass! I'll slice this guy apart!","¿Cuidado? ¡Y una mierda! ¡Voy a machacarla!"
 "Mmm, sim. Que reconfortante.","Mmm, yes. How assuring.","Oh, claro, qué tranquilizador..."
 "Este é o último deles. Agora vamos pegar um pedaço da raiz dessa árvore.","That's the last of them. Now let's get a piece of that tree root.","Ese era el último. Ahora, a por las raíces del árbol."
-"... Está morto. Vamos voltar até o cliente.","...It's dead. Let's go back to the client.",
+"...Está morto. Vamos voltar até o cliente.","...It's dead. Let's go back to the client.",
 "Agora faz sentido. Ela atacava as pessoas enquanto se escondia em grandes tempestades de poeira. Isso é bem esperto para uma Sombra.","Now it makes sense. It attacked people by hiding in giant dust storms. That's pretty smart for a Shade.",
 ,,
 "É melhor avisarmos o cliente sobre esta Sombra.","We'd best warn the client about this Shade.",
@@ -766,9 +766,9 @@
 "Nada. Não se preocupa com isso.","Nothing. Don't worry about it.",
 "Parece que não temos muita escolha a não ser deixá-la em paz. Pelo menos por enquanto.","It seems we've little choice but to leave her be. At least for now.",
 "Cacete! Sabia que ela tinha sido possuída por uma Sombra!","Goddammit! I knew she'd been possessed by a Shade!",
-"Eles... eles não poderiam estar aqui!","They...they couldn't be here!",
-"Parem com essa merda e apenas MATEM TODOS ELES!","Stop with the bullshit and just KILL THEM ALL!",
-"A meretriz está certa. Devemos eliminar essas feras.","The hussy is correct. We must eliminate these beasts.",
+"Elas... elas não poderiam estar aqui!","They...they couldn't be here!",
+"Parem com essa merda e apenas MATEM TODOS ELAS!","Stop with the bullshit and just KILL THEM ALL!",
+"A meretriz está certa. Devemos eliminar essas bestas.","The hussy is correct. We must eliminate these beasts.",
 "Mas... mas eu...","But...but I...",
 "Emil! Cuidado!","Emil! Watch out!",
 "Os tentáculos nefastos das sombras finalmente se estenderam até esta vila.","The foul tendrils of the Shades have finally extended into this village.",
@@ -882,7 +882,7 @@
 "Será necessário mais do que um bombardeio de magia para nos parar!","It will take more than a barrage of magic to stop us!","¡Hace falta algo más que una simple barrera mágica para detenernos!"
 "O primeiro a errar será o primeiro a morrer!","The first to waver is the first to die!","¡El primero en vacilar es el primero en caer!"
 "Espere! Eu acho que essas são pessoas de verdade!","Wait! I think those are actual people!","¡Espera! ¡Creo que son personas!"
-"Não se contenha! Eles são Sombras!","Hold nothing back! Those are Shades!","¡No te contengas! ¡Son Sombras!"
+"Não se contenha! Elas são Sombras!","Hold nothing back! Those are Shades!","¡No te contengas! ¡Son Sombras!"
 "Derrotar os inimigos menores não surte no líder!","Defeating the smaller enemies has no effect on the leader!","¡Su líder no se ve afectado cuando eliminamos a los enemigos pequeños!"
 "Agora! Foque sua magia no centro dessa besta!","Now! Focus your magic on the beast's center!","¡Ahora! ¡Concentra tu magia en el centro de la criatura!"
 "Mas que merda!","Goddammit!","¡Maldita sea!"
@@ -1187,7 +1187,7 @@
 "Sim. É a garota que quase foi morta por quem a amava.","Yeah. It's the girl who was almost killed by her lover.","Sí, es la chica que casi muere a manos de su amante."
 "Não existe motivo para ela vagar sozinha pelo deserto!","There can be no reason for her to be wandering alone in the desert!","¿Qué motivo puede impulsarla a vagar sola por el desierto?"
 "Oh, com certeza tem uma razão. Adultos <FONT=ITALIC>sempre</FONT> têm motivos para coisas assim.","Oh, I'm sure there's a reason. Grown-ups <FONT=ITALIC>always</FONT> have reasons for stuff like that.","Seguro que hay una razón. Los adultos <FONT=ITALIC>siempre</FONT> tienen alguna para cosas así."
-"Uma análise um pouco simplista mas, de toda forma, verdadeira.","A bit of a simplistic analysis, but perhaps true nonetheless.","Un análisis un tanto simplista, pero puede que cierto, después de todo."
+"Uma análise um pouco simplista, mas de toda forma, verdadeira.","A bit of a simplistic analysis, but perhaps true nonetheless.","Un análisis un tanto simplista, pero puede que cierto, después de todo."
 "E vendo nosso pequeno grupo está sempre a meio passo da loucura, suponho que tenhamos poucos argumentos para esses assuntos.","And seeing how our little group is often a half-step from madness, I suppose we've little room to give advice on such matters.","Nuestro grupo está lleno de chalados, así que no podemos dar muchos consejos."
 "Agora ela está mais perto da vila.","She is closer to the village now.",
 "Tem certeza de que não é apenas sua imaginação?","You sure it's not just your imagination?",
@@ -1197,11 +1197,11 @@
 "O que foi, Kainé?","What is it, Kainé?",
 "Nada. Não tem por que se preocupar.","Nothing. Don't worry about it.",
 "Parece que não temos escolha a não ser deixá-la em paz. Pelo menos por enquanto.","It seems we've little choice but to leave her be. At least for now.",
-"Eles... eles não podiam estar aqui!","They...they couldn't be here!","No... ¡No pueden estar aquí!"
-"Parem com essa palhaçada e apenas MATEM TODOS ELES!","Stop with the bullshit and just KILL 'EM ALL!","¡Ya basta de tonterías! ¡Matadlos!"
+"Elas... elas não podiam estar aqui!","They...they couldn't be here!","No... ¡No pueden estar aquí!"
+"Parem com essa palhaçada e apenas MATEM TODOS ELAS!","Stop with the bullshit and just KILL 'EM ALL!","¡Ya basta de tonterías! ¡Matadlos!"
 "A meretriz está certa. Devemos eliminar essas bestas.","The hussy is correct. We must eliminate these beasts.","La fresca tiene razón, tenemos que eliminar a estas bestias."
 "Mas... mas eu...","But...but I...","Pero... Pero..."
-"Emil! Se você não lutar, eles vão te matar!","Emil! If you don't fight, they're gonna kill you!","¡Emil! ¡Si no luchas, te matarán!"
+"Emil! Se você não lutar, elas vão te matar!","Emil! If you don't fight, they're gonna kill you!","¡Emil! ¡Si no luchas, te matarán!"
 "Ele está pagando muito dinheiro que a gente encontre uma faca de cozinha tão velha.","He's paying a lot of money for us to go find some old cooking knife.","Nos va a pagar una suma importante para que busquemos un cuchillo de cocina."
 "Seja por amor à comida ou pela cutelaria fina, tenho minhas dúvidas sobre a seriedade deste cliente.","Whether for love of food or fine cutlery, there is little doubt this man is a serious customer.","No sé si es amante de la comida o de los cubiertos, pero se lo toma en serio."
 "A gente devia comprar um monte de facas pra ele. Aí ficaríamos ricos!","Maybe we could buy a whole bunch of knives for him. Then we'd be rich!","¿Por qué no le compramos un montón de cuchillos? ¡Entonces, seríamos ricos!"
