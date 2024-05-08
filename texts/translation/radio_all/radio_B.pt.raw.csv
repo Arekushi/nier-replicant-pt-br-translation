@@ -152,14 +152,14 @@
 "Sim, tenho minhas dúvidas.","Yeah, I have my doubts.","Ya, yo tengo mis reservas."
 ,,
 "Primeiro, devemos verificar de onde veio a carta.","First, we should ascertain where the letter came from.",
-"Você não está planejando abandonar esses aldeões?","Surely you're not planning to abandon those villagers?",
+"Você não está planejando abandonar esses moradores?","Surely you're not planning to abandon those villagers?",
 "De alguma forma eles foram possuídos.","They've been possessed somehow.","Han sido poseídos de alguna manera."
 "Não baixe a guarda! Com certeza outros estão à espreita.","Keep your guard up! Others are surely lurking nearby.","¡No bajes la guardia! Seguro que hay más acechando en los alrededores."
 "Cês realmente tão aproveitando o maldito tempo, né.","You guys sure are taking your goddamn time.","Estáis tardando un huevo."
 "Mil desculpas. Fomos distraídos pela festa de boas-vindas das pessoas daqui.","A thousand apologies. We were distracted by the local welcoming party.","Mil disculpas. El comité de bienvenida nos entretuvo un poquito."
 "Quer ajuda?","Want some help?","¿Necesitas ayuda?"
 "Um massacre total? Eu amo isso! Kah hah hah hah hah!","A carnival of murder? I love it! Kah hah hah hah hah!","¿Un carnaval de la muerte? ¡Me encanta! ¡Ja, ja, ja, ja!"
-"Kainé, os aldeões estão possuídos!","Kainé, the villagers are possessed!","Kainé, ¡los aldeanos están poseídos!"
+"Kainé, os moradores estão possuídos!","Kainé, the villagers are possessed!","Kainé, ¡los aldeanos están poseídos!"
 "Nem todos eles! Alguns ainda são humanos, então tenha cuidado!","But not all of 'em! Some are still human, so be careful!","¡Pero no todos! ¡Algunos siguen siendo humanos, así que tened cuidado!"
 "Que droga. É uma armadilha!","Dammit. It's a trap!","Maldita sea, ¡es una trampa!"
 "Eu já esperava por isso!","I figured as much!","¡Me lo figuraba!"
@@ -451,9 +451,9 @@
 "Ufa. Bem, acabou. É melhor avisar o cliente.","Whew. Well, it's over. Better report back to the client.",
 "Primeiro monstros mecânicos, e agora Sombras! Puseram algum tipo de maldição nesta montanha?","First mechanical monsters, and now Shades! Has some manner of curse been placed on this mountain?","¡Primero monstruos mecánicos y ahora Sombras! Esta montaña está maldita."
 "Ei, se tem Sombras para matar, tá tudo bem para mim.","Hey, if there are Shades to kill, it's fine with me.","Oye, que si hay que matar Sombras, por mí bien."
-"Um...","Um...","Mmm..."
+"Hum...","Um...","Mmm..."
 "E lá vem mais!","Here come some more!","¡Aquí vienen más!"
-"Eles certamente se dedicam neste ataque.","They certainly are dedicated to this attack.","Sí que se han tomado en serio este ataque."
+"Eles são certamente dedicados a este ataque.","They certainly are dedicated to this attack.","Sí que se han tomado en serio este ataque."
 "Tenham cuidado! Essa é uma Sombra mais forte do que as anteriores!","Be careful! This is a stronger Shade than the ones previous!","¡Cuidado! ¡Esta Sombra es más fuerte que las anteriores!"
 "Cuidado uma ova! Eu vou fatiar esse cara!","Careful, my ass! I'll slice this guy apart!","¿Cuidado? ¡Y una mierda! ¡Voy a machacarla!"
 "Mmm, sim. Que reconfortante.","Mmm, yes. How assuring.","Oh, claro, qué tranquilizador..."
@@ -682,7 +682,7 @@
 "Usar crianças como ferramentas de roubo... Inconcebível!","Using children as tools of thievery... Unthinkable!",
 "E ainda é a realidade que a vila enfrenta.","And yet it's the reality the village faces.",
 "As coisas estão mais desesperadoras do que eu esperava.","Things are more desperate than I knew.",
-"Se quisermos restaurar as vidas dos aldeões, devemos abater o maior número possível de Sombras.","If we hope to restore the lives of the villagers, we must cull as many Shades as we can.",
+"Se quisermos restaurar as vidas dos moradores, devemos abater o maior número possível de Sombras.","If we hope to restore the lives of the villagers, we must cull as many Shades as we can.",
 "...Sim.","...Yeah.",
 "Deus do céu! Como ele pôde ""acidentalmente"" criar um estimulante sexual em vez de um remédio para enjoo?","By the heavens! How could he ""accidentally"" make a sexual stimulant instead of a seasickness medication?",
 "Talvez tenha só acontecido?","Maybe it just happened?",
@@ -1265,7 +1265,7 @@
 "Primeiro monstros mecânicos, e agora Sombras! Algum tipo de maldição foi colocada nesta montanha?","First mechanical monsters, and now Shades! Has some manner of curse been placed on this mountain?",
 "Você não me vê reclamando. Se há Sombras para matar, eu sou um homem feliz.","You don't see me complaining. If there's Shades to kill, I'm a happy man.",
 "Hum...","Um...",
-"Estão vindo mais!","Here come some more!",
+"E lá vem mais!","Here come some more!",
 "Eles são certamente dedicados a este ataque.","They are certainly dedicated to this attack.",
 "Cuidado. Este é uma Sombra mais forte do que os anteriores!","Be careful. This is a stronger Shade than the ones previous!",
 "Cuidado uma ova! Eu vou fatiar esse cara!","Careful, my ass! I'll slice this guy apart!",
@@ -1316,7 +1316,7 @@
 "Usar crianças para praticar roubos... Impensável!","Using children as tools of thievery... Unthinkable!","Usar a niños para robar... ¡es inconcebible!"
 "Não posso acreditar que isso aconteceu em nossa vila.","I can't believe this happened in our village.","Me cuesta aceptar que algo así haya pasado en nuestra aldea."
 "As coisas estão mais terríveis do que eu imaginava.","Things are more desperate than I knew.","Las cosas están peor de lo que pensaba."
-"Se esperamos restaurar as vidas dos aldeões, devemos abater o maior número possível de Sombras.","If we hope to restore the lives of the villagers, we must cull as many Shades as we can.","Para que la gente recupere sus vidas, tenemos que limpiar la zona de Sombras."
+"Se esperamos restaurar as vidas dos moradores, devemos abater o maior número possível de Sombras.","If we hope to restore the lives of the villagers, we must cull as many Shades as we can.","Para que la gente recupere sus vidas, tenemos que limpiar la zona de Sombras."
 "... Sim.","...Yeah.","Sí..."
 "Aquela velha senhora, é isso?","That old woman, is it?","¿Esa anciana?"
 "Sim.","Yep.","Ajá."
@@ -1499,7 +1499,7 @@
 "Weiss!<WAIT=2>","Weiss!<WAIT=2>","¡Weiss!<WAIT=2>"
 "Cuidado! Este homem é uma Sombra!<WAIT=2>","Beware! This man is a Shade!<WAIT=2>","¡Cuidado! ¡Este tipo es una Sombra!<WAIT=2>"
 "Eu não vou abandoná-la. Não desse jeito.","I won't leave her. Not like this.","No la abandonaré. Así no."
-"Aquele aldeão está sendo atacado!","That villager is under attack!","¡Ese aldeano está siendo atacado!"
+"Aquele morador está sendo atacado!","That villager is under attack!","¡Ese aldeano está siendo atacado!"
 "Você realmente o deixaria para morrer!?","Would you truly leave him to perish!?","¡¿De verdad vas a abandonarlo a su suerte?!"
 "Agora! Prenda ela!","Now! Pin her down!","¡Ahora! ¡Inmovilízala!"
 ,,
