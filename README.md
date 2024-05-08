@@ -330,7 +330,7 @@ Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, 
 
     Para aplicar as alterações só utilizar o comando
     ```cmd
-    python main.py manager update --local
+    python main.py manager install --local
     ```
 
     Dessa forma irá ser copiado os arquivos da pasta `patch/data` para o local do seu jogo. Caso contrário é só realizar o processo manualmente.

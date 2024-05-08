@@ -329,7 +329,7 @@ I've set up some commands to ease the translation creation process; I'll list an
 
     To apply the changes, simply use the command
     ```cmd
-    python main.py manager update --local
+    python main.py manager install --local
     ```
 
     This way, the files from the `patch/data` folder will be copied to your game's location. Otherwise, you can perform the process manually.
