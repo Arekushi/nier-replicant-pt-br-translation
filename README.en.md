@@ -101,8 +101,8 @@ I want to thank the people who dedicated themselves to making this project the b
 Here, I'll describe **two ways** to install the translation, using the installer and another manually in case there's an issue with the installation.
 
 ### Tutorial using the installer
-> NieR Replicant™ ver. 1.22 - PT-BR Translation
-[![NieR Replicant™ ver. 1.22 - PT-BR Translation](https://i.imgur.com/uWOmLqY.png)][video]
+> Click on the image to go to the video
+[![NieR Replicant™ ver. 1.22 - Tradução para PT-BR - 2024](https://i.imgur.com/uWOmLqY.png)][video]
 
 > It's worth noting that this installation method will automatically install SpecialK to your game.
 
