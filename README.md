@@ -342,7 +342,7 @@ Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, 
 | :---: | :---: | :---: |
 
 <!-- [Build With] -->
-[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.1.0/nier-translator.zip
+[release]: https://github.com/Arekushi/nier-replicant-pt-br-translation/releases/download/2.1.1/nier-translator.zip
 [data]: https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/data.zip
 [textures]: https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/textures.zip
 [specialk]: https://raw.githubusercontent.com/Arekushi/nier-replicant-pt-br-translation/master/patch/dxgi.zip
