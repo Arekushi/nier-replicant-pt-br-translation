@@ -221,7 +221,7 @@
 "......","......","......"
 "Sim, e eu acredito que um sincero obrigado seria apropriado, hmmm?","Yes, and I do believe a heartfelt thank-you is in order, hmmm?","Sí, y creo que un sentido agradecimiento no estaría de más, ¿verdad?"
 "Sim, isso não vai acontecer.","Yeah, that's not happening.","Pues te vas a quedar con las ganas."
-"O que poderia ter feito essas Sombras aparecerem com tanta violência?","What could have caused these Shades to appear in such force?","¿Por qué habrán aparecido estas Sombras de forma tan violenta?"
+"O que poderia ter feito essas Sombras aparecerem de forma tão violenta?","What could have caused these Shades to appear in such force?","¿Por qué habrán aparecido estas Sombras de forma tan violenta?"
 "Eu não sei, mas elas estão por toda a vila também.","I don't know, but they're all over the village, too.","No sé, pero están por toda la aldea."
 "Então precisamos ir ajudar! Talvez possamos encontrar um Verso Selado enquanto estamos lá.","Then we need to go help! We might be able to find a Sealed Verse while we're at it.","¡Pues tenemos que ir a ayudar! Y quizá demos con un Verso sellado, ya de paso."
 "Mantenha a guarda alta!","Keep your guard raised!","¡No bajes la guardia!"
@@ -279,8 +279,8 @@
 "Então, como é Facade?","So what's Facade like?","¿Y cómo es Fachada?"
 "É estranho. Vamos colocar dessa forma.","It's strange. Let's just leave it at that.","Es extraño. Dejémoslo ahí."
 "Mais estranho do que uma jovem mal-educada que luta contra monstros usando roupas íntimas!?","Stranger than a boorish young woman who battles monsters in her undergarments!?","¡¿Más extraño que una joven grosera que mata monstruos en ropa interior?!"
-"...Vamos indo.","...Let's go.","Vamos..."
-" Lobos!","Wolves!","¡Lobos!"
+"Vamos indo...","...Let's go.","Vamos..."
+"Lobos!","Wolves!","¡Lobos!"
 "Cuidado!","Look out!","¡Cuidado!"
 "Espere. Eles estão indo embora.","Wait. They're leaving.","Espera. Ya se marchan."
 "Aquele parece ser o líder da matilha.","That one appears to be the pack leader.","Ese parecía ser el lobo alfa."
@@ -678,13 +678,13 @@
 "Ficaremos bem. Só precisamos ir devagar e com calma.","We'll be fine. We just need to go slow and take it easy.",
 "Eu sou uma criatura de talentos fenomenais, mas esses dois são fora da curva.","I am a creature of phenomenal talents, but those are two that escape me.",
 "Bem, com certeza não vou deixar a Kainé lidar com isso.","Well, I'm sure as hell not going to let Kainé handle it.",
-"De fato. Tenho certeza de que a linguagem vulgar da petulante reduziria nossa preciosa carga a poeira.","Indeed. I'm sure the hussy's foul language would reduce our precious cargo to dust.",
+"De fato. Tenho certeza de que a linguagem vulgar da meretriz reduziria nossa preciosa carga a poeira.","Indeed. I'm sure the hussy's foul language would reduce our precious cargo to dust.",
 "Reclamem menos e andem mais.","Less bitching, more moving.",
-"AINDA sem peixe!?","STILL no fish!?",
-"Shhhhh! Você está assustando eles!","Shhhhh! You're scaring them away!",
+"Nenhum peixe AINDA!?","STILL no fish!?",
+"Shhh! Você está assustando eles!","Shhhhh! You're scaring them away!",
 "Ah. Eu...entendi.","Oh. I...I see.",
 "A pesca bem-sucedida requer paciência, concentração, determinação, ambição...","Successful fishing requires patience, concentration, drive, ambition—",
-"Shhhhh! Você está assustando eles!","Shhhhh! You're scaring them away!",
+"Shhh! Você está assustando eles!","Shhhhh! You're scaring them away!",
 "Ah. ...Sim, entendi.","Oh. ...Yes, right.",
 "Uma missão comercial, hein?","A trading mission, huh?",
 "Tem algo lhe incomodando?","Is something the matter?",
@@ -693,9 +693,9 @@
 "Algum dia espero levar Yonah em uma jornada como essa.","Someday I hope to take Yonah on a journey like this.",
 "E algum dia você fará isso!","And someday you shall!",
 "Eu vou. Tenho certeza disso.","I will. I'm sure of it.",
-"Desta vez, vou ficar em silêncio! Porque esses peixes não terão ideia de que...","This time I shall be silent! Why, those fish will have no idea that─",
-"Shhhh! Você está assustando eles!","Shhhh! You're scaring them away!",
-"Ah. ...Certo.","Oh. ...Right.",
+"Desta vez, vou ficar em silêncio! Porque esses peixes não terão ideia de que─","This time I shall be silent! Why, those fish will have no idea that─",
+"Shhh! Você está assustando eles!","Shhhh! You're scaring them away!",
+"Ah. Certo...","Oh. ...Right.",
 "......","......",
 "Você está muito quieto, Weiss.","You're really quiet, Weiss.",
 "Senão os peixes vão se assustar, não é mesmo?","The fish will be scared away otherwise, no?",
@@ -703,50 +703,50 @@
 "Posso falar livremente, então?","May I talk freely, then?",
 "Não.","No.",
 "Então o que você quer que eu faça!?","Then what would you have me do!?",
-"Shhhhh! Você está assustando eles!","Shhhhh! You're scaring them away!",
-"...Droga.","...Damn.",
+"Shhh! Você está assustando eles!","Shhhhh! You're scaring them away!",
+"Maldição...","...Damn.",
 "Talvez eu possa usar um pouco da minha magia para tirar os peixes da água.","Perhaps I could use some of my magic to scoop up the fish from the water.",
 "Peraí, você consegue fazer isso?","Wait, you can do that?",
 "Se eu puder visualizar onde estão os peixes, então sim.","If I can establish a line of sight with the fish, then yes.",
-"...Você consegue vê-los?","...Can you see them?",
-"...Não.","...No.",
-"...De volta à pesca, então.","...Back to fishing, then.",
-"...Com certeza.","...Indeed.",
+"Você consegue vê-los?","...Can you see them?",
+"Não...","...No.",
+"De volta à pesca, então.","...Back to fishing, then.",
+"Com certeza...","...Indeed.",
 "Uma bebida com uma cauda de lagarto parece ser impressionante!","A drink with a lizard's tail inside certainly sounds impressive!",
 "Ha ha! Ela pode não parecer, mas depois de algumas bebidas, Popola é a mulher mais forte da terra.","Ha ha! She may not look it, but get a few in her, and Popola's the strongest woman in the land.",
-"Certamente você está brincando!","Surely you jest!",
-"Nenhuma brincadeira. Uma vez ela ficou tão bêbada que praticamente destruiu a loja. Derrubou uma parede e tudo.","No joke. Once she got so plastered that she practically destroyed the shop. Knocked down a wall and everything.",
+"Só pode ser brincadeira!","Surely you jest!",
+"Tô falando sério. Uma vez ela ficou tão bêbada que praticamente destruiu a loja. Derrubou uma parede e tudo.","No joke. Once she got so plastered that she practically destroyed the shop. Knocked down a wall and everything.",
 "O álcool afeta Devola da mesma maneira?","Does alcohol affect Devola in the same manner?",
 "Devola é mais sensível.","Devola's more of a lightweight.",
 "Se ela tomar um pouco, começa a ficar um pouquinho... hum... amigável demais...","If she has even a little, she starts getting a bit too...um...friendly...",
 "A Devola!? Sério!?","Devola!? For true!?",
-"...Sério mesmo.","...Oh yeah.",
+"Sérissimo","...Oh yeah.",
 "O álcool é uma substância temível mesmo.","Alcohol is a fearsome chemical indeed.",
 "Bem, nós o encontramos... mas parece que chegamos tarde demais.","Well, we found him...but it looks like we're too late.",
-"Isso será difícil para o velho lidar.","This is gonna be hard for that old timer to deal with.",
+"Vai ser difícil para o velho lidar com isso.","This is gonna be hard for that old timer to deal with.",
 "Sejam eles cachorro ou homem, nenhuma criatura viva pode escapar do seu destino final.","Be they dog or man, no living thing can escape their ultimate fate.",
-"Isso inclui você, Weiss?","That include you, Weiss?",
-"Mmm... Na verdade, nunca considerei essa questão.","Mmm... In truth, I have never considered the question.",
+"Isso te inclui, Weiss?","That include you, Weiss?",
+"Hmm. De fato, nunca considerei a pergunta.","Mmm... In truth, I have never considered the question.",
 "Suponho que em algum momento eu possa simplesmente... desaparecer da existência.","I suppose at some point in time I may simply...wink out of existence.",
 "Duvido que eu viva tempo suficiente para ver isso acontecer.","I doubt I'll live long enough to see that happen.",
 "Um... Diga aí...","Um... Say there...",
 "Sim?","Yeah?",
 "Veja bem, se eu algum dia me encontrar... deixando este mundo...","See here, if I ever find myself...departing this world—",
-"Oh, pare de ser mórbido, Weiss! ...Além disso, você não pode morrer. Você é feito de papel.","Oh, stop being morbid, Weiss! ...Besides, you can't die. You're made of paper.",
-"É mesmo? ...Nunca tinha pensado nisso antes.","Indeed? ...I've never looked at it like that before.",
+"Oh, para de ser mórbido, Weiss! Além disso, você não pode morrer. Você é feito de papel!","Oh, stop being morbid, Weiss! ...Besides, you can't die. You're made of paper.",
+"É mesmo? Nunca tinha pensado nisso antes.","Indeed? ...I've never looked at it like that before.",
 "Se eu puder...","If I may...",
 "O que é?","What is it?",
 "O que estamos fazendo aqui?","What are we doing here?",
 "Estamos organizando todas essas coisas.","We're organizing all this stuff.",
-"Deixe-me reformular. Isso é por causa do comerciante em treinamento, correto?","Let me rephrase myself. This is for the sake of the merchant in training, yes?",
-"Sim.","Yes.",
+"Deixe-me reformular. Isso é para ajudar o comerciante em treinamento, certo?","Let me rephrase myself. This is for the sake of the merchant in training, yes?",
+"Isso.","Yes.",
 "Então não seria mais apropriado ele cuidar de suas próprias coisas?","Then would it not be more appropriate for him to take care of his own belongings?",
-"O cara está em um momento delicado, Weiss. Só estamos ajudando ele.","The man's in a pinch, Weiss. We're just helping him out.",
-"Mal posso esperar pelo dia em que alguém mostre tamanha bondade para nós.","I yearn for the day when someone shows such kindness to us.",
-"Que desperdício enorme de nosso tempo.","What a tremendous waste of our time.",
+"O cara está em um momento difícil, Weiss. Só estamos ajudando ele.","The man's in a pinch, Weiss. We're just helping him out.",
+"Anseio pelo dia em que alguém mostre tamanha bondade para nós.","I yearn for the day when someone shows such kindness to us.",
+"Que desperdício tremendo de nosso tempo.","What a tremendous waste of our time.",
 "Quem diria que o cara ficaria enjoado no mar?","Who knew the guy would get seasick?",
-"Talvez da próxima vez ele possa tentar encontrar trabalho que não envolva o oceano.","Maybe next time he can try finding work that doesn't involve the ocean.",
-"Talvez da próxima vez ele tente ficar sentado em casa sem fazer nada!","Maybe next time he'll try sitting at home and doing nothing!",
+"Na próxima vez, quem sabe ele encontre um trabalho que não envolva o oceano.","Maybe next time he can try finding work that doesn't involve the ocean.",
+"Talvez na próxima ele tente ficar em casa sem fazer nada!","Maybe next time he'll try sitting at home and doing nothing!",
 "É difícil acreditar que toda a cidade estava mentindo para ela...","It's hard to believe the entire town was lying to her...","Resulta difícil creer que toda la ciudad la tuviera engañada..."
 "Aposto que suas intenções eram boas. Caso contrário, eles não teriam mantido a farsa por cinquenta anos.","I wager their intentions were good. Elsewise, they would not have carried on with the ruse for fifty years.","Debían tener buena intención o no habrían podido hacerlo durante tantos años."
 "Isso também explica o porquê de eles encarregarem-na de manter o farol funcionando: para que a notícia da morte de seu amor não chegasse até ela.","It also explains why they tasked her with keeping the lighthouse running: so news of her love's demise would not reach her. ","Y, al endosarle el faro, no podía enterarse de la noticia del fallecimiento. "
@@ -1003,7 +1003,7 @@
 "Ouvi dizer que eles têm legumes com desconto hoje.","I heard they've got discount vegetables today.","He oído que las verduras tienen descuento hoy."
 "Graças a Deus tenho saúde!","Thank goodness I have my health!",
 "Como está Yonah?","How's Yonah doing?","¿Cómo le va a Yonah?"
-"Olá, querida.","Hey, darling.","Hola, cariño."
+"Olá, meu bem.","Hey, darling.","Hola, cariño."
 "Está bem? Bom, bom...","Are you well? Good, good...","¿Estás bien? Estupendo, estupendo..."
 "Estou indo comprar algumas coisas para o jantar.","I'm off to get some groceries for dinner.","Voy a por comida para hacer la cena."
 "Viver com filho e esposa pode ser estressante!","Living with your son and his wife can be stressful!","¡Vivir con un hijo y su esposa puede ser muy estresante!"
@@ -1141,7 +1141,7 @@
 "Seja cachorro ou homem, nenhuma criatura viva pode escapar de seu destino final.","Be they dog or man, no living thing can escape their ultimate fate.","Ya sea animal o humano, ningún ser vivo puede escapar al destino final."
 "Isso te inclui, Weiss?","That include you, Weiss?","¿Eso te incluye a ti, Weiss?"
 "Hmm. De fato, nunca considerei a pergunta.","Hmm. In truth, I have never considered the question.","Eh... La verdad es que nunca me había preguntado eso."
-"Suponho que em algum momento possa simplesmente... desaparecer da existência.","I suppose at some point in time I may simply...wink out of existence.","Supongo que, llegado el momento, simplemente... dejaré de existir."
+"Suponho que em algum momento eu possa simplesmente... desaparecer da existência.","I suppose at some point in time I may simply...wink out of existence.","Supongo que, llegado el momento, simplemente... dejaré de existir."
 "Bem, isso parece horrível!","Well that sounds horrible!","¡Pero eso es horrible!"
 "Um... Diga...","Um... Say...","Mmm... Pongamos que..."
 "Sim?","Yeah?","¿Sí?"
@@ -1174,10 +1174,10 @@
 "Acho que você estava certo, Weiss. Eles deveriam ter ficado juntos.","Guess you were right, Weiss—they should have stuck together.","Puede que tengas razón, Weiss... deberían haber permanecido juntos."
 "Acho difícil determinar quem está certo nesse ponto.","I find it difficult to determine who is right at this point. ","Me resulta complicado determinar quién tiene razón a estas alturas. "
 "De qualquer forma, é melhor voltarmos onde ele está.","In any case, we had best return to him.","Sea como sea, será mejor que volvamos con él."
-"Uma bebida com rabo de lagarto certamente parece impressionante!","A drink with a lizard's tail inside certainly sounds impressive!","¡Una bebida con la cola de un lagarto dentro suena bastante imponente!"
+"Uma bebida com cauda de lagarto certamente parece impressionante!","A drink with a lizard's tail inside certainly sounds impressive!","¡Una bebida con la cola de un lagarto dentro suena bastante imponente!"
 "Heh. Sim, a Popola muda muito quando começa a beber.","Heh. Yeah, Popola's really something when she starts drinking.","Je. Sí, la verdad es que cuando Popola bebe, se transforma."
 "Só pode ser brincadeira!","Surely you jest!","¡Tienes que estar de guasa!"
-"Tô falando sério. Uma vez ela ficou tão bêbada que quase destruiu a loja toda.","No joke. Once she got so plastered, she practically destroyed the shop.","Para nada. Una vez se cogió tal tajada que casi destroza la taberna entera."
+"Tô falando sério. Uma vez ela ficou tão bêbada que praticamente destruiu a loja toda.","No joke. Once she got so plastered, she practically destroyed the shop.","Para nada. Una vez se cogió tal tajada que casi destroza la taberna entera."
 "Derrubou uma parede e tudo mais.","Knocked down a wall and everything.","Tiró abajo una pared y todo."
 "O álcool afeta a Devola da mesma maneira?","Does alcohol affect Devola in the same manner?","¿Y le afecta el alcohol igual a Devola?"
 "Devola é mais sensível.","Devola's more of a lightweight.","Pues la verdad es que Devola no bebe."
@@ -1191,8 +1191,8 @@
 "Estamos organizando todas essas coisas.","We're organizing all this stuff.",
 "Deixe-me reformular. Isso é para ajudar o comerciante em treinamento, certo?","Let me rephrase myself. This is for the sake of the merchant in training, yes?",
 "Isso.","Yes.",
-"Então não seria mais apropriado para ele cuidar de suas próprias coisas?","Then would it not be more appropriate for him to take care of his own belongings?",
-"O homem está em um momento difícil, Weiss. Só estamos ajudando ele.","The man's in a pinch, Weiss. We're just helping him out.",
+"Então não seria mais apropriado ele cuidar de suas próprias coisas?","Then would it not be more appropriate for him to take care of his own belongings?",
+"O cara está em um momento difícil, Weiss. Só estamos ajudando ele.","The man's in a pinch, Weiss. We're just helping him out.",
 "Anseio pelo dia em que alguém nos mostre tamanha gentileza.","I yearn for the day when someone shows such kindness to us.",
 "Que desperdício tremendo de nosso tempo.","What a tremendous waste of our time.","Menuda pérdida de tiempo."
 "Quem diria que o cara ficaria enjoado no mar?","Who knew the guy would get seasick?","¿Quién iba a imaginar que el tipo se marearía?"
@@ -1231,10 +1231,10 @@
 "Não grite como um louco toda vez que você fizer uma descoberta.","Do not yell like a madman every time you come to a realization.","No grites como un tarado cada vez que te des cuenta de algo."
 "Você recebe essas solicitações estúpidas de viagem com frequência?","Do you often get asked to handle such inane shopping trips?","¿Suelen encargarte recados tan inútiles a menudo?"
 "Eu não acho essas viagens estúpidas.","I don't think these trips are inane.","No son inútiles."
-"Yonah e eu sobrevivemos com os salários que ganho desses trabalhos.","Yonah and I survive on the wages I earn from these jobs.","Yonah y yo sobrevivimos gracias a lo que gano con estos trabajos."
+"Yonah e eu sobrevivemos com o salário que ganho desses trabalhos.","Yonah and I survive on the wages I earn from these jobs.","Yonah y yo sobrevivimos gracias a lo que gano con estos trabajos."
 "Todos aqui têm dificuldades, mas ainda conseguem me dar trabalho.","Everyone has it tough around here, but they still manage to give me work.","La vida es difícil por aquí, pero la gente se las apaña para darme trabajo."
 "E, honestamente, sou grato por isso.","Honestly, I'm grateful for it.","La verdad, doy gracias por ello."
-"Entendi. Bem, continue trabalhando bem!","I see. Well then, keep up the good work!","Entiendo. Bueno, ¡pues sigue así!"
+"Entendi. Bem, continue com o bom trabalho!","I see. Well then, keep up the good work!","Entiendo. Bueno, ¡pues sigue así!"
 "Pode deixar!","I will!","Eso haré."
 "Ei, Weiss?","Hey, Weiss?","Oye, Weiss."
 "Sim, rapaz?","Yes, lad?","Dime."
@@ -1260,7 +1260,7 @@
 "Oh, não! Não, não! Nadica de nada! La da dum dum dum do do...","Oh, no! No, no! Nothing at all! La da dum dum dum do do...","¡Ah, no! Para nada. ¡No, no! La, la, dum, dum, du, du..."
 "Olha, eu sei que a Yonah não é uma chef de quatro estrelas ou algo assim, mas ela coloca o coração nisso!","Look, I know Yonah's not a four-star chef or anything, but she puts her heart into it!","Sé que Yonah no es la mejor cocinera del mundo, ¡pero le pone mucho empeño!"
 "Apenas um verdadeiro idiota não valorizaria tal esforço. Que tipo de irmão você acha que eu sou!?","Only a real jerk wouldn't appreciate the effort. What kind of brother do you think I am!?","Solo un idiota menospreciaría eso. ¡¿Qué tipo de hermano crees que soy?!"
-"...Você me ouviu apontar algo do tipo?","Did you hear me imply anything of the sort?","¿Me has oído insinuar algo?"
+"Você me ouviu insinuar algo do tipo?","Did you hear me imply anything of the sort?","¿Me has oído insinuar algo?"
 "Acho que não.","I guess not.","Supongo que no."
 "Só... Bem... Boa sorte.","Just... Well... Good luck.","Pues eso... buena suerte."
 "...Sim.","...Yeah.","Ya..."
@@ -1280,9 +1280,9 @@
 "Ah, tá tudo bem. Só precisamos ir devagar e com calma!","Aw, we'll be fine. We just need to go slow and take it easy!","Todo irá bien. Solo tenemos que ir más despacio y tomárnoslo con calma."
 "Eu sou uma criatura de talentos fenomenais, mas esses dois são fora da curva.","I am a creature of phenomenal talents, but those are two that escape me.","Soy un ser con cualidades increíbles, pero esas dos se me escapan."
 "Bem, com certeza não vou deixar a Kainé lidar com isso.","Well, I'm sure not gonna let Kainé handle it.","Bueno, lo que está claro es que Kainé no va a encargarse."
-"De fato, a linguagem vulgar daquela vagabunda reduziria nossa preciosa carga a pó.","Indeed, the hussy's foul language would reduce our precious cargo to dust.","Sin duda. Con abrir la boca podría destrozar el valioso cargamento."
+"De fato, a linguagem vulgar daquela meretriz reduziria nossa preciosa carga a pó.","Indeed, the hussy's foul language would reduce our precious cargo to dust.","Sin duda. Con abrir la boca podría destrozar el valioso cargamento."
 "Blá blá blá, cacete. Vamos logo.","Yap yap fuckin' yap. Get moving already.","Bla, bla, bla. ¡En marcha ya, hostia!"
-"AINDA sem peixe!?","STILL no fish!?","¡¿Aún no han picado!?"
+"Nenhum peixe AINDA!?","STILL no fish!?","¡¿Aún no han picado!?"
 "Shhh! Você está assustando eles!","Shhh! You're scaring them away!","¡Sssh! ¡Que ahuyentas a los peces!"
 "Ah. Eu...eu entendi.","Oh. I...I see.","Ah. Va-vale."
 "A pesca bem-sucedida requer paciência, concentração, determinação, ambição...","Successful fishing requires patience, concentration, drive, ambition—","Para pescar hace falta paciencia, concentración, mentalidad, ambición..."
@@ -1300,7 +1300,7 @@
 "Não.","No.","No."
 "Então o que você quer que eu faça!?","Then what would you have me do!?","¡¿Pues qué quieres que haga?!"
 "Shhh! Você está assustando eles!","Shhh! You're scaring 'em away!","¡Sssh! ¡Que ahuyentas a los peces!"
-"...Maldição.","...Damn.","Maldita sea..."
+"Maldição...","...Damn.","Maldita sea..."
 "Talvez eu possa usar um pouco da minha magia para tirar esses peixes da água.","Perhaps I could use some of my magic to scoop the fish from the water.","Quizás podría usar algo de magia para sacar a los peces del agua."
 "Espera, você consegue fazer isso?","Wait, you can do that?","¿Cómo? ¿Puedes hacer algo así?"
 "Se eu puder visualizar onde estão os peixes, então sim.","If I can establish a line of sight with the fish, then yes.","Si puedo establecer contacto visual con los peces, sí."
@@ -1354,7 +1354,7 @@
 "Então não vou ficar sentado e deixar você lutar enquanto eu fico atrás!","So I won't just sit around and let you fight while I stay behind!","¡Así que no esperes que me quede de brazos cruzados mientras tú luchas!"
 "Emil...","Emil...","Emil..."
 "Só tenta não morrer.","Just don't die on me.","haz el favor de no morirte."
-"Eu não vou, Kainé! Vamos cuidar desses montes de merda!","I won't, Kainé! Let's take care of these shit-hogs!","Descuida, Kainé. ¡Vamos a por esos bastardos!"
+"Eu não vou, Kainé! Vamos cuidar desses merdas!","I won't, Kainé! Let's take care of these shit-hogs!","Descuida, Kainé. ¡Vamos a por esos bastardos!"
 "Gostei dessa!","I like it!","¡Bien dicho!"
 "Não podemos permitir que mais Sombras entrem aqui!","We can't let any more Shades in here!","¡Que no entren más Sombras!"
 "Malditas Sombras! Sumam daqui!","Damn Shades! Go away!","¡Argh! ¡Sombras! ¡Largo!"
