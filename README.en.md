@@ -34,24 +34,24 @@ If you'd like to buy me a ☕, here's my PIX key for support: `0dd32e9d-8b78-497
 
 <br><br>
 
-## How to contribute to the translation?
-Check the `texts` folder and look at the files in the `translation` folder (where the translation is located). Make your changes and create a **pull request**. Be clear about why you decided on such changes, and based on that, it will be approved or not.
+## How to help with the translation?
+You can review the localized texts in [`texts/translation`][translation] (where the translation is stored). Make your edits/improvements and submit a **pull request**, clearly explaining why you made those changes — they will be reviewed and approved accordingly.
 
 **All texts** have been carefully reviewed by me, [Caroline Urbano][caroline], and [Cristian Kirsch][omainha]. However, there might be something that slipped through the cracks here and there, so if something like that happens, please inform us.
 
-If you want to discuss more, feel free to reach out to me on some of my social media platforms below:
+If you’d like to discuss this further, feel free to reach out on my Discord server or through my social media channels below:
 <p align="center">
     <a
         style="all: unset;"
         target="_blank"
-        href="">
-        <img style="padding: 10px" title="a r e k u s h i#1445" alt="a r e k u s h i#1445" width="40px" src="https://i.imgur.com/WuqAV26.png">
+        href="https://discord.gg/MBHfdRsEwd">
+        <img style="padding: 10px" title="Yokoverso PT-BR - Mods" alt="Yokoverso PT-BR - Mods" width="40px" src="https://i.imgur.com/WuqAV26.png">
     </a>
     <a
         style="all: unset;"
         target="_blank"
         href="https://steamcommunity.com/id/arekushii">
-        <img style="padding: 10px" title="Steam" alt="Steam" width="40px" src="https://i.imgur.com/3qObil8.png">
+        <img style="padding: 10px" title="Steam Profile" alt="Steam Profile" width="40px" src="https://i.imgur.com/3qObil8.png">
     </a>
 </p>
 
@@ -357,6 +357,7 @@ I've set up some commands to ease the translation creation process; I'll list an
 [chrome_drive_url]: https://googlechromelabs.github.io/chrome-for-testing/#stable
 [specialk_tool]: https://www.special-k.info/
 [video]: https://www.youtube.com/watch?v=sVL7diAqp8c
+[translation]: https://github.com/Arekushi/nier-replicant-pt-br-translation/tree/master/texts/translation
 
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi

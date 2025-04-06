@@ -35,24 +35,23 @@ Se quiser me comprar um ☕, chave PIX pra fortalecer: `0dd32e9d-8b78-4978-ad8a-
 <br><br>
 
 ## Como ajudar na tradução?
-Olhe a pasta `texts` e olhe os arquivos da pasta `translation` (onde está a tradução)
-Faça sua alteração e faça um **pull request**, seja claro porquê você decidiu tais alterações e com base isso será aprovado ou não.
+Você pode revisar os textos localizados em [`texts/translation`][translation] (onde está a tradução). Realize suas alterações/melhorias e faça um **pull request**, seja claro do porquê você decidiu tais alterações e com base isso será aprovado ou não.
 
 **Todos os textos** foram revisados por mim, pela [Caroline Urbano][caroline] e [Cristian Kirsch][omainha] com bastante **cuidado**, mas pode existir algo que foi deixado escapar alguma coisa ali ou aqui, só peço que se acontecer algo do tipo, informar.
 
-Se quiser conversar mais sobre, podem me chamar em algumas das minhas redes sociais abaixo:
+Se quiser conversar mais sobre, podem me chamar no meu servidor do Discord ou em algumas das minhas redes sociais abaixo:
 <p align="center">
     <a
         style="all: unset;"
         target="_blank"
-        href="">
-        <img style="padding: 10px" title="a r e k u s h i#1445" alt="a r e k u s h i#1445" width="40px" src="https://i.imgur.com/WuqAV26.png">
+        href="https://discord.gg/MBHfdRsEwd">
+        <img style="padding: 10px" title="Yokoverso PT-BR - Mods" alt="Yokoverso PT-BR - Mods" width="40px" src="https://i.imgur.com/WuqAV26.png">
     </a>
     <a
         style="all: unset;"
         target="_blank"
         href="https://steamcommunity.com/id/arekushii">
-        <img style="padding: 10px" title="Steam" alt="Steam" width="40px" src="https://i.imgur.com/3qObil8.png">
+        <img style="padding: 10px" title="Perfil na Steam" alt="Perfil na Steam" width="40px" src="https://i.imgur.com/3qObil8.png">
     </a>
 </p>
 
@@ -359,6 +358,7 @@ Eu deixei alguns comandos prontos para facilitar a criação de uma tradução, 
 [chrome_drive_url]: https://googlechromelabs.github.io/chrome-for-testing/#stable
 [specialk_tool]: https://www.special-k.info/
 [video]: https://www.youtube.com/watch?v=sVL7diAqp8c
+[translation]: https://github.com/Arekushi/nier-replicant-pt-br-translation/tree/master/texts/translation
 
 <!-- [Constributors] -->
 [arekushi]: https://github.com/Arekushi
