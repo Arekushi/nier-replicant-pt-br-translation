@@ -579,7 +579,7 @@
 "Retornar?","<ALT=-1,<CB=JUMP_MAP_01>>Sim</ALT><LF><ALT=-1,<CB=CANCEL_JUMP_MAP_01>>Não</ALT>","Turn back?","<ALT=-1,<CB=JUMP_MAP_01>>Yes</ALT><LF><ALT=-1,<CB=CANCEL_JUMP_MAP_01>>No</ALT>","¿Dar media vuelta?","<ALT=-1,<CB=JUMP_MAP_01>>Sí</ALT><LF><ALT=-1,<CB=CANCEL_JUMP_MAP_01>>No</ALT>"
 "Você obteve um Verso Selado!","Magia <TEXT> obtida.","Obtained a Sealed Verse!","Obtained ""<TEXT>"" magic.","¡Has obtenido un Verso sellado!","Has obtenido el hechizo <TEXT>."
 ,"Um misterioso fragmento de pedra foi obtido.",,"Obtained a mysterious stone fragment.",,"Has obtenido un fragmento de piedra misterioso."
-"Você obteve um fragmento.","Fragmento de chave ""Cerberus"" obtido.","Obtained a fragment.","Obtained the Loyal Cerberus key fragment.","Has obtenido un fragmento.","Has obtenido el fragmento de llave ""Cancerbero fiel""."
+"Você obteve um fragmento.","Fragmento de chave ""Cérbero Leal"" obtido.","Obtained a fragment.","Obtained the Loyal Cerberus key fragment.","Has obtenido un fragmento.","Has obtenido el fragmento de llave ""Cancerbero fiel""."
 "Você obteve um fragmento.","Fragmento de chave ""Sacrifício"" obtido.","Obtained a fragment.","Obtained the Sacrifice key fragment.","Has obtenido un fragmento.","Has obtenido el fragmento de llave ""Sacrificio""."
 "Obteve um fragmento.","Fragmento de chave ""Lei da Robótica"" obtido.","Obtained a fragment.","Obtained the Law of Robotics key fragment.","Has obtenido un fragmento.","Has obtenido el fragmento de llave ""La ley de la robótica""."
 "Obteve um fragmento.","Fragmento de chave ""Árvore da Memória"" obtido.","Obtained a fragment.","Obtained the Memory Tree key fragment.","Has obtenido un fragmento.","Has obtenido el fragmento de llave ""El árbol de la memoria""."
